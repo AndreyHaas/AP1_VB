@@ -39,6 +39,13 @@ Im wirtschaftlichen Zusammenhang werden die Begriffe wie folgt abgegrenzt:
 | `Bedarf` | Konkretisiertes Bedürfnis, für dessen Erfüllung Mittel vorhanden sind | Das Unternehmen plant die Beschaffung von 25 mobilen Arbeitsplätzen |
 | `Nachfrage` | Der Bedarf wird am Markt als Kaufabsicht wirksam | Das Unternehmen fragt Angebote für 25 Notebooks an |
 
+Klassische wirtschaftliche Merkhilfe:
+
+```text
+Bedürfnis + Kaufkraft = Bedarf
+Bedarf + Kaufentschluss = Nachfrage
+```
+
 In IT-Aufgaben wird `Kundenbedarf` häufig weiter gefasst. Er umfasst Ziele, Aufgaben, Randbedingungen und Erwartungen des Kunden.
 
 ### Prüfungslogik
@@ -298,6 +305,8 @@ Typische Kategorien:
 - `Skalierbarkeit` — Wachstum von Anwenderzahl und Last;
 - `Zuverlässigkeit` — Stabilität und Fehlerhäufigkeit;
 - `Energieeffizienz` — Leistungsaufnahme und Energiesparzustände.
+
+Sicherheitsanforderungen können funktional oder nichtfunktional sein. Eine automatische Kontosperre beschreibt beispielsweise ein Systemverhalten und ist funktional. Eine geforderte Verschlüsselungsstärke oder ein zulässiges Risikoniveau beschreibt dagegen eine Schutzqualität und ist in der Regel nichtfunktional.
 
 Ungeeignete Formulierung:
 

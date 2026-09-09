@@ -5,7 +5,7 @@ prioritaet: Kern
 status: Entwurf
 stand: 2026-09-09
 sprache: Russisch mit deutschen Fachbegriffen
-gegenstueck: 02-vorgehensmodelle-und-planungswerkzeuge-de.md
+gegenstueck: ../de/02-vorgehensmodelle-und-planungswerkzeuge-de.md
 ---
 
 # AP1: Vorgehensmodelle и Planungswerkzeuge

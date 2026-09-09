@@ -5,7 +5,7 @@ prioritaet: Kern
 status: Entwurf
 stand: 2026-09-09
 sprache: Deutsch
-gegenstueck: 02-vorgehensmodelle-und-planungswerkzeuge-ru.md
+gegenstueck: ../ru/02-vorgehensmodelle-und-planungswerkzeuge-ru.md
 ---
 
 # AP1: Vorgehensmodelle und Planungswerkzeuge

@@ -1,67 +1,60 @@
-# IHK-Prüfungsvorbereitung FIAE
+# IHK AP1-Prüfungsvorbereitung – FIAE
 
-Углублённая двуязычная база подготовки для:
+Углублённая двуязычная база подготовки к письменной части:
 
 - `AP1 – Einrichten eines IT-gestützten Arbeitsplatzes`;
-- `AP2 – Fachinformatiker/-in Anwendungsentwicklung`;
-- `betriebliche Projektarbeit`;
-- `Präsentation und Fachgespräch`.
+- Ausbildung: `Fachinformatiker/-in Anwendungsentwicklung`.
 
-Целевая IHK: `IHK für München und Oberbayern`. Учебный контекст: `WBS Training`.
+Целевая IHK: `IHK für München und Oberbayern`, Geschäftsstelle Ingolstadt. Учебный контекст: `WBS Training`.
+
+Сейчас проект целенаправленно развивается только для AP1. Материалы для AP2, проектной работы, презентации и `Fachgespräch` будут добавляться позднее, после завершения ядра AP1. Отдельные папки для этих разделов пока не создаются.
+
+## Быстрая навигация
+
+- [AP1-Themenmatrix und Arbeitsreihenfolge](AP1-THEMENMATRIX.md)
+- [Lernstand und Themenabdeckung](LERNSTAND.md)
+- [Schreibstandard](00-organisation/SCHREIBSTANDARD.md)
+- [Quellen und Gültigkeit](00-organisation/QUELLEN.md)
+- [Zuordnung der ursprünglichen TXT-Dateien](00-organisation/MIGRATION.md)
 
 ## Основной принцип
 
-Каждая учебная глава существует в двух самостоятельных вариантах:
+Каждая полностью переработанная учебная глава существует в двух самостоятельных вариантах:
 
 ```text
-thema-ru.md  — объяснение по-русски, Fachbegriffe и Musterantworten по-немецки
-thema-de.md  — полностью немецкая версия той же главы
+ru/<nummer>-<thema>-ru.md
+    объяснение по-русски;
+    немецкие Fachbegriffe и Musterantworten
+
+de/<nummer>-<thema>-de.md
+    полностью немецкая версия той же главы
 ```
 
 Обе версии должны совпадать по охвату, структуре, примерам и заданиям. Немецкий файл не является сокращённым переводом русского.
 
-## Структура проекта
+Старые одноязычные или смешанные файлы временно сохраняются до их поэтапной переработки. Их наличие не означает, что соответствующая тема уже соответствует новому стандарту.
+
+## Текущая структура проекта
 
 ```text
-00-organisation/
-    SCHREIBSTANDARD.md
-    AP1-THEMENMATRIX.md
-    QUELLEN.md
-
-01-ap1/
-    01-projektmanagement/
-    02-kundenbedarf-kommunikation/
-    03-wirtschaftlichkeit-beschaffung/
-    04-hardware-software/
-    05-systemeinrichtung/
-    06-netzwerktechnik/
-    07-programmierung-uml-datenbanken/
-    08-kuenstliche-intelligenz/
-    09-qualitaet-it-sicherheit/
-    10-datenschutz/
-    11-backup-verfuegbarkeit/
-    12-service-vertraege-uebergabe/
-    13-berechnungen/
-
-02-ap2-fiae/
-    später: Planen eines Softwareproduktes
-    später: Entwicklung und Umsetzung von Algorithmen
-    später: Wirtschafts- und Sozialkunde
-
-03-projekt-und-muendliche-pruefung/
-    später: Projektantrag
-    später: Projektdokumentation
-    später: Präsentation
-    später: Fachgespräch
-
-90-uebungen/
-    thematische Aufgabenserien
-    gemischte Fälle
-    90-Minuten-Simulationen
-
-99-originale-txt/
-    unveränderte Ausgangsnotizen
+00-organisation/                         правила, источники и миграция
+01-projektmanagement/                    проекты, SMART, Vorgehensmodelle, Netzplan
+02-kundenbedarf-wirtschaftlichkeit/      Kundenbedarf, Angebote, Wirtschaftlichkeit
+03-hardware-software/                    Hardware, Software, Lizenzen, Cloud
+04-betriebssysteme/                      Systemeinrichtung, Dateisysteme, Rechte
+05-netzwerktechnik/                      Netzwerkmodelle, IP, DNS, VLAN, Firewall и др.
+06-programmierung-uml-datenbanken/       Pseudocode, UML, relationale Datenbanken
+07-kuenstliche-intelligenz/              KI-Grundlagen и безопасное применение
+08-qualitaetssicherung/                  Qualitätsmanagement и тестирование
+09-it-sicherheit-datenschutz/            IT-Sicherheit, Kryptografie, DSGVO
+10-backup/                               Backup-Arten, GVS, Medien, Restore
+11-service-vertraege-uebergabe/          SLA, Support, Verträge, Abnahme
+12-pruefungssimulationen/                будущие смешанные тренировки AP1
+90-ap2-zusatzwissen/                     изолированный материал вне ядра AP1
+99-originale-txt/                        неизменённые исходные заметки
 ```
+
+Файлы `AP1-THEMENMATRIX.md`, `LERNSTAND.md`, `CHANGELOG.md` и этот `README.md` находятся в корне проекта.
 
 ## Глубина главы
 
@@ -71,42 +64,53 @@ thema-de.md  — полностью немецкая версия той же г
 2. `Lernziele`;
 3. основные понятия и причинно-следственные связи;
 4. точные сравнения и разграничения;
-5. практический сценарий, расчёт или схема;
+5. практический сценарий, расчёт или модель;
 6. немецкие `Prüfungsformulierungen`;
 7. `Typische Prüfungsfallen`;
-8. `Selbsttest` без подсказок;
+8. `Selbsttest` без видимых подсказок;
 9. скрытые решения;
 10. источники и открытые вопросы для WBS.
 
-Количество строк не является целью само по себе. Глава должна позволять не только узнать термин, но и применить его в незнакомой практической ситуации.
+Количество строк не является целью само по себе. Глава должна позволять не только воспроизвести определение, но и применить материал в незнакомой практической ситуации и обосновать решение.
+
+## Приоритеты
+
+- `Kern` — подтверждённое ядро AP1.
+- `Vertiefung` — материал, необходимый для уверенного применения ядра.
+- `Abgleich` — полезная тема, точный объём которой нужно подтвердить по каталогу или с WBS.
+- `AP2` — материал, сознательно вынесенный из активной подготовки к AP1.
 
 ## Статусы
 
 - `Geplant` — тема определена, содержательного файла ещё нет.
-- `In Arbeit` — создаётся или существенно перерабатывается.
-- `Entwurf` — полный учебный черновик готов.
-- `Mit WBS abgeglichen` — замечания преподавателя внесены.
-- `Prüfungsreif` — теория и задачи уверенно выполняются без подсказки.
+- `In Arbeit` — материал существует, но создаётся или перерабатывается под новый стандарт.
+- `Entwurf` — полный двуязычный учебный черновик готов.
+- `Mit WBS abgeglichen` — замечания преподавателя внесены и датированы.
+- `Prüfungsreif` — теория и задания уверенно выполняются без подсказки.
+
+Статус файла описывает качество материала в репозитории, а не личное владение темой.
 
 ## Разграничение AP1 и AP2
 
-- `SQL-Abfragen` и `RAID` не входят в ядро AP1 по каталогу, действующему с весны 2025 года.
+- `SQL-Abfragen` и `RAID` не входят в ядро AP1 по Prüfungskatalog, применяемому к AP1 с весны 2025 года.
 - Основы реляционных баз данных и простые `ER-Modelle` остаются в AP1.
-- Материал, полезный для профессии, но не подтверждённый для AP1, помечается `Erweiterung/Abgleich erforderlich` и не вытесняет ядро.
-- Старые экзамены используются для формы задач, но их тематическое содержание проверяется на актуальность.
+- Материал вне подтверждённого ядра помечается `Vertiefung`, `Abgleich` или `AP2` и не вытесняет обязательные темы.
+- Старые экзамены используются для тренировки формы заданий, но их тематическое содержание проверяется на актуальность.
+- Платный `Prüfungskatalog` и замечания WBS имеют приоритет перед неофициальными списками тем.
 
 ## Рабочий процесс
 
-1. Выбрать пару файлов со статусом `Entwurf`.
-2. Прочитать русскую версию и выписать немецкие термины.
+1. Выбрать следующую пару файлов по `AP1-THEMENMATRIX.md`.
+2. Изучить русскую версию и выписать немецкие термины.
 3. Повторить тему по немецкой версии.
-4. Выполнить `Selbsttest` без открытия решений.
+4. Выполнить `Selbsttest`, не раскрывая решения.
 5. Сформулировать ответы полными немецкими предложениями.
-6. После занятия WBS внести исправления отдельным commit.
+6. Проверить выводы на занятии WBS.
+7. Внести подтверждённые изменения отдельным commit и обновить статус.
 
 ## Git-рекомендация
 
-Коммит должен описывать содержательное изменение:
+Название commit должно описывать содержательное изменение:
 
 ```text
 Vertiefe Netzplanberechnung und Pufferzeiten
@@ -114,3 +118,4 @@ Korrigiere Schlüsselverwendung bei digitaler Signatur
 Ergänze WBS-Hinweis zu SMART-A
 ```
 
+AP2 и подготовка к проектной и устной части будут добавлены позже без изменения текущего приоритета: сначала необходимо завершить и закрепить ядро AP1.

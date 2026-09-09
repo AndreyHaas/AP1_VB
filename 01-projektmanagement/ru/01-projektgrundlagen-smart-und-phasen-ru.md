@@ -1,10 +1,11 @@
 ---
 pruefung: AP1
 thema: Projektmanagement
-prioritaet: P1
+prioritaet: Kern
 status: Entwurf
 stand: 2026-09-09
 sprache: Russisch mit deutschen Fachbegriffen
+gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 ---
 
 # AP1: Projektgrundlagen, SMART и Projektphasen

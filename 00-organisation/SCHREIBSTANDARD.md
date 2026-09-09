@@ -4,11 +4,12 @@
 
 ## 1. Два равноправных файла
 
-Для каждой темы создаются:
+Для каждой темы создаются два файла в языковых подпапках:
 
 ```text
-<nummer>-<thema>-ru.md
-<nummer>-<thema>-de.md
+<themenordner>/
+    ru/<nummer>-<thema>-ru.md
+    de/<nummer>-<thema>-de.md
 ```
 
 Структура разделов, примеры, таблицы и `Selbsttest` должны совпадать. Допускаются языковые адаптации, но не сокращение одной версии.
@@ -39,7 +40,7 @@
 
 ## 3. Frontmatter
 
-Минимальный блок:
+Минимальный блок немецкой версии:
 
 ```yaml
 ---
@@ -49,9 +50,17 @@ prioritaet: Kern
 status: Entwurf
 stand: 2026-09-09
 sprache: Deutsch
-gegenstueck: dateiname-ru.md
+gegenstueck: ../ru/01-thema-ru.md
 ---
 ```
+
+В русской версии встречная ссылка указывается зеркально:
+
+```yaml
+gegenstueck: ../de/01-thema-de.md
+```
+
+Путь считается относительно папки текущего файла. После создания пары необходимо проверить, что обе ссылки ведут к существующим файлам.
 
 Допустимые значения `prioritaet`:
 
@@ -71,7 +80,10 @@ gegenstueck: dateiname-ru.md
 ## 5. Prüfungsformulierungen
 ## 6. Typische Prüfungsfallen
 ## 7. Selbsttest
-<details> Lösungen
+<details>
+<summary>Lösungen anzeigen</summary>
+...
+</details>
 ## 8. Quellen und Abgleich
 ## 9. Offene Prüfpunkte für den Unterricht
 ```

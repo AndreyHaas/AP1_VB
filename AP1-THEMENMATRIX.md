@@ -22,7 +22,7 @@ Stand: 09.09.2026.
 |---:|---|---|---|---|
 | 01 | Projektmanagement: Projektgrundlagen, SMART, Phasen | Kern | новый материал | Entwurf |
 | 02 | Projektmanagement: Wasserfall, Scrum, PSP, Gantt, Netzplan | Kern | частичный MD | Entwurf |
-| 03 | Kundenbedarf: Gespräch, Zielgruppe, Anforderungen, Nutzwert | Kern | частичный MD | Geplant |
+| 03 | Kundenbedarf: Gespräch, Zielgruppe und Anforderungen | Kern | новая двуязычная глава | Entwurf |
 | 04 | Kommunikation: Einweisung, Präsentation, Dokumentation, Feedback | Kern | пробел | Geplant |
 | 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | частичный MD | Geplant |
 | 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | частичный MD | Geplant |
@@ -68,8 +68,8 @@ Stand: 09.09.2026.
 
 | Тема | Расположение |
 |---|---|
-| `SQL-Abfragen` | `02-ap2-fiae/` |
-| `RAID-Level und Kapazitätsrechnung` | `02-ap2-fiae/` |
+| `SQL-Abfragen` | пока не создаётся; позже — отдельный раздел AP2 |
+| `RAID-Level und Kapazitätsrechnung` | `90-ap2-zusatzwissen/raid.md` |
 | `Struktogramm und Programmablaufplan` | архив или дополнительный материал, не активный AP1-план |
 | `nicht-relationale Datenbanken` | AP2 или профессиональное расширение |
 | `ISO-2700x-Detailwissen` | профессиональное расширение, если не требуется WBS |
