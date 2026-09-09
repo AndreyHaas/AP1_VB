@@ -25,7 +25,9 @@ Abgrenzung zur Linien-/Routinearbeit
 ## Magisches Dreieck
 
 ```text
-Zeit ↔ Kosten ↔ Leistung/Qualität
+     Zeit 
+  ↔        ↔
+Kosten ↔ Leistung/Qualität
 ```
 
 Eine Änderung wirkt oft auf andere Größen. Wird der Termin vorgezogen, können mehr Personal und höhere Kosten nötig werden oder der Leistungsumfang muss sinken.
