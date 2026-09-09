@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 – 09.09.2026
+
+- Vertieftes zweisprachiges Kapitel zu Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback ergänzt.
+- Zielgruppengerechte Kommunikation, Einweisungsplanung und praktische Lernerfolgskontrolle systematisch dargestellt.
+- Benutzer-, System-, Test-, Übergabe- und Abnahmedokumentation voneinander abgegrenzt.
+- Soll-Ist-Kontrolle, Protokollierung, Datenschutz und Barrierefreiheit in einem durchgängigen Übergabefall angewendet.
+- Themenmatrix und Lernstand auf vier vollständige RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.2.0 – 09.09.2026
 
 - Einheitlichen Standard für eigenständige russische und deutsche Kapitel eingeführt.

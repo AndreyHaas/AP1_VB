@@ -19,6 +19,7 @@ Stand: 09.09.2026.
 | Projektmanagement: Grundlagen, SMART, Phasen | Kern | новый материал | Entwurf | Selbsttest и Fälle повторить с WBS |
 | Projektmanagement: Vorgehensmodelle und Planungswerkzeuge | Kern | частичный MD | Entwurf | Aufgabenserien zu Netzplan und Risikobewertung |
 | Kundenbedarf und Anforderungen | Kern | новая двуязычная глава | Entwurf | Formulierungen и Fallaufgaben повторить с WBS |
+| Kommunikation, Einweisung, Präsentation und Dokumentation | Kern | новая двуязычная глава | Entwurf | Protokoll- und Einweisungsfälle повторить с WBS |
 | Angebotsvergleich und Nutzwertanalyse | Kern | частичный MD | In Arbeit | двуязычно переработать и практически рассчитать |
 | Wirtschaftlichkeit und Beschaffung | Kern | частично | In Arbeit | TCO, Amortisation, Break-even и Beschaffungsprozess углубить |
 | Hardwareauswahl | Kern | частично | In Arbeit | Schnittstellen, Kompatibilität и BIOS/UEFI углубить |
@@ -48,11 +49,12 @@ Stand: 09.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют три пары:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют четыре пары:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
-3. `Kundenbedarf und Anforderungen`.
+3. `Kundenbedarf und Anforderungen`;
+4. `Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 

@@ -23,7 +23,7 @@ Stand: 09.09.2026.
 | 01 | Projektmanagement: Projektgrundlagen, SMART, Phasen | Kern | новый материал | Entwurf |
 | 02 | Projektmanagement: Wasserfall, Scrum, PSP, Gantt, Netzplan | Kern | частичный MD | Entwurf |
 | 03 | Kundenbedarf: Gespräch, Zielgruppe und Anforderungen | Kern | новая двуязычная глава | Entwurf |
-| 04 | Kommunikation: Einweisung, Präsentation, Dokumentation, Feedback | Kern | пробел | Geplant |
+| 04 | Kommunikation: Einweisung, Präsentation, Dokumentation, Feedback | Kern | новая двуязычная глава | Entwurf |
 | 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | частичный MD | Geplant |
 | 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | частичный MD | Geplant |
 | 07 | Wirtschaftlichkeit: Amortisation, Break-even, Stundensatz | Vertiefung | частичный MD | Geplant |
