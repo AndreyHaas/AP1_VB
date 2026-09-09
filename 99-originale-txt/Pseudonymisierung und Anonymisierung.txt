@@ -1,0 +1,64 @@
+Pseudonymisierung und Anonymisierung
+
+Pseudonymisierung:
+Direkte Identifikationsmerkmale werden durch ein Kennzeichen ersetzt.
+
+Mit zusätzlichen Informationen kann die Person wieder identifiziert werden.
+
+Pseudonymisierte Daten bleiben personenbezogene Daten. Die DSGVO gilt weiterhin.
+
+Beispiel:
+Name: Max Müller
+wird ersetzt durch:
+Teilnehmer-ID: T-1048
+
+Eine getrennt gespeicherte Zuordnungstabelle verbindet
+T-1048 wieder mit Max Müller.
+
+Anonymisierung:
+Der Personenbezug wird dauerhaft und praktisch nicht wiederherstellbar entfernt.
+
+Eine Identifizierung der Person ist nicht mehr möglich.
+Anonymisierte Daten gelten nicht mehr als personenbezogene Daten.
+
+Wichtig: Das Löschen des Namens allein ist keine Anonymisierung.
+
+Übung:
+A = Pseudonymisierung
+B = Anonymisierung
+C = weder ausreichend pseudonymisiert noch anonymisiert
+
+1. Имя участника исследования заменено кодом. Таблица соответствия хранится отдельно. - A
+2. Сохраняется только средний возраст всех покупателей по федеральной земле; отдельных записей больше нет. - B
+3. Из записи удалили имя, но оставили фамилию, полный адрес и дату рождения. - A
+4. Пациент получает номер исследования, а лечащий врач хранит ключ соответствия. - C
+5. Лица на видеозаписи необратимо размыты, оригинал удалён, другие идентификаторы отсутствуют. -B
+
+KI:
+Правильны пункты 1, 2 и 5. В пунктах 3 и 4 категории перепутаны.
+
+1. A — Pseudonymisierung
+2. B — Anonymisierung
+3. C — weder ausreichend pseudonymisiert noch anonymisiert
+4. A — Pseudonymisierung
+5. B — Anonymisierung
+
+Почему:
+
+3. Die Person ist durch Nachname, vollständige Anschrift und
+   Geburtsdatum weiterhin direkt identifizierbar.
+
+4. Die Patientendaten wurden durch eine Studiennummer ersetzt.
+   Mithilfe des Zuordnungsschlüssels kann der Arzt die Person
+   wieder identifizieren. Das ist Pseudonymisierung.
+
+Запомнить:
+
+Pseudonymisierung:
+Identifizierung mithilfe zusätzlicher Informationen möglich.
+
+Anonymisierung:
+Identifizierung praktisch nicht mehr möglich.
+
+Nur den Namen löschen:
+nicht automatisch anonymisiert oder pseudonymisiert.

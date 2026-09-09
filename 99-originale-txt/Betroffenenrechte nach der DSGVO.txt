@@ -1,0 +1,49 @@
+Betroffenenrechte nach der DSGVO
+
+Auskunft:
+Eine Person darf erfahren, welche Daten über sie verarbeitet werden.
+
+Berichtigung:
+Falsche oder unvollständige Daten müssen korrigiert werden.
+
+Löschung:
+Nicht mehr benötigte oder unrechtmäßig verarbeitete Daten müssen
+unter bestimmten Voraussetzungen gelöscht werden.
+
+Einschränkung der Verarbeitung:
+Daten bleiben gespeichert, dürfen aber vorübergehend nur eingeschränkt
+verarbeitet werden.
+
+Datenübertragbarkeit:
+Eine Person darf ihre Daten in einem strukturierten,
+maschinenlesbaren Format erhalten.
+
+Widerspruch:
+Eine Person kann bestimmten Datenverarbeitungen widersprechen.
+
+Widerruf der Einwilligung:
+Eine erteilte Einwilligung kann für die Zukunft zurückgenommen werden.
+
+Beschwerde:
+Eine Person kann sich bei einer Datenschutzaufsichtsbehörde beschweren.
+
+Важно различать:
+
+Widerspruch:
+richtet sich gegen eine bestimmte Verarbeitung
+
+Widerruf:
+zieht eine zuvor erteilte Einwilligung zurück
+
+Задание
+
+Назови соответствующее Betroffenenrecht:
+
+1.Клиент хочет узнать, какие сведения компания хранит о нём.									- Auskunft
+2.В базе данных указана неправильная дата рождения клиента.										- Berichtigung
+3.Пользователь отзывает согласие на рекламную рассылку.											- Widerruf der Einwilligung
+4.Клиент хочет получить свои данные в машиночитаемом формате для переноса к другому Anbieter.	- Datenübertragbarkeit
+5.Бывший клиент требует удалить данные, для хранения которых больше нет законных оснований.		- Löschung
+6.Клиент считает обработку незаконной и обращается в Datenschutzaufsichtsbehörde.				- Beschwerde
+
+

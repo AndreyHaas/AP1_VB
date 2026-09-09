@@ -1,0 +1,59 @@
+Bedrohung, Schwachstelle und Risiko
+
+Schutzobjekt:
+Etwas, das geschützt werden muss.
+
+Bedrohung:
+Mögliche Ursache eines Schadens.
+
+Schwachstelle:
+Eine vorhandene Sicherheitslücke.
+
+Angriff:
+Gezielte Ausnutzung einer Schwachstelle.
+
+Risiko:
+Eintrittswahrscheinlichkeit × Schadensausmaß
+
+Schutzmaßnahme:
+Reduziert die Eintrittswahrscheinlichkeit oder das Schadensausmaß.
+
+Пример:
+Schutzobjekt: 	Kundendaten
+Bedrohung: 		Angreifer aus dem Internet
+Schwachstelle: 	veraltete Software mit Sicherheitslücke
+Angriff: 		Ausnutzung der Sicherheitslücke
+Schaden: 		Diebstahl der Kundendaten
+Schutzmaßnahme: Sicherheitsupdate installieren
+
+Задaние:
+Eine Webanwendung verwendet eine veraltete Bibliothek.
+Für die Bibliothek ist eine kritische Sicherheitslücke bekannt.
+Ein Angreifer könnte sie ausnutzen und Kundendaten herunterladen.
+
+Определи:
+Schutzobjekt:		Webanwendung
+Bedrohung:			Angreifer könnte Sicherheitslücke ausnutzen
+Schwachstelle: 		veraltete Bibliothek
+möglicher Schaden:	Angreifer kann Kundendaten herunterladen
+Schutzmaßnahme:		veraltete Bibliothek updaten oder austauschen
+
+Чистый IHK-ответ:
+Schutzobjekt:
+Kundendaten und Webanwendung
+
+Bedrohung:
+Angreifer aus dem Internet
+
+Schwachstelle:
+Bekannte kritische Sicherheitslücke in einer veralteten Bibliothek
+
+Angriff:
+Ausnutzung der Sicherheitslücke
+
+Möglicher Schaden:
+Unberechtigter Zugriff auf Kundendaten und Verletzung der Vertraulichkeit
+
+Schutzmaßnahme:
+Die Bibliothek aktualisieren, den verfügbaren Sicherheitspatch installieren
+oder die Bibliothek durch eine sichere Alternative ersetzen.

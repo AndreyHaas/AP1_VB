@@ -1,0 +1,41 @@
+RAID
+
+RAID объединяет несколько накопителей для увеличения производительности или Ausfallsicherheit.
+| RAID-Level | Минимум дисков | Nutzkapazität                   | Ausfallsicherheit                             |
+| ---------- | -------------: | ------------------------------- | --------------------------------------------- |
+| `RAID 0`   |              2 | Все диски                       | Нет                                           |
+| `RAID 1`   |              2 | Один диск                       | Один из двух                                  |
+| `RAID 5`   |              3 | `(n − 1) × kleinste Festplatte` | Один диск                                     |
+| `RAID 6`   |              4 | `(n − 2) × kleinste Festplatte` | Два диска                                     |
+| `RAID 10`  |              4 | `n/2 × kleinste Festplatte`     | Минимум один; зависит от расположения отказов |
+
+RAID 0 → Striping
+RAID 1 → Mirroring
+RAID 5/6 → Parität
+RAID 10 → Mirroring + Striping
+
+RAID ersetzt kein Backup. RAID защищает от отказа накопителя, но не от удаления файлов, Malware, пожара или ошибочной перезаписи.
+
+Задача:
+
+4 Festplatten mit jeweils 2 TB
+RAID 5
+
+Определи:
+
+Nutzkapazität:
+(n − 1) × Kapazität der kleinsten Festplatte
+(4 − 1) × 2 TB = 6 TB
+Сколько Festplatten может выйти из строя без потери данных? Antwort: 1 Festplatten
+
+
+Новая задача того же типа:
+
+6 Festplatten × 2 TB
+RAID 10
+
+Определи:
+
+Nutzkapazität:6 Tb
+Сколько отказов выдерживается гарантированно: 1
+При каком условии могут одновременно отказать несколько Festplatten: Der Ausfall einer Festplatte wird garantiert toleriert. Mehrere Festplatten dürfen ausfallen, wenn sie unterschiedlichen Spiegelpaaren angehören.

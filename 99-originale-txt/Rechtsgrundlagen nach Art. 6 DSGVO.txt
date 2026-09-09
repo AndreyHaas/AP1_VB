@@ -1,0 +1,37 @@
+Rechtsgrundlagen nach Art. 6 DSGVO
+
+Einwilligung:
+Die betroffene Person hat freiwillig und informiert zugestimmt.
+
+Vertrag:
+Die Verarbeitung ist zur Erfüllung eines Vertrags oder für
+vorvertragliche Maßnahmen erforderlich.
+
+Rechtliche Verpflichtung:
+Ein Gesetz verpflichtet das Unternehmen zur Verarbeitung.
+
+Lebenswichtige Interessen:
+Die Verarbeitung ist notwendig, um das Leben oder die Gesundheit
+einer Person zu schützen.
+
+Öffentliches Interesse:
+Die Verarbeitung ist für eine Aufgabe im öffentlichen Interesse erforderlich.
+
+Berechtigtes Interesse:
+Das Unternehmen hat ein berechtigtes Interesse.
+Die Interessen und Rechte der betroffenen Person dürfen nicht überwiegen.
+
+Важно:
+
+Eine Einwilligung muss freiwillig, informiert, eindeutig und widerrufbar sein.
+
+Задание
+
+Определи подходящую Rechtsgrundlage:
+
+1.Магазин использует адрес покупателя для доставки заказанного товара.													- Vertrag
+2.Работодатель передаёт необходимые данные о зарплате в Finanzamt.														- Rechtliche Verpflichtung:
+3.Человек добровольно соглашается получать рекламную рассылку.															- Einwilligung
+4.Врач без сознания пациента передаёт необходимые данные для срочной операции.											- Lebenswichtige Interessen
+5.Видеокамера снимает вход в склад для защиты от краж; перед установкой были проверены интересы и права сотрудников.	- Berechtigtes Interesse
+6.Einwohnermeldeamt обрабатывает регистрационные данные граждан в рамках установленных законом государственных задач.	- Öffentliches Interesse

@@ -1,0 +1,54 @@
+Identifizierung, Authentisierung und Autorisierung
+
+Identifizierung:
+Пользователь заявляет, кем он является.
+Пример: Eingabe des Benutzernamens.
+
+Authentisierung:
+Пользователь предоставляет доказательство своей личности.
+Пример: Eingabe eines Passworts oder Verwendung eines Tokens.
+
+Authentifizierung:
+Система проверяет предоставленное доказательство.
+
+Autorisierung:
+Система проверяет, какие действия разрешены пользователю.
+
+Пример входа:
+
+1. Benutzername eingeben      		→ Identifizierung
+2. Passwort eingeben          		→ Authentisierung
+3. Passwort wird geprüft      		→ Authentifizierung
+4. Zugriffsrechte werden geprüft 	→ Autorisierung
+
+Authentifizierungsfaktoren
+Wissen:
+Passwort, PIN
+
+Besitz:
+Smartphone, Smartcard, Hardware-Token
+
+Inhärenz:
+Fingerabdruck, Gesicht, Iris
+
+Mehrfaktor-Authentifizierung требует минимум два разных типа факторов.
+
+Passwort + PIN
+→ оба Wissen
+→ keine echte MFA
+
+Passwort + Smartphone-App
+→ Wissen + Besitz
+→ MFA
+
+Smartcard + Fingerabdruck
+→ Besitz + Inhärenz
+→ MFA
+
+Задание: является ли комбинация настоящей Mehrfaktor-Authentifizierung?
+
+1. Passwort + Sicherheitsfrage								wissen + wissen = Kein MFA
+2. PIN + Bankkarte											wissen + Besitz = MFA
+3. Fingerabdruck + Gesichtserkennung						Inhärenz + Inhärenz = Kein MFA
+4. Passwort + Einmalcode aus einer Authenticator-App		wissen + Besitz = MFA
+5. Smartcard + Fingerabdruck								Besitz + Inhärenz = MFA

@@ -1,0 +1,38 @@
+Privacy by Design und Privacy by Default
+P
+
+rivacy by Design — Datenschutz durch Technikgestaltung:
+
+Datenschutz wird bereits bei der Planung und Entwicklung
+eines Systems berücksichtigt.
+
+Beispiele:
+Verschlüsselung
+Pseudonymisierung
+automatisches Löschkonzept
+Rollen- und Berechtigungssystem
+
+Privacy by Default — datenschutzfreundliche Voreinstellungen:
+
+Die Standardeinstellungen verarbeiten nur die notwendigen Daten.
+Der Benutzer muss zusätzliche Datenverarbeitungen bewusst aktivieren.
+
+Beispiele:
+Profil ist standardmäßig nicht öffentlich.
+Standortfreigabe ist standardmäßig deaktiviert.
+Optionale Formularfelder sind nicht vorausgewählt.
+
+Задание
+A = Privacy by Design
+B = Privacy by Default
+
+1.Verschlüsselung wird bereits bei der Architektur einer neuen Anwendung eingeplant. >> A
+2.Ein neu angelegtes Benutzerprofil ist zunächst nur für den Besitzer sichtbar. >> B
+3.Die Standortfreigabe ist nach der Installation deaktiviert. >> B
+4.Ein automatisches Löschkonzept wird während der Systementwicklung implementiert. >> A
+5.Optionale Zustimmung zur Werbung ist im Formular nicht vorausgewählt. >> B
+6.Rollen und Zugriffsrechte werden fest in die Softwarearchitektur integriert. >> A
+
+
+KI
+Все шесть ответов правильные.

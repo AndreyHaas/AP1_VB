@@ -1,0 +1,98 @@
+Digitale Signatur
+
+Цифровая подпись не скрывает содержимое документа. Она служит главным образом для проверки:
+Integrität
+Authentizität
+Nichtabstreitbarkeit
+
+Процесс создания подписи:
+1. Der Absender berechnet den Hashwert des Dokuments.
+2. Der Absender signiert den Hashwert mit seinem Private Key.
+3. Das Dokument und die digitale Signatur werden übertragen.
+
+Процесс проверки подписи:
+1. Der Empfänger berechnet selbst den Hashwert des empfangenen Dokuments.
+2. Der Empfänger überprüft die Signatur mit dem Public Key des Absenders.
+3. Die beiden Hashwerte werden verglichen.
+
+Если документ изменён, хеши не совпадут:
+Hashwerte unterschiedlich
+→ Dokument wurde verändert
+→ Integrität nicht gegeben
+
+Экзаменационная ловушка:
+Verschlüsselung: Public Key des Empfängers → Vertraulichkeit
+
+Digitale Signatur: Private Key des Absenders → Integrität und Authentizität
+
+Aufgabe: 
+
+1.Каким ключом отправитель создаёт цифровую подпись? Public Key
+2.Каким ключом получатель проверяет подпись? Private Key
+3.Обеспечивает ли цифровая подпись сама по себе Vertraulichkeit? Nein
+4.Как получатель узнаёт, что подписанный документ был изменён? hash ist nich gleich
+5.Какие три Schutzziele поддерживает цифровая подпись? >> Vertraulichkeit, Integrität und Authentizität
+
+Нужно конфиденциально и с цифровой подписью отправить документ. Чьи ключи используются для:
+Signieren: Public Key
+Verschlüsseln: Private Key
+
+KI:
+Здесь ключи перепутаны местами. Правильными были ответы 3 и 4.
+
+Действие				Используемый ключ
+Создать подпись			Private Key des Absenders
+Проверить подпись		Public Key des Absenders
+Зашифровать документ	Public Key des Empfängers
+Расшифровать документ	Private Key des Empfängers
+
+Logik:
+
+Signatur: 
+Nur der Absender besitzt seinen Private Key. Deshalb signiert er mit seinem Private Key.
+Jeder darf die Signatur überprüfen. Deshalb wird sie mit dem Public Key des Absenders geprüft.
+
+Verschlüsselung:
+Jeder darf dem Empfänger etwas verschlüsselt senden.
+Deshalb wird mit dem Public Key des Empfängers verschlüsselt.
+
+Nur der Empfänger darf den Inhalt lesen.
+Deshalb entschlüsselt er mit seinem Private Key.
+
+Исправленные ответы:
+1. Der Absender signiert mit seinem Private Key.
+2. Der Empfänger prüft die Signatur mit dem Public Key des Absenders.
+3. Nein, eine digitale Signatur gewährleistet keine Vertraulichkeit.
+4. Die neu berechneten und signierten Hashwerte stimmen nicht überein.
+5. Integrität, Authentizität und Nichtabstreitbarkeit.
+6. Signieren:
+   Private Key des Absenders
+   Verschlüsseln:
+   Public Key des Empfängers
+
+Короткая схема: Alice отправляет документ Bob.
+
+Alice signiert: Private Key von Alice
+Alice verschlüsselt: Public Key von Bob
+
+Bob entschlüsselt: Private Key von Bob
+Bob prüft die Signatur: Public Key von Alice
+
+Теперь повтори без подсказки:
+
+Alice → Bob
+
+Signieren: mit eigenem Private Key
+Verschlüsseln: mit Bob's Public Key
+Entschlüsseln: mit Bob's Private Key
+Signatur prüfen: mit Alice Public Key
+
+KI:
+Все четыре ответа правильные.
+
+По-немецки лучше без апострофа:
+
+Alice signiert mit ihrem eigenen Private Key.
+Alice verschlüsselt mit Bobs Public Key.
+Bob entschlüsselt mit seinem Private Key.
+Bob prüft die Signatur mit Alices Public Key.

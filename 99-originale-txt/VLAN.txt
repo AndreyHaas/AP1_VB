@@ -1,0 +1,99 @@
+VLAN на пальцах
+
+VLAN делит один физический Switch на несколько логических сетей.
+
+Представь один офис, разделённый на отделы:
+
+VLAN 10 → Buchhaltung
+VLAN 20 → Entwicklung
+VLAN 30 → Gäste
+
+Устройства разных VLAN не могут напрямую обмениваться данными на Layer 2.
+
+Broadcast-Domäne
+
+Каждый VLAN является отдельной Broadcast-Domäne:
+
+Broadcast из VLAN 20 остаётся в VLAN 20
+
+Для связи между VLAN необходимы:
+
+Router
+или
+Layer-3-Switch
+
+Это называется Inter-VLAN-Routing.
+
+Access Port
+
+Access Port подключает обычное конечное устройство:
+
+PC → Access Port → VLAN 20
+
+Обычно Frame передаётся устройству без VLAN-метки — untagged.
+
+Trunk Port
+
+Trunk Port переносит несколько VLAN между сетевыми устройствами:
+
+Switch 1 ⇄ Trunk ⇄ Switch 2
+
+Frames получают VLAN-метку согласно стандарту:
+
+IEEE 802.1Q
+
+То есть:
+
+Access Port → один VLAN, обычно untagged
+Trunk Port  → несколько VLAN, tagged
+
+Задания
+Client из VLAN 20 должен обратиться к Server в VLAN 10. Какой механизм необходим? Antwort: Zwischen den VLANs muss Inter-VLAN-Routing über einen Router oder Layer-3-Switch eingerichtet werden.
+Соединение между двумя Switches должно переносить VLAN 10, 20 и 30. Какой тип Port нужен? Ein Trunk-Port transportiert mehrere VLANs. Die Ethernet-Frames werden dabei üblicherweise mit IEEE 802.1Q gekennzeichnet.
+Обычный Arbeitsplatz подключается только к VLAN 20. Какой тип Port используется? Antwort: Ein Access-Port ist genau einem VLAN zugeordnet. Die Frames werden zum Endgerät normalerweise ungetaggt übertragen.
+DHCP-Server находится в VLAN 10, а Client — в VLAN 20. Что нужно настроить на Gateway VLAN 20? Antwort: Auf dem Gateway des VLAN 20 muss ein DHCP-Relay-Agent konfiguriert werden.
+
+
+Короткая проверка:
+
+Client:          192.168.20.50/24
+Standardgateway: 192.168.20.1
+Server:          192.168.10.50/24
+
+Client хочет обратиться к Server. Какой Ziel-MAC-Adresse будет стоять в первом Ethernet-Frame, а какая Ziel-IP-Adresse — в IP-Paket?
+
+MAC-Zieladresse = MAC-Adresse des Standardgateways. Da sich der Zielserver in einem anderen Subnetz befindet, wird als MAC-Zieladresse die MAC-Adresse des Standardgateways eingetragen. Die IP-Zieladresse im IP-Paket lautet weiterhin 192.168.10.50.
+IP-Zieladresse  = 192.168.10.50
+
+
+Следующая задача:
+
+Client: 10.20.30.45/27
+
+Какой Standardgateway допустим?
+
+A: 10.20.30.31
+B: 10.20.30.32
+C: 10.20.30.33
+D: 10.20.30.63
+
+Mein Atwort: D /27 eto 32 hosta w podseti. perwaja podset' 0-31, 2ja 32-63. to jest' 30.63 dopustim
+
+Richtige Antwort:
+Диапазон ты нашёл правильно:
+
+10.20.30.32–10.20.30.63
+
+Но 10.20.30.63 — последний адрес диапазона, следовательно это Broadcastadresse. Её нельзя назначить Standardgateway.
+
+Правильное распределение:
+
+Netzadresse:      10.20.30.32
+Erste Hostadresse: 10.20.30.33
+Letzte Hostadresse: 10.20.30.62
+Broadcastadresse: 10.20.30.63
+
+Поэтому правильный ответ:
+
+C: 10.20.30.33
+Als Standardgateway muss eine gültige Hostadresse aus demselben Subnetz wie der Client verwendet werden. Die Netzadresse und die Broadcastadresse dürfen nicht vergeben werden.

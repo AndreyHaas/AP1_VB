@@ -1,0 +1,47 @@
+IDS und IPS
+
+IDS — Intrusion Detection System:
+
+Erkennt verdächtige Aktivitäten und erzeugt eine Warnung.
+Der Datenverkehr wird normalerweise nicht selbst blockiert.
+
+IPS — Intrusion Prevention System:
+
+Erkennt verdächtige Aktivitäten und kann sie automatisch blockieren.
+Es arbeitet aktiv im Datenverkehr.
+
+Различие с Firewall:
+
+**Firewall**: entscheidet anhand festgelegter Netzwerkregeln
+
+**IDS**: erkennt und meldet mögliche Angriffe
+
+**IPS**: erkennt und blockiert mögliche Angriffe
+
+При обнаружении атак возможны ошибки:
+False Positive: Normale Aktivität wird fälschlicherweise als Angriff erkannt.
+False Negative: Ein echter Angriff wird nicht erkannt.
+
+Задание
+
+Выбери:
+
+Firewall
+IDS
+IPS
+False Positive
+False Negative
+
+1. Система обнаруживает подозрительный запрос, записывает его и отправляет предупреждение администратору, но не блокирует. - IDS
+2. Система распознаёт попытку эксплуатации уязвимости и автоматически прекращает соединение. - IPS
+3. Соединение блокируется, потому что целевой TCP-Port запрещён установленным правилом. - Firewall
+4. Обычное резервное копирование ошибочно распознаётся как попытка кражи данных. - FP
+5. Вредоносный сетевой трафик проходит незамеченным. - FN
+
+Все пять ответов правильные:
+
+1. IDS
+2. IPS
+3. Firewall
+4. False Positive
+5. False Negative

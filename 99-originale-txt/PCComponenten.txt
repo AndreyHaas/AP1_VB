@@ -1,0 +1,41 @@
+| Komponente              | Функция                                        | Что важно                                         |
+| ----------------------- | ---------------------------------------------- | ------------------------------------------------- |
+| `Prozessor (CPU)`       | Выполняет инструкции и вычисления              | `Anzahl der Kerne`, `Taktfrequenz`, `Cache`       |
+| `Arbeitsspeicher (RAM)` | Хранит активные данные программ                | `Speicherkapazität`, поддерживаемое поколение DDR |
+| `Massenspeicher`        | Постоянно хранит ОС, программы и файлы         | SSD/HDD, Kapazität, Geschwindigkeit               |
+| `Grafikkarte (GPU)`     | Обрабатывает графику и параллельные вычисления | integriert или dediziert                          |
+| `Mainboard`             | Соединяет компоненты                           | Sockel, RAM-Unterstützung, Anschlüsse             |
+| `Netzteil`              | Питает компоненты                              | Leistung, Wirkungsgrad, Anschlüsse                |
+| `Netzwerkkarte`         | Подключает компьютер к сети                    | Datenübertragungsrate, Ethernet/WLAN              |
+
+Ситуация IHK
+
+Для FIAE нужен Arbeitsplatz:
+
+IDE
+lokale Datenbank
+Docker-Container
+zwei virtuelle Maschinen
+Browser mit vielen Tabs
+keine 3D-Anwendungen
+
+Какие компоненты имеют высокий приоритет?
+
+A: 32 GB RAM
+B: schnelle NVMe-SSD
+C: Prozessor mit mehreren Kernen
+D: sehr teure dedizierte Grafikkarte
+
+Выбери варианты и коротко обоснуй каждый выбранный компонент немецкими Fachbegriffen.
+A - wegen viele Containern, VMs, vielen Browser Tabs. C - wegen IDE - das bedeutet das diese PC fuer Entwicklung angehoert,deswegen muss multithreading verwendet werden.
+Обоснование для A правильное. Для C идея тоже правильная, но IDE само по себе не требует Multithreading. Нагрузка возникает из-за одновременно работающих virtuellen Maschinen, Containern, Compiler, Datenbank и других Entwicklungswerkzeuge.
+
+Правильная формулировка:
+
+Aufgrund der vielen Container, virtuellen Maschinen und Browser-Tabs werden mindestens 32 GB Arbeitsspeicher benötigt.
+
+Ein Mehrkernprozessor ist sinnvoll, da virtuelle Maschinen, Container, Compiler und Entwicklungswerkzeuge parallel ausgeführt werden.
+
+Но вариант B тоже имеет высокий приоритет:
+
+Eine schnelle NVMe-SSD verkürzt die Start-, Lade- und Zugriffszeiten der virtuellen Maschinen, Container-Images, Datenbankdateien und Entwicklungsprojekte.

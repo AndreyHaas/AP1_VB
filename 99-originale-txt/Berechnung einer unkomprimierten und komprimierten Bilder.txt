@@ -1,0 +1,53 @@
+Berechnung einer unkomprimierten und komprimierten Bilddatei
+
+Формула:
+
+Datengröße in Bit = Breite × Höhe × Farbtiefe
+Dateigröße in Byte = Breite × Höhe × Farbtiefe ÷ 8
+
+Задача
+
+Дано несжатое изображение:
+
+Auflösung:  1920 × 1080 Pixel
+Farbtiefe:  24 Bit pro Pixel
+
+Рассчитай:
+
+1. Anzahl der Pixel 2 073 600
+2. Dateigröße in Bit 49 766 400
+3. Dateigröße in Byte 6 220 800
+4. Dateigröße in MB 6,2208
+
+Используй:
+
+1 MB = 1 000 000 Byte
+
+1920 * 1080 * 24 = 49 766 400 Bit = 6 220 800 Byte = 6,2208 MB
+
+Быстрый способ: 24 Bit = 3 Byte pro Pixel.
+
+2 073 600 Pixel × 3 Byte = 6 220 800 Byte
+
+Следующая задача:
+
+Изображение размером 6,2208 MB сжимается. Благодаря Kompression размер уменьшается на 75%.
+
+Рассчитай:
+
+verbleibender Anteil in Prozent: 25%
+komprimierte Dateigröße in MB: 1,5552 MB
+
+6,2208  - 100%
+x 		- 25%
+
+x=6,2208*25/100=1,5552 MB
+
+Всё правильно. И Dreisatz, и результат:
+
+verbleibender Anteil:       25 %
+komprimierte Dateigröße:    1,5552 MB
+
+Образцовая формулировка:
+
+Nach einer Reduzierung um 75 Prozent verbleiben 25 Prozent der ursprünglichen Dateigröße. Die komprimierte Datei ist 1,5552 MB groß.

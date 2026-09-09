@@ -1,0 +1,62 @@
+IPv6
+
+| Свойство    | IPv4           | IPv6                        |
+| ----------- | -------------- | --------------------------- |
+| Länge       | 32 Bit         | 128 Bit                     |
+| Darstellung | Dezimal        | Hexadezimal                 |
+| Разделитель | Точка          | Двоеточие                   |
+| Пример      | `192.168.1.20` | `2001:db8::20`              |
+| Broadcast   | Есть           | Нет                         |
+| IP → MAC    | ARP            | Neighbor Discovery Protocol |
+
+
+IPv6 состоит из восьми блоков по 16 Bit:
+2001:0db8:0000:0000:0000:ff00:0042:8329
+
+Правило 1: убрать начальные нули
+0db8 → db8
+0042 → 42
+0000 → 0
+
+Получаем:
+
+2001:db8:0:0:0:ff00:42:8329
+
+Правило 2: последовательность нулевых блоков заменить на ::
+2001:db8::ff00:42:8329
+
+:: можно использовать в одном адресе только один раз, иначе невозможно определить количество пропущенных блоков.
+
+| Bereich         | Назначение                                               |
+| --------------- | -------------------------------------------------------- |
+| `2000::/3`      | Global-Unicast-Adresse, маршрутизируется через интернет  |
+| `fe80::/10`     | Link-Local-Adresse, работает только в локальном сегменте |
+| `fc00::/7`      | Unique-Local-Adresse, аналог private Bereich             |
+| `ff00::/8`      | Multicast-Adresse                                        |
+| `::1`           | Loopback-Adresse                                         |
+| `::`            | Nicht spezifizierte Adresse                              |
+| `2001:db8::/32` | Dokumentationsbereich                                    |
+
+ARP в IPv6 отсутствует
+
+В IPv4:
+ARP: IPv4-Adresse → MAC-Adresse
+
+В IPv6 используется:
+Neighbor Discovery Protocol (NDP)
+
+Возможны:
+
+SLAAC — клиент формирует адрес с помощью информации от Router;
+DHCPv6 — сервер выдаёт конфигурацию;
+statische Konfiguration.
+
+Router отправляет Router Advertisement, из которого клиент может получить Netzpräfix и информацию о Standardgateway.
+
+
+Проверка
+Сократи адрес: 2001:0db8:0000:0000:0000:0000:0000:0050 Antwort: 2001:db8::50
+Какой протокол в IPv6 выполняет задачи ARP? Antwort: NDP
+К какому типу относится адрес fe80::25? Antwort: Link-Local-Adresse
+Существует ли в IPv6 Broadcast? Antwort: IPv6 verwendet keinen Broadcast. Stattdessen wird Multicast verwendet.
+Как называется автоматическая настройка IPv6-Adresse с помощью информации от Router? Antwort: Stateless Address Autoconfiguration. Bei SLAAC konfiguriert ein Client seine IPv6-Adresse selbstständig anhand der Router Advertisements.

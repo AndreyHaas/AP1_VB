@@ -1,0 +1,40 @@
+Firewall
+
+Firewall разрешает или блокирует сетевой трафик на основании правил:
+Quell-IP-Adresse
+Ziel-IP-Adresse
+Quellport
+Zielport
+Protokoll
+Verbindungsrichtung
+
+1. Paketfilter: Prüft einzelne Netzwerkpakete anhand festgelegter Regeln.
+
+2. Stateful Firewall: Merkt sich den Zustand einer Verbindung. Antwortpakete einer erlaubten Verbindung können automatisch zugeordnet und zugelassen werden.
+
+3. Application Firewall: Analysiert zusätzlich Daten eines bestimmten Anwendungsprotokolls.
+
+Безопасный основной принцип:
+Default Deny: Alles ist verboten, was nicht ausdrücklich erlaubt wurde.
+
+Задание
+
+Правила Firewall обрабатываются сверху вниз:
+
+1. Erlaube TCP vom Internet zum Webserver 203.0.113.10 auf Port 443.
+2. Erlaube TCP vom Admin-Netz 10.0.10.0/24 zum Server 10.0.20.5 auf Port 22.
+3. Blockiere alle übrigen Verbindungen.
+
+Определи erlaubt или blockiert:
+
+A. Internet → 203.0.113.10, TCP-Port 443 >> erlaubt
+B. Internet → 203.0.113.10, TCP-Port 80 >> blockiert
+C. 10.0.10.55 → 10.0.20.5, TCP-Port 22 >> erlaubt
+D. 10.0.30.55 → 10.0.20.5, TCP-Port 22 >> blockiert
+E. Internet → 203.0.113.10, TCP-Port 22 >> blockiert
+
+KI:
+Все пять решений правильные. Ты верно применил оба условия:
+
+Eine Verbindung muss ausdrücklich erlaubt sein.
+Alle übrigen Verbindungen werden durch „Default Deny“ blockiert.

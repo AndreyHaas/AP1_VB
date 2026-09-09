@@ -1,0 +1,59 @@
+TLS und HTTPS
+
+HTTPS = HTTP über TLS
+
+TLS создаёт защищённое соединение между клиентом и сервером. По актуальной спецификации TLS 1.3 соединение обеспечивает Authentifizierung, Vertraulichkeit и Integrität; сервер аутентифицируется всегда, клиент — только при необходимости. RFC 9846 — TLS 1.3 (https://www.rfc-editor.org/info/rfc9846/)
+
+Упрощённый процесс:
+1. Client und Server handeln kryptografische Verfahren aus.
+2. Der Server weist seine Identität mit einem Zertifikat nach.
+3. Der Client prüft Zertifikatskette, Domain und Gültigkeitszeitraum.
+4. Client und Server erzeugen gemeinsames geheimes Schlüsselmaterial.
+5. Daraus werden symmetrische Sitzungsschlüssel abgeleitet.
+6. Die Anwendungsdaten werden symmetrisch verschlüsselt und gegen Veränderungen geschützt.
+
+1. Клиент и сервер согласовывают криптографические процедуры.
+2. Сервер подтверждает свою подлинность с помощью сертификата.
+3. Клиент проверяет цепочку сертификатов, домен и срок действия.
+4. Клиент и сервер генерируют общий секретный ключ.
+5. На его основе формируются симметричные сессионные ключи.
+6. Данные приложения симметрично шифруются и защищаются от модификации.
+
+Почему используется гибридная схема:
+Asymmetrisches Verfahren: Authentifizierung und sicherer Schlüsselaustausch
+Асимметричное шифрование: Аутентификация и безопасный обмен ключами
+Symmetrisches Verfahren: schnelle Verschlüsselung der eigentlichen Daten
+Симметричное шифрование: Быстрое шифрование самих данных
+
+Важно для современного TLS 1.3:
+
+Der symmetrische Sitzungsschlüssel wird nicht einfach mit dem Public Key des Servers verschlüsselt und übertragen.
+перевод: Симметричный сессионный ключ не просто шифруется и передается вместе с открытым ключом сервера.
+
+Client und Server leiten gemeinsame Schlüssel aus dem Schlüsselaustausch ab.
+перевод: Клиент и сервер получают общие ключи в результате обмена ключами.
+
+Проверка
+Что означает HTTPS? HTTP + TLS
+Для чего сервер отправляет сертификат? dlja swoej identifikacii(Identität)
+Передаётся ли Private Key сервера браузеру? net
+Почему Nutzdaten шифруются симметрично, а не асимметрично? skorost'?
+Какие три свойства обеспечивает правильно установленное TLS-соединение? Authentifizierung, Vertraulichkeit и Integrität
+Всегда ли обычное TLS-соединение аутентифицирует клиента? net. po mere neobhodimosti (Client – nur bei Bedarf)
+Доказывает ли значок HTTPS, что содержание сайта честное и безопасное? da. goworit o tom, chto primenjaetsja TLS
+
+KI:
+Ответы 1–6 правильные. В четвёртом причина действительно в скорости: симметричное шифрование значительно эффективнее для больших объёмов данных.
+
+Седьмой ответ нужно исправить:
+
+HTTPS beweist nicht, dass die Inhalte einer Website ehrlich,
+ungefährlich oder frei von Schadsoftware sind.
+
+HTTPS подтверждает только следующее:
+
+Die Verbindung zum angegebenen Domaininhaber ist verschlüsselt.
+Übertragene Daten sind gegen unbemerkte Veränderung geschützt.
+Das Zertifikat wurde für die aufgerufene Domain ausgestellt.
+
+Фишинговый или вредоносный сайт тоже может иметь действительный TLS-сертификат.

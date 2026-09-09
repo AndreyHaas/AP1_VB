@@ -1,0 +1,337 @@
+OSI-модель: главный каркас
+Уровень	Название	Что делает	Адреса/PDU	Примеры
+7	Application / Anwendung	Сервисы для программ	Data	HTTP(S), DNS, DHCP, SMTP, IMAP, SSH
+6	Presentation / Darstellung	Форматирование, кодирование, шифрование, сжатие	Data	TLS, UTF-8, JPEG
+5	Session / Sitzung	Создание и управление сеансами	Data	RPC, NetBIOS Session
+4	Transport	Связь между приложениями	Ports, Segment/Datagram	TCP, UDP
+3	Network / Vermittlung	Передача между сетями, маршрутизация	IP, Packet	IPv4/IPv6, ICMP, Router
+2	Data Link / Sicherung	Передача внутри локальной сети	MAC, Frame	Ethernet, WLAN, VLAN, Switch
+1	Physical / Bitübertragung	Физическая передача сигналов	Bits	Кабель, оптика, радиосигнал, Repeater
+Что обязательно различать
+Layer 1 — Bits
+
+Здесь передаются только электрические, оптические или радиосигналы:
+
+Кабель повреждён
+Нет WLAN-сигнала
+Неправильный Stecker
+Сетевой интерфейс не показывает Link
+
+Типичные устройства:
+
+Repeater
+Hub
+Кабель
+Антенна
+Layer 2 — MAC и Frames
+
+Switch работает преимущественно на Layer 2:
+
+MAC-адрес отправителя
+MAC-адрес получателя
+Ethernet Frame
+
+Switch запоминает, за каким портом находится определённый MAC-адрес, и отправляет Frame в нужный порт.
+
+ARP определяет MAC-адрес по известному IPv4-адресу:
+
+Кто имеет 192.168.1.1?
+Сообщите 192.168.1.20
+
+ARP считается пограничным механизмом между Layer 2 и Layer 3, но в учебных заданиях его часто относят к Layer 2.
+
+Layer 3 — IP и Packets
+
+Router работает на Layer 3:
+
+Source IP
+Destination IP
+Routing
+Default Gateway
+ICMP
+
+Router решает, куда дальше передать IP-Packet.
+
+ping использует ICMP, а не TCP и не UDP. Поэтому у ping нет TCP/UDP-порта.
+
+Layer 4 — TCP/UDP и Ports
+
+Порт определяет приложение внутри компьютера:
+
+IP → какой компьютер?
+Port → какое приложение на этом компьютере?
+
+Например:
+
+192.168.1.20:51500 → 93.184.216.34:443
+51500 — временный Source Port клиента.
+443 — Destination Port HTTPS-сервера.
+
+TCP передаёт Segment, UDP — Datagram.
+
+Layers 5–7
+
+Здесь находятся пользовательские данные и прикладные сервисы:
+
+HTTPS → Layer 7
+DNS → Layer 7
+DHCP → Layer 7
+SSH → Layer 7
+
+Важно: DNS использует UDP/TCP, но сам DNS всё равно относится к Layer 7. Протокол одного уровня использует услуги нижнего уровня.
+
+Encapsulation
+
+При открытии сайта данные проходят сверху вниз:
+
+HTTP Data
+↓ добавляются TCP Ports
+TCP Segment
+↓ добавляются IP-адреса
+IP Packet
+↓ добавляются MAC-адреса
+Ethernet Frame
+↓ преобразование в сигналы
+Bits
+
+На принимающей стороне происходит обратный процесс — Decapsulation.
+
+Короткая последовательность:
+
+Data → Segment → Packet → Frame → Bits
+Первое задание по OSI
+
+Укажи номер уровня:
+
+TCP
+IPv4
+Ethernet Frame
+HTTPS
+MAC-адрес
+Port 443
+Router
+Обычный Switch
+Сетевой кабель
+ICMP/ping
+DNS
+UDP Datagram
+
+Формат ответа:
+
+1–4, 2–3, 3–2...
+
+После этого полностью разберём, что происходит от ввода https://example.de до получения страницы: DNS, ARP, Gateway, TCP Handshake, TLS и HTTP.
+
+1-4,2-3,3-2,4-7,5-2,7-3,8-2,9-1,10-2,11-7,12-4
+
+Отлично: 10 ответов правильные, один пропущен и один нужно исправить.
+
+6. Port 443 → Layer 4
+10. ICMP/ping → Layer 3
+
+Разница:
+
+HTTPS — прикладной протокол → Layer 7
+Port 443 — транспортный адрес → Layer 4
+ICMP работает с IP → Layer 3
+
+У ICMP нет номера порта.
+
+OSI-модель: главный каркас
+Уровень	Название	Что делает	Адреса/PDU	Примеры
+7	Application / Anwendung	Сервисы для программ	Data	HTTP(S), DNS, DHCP, SMTP, IMAP, SSH
+6	Presentation / Darstellung	Форматирование, кодирование, шифрование, сжатие	Data	TLS, UTF-8, JPEG
+5	Session / Sitzung	Создание и управление сеансами	Data	RPC, NetBIOS Session
+4	Transport	Связь между приложениями	Ports, Segment/Datagram	TCP, UDP
+3	Network / Vermittlung	Передача между сетями, маршрутизация	IP, Packet	IPv4/IPv6, ICMP, Router
+2	Data Link / Sicherung	Передача внутри локальной сети	MAC, Frame	Ethernet, WLAN, VLAN, Switch
+1	Physical / Bitübertragung	Физическая передача сигналов	Bits	Кабель, оптика, радиосигнал, Repeater
+Что обязательно различать
+Layer 1 — Bits
+
+Здесь передаются только электрические, оптические или радиосигналы:
+
+Кабель повреждён
+Нет WLAN-сигнала
+Неправильный Stecker
+Сетевой интерфейс не показывает Link
+
+Типичные устройства:
+
+Repeater
+Hub
+Кабель
+Антенна
+Layer 2 — MAC и Frames
+
+Switch работает преимущественно на Layer 2:
+
+MAC-адрес отправителя
+MAC-адрес получателя
+Ethernet Frame
+
+Switch запоминает, за каким портом находится определённый MAC-адрес, и отправляет Frame в нужный порт.
+
+ARP определяет MAC-адрес по известному IPv4-адресу:
+
+Кто имеет 192.168.1.1?
+Сообщите 192.168.1.20
+
+ARP считается пограничным механизмом между Layer 2 и Layer 3, но в учебных заданиях его часто относят к Layer 2.
+
+Layer 3 — IP и Packets
+
+Router работает на Layer 3:
+
+Source IP
+Destination IP
+Routing
+Default Gateway
+ICMP
+
+Router решает, куда дальше передать IP-Packet.
+
+ping использует ICMP, а не TCP и не UDP. Поэтому у ping нет TCP/UDP-порта.
+
+Layer 4 — TCP/UDP и Ports
+
+Порт определяет приложение внутри компьютера:
+
+IP → какой компьютер?
+Port → какое приложение на этом компьютере?
+
+Например:
+
+192.168.1.20:51500 → 93.184.216.34:443
+51500 — временный Source Port клиента.
+443 — Destination Port HTTPS-сервера.
+
+TCP передаёт Segment, UDP — Datagram.
+
+Layers 5–7
+
+Здесь находятся пользовательские данные и прикладные сервисы:
+
+HTTPS → Layer 7
+DNS → Layer 7
+DHCP → Layer 7
+SSH → Layer 7
+
+Важно: DNS использует UDP/TCP, но сам DNS всё равно относится к Layer 7. Протокол одного уровня использует услуги нижнего уровня.
+
+Encapsulation
+
+При открытии сайта данные проходят сверху вниз:
+
+HTTP Data
+↓ добавляются TCP Ports
+TCP Segment
+↓ добавляются IP-адреса
+IP Packet
+↓ добавляются MAC-адреса
+Ethernet Frame
+↓ преобразование в сигналы
+Bits
+
+На принимающей стороне происходит обратный процесс — Decapsulation.
+
+Короткая последовательность:
+
+Data → Segment → Packet → Frame → Bits
+Первое задание по OSI
+
+Укажи номер уровня:
+
+TCP
+IPv4
+Ethernet Frame
+HTTPS
+MAC-адрес
+Port 443
+Router
+Обычный Switch
+Сетевой кабель
+ICMP/ping
+DNS
+UDP Datagram
+
+Формат ответа:
+
+1–4, 2–3, 3–2...
+
+После этого полностью разберём, что происходит от ввода https://example.de до получения страницы: DNS, ARP, Gateway, TCP Handshake, TLS и HTTP.
+
+1-4,2-3,3-2,4-7,5-2,7-3,8-2,9-1,10-2,11-7,12-4
+
+Отлично: 10 ответов правильные, один пропущен и один нужно исправить.
+
+6. Port 443 → Layer 4
+10. ICMP/ping → Layer 3
+
+Разница:
+
+HTTPS — прикладной протокол → Layer 7
+Port 443 — транспортный адрес → Layer 4
+ICMP работает с IP → Layer 3
+
+У ICMP нет номера порта.
+
+Главное: порты относятся к Layer 4, хотя мы запоминаем их вместе с прикладными протоколами Layer 7.
+
+Сводная таблица OSI
+№	Уровень EN/DE	Что происходит	Адреса и PDU	Протоколы/стандарты	Устройства
+7	Application / Anwendung	Сетевые функции приложений: сайты, почта, имена, конфигурация	Data	HTTP(S), DNS, DHCP, SSH, FTP, SMTP, IMAP, POP3, SMB, RDP	Proxy, Application Gateway
+6	Presentation / Darstellung	Шифрование, кодирование, преобразование форматов, сжатие	Data	TLS/SSL, UTF-8, JPEG, JSON, XML	—
+5	Session / Sitzung	Создание, поддержание и завершение сеансов	Data	RPC, NetBIOS Session	—
+4	Transport	Связь между приложениями, контроль доставки	Segment TCP, Datagram UDP; номера портов	TCP, UDP	Stateful Firewall, Load Balancer
+3	Network / Vermittlung	Маршрутизация между сетями	Packet; Source/Destination IP	IPv4, IPv6, ICMP, IPsec	Router, Layer-3-Switch
+2	Data Link / Sicherung	Передача внутри локальной сети, обнаружение ошибок Frame	Frame; Source/Destination MAC	Ethernet, WLAN/802.11, ARP, VLAN/802.1Q, PPP	Switch, Bridge, Access Point
+1	Physical / Bitübertragung	Передача электрических, оптических и радиосигналов	Bits	1000BASE-T, оптика, DSL, WLAN-сигнал	Кабель, Hub, Repeater, антенна
+Важные протоколы и порты
+Протокол	Порт	TCP/UDP	Назначение
+HTTP	80	TCP	Незашифрованный сайт
+HTTPS	443	TCP	Зашифрованный сайт
+DNS	53	UDP/TCP	Имя ↔ IP
+DHCP Server	67	UDP	Сервер DHCP
+DHCP Client	68	UDP	Клиент DHCP
+SSH	22	TCP	Защищённое удалённое управление
+Telnet	23	TCP	Незащищённое удалённое управление
+FTP	20/21	TCP	Передача файлов
+SMTP	25/587	TCP	Отправка почты
+SMTPS	465	TCP	Зашифрованная отправка почты
+POP3	110	TCP	Получение почты
+POP3S	995	TCP	POP3 с шифрованием
+IMAP	143	TCP	Синхронизация почты
+IMAPS	993	TCP	IMAP с шифрованием
+SMB	445	TCP	Windows-файлы и принтеры
+RDP	3389	TCP/UDP	Windows Remote Desktop
+NTP	123	UDP	Синхронизация времени
+SNMP	161/162	UDP	Мониторинг устройств
+LDAP	389	TCP/UDP	Служба каталогов
+LDAPS	636	TCP	LDAP с шифрованием
+Ключевая цепочка
+Layer 7: HTTP Data
+Layer 4: TCP Segment — Ports
+Layer 3: IP Packet — IP-адреса
+Layer 2: Ethernet Frame — MAC-адреса
+Layer 1: Bits — сигналы
+
+При получении данных:
+
+Bits → Frame → Packet → Segment → Data
+Типичные ловушки AP1
+Вопрос	Правильный ответ
+На каком уровне работает обычный Switch?	Layer 2
+На каком уровне работает Router?	Layer 3
+Где используются MAC-адреса?	Layer 2
+Где используются IP-адреса?	Layer 3
+Где используются номера портов?	Layer 4
+К какому уровню относится DNS?	Layer 7
+DNS использует какой Transport?	Обычно UDP, при необходимости TCP
+К какому уровню относится ICMP/ping?	Layer 3, портов нет
+Что передаёт TCP?	Segment
+Что передаёт UDP?	Datagram
+Что передаёт Ethernet?	Frame
+Где работает ARP?	Между L2/L3, на экзамене обычно Layer 2
+Какой MAC у удалённого пакета в локальной сети?	MAC Default Gateway
+Какой Destination IP?	IP конечного сервера

@@ -1,0 +1,61 @@
+IT-Sicherheit
+
+Schutzziele der Informationssicherheit
+
+Три главные цели называются CIA-Triade:
+
+Schutzziel			Значение									Пример нарушения							Schutzmaßnahmen
+1.Vertraulichkeit	Данные видят только уполномоченные лица		Посторонний прочитал Kundendaten			Verschlüsselung, Zugriffsrechte
+2.Integrität		Данные остаются правильными и неизменёнными	Кто-то изменил сумму счёта					Hashwert, digitale Signatur, Berechtigungen
+3.Verfügbarkeit		Системы и данные доступны при необходимости	Server не работает после Ransomware-Angriff	Backup, Redundanz, USV, Monitoring
+
+Дополнительные цели:
+
+Schutzziel				Значение
+Authentizität			Личность пользователя или сервера подтверждена
+Nichtabstreitbarkeit	Участник не может правдоподобно отрицать совершённое действие
+Zurechenbarkeit			Действие можно связать с конкретным пользователем
+
+Простая аналогия с письмом:
+Vertraulichkeit:
+никто посторонний не прочитал письмо
+
+Integrität:
+текст письма не изменили
+
+Authentizität:
+письмо действительно пришло от указанного отправителя
+
+Nichtabstreitbarkeit:
+отправитель не может отрицать факт отправки
+
+Verfügbarkeit:
+письмо можно получить тогда, когда оно нужно
+
+Задание
+
+Назови основное нарушенное Schutzziel:
+
+Сотрудник без разрешения прочитал Personalakte.							- vertraulichkeit
+Злоумышленник изменил IBAN в электронном счёте.							- integrität
+После отказа Festplatte приложение стало недоступно.					- verfügbarkeit
+Пользователь вошёл под учётной записью другого сотрудника.				- authentizität
+Отправитель позднее утверждает, что не подписывал электронный Vertrag.	- nichtabstreitbarkeit
+
+Для каждого пункта выбери один основной Fachbegriff.
+
+KI:
+Vertraulichkeit:
+Nur berechtigte Personen dürfen Informationen lesen.
+
+Integrität:
+Daten dürfen nicht unbemerkt oder unberechtigt verändert werden.
+
+Verfügbarkeit:
+Systeme und Daten müssen bei Bedarf verfügbar sein.
+
+Authentizität:
+Die Identität eines Benutzers oder Systems muss überprüfbar sein.
+
+Nichtabstreitbarkeit:
+Eine ausgeführte Handlung darf später nicht glaubhaft abgestritten werden.

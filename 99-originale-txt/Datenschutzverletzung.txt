@@ -1,0 +1,66 @@
+Datenschutzverletzung
+
+Это нарушение безопасности, при котором персональные данные случайно или незаконно:
+
+vernichtet
+verloren
+verändert
+offengelegt
+für Unbefugte zugänglich
+
+Следовательно, могут быть нарушены Vertraulichkeit, Integrität или Verfügbarkeit.
+
+Экзаменационное правило:
+Kein voraussichtliches Risiko: Verletzung intern dokumentieren.
+
+Risiko für Rechte und Freiheiten: Aufsichtsbehörde unverzüglich und möglichst innerhalb von 72 Stunden nach Bekanntwerden benachrichtigen.
+
+Hohes Risiko: Zusätzlich die betroffenen Personen unverzüglich benachrichtigen.
+
+Auftragsverarbeiter: Informiert den Verantwortlichen unverzüglich.
+
+Срок 72 Stunden начинается с момента, когда Verantwortlicher узнал о нарушении. Если уведомление отправляется позже, задержку необходимо обосновать. Это подтверждают официальные разъяснения European Data Protection Board и Европейской комиссии.
+
+Задание
+
+Что необходимо сделать?
+
+A = nur intern dokumentieren
+B = Aufsichtsbehörde benachrichtigen
+C = Aufsichtsbehörde und betroffene Personen benachrichtigen
+D = Verantwortlichen unverzüglich informieren
+
+1.Зашифрованный служебный ноутбук потерян. Ключ остался защищённым, доступ к данным практически исключён. - A
+2.Список клиентов с именами, адресами и банковскими реквизитами оказался в открытом доступе. - C
+3.Хостинг-провайдер как Auftragsverarbeiter обнаружил утечку данных интернет-магазина. - C
+4.Из-за ошибки E-Mail-Adressen клиентов были отправлены постороннему получателю; существует риск злоупотребления. - D
+5.Медицинские диагнозы пациентов опубликованы в интернете. - B
+
+
+KI
+Правильны пункты 1 и 2. В пунктах 3–5 перепутаны адресаты уведомления.
+
+1. A — richtig
+2. C — richtig
+3. D — richtig wäre D
+4. B — richtig wäre B
+5. C — richtig wäre C
+
+Объяснение:
+
+3. Der Auftragsverarbeiter informiert unverzüglich den Verantwortlichen.
+   Danach bewertet der Verantwortliche das Risiko und entscheidet über
+   weitere Meldungen.
+
+4. Es besteht ein Risiko, aber im Beispiel kein eindeutig hohes Risiko.
+   Deshalb wird die Aufsichtsbehörde benachrichtigt.
+
+5. Gesundheitsdaten gehören zu den besonderen Kategorien
+   personenbezogener Daten. Die Veröffentlichung verursacht ein hohes
+   Risiko. Deshalb werden die Aufsichtsbehörde und die betroffenen
+   Personen benachrichtigt.
+
+Запомнить:
+
+Risiko       → Aufsichtsbehörde
+hohes Risiko → Aufsichtsbehörde + betroffene Personen

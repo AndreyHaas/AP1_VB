@@ -1,0 +1,39 @@
+Digitales Zertifikat und PKI
+
+Возникает вопрос: как Bob узнаёт, что полученный Public Key действительно принадлежит Alice?
+Для этого используется digitales Zertifikat. Он связывает личность или домен с открытым ключом.
+
+Ein digitales Zertifikat enthält typischerweise:
+
+Inhaber beziehungsweise Domain
+Public Key des Inhabers
+Aussteller
+Gültigkeitszeitraum
+Seriennummer
+digitale Signatur des Ausstellers
+
+Сертификат выдаёт и подписывает:
+Zertifizierungsstelle
+Certification Authority(CA)
+
+Принцип проверки:
+1. Der Server sendet sein Zertifikat.
+2. Der Browser prüft die Signatur der CA.
+3. Der Browser prüft die Zertifikatskette.
+4. Der Browser prüft die Domain und den Gültigkeitszeitraum.
+5. Bei erfolgreicher Prüfung wird dem Public Key vertraut(Если проверка прошла успешно, открытый ключ считается доверенным).
+
+Wichtig:
+Das Zertifikat enthält den Public Key des Servers.
+Der Private Key des Servers bleibt geheim und steht nicht im Zertifikat.
+
+Проверка
+Что связывает цифровой сертификат? личность или домен с открытым ключом
+Кто обычно подписывает сертификат? CA
+Каким ключом CA подписывает сертификат? Private Key von CA
+Каким ключом проверяется подпись CA? Public Key von CA
+Содержится ли Private Key сервера в его сертификате? Nein
+Какие два значения браузер обязательно должен сравнить при проверке Domain и Gültigkeit? die Domain und den Gültigkeitszeitraum
+
+KI:
+Все шесть ответов правильные.

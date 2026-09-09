@@ -1,0 +1,49 @@
+Passwortspeicherung: Hashing
+
+Passwörter нельзя хранить как Klartext.
+
+Нежелательно также хранить их с помощью обычной обратимой Verschlüsselung. Если злоумышленник получит ключ, он сможет расшифровать все Passwörter.
+
+Вместо этого используется Passwort-Hashing:
+
+Passwort + Salt
+→ Passwort-Hashfunktion
+→ Passwort-Hash
+
+В Datenbank сохраняются:
+
+Salt
+Passwort-Hash
+
+При входе система:
+
+1. Das System erhält das vom Benutzer eingegebene Passwort.
+2. Das gespeicherte Salt wird dem Passwort hinzugefügt.
+3. Die Passwort-Hashfunktion berechnet einen Hashwert.
+4. Der berechnete Hashwert wird mit dem gespeicherten Passwort-Hash verglichen.
+
+Salt
+
+Salt — случайное уникальное значение для каждого Passwort.
+
+Он обеспечивает, что одинаковые Passwörter получают разные Hashwerte, и мешает использованию заранее подготовленных Rainbow Tables.
+
+
+Проверка
+Нужно ли сохранять Passwörter как Klartext, verschlüsselten Text или Passwort-Hash? - nein, wiel dan kann man den bekommen gleich verwenden.
+Зачем к Passwort добавляется Salt? zu dem das Passwort nicht komremmentieren kan. Wenn man den Passwort in DB abliest one Salt kann man in gleich verwenden, aber wen er mit Salt ligt weisst man den Passwort mit Salt nict.
+Можно ли из нормального kryptografischen Hashwert напрямую восстановить исходное Passwort? nein. muss mann noch den Algorytm wissen zu dem Passwort erzetzen
+Какое Schutzziel проверяется при сравнении Hashwerte загруженного файла? integrität
+
+KI:
+1. Passwörter müssen als Passwort-Hash mit einem individuellen Salt
+   gespeichert werden.
+
+2. Salt sorgt dafür, dass gleiche Passwörter unterschiedliche Hashwerte
+   erhalten. Dadurch werden Rainbow-Table-Angriffe erschwert.
+
+3. Nein. Das ursprüngliche Passwort kann aus einem normalen
+   kryptografischen Hashwert nicht direkt wiederhergestellt werden.
+   Ein Angreifer kann mögliche Passwörter nur ausprobieren.
+
+4. Beim Vergleich der Hashwerte wird die Integrität der Datei überprüft.

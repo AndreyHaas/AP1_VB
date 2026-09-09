@@ -1,0 +1,151 @@
+Закрепим HTTP-коды короткой практикой. Подбери код к каждой ситуации:
+
+1. POST /users успешно создал нового пользователя.
+2. Запрос отправлен без токена авторизации.
+3. Пользователь вошёл, но не имеет роли администратора.
+4. Клиент запросил несуществующий Endpoint /api/produts.
+5. Backend выбросил необработанное Exception.
+6. Reverse Proxy не дождался ответа от Backend.
+7. Сервис временно перегружен.
+
+|  № | Твой ответ | Правильно | Почему                                                                         |
+| -: | ---------: | --------: | ------------------------------------------------------------------------------ |
+|  1 |        200 |   **201** | `201 Created` — новый ресурс создан. `200` тоже означает успех, но менее точно |
+|  2 |        403 |   **401** | Клиент ещё не подтвердил личность                                              |
+|  3 |        402 |   **403** | Личность известна, но прав недостаточно                                        |
+|  4 |        404 |   **404** | Endpoint не найден                                                             |
+|  5 |        502 |   **500** | Exception возникло непосредственно в Backend                                   |
+|  6 |        504 |   **504** | Proxy не дождался Backend                                                      |
+|  7 |        503 |   **503** | Сервис временно недоступен                                                     |
+
+
+Короткая проверка:
+
+1.Какой протокол непосредственно шифрует HTTPS-соединение?
+2.Что произойдёт, если сайт открыт как shop.example.de, а сертификат выдан для mail.example.de?
+3.Что означает CA?
+4.Назови три свойства, которые обеспечивает TLS.
+
+1-TLS, 
+2-Oshibka sertifikata ili sertifikat ne raspoznan,
+3-sertifikacionnij centr,
+4-vertrulichkeit,integrietät,authenzitat
+
+TCP eignet sich für die Übertragung einer Datensicherung, weil es verbindungsorientiert ist und eine zuverlässige, vollständige sowie geordnete Datenübertragung gewährleistet. Verlorene Segmente werden erneut übertragen. (ververbindungsorientiert, zuverlässig, Empfangsbestätigung, Reihenfolge, erneute Übertragung)
+
+UDP eignet sich für Echtzeit-Sprachübertragungen, weil es verbindungslos arbeitet und eine geringe Verzögerung ermöglicht. Der Verlust eines einzelnen Datagramms ist weniger kritisch als die Verzögerung des gesamten Datenstroms durch eine erneute Übertragung (geringe Latenz).
+
+Mehrere Clients können gleichzeitig TCP-Verbindungen zum selben Serverport 443 aufbauen. Die Verbindungen werden anhand der Kombination aus Quell-IP-Adresse, Quellport, Ziel-IP-Adresse und Zielport unterschieden.
+
+Ситуация:
+
+VLAN 10 получает IP-адреса нормально.
+VLAN 20 получает только 169.254.x.x.
+Центральный DHCP-Server работает и находится в VLAN 10.
+
+Antwort:
+На Gateway сети VLAN 20 отсутствует или неправильно настроен DHCP-Relay-Agent.
+На DHCP-сервере отсутствует DHCP-Scope/Adressbereich для VLAN 20 либо все адреса из него уже выданы.
+
+Auf Deutsch:
+Auf dem Gateway des VLAN 20 ist möglicherweise kein DHCP-Relay-Agent konfiguriert. Außerdem könnte auf dem DHCP-Server der Adressbereich für das Subnetz des VLAN 20 fehlen oder ausgeschöpft sein.
+
+
+DNS-записи
+
+| Resource Record | Назначение                                          |
+| --------------- | --------------------------------------------------- |
+| `A`             | Hostname → IPv4-Adresse                             |
+| `AAAA`          | Hostname → IPv6-Adresse                             |
+| `CNAME`         | Псевдоним для другого Hostname                      |
+| `MX`            | Zuständiger Mailserver                              |
+| `PTR`           | IP-Adresse → Hostname, обратный поиск               |
+| `NS`            | Zuständiger Nameserver                              |
+| `TXT`           | Текстовая информация, проверка Domain, SPF и другое |
+
+
+Как работает DNS-Auflösung
+Представь, что rekursiver DNS-Resolver — сотрудник справочной, который ищет адрес за тебя.
+
+Пользователь вводит:
+
+www.firma.de
+Шаг 1: локальная проверка
+
+Сначала проверяются:
+
+Browser-Cache
+DNS-Cache des Betriebssystems
+Hosts-Datei
+
+Если ответа нет, запрос отправляется настроенному rekursiver DNS-Resolver, например DNS-серверу организации.
+
+Шаг 2: Root-Nameserver
+
+Resolver спрашивает:
+
+Где искать информацию о доменах .de?
+
+Root-Nameserver не знает IP сайта, но указывает на подходящий TLD-Nameserver.
+
+Шаг 3: TLD-Nameserver
+
+TLD означает Top-Level-Domain.
+
+.de
+.com
+.org
+
+TLD-Nameserver сообщает:
+
+За firma.de отвечает такой-то autoritativer Nameserver.
+
+Шаг 4: autoritativer Nameserver
+
+Autoritativer Nameserver хранит окончательную DNS-запись:
+
+www.firma.de A 203.0.113.20
+
+Он возвращает IP Resolver.
+
+Шаг 5: DNS-Cache
+
+Resolver сохраняет ответ в DNS-Cache и передаёт его клиенту.
+
+Срок хранения определяет:
+
+TTL = Time to Live
+
+Например:
+
+TTL 3600 → ответ можно хранить 3600 секунд
+
+Полная цепочка:
+
+Client
+ → rekursiver DNS-Resolver
+ → Root-Nameserver
+ → TLD-Nameserver
+ → autoritativer Nameserver
+ → Resolver
+ → Client
+Полезные ошибки
+NXDOMAIN → Der Domainname existiert nicht.
+SERVFAIL → DNS-Server не смог обработать запрос
+Timeout  → от DNS-Server не получен ответ
+
+Проверка
+1.Какой Nameserver хранит окончательную A-запись сайта? Antwort: Der autoritative Nameserver enthält die verbindlichen DNS-Einträge einer Domain.
+2.Что делает Root-Nameserver? Antwort: Der Root-Nameserver verweist auf den zuständigen TLD-Nameserver, beispielsweise für .de
+3.Что может произойти после изменения IP сайта, если старый TTL ещё не закончился? Antwort: Die alte IP-Adresse wird aus dem DNS-Cache verwendet, bis die TTL abgelaufen ist.
+4.К какому OSI-Layer относится DNS и какие Transportprotokolle он использует? Antwort: DNS gehört zur Anwendungsschicht, also zu Layer 7 des OSI-Modells. DNS verwendet UDP-Port 53 und bei Bedarf TCP-Port 53.
+
+При передаче DNS-запрос упаковывается так:
+
+DNS-Anfrage                 → Layer 7
+UDP mit Quell-/Zielport 53  → Layer 4
+IP-Paket                    → Layer 3
+Ethernet-Frame              → Layer 2
+Bits                        → Layer 1
+
+DNS использует Port 53, но сами Ports относятся к Transportschicht.

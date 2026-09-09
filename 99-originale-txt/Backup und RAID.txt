@@ -1,0 +1,181 @@
+Backup und RAID
+
+Главное правило: RAID ist kein Backup.
+
+RAID повышает доступность при отказе диска, но не защищает от:
+- versehentlichem Löschen
+- Ransomware
+- Dateibeschädigung
+- Diebstahl
+- Brand
+- Fehlbedienung
+
+Backup-Arten
+**Vollbackup**: Alle ausgewählten Daten werden gesichert.
+
+Vorteil:
+einfache und schnelle Wiederherstellung
+
+Nachteil:
+hoher Speicherbedarf und lange Sicherungsdauer
+
+**Differenzielles Backup**: Sichert alle Änderungen seit dem letzten Vollbackup(Сохраняет все изменения, внесенные с момента последнего полного резервного копирования.).
+
+Wiederherstellung: letztes Vollbackup + letztes differenzielles Backup
+
+
+**Inkrementelles Backup**: Sichert alle Änderungen seit der letzten Sicherung, unabhängig von deren Art(Сохраняет все изменения, внесенные с момента последнего резервного копирования, независимо от их типа).
+
+Wiederherstellung: letztes Vollbackup + alle danach erstellten inkrementellen Backups
+
+3-2-1-Regel
+3 Kopien der Daten
+2 unterschiedliche Speichermedien beziehungsweise Speichersysteme
+1 Kopie an einem anderen Ort oder offline
+
+Задание
+
+В понедельник создано Vollbackup размером 100 GB.
+
+После него появляются новые или изменённые данные:
+Dienstag:    10 GB
+Mittwoch:     5 GB zusätzlich
+Donnerstag:   8 GB zusätzlich
+
+Данные не перекрываются и после изменения остаются изменёнными.
+Рассчитай:
+1. Размер каждого inkrementellen Backups:
+   Dienstag: 	10
+   Mittwoch: 	5
+   Donnerstag:	8
+
+2. Размер каждого differenziellen Backups:
+   Dienstag: 	10
+   Mittwoch: 	15
+   Donnerstag:	23
+
+3. Общий объём всех Sicherungen с понедельника по четверг:
+   bei inkrementeller Sicherung: 	123
+   bei differenzieller Sicherung:	148
+
+4. Какие Backup-Dateien нужны для восстановления состояния четверга:
+   inkrementell: Vollbackup + Dienstag + Mittwoch + Donnerstag
+   differenziell:Vollbackup + Donnerstag
+
+KI:
+Все расчёты и наборы для восстановления правильные:
+
+Inkrementell: 100 + 10 + 5 + 8 = 123 GB
+
+Differenziell: 100 + 10 + 15 + 23 = 148 GB
+
+При inkrementelles Backup экономится место, но для восстановления нужна целая цепочка. При differenzielles Backup требуется больше места, зато достаточно последнего полного и последнего дифференциального Backup.
+
+Großvater-Vater-Sohn-Prinzip
+
+Это схема ротации и сроков хранения резервных копий:
+
+**Sohn**:
+tägliche Sicherung
+kurze Aufbewahrungszeit
+
+**Vater**:
+wöchentliche Sicherung
+längere Aufbewahrungszeit
+
+**Großvater**:
+monatliche Sicherung
+lange Aufbewahrungszeit
+
+Пример расписания:
+
+Montag bis Donnerstag:
+tägliche Sohn-Sicherungen
+
+Freitag:
+wöchentliche Vater-Sicherung
+
+letzter Freitag des Monats:
+monatliche Großvater-Sicherung
+
+Пример сроков хранения:
+Sohn:
+7 Tage
+
+Vater:
+4 Wochen
+
+Großvater:
+12 Monate
+
+Это только пример. Конкретные интервалы и сроки предприятие определяет в Sicherungskonzept.
+
+Важно различать:
+Vollbackup, differenziell, inkrementell:
+определяют, какие данные копируются.
+
+Großvater-Vater-Sohn:
+определяет, когда создаются копии и как долго они хранятся.
+
+3-2-1-Regel:
+определяет количество копий, разные носители и внешнее место хранения.
+
+Эти принципы можно комбинировать, например:
+Sohn:
+tägliches inkrementelles Backup
+
+Vater:
+wöchentliches Vollbackup
+
+Großvater:
+monatliches Vollbackup
+
+Преимущество:
+1. Es stehen Wiederherstellungspunkte aus verschiedenen Zeiträumen zur Verfügung.
+2. Auch spät bemerkte Fehler können eventuell mit einer älteren Sicherung behoben werden.
+
+
+Задание
+
+Используется следующая схема:
+Montag bis Donnerstag:
+Sohn-Sicherung
+
+jeden Freitag:
+Vater-Sicherung
+
+am letzten Freitag des Monats:
+Großvater-Sicherung
+
+Определи поколение:
+
+Sicherung am Mittwoch - Sohn
+Sicherung am zweiten Freitag des Monats - Vater
+Sicherung am letzten Freitag des Monats - Großvater
+Какая генерация обычно хранится дольше всего? - Großvater
+Определяет ли GVS, какие именно данные копируются: все или только изменённые? nein. werden alle Daten kopiert
+
+KI:
+Первые четыре ответа правильные. В пятом ответ nein тоже правильный, но дополнение werden alle Daten kopiert — не всегда.
+
+Das GVS-Prinzip bestimmt nicht, welche Daten kopiert werden.
+
+Es bestimmt:
+wann Sicherungen erstellt werden
+und wie lange sie aufbewahrt werden.
+
+Какие данные копируются, определяет Backup-Art:
+
+Vollbackup:
+alle ausgewählten Daten
+
+Differenzielles Backup:
+Änderungen seit dem letzten Vollbackup
+
+Inkrementelles Backup:
+Änderungen seit der letzten Sicherung
+
+Правильная формулировка:
+
+Nein. Das Großvater-Vater-Sohn-Prinzip legt nur den Sicherungszeitpunkt und die Aufbewahrungsdauer fest.
+Ob alle oder nur veränderte Daten kopiert werden, hängt von der verwendeten Backup-Art ab.

@@ -1,0 +1,28 @@
+Rollen im Datenschutz
+
+Betroffene Person:
+Die Person, deren personenbezogene Daten verarbeitet werden.
+
+Verantwortlicher:
+Entscheidet über Zweck und Mittel der Datenverarbeitung.
+
+Auftragsverarbeiter:
+Verarbeitet personenbezogene Daten im Auftrag des Verantwortlichen.
+
+Datenschutzbeauftragter:
+Berät das Unternehmen und überwacht die Einhaltung der Datenschutzvorschriften.
+
+Aufsichtsbehörde:
+Kontrolliert die Einhaltung der DSGVO und kann Sanktionen verhängen.
+
+При использовании Auftragsverarbeiter обычно заключается: Auftragsverarbeitungsvertrag (AV-Vertrag)
+
+Задание
+
+Определи роль:
+
+1.Интернет-магазин решает, какие данные покупателей нужны для выполнения заказов. - Verantwortlicher
+2.Хостинг-провайдер хранит Kundendaten по поручению интернет-магазина.			- Auftragsverarbeiter
+3.Покупатель, данные которого обрабатывает интернет-магазин.						- Betroffene Person
+4.Сотрудник консультирует предприятие по вопросам DSGVO и контролирует соблюдение правил. - Datenschutzbeauftragter
+5.Государственное учреждение проверяет предприятие после жалобы на нарушение DSGVO.	-	Aufsichtsbehörde

@@ -1,0 +1,40 @@
+NAT und PAT
+
+NAT изменяет IP-Adressen при прохождении через Router.
+
+При выходе в интернет используется Source NAT:
+
+Private Quell-IP-Adresse → öffentliche Quell-IP-Adresse
+
+Но несколько Clients используют один öffentlichen IPv4-Adresse. Чтобы различать их соединения, Router дополнительно изменяет Quellport. Это называется PAT или Port Address Translation.
+
+Пример:
+
+Client A:
+10.0.0.25:53000
+→ 203.0.113.10:40001
+→ Webserver:443
+
+Client B:
+10.0.0.26:53000
+→ 203.0.113.10:40002
+→ Webserver:443
+
+Router сохраняет эти соответствия в NAT-Tabelle. Когда приходит ответ, он понимает, какому внутреннему Client его передать.
+
+Для входящих соединений может использоваться Destination NAT или Portweiterleitung:
+
+203.0.113.10:443
+→ 10.0.0.50:443
+
+Важно:
+
+NAT не является Verschlüsselung.
+NAT не заменяет Firewall.
+NAT не выполняет Authentifizierung.
+
+Проверка:
+
+1. Как называется преобразование, позволяющее нескольким Clients использовать один öffentlichen IPv4-Adresse с разными портами? Antwort: PAT.P AT ermöglicht mehreren Clients, eine öffentliche IPv4-Adresse mithilfe unterschiedlicher Portnummern zu verwenden.
+2. Как называется правило, перенаправляющее öffentliche-IP:443 на внутренний Webserver? Antwort: Portweiterleitung oder Destination NAT. Eine Portweiterleitung beziehungsweise Destination NAT leitet eine öffentliche IP-Adresse und einen Port an einen internen Server weiter.
+3. Шифрует ли NAT передаваемые данные? Antwort: Nein. NAT verändert lediglich IP-Adressen und gegebenenfalls Portnummern. Die übertragenen Daten werden dadurch nicht verschlüsselt.

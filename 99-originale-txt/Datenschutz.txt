@@ -1,0 +1,55 @@
+Datenschutz
+
+Главное экзаменационное различие:
+
+Datenschutz:
+Schutz personenbezogener Daten und der betroffenen Personen.
+
+Datensicherheit:
+Schutz aller Daten vor Verlust, Manipulation und unberechtigtem Zugriff.
+
+То есть:
+
+Datenschutz schützt Menschen.
+Datensicherheit schützt Daten.
+
+Personenbezogene Daten
+
+Это сведения, относящиеся к определённому или определяемому физическому лицу.
+
+Name
+Anschrift
+Geburtsdatum
+E-Mail-Adresse
+Telefonnummer
+Personalnummer
+Kundennummer
+IP-Adresse
+Standortdaten
+
+Особо защищаемые данные называются: besondere Kategorien personenbezogener Daten
+
+К ним относятся, например:
+
+Gesundheitsdaten
+genetische Daten
+biometrische Daten zur Identifizierung
+Religion
+politische Meinung
+Gewerkschaftszugehörigkeit
+sexuelle Orientierung
+
+Задание
+
+Определи категорию:
+
+A = personenbezogene Daten
+B = besondere Kategorie personenbezogener Daten
+C = keine personenbezogenen Daten
+
+1.Name und Privatanschrift eines Mitarbeiters				- A
+2.Diagnose in einer Patientenakte							- B
+3.Artikelnummer eines Monitors								- C
+4.Fingerabdruck zur Zugangskontrolle						- B
+5.Kundennummer, die einer bestimmten Person zugeordnet ist 	- A
+6.Politische Meinung eines Bewerbers						- B
