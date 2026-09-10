@@ -35,11 +35,11 @@ Stand: 10.09.2026.
 | 13 | Systemeinrichtung: UEFI, Partitionen, Betriebssystem, Treiber | Kern | новая двуязычная глава | Entwurf |
 | 14 | Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien | Kern | новая двуязычная глава | Entwurf |
 | 15 | Systemtest, Fehlersuche und Leistungsprotokoll | Kern | новая двуязычная глава | Entwurf |
-| 16 | Netzwerkmodelle, Kapselung, TCP/UDP, Ports | Kern | OSI/Transport | Geplant |
-| 17 | DNS, DHCP, Gateway und Datenweg eines Aufrufs | Kern | несколько TXT | Geplant |
-| 18 | IPv4-Adressierung und Subnetting | Kern | SubNetting | Geplant |
-| 19 | IPv6-Grundlagen und Subnetting | Kern | IPv6 | Geplant |
-| 20 | Routing, NAT und PAT | Kern | NAT/Gateway | Geplant |
+| 16 | Netzwerkmodelle, Kapselung, TCP/UDP, Ports | Kern | новая двуязычная глава | Entwurf |
+| 17 | DNS, DHCP, Gateway und Datenweg eines Aufrufs | Kern | новая двуязычная глава | Entwurf |
+| 18 | IPv4-Adressierung und Subnetting | Kern | новая двуязычная глава | Entwurf |
+| 19 | IPv6-Grundlagen und Subnetting | Kern | новая двуязычная глава | Entwurf |
+| 20 | Routing, NAT und PAT | Kern | новая двуязычная глава | Entwurf |
 | 21 | Ethernet, Medien, Topologien und WLAN | Kern | частичный MD | Geplant |
 | 22 | VLAN und Netzsegmentierung | Kern | VLAN | Geplant |
 | 23 | Firewall, DMZ und Regelwerke | Kern | Firewall/DMZ | Geplant |

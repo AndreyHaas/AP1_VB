@@ -103,6 +103,25 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [systemd – journalctl](https://www.freedesktop.org/software/systemd/man/latest/journalctl.html)
   - Primärdokumentation zur Abfrage des systemd-Journals.
 
+### Netzwerkprotokolle und Adressierung
+
+- [IANA – Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/)
+  - Primärregister für Dienstnamen und TCP-/UDP-Portnummern.
+- [RFC 9293 – Transmission Control Protocol](https://datatracker.ietf.org/doc/html/rfc9293)
+  - Aktuelle Basisspezifikation für TCP.
+- [RFC 1034 und RFC 1035 – Domain Name System](https://datatracker.ietf.org/doc/html/rfc1034)
+  - Grundlegende Architektur, Begriffe und Nachrichten des DNS; ergänzend RFC 1035.
+- [RFC 2131 – Dynamic Host Configuration Protocol](https://datatracker.ietf.org/doc/html/rfc2131)
+  - Primärquelle für DHCPv4-Ablauf, Lease und Relay-Verarbeitung.
+- [RFC 1918 und RFC 4632 – Private IPv4-Adressierung und CIDR](https://datatracker.ietf.org/doc/html/rfc1918)
+  - Primärquellen für private IPv4-Bereiche und klassenlose Präfixe; ergänzend RFC 4632.
+- [RFC 8200 und RFC 4291 – IPv6](https://datatracker.ietf.org/doc/html/rfc8200)
+  - IPv6-Basisspezifikation und Adressierungsarchitektur; ergänzend RFC 4291.
+- [RFC 4861, RFC 4862 und RFC 8415 – NDP, SLAAC und DHCPv6](https://datatracker.ietf.org/doc/html/rfc4861)
+  - Primärquellen für Nachbarschaft, Router Advertisements, Autokonfiguration und DHCPv6.
+- [RFC 1812 und RFC 3022 – IPv4-Routing und NAT](https://datatracker.ietf.org/doc/html/rfc1812)
+  - Routeranforderungen und traditionelle NAT-Grundlagen; konkrete NAT-Verhalten werden in neueren ergänzenden RFCs präzisiert.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

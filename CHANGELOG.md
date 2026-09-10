@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.0 – 10.09.2026
+
+- Fünf vertiefte zweisprachige Kapitelpaare zu Netzwerkmodellen, DNS/DHCP, IPv4, IPv6 sowie Routing/NAT/PAT ergänzt.
+- OSI- und TCP/IP-Modell, Kapselung, Adresstypen, TCP-Zuverlässigkeit, UDP-Auswahl und Portzuordnung in einer durchgängigen Fehleranalyse verbunden.
+- Rekursive DNS-Auflösung, Resource Records, Cache/TTL, DHCP-DORA, Relay, Default Gateway und vollständigen HTTPS-Datenweg systematisch dargestellt.
+- IPv4-Subnetting mit Binärmethode, Blockgröße, Hostbedarf, Gatewayprüfung und VLSM durchgerechnet.
+- IPv6-Schreibweise, Adressbereiche, `/48`-/`/56`-/`/60`-Subnetting, SLAAC, DHCPv6, Router Advertisement und NDP vertieft.
+- Longest Prefix Match, statische und dynamische Routen, Rückweg, SNAT, DNAT, PAT und sichere Portweiterleitung abgegrenzt.
+- Acht vollständig migrierte alte Netzwerk-Mischtexte entfernt und ihre Quellenzuordnung auf die neuen Sprachpaare umgestellt.
+- Themenmatrix, Lernstand, README und Quellenübersicht auf 20 vollständige RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.8.0 – 10.09.2026
 
 - Fünf vertiefte zweisprachige Kapitelpaare zu Software, Virtualisierung, Systemeinrichtung, Berechtigungen und Systemtest ergänzt.

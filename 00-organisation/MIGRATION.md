@@ -5,7 +5,7 @@ Alle Originaldateien bleiben unverändert in `99-originale-txt/`. Die bereinigte
 | Original | Bereinigte Zieldatei(en) |
 |---|---|
 | Angriffsarten | `09-it-sicherheit-datenschutz/05-angriffsarten-und-schadsoftware.md` |
-| AntwortCodeUndDns | `05-netzwerktechnik/03-tcp-udp-ports-und-http-statuscodes.md`, `04-dns.md`, `09-it-sicherheit-datenschutz/11-tls-und-https.md` |
+| AntwortCodeUndDns | `05-netzwerktechnik/ru/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-ru.md`, `05-netzwerktechnik/de/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-de.md`, `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md`, `09-it-sicherheit-datenschutz/11-tls-und-https.md` |
 | ArtenVonSchutzmaßnahmen | `09-it-sicherheit-datenschutz/03-arten-von-schutzmassnahmen.md` |
 | Backup und RAID | `10-backup/01-backup-arten-und-wiederherstellung.md`, `02-sicherungskonzept-gvs-und-medien.md`, `90-ap2-zusatzwissen/raid.md` |
 | BedrohungSchwachstelleUndRisiko | `09-it-sicherheit-datenschutz/02-bedrohung-schwachstelle-risiko.md` |
@@ -14,19 +14,19 @@ Alle Originaldateien bleiben unverändert in `99-originale-txt/`. Die bereinigte
 | Datenmenge и Übertragungszeit | `02-kundenbedarf-wirtschaftlichkeit/datenmengen-und-uebertragungszeiten.md` |
 | Datenschutz | `09-it-sicherheit-datenschutz/12-datenschutz-grundlagen.md` |
 | Datenschutzverletzung | `09-it-sicherheit-datenschutz/17-datenschutzverletzungen.md` |
-| DHCP, DNS, Gateway und NAT | `05-netzwerktechnik/03-tcp-udp-ports-und-http-statuscodes.md`, `04-dns.md`, `05-ipv4-dhcp-und-default-gateway.md`, `08-routing-nat-und-pat.md` |
+| DHCP, DNS, Gateway und NAT | `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md`, `05-netzwerktechnik/ru/05-routing-nat-und-pat-ru.md`, `05-netzwerktechnik/de/05-routing-nat-und-pat-de.md` |
 | Digitale Signatur | `09-it-sicherheit-datenschutz/09-digitale-signatur.md` |
 | Digitales Zertifikat und PKI | `09-it-sicherheit-datenschutz/10-zertifikate-und-pki.md` |
 | DMZ — Demilitarisierte Zone | `05-netzwerktechnik/11-dmz.md` |
 | Firewall | `05-netzwerktechnik/10-firewall.md` |
-| GateWay's | `05-netzwerktechnik/08-routing-nat-und-pat.md` |
+| GateWay's | `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md`, `05-netzwerktechnik/ru/05-routing-nat-und-pat-ru.md`, `05-netzwerktechnik/de/05-routing-nat-und-pat-de.md` |
 | Grundsätze der DSGVO | `09-it-sicherheit-datenschutz/13-dsgvo-grundsaetze.md` |
 | IdentifizierungAuthentisierungAutorisierung | `09-it-sicherheit-datenschutz/06-identifizierung-authentisierung-autorisierung.md` |
 | IDS und IPS | `05-netzwerktechnik/12-ids-und-ips.md` |
-| IPv6 | `05-netzwerktechnik/07-ipv6.md` |
+| IPv6 | `05-netzwerktechnik/ru/04-ipv6-grundlagen-und-subnetting-ru.md`, `05-netzwerktechnik/de/04-ipv6-grundlagen-und-subnetting-de.md` |
 | IT-Sicherheit | `09-it-sicherheit-datenschutz/01-schutzziele.md` |
-| NAT und PAT | `05-netzwerktechnik/08-routing-nat-und-pat.md` |
-| OSI_Model | `05-netzwerktechnik/01-osi-und-tcp-ip-modell.md`, `03-tcp-udp-ports-und-http-statuscodes.md` |
+| NAT und PAT | `05-netzwerktechnik/ru/05-routing-nat-und-pat-ru.md`, `05-netzwerktechnik/de/05-routing-nat-und-pat-de.md` |
+| OSI_Model | `05-netzwerktechnik/ru/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-ru.md`, `05-netzwerktechnik/de/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-de.md` |
 | PasswoerterUndHashing | `09-it-sicherheit-datenschutz/07-passwortspeicherung-und-hashing.md` |
 | PCComponenten | `03-hardware-software/ru/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet-ru.md`, `03-hardware-software/de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet-de.md` |
 | Privacy by Design und Privacy by Default | `09-it-sicherheit-datenschutz/20-privacy-by-design-und-default.md` |
@@ -36,11 +36,11 @@ Alle Originaldateien bleiben unverändert in `99-originale-txt/`. Die bereinigte
 | Rollen im Datenschutz | `09-it-sicherheit-datenschutz/16-rollen-im-datenschutz.md` |
 | SLA и допустимая Ausfallzeit | `11-service-vertraege-uebergabe/01-verfuegbarkeit-und-sla.md` |
 | Stromkostenberechnung | `03-hardware-software/ru/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-ru.md`, `03-hardware-software/de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md` |
-| SubNetting | `05-netzwerktechnik/06-ipv4-subnetting.md` |
+| SubNetting | `05-netzwerktechnik/ru/03-ipv4-adressierung-und-subnetting-ru.md`, `05-netzwerktechnik/de/03-ipv4-adressierung-und-subnetting-de.md`, `05-netzwerktechnik/ru/04-ipv6-grundlagen-und-subnetting-ru.md`, `05-netzwerktechnik/de/04-ipv6-grundlagen-und-subnetting-de.md` |
 | Symmetrische und asymmetrische Verschlüsselung | `09-it-sicherheit-datenschutz/08-symmetrische-asymmetrische-hybride-verschluesselung.md` |
 | TLS und HTTPS | `09-it-sicherheit-datenschutz/11-tls-und-https.md` |
 | TOM — Technische und organisatorische Maßnahmen | `09-it-sicherheit-datenschutz/18-tom.md` |
-| TransportPaketenSenden | `05-netzwerktechnik/02-datenweg-beim-https-aufruf.md` |
+| TransportPaketenSenden | `05-netzwerktechnik/ru/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-ru.md`, `05-netzwerktechnik/de/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-de.md`, `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md` |
 | Verfügbarkeit | `11-service-vertraege-uebergabe/01-verfuegbarkeit-und-sla.md` |
 | VLAN | `05-netzwerktechnik/09-vlan.md` |
 | VPN — Virtual Private Network | `05-netzwerktechnik/13-vpn.md` |

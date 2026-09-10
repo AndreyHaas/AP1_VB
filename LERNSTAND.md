@@ -31,7 +31,11 @@ Stand: 10.09.2026.
 | Systemeinrichtung, UEFI, Partitionen, Betriebssystem und Treiber | Kern | новая двуязычная глава | Entwurf | Einrichtungsablauf и Abnahme praktisch повторить |
 | Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien | Kern | новая двуязычная глава | Entwurf | ACL-, chmod-, Domain- и GPO-Fälle решить |
 | Systemtest, Fehlersuche und Leistungsprotokoll | Kern | новая двуязычная глава | Entwurf | Diagnosefälle и Testprotokolle без подсказки выполнить |
-| Netzwerktechnik | Kern | много | In Arbeit | материал преобразовать в двуязычные тематические пары |
+| Netzwerkmodelle, Kapselung, TCP/UDP und Ports | Kern | новая двуязычная глава | Entwurf | Schichten-, Kapselungs- и Transportfälle без подсказки решить |
+| DNS, DHCP, Gateway und Datenweg eines Aufrufs | Kern | новая двуязычная глава | Entwurf | DORA-, Resolver- и HTTPS-Datenweg-Fälle повторить |
+| IPv4-Adressierung und Subnetting | Kern | новая двуязычная глава | Entwurf | Subnetting и VLSM письменно тренировать |
+| IPv6-Grundlagen und Subnetting | Kern | новая двуязычная глава | Entwurf | Schreibweise, Bereiche и Präfixrechnung повторить |
+| Routing, NAT und PAT | Kern | новая двуязычная глава | Entwurf | Routingtabellen и Translationen без подсказки читать |
 | Programmiergrundlagen und Pseudocode | Kern | частично | In Arbeit | Codefehler и Schreibtischtests без подсказки |
 | UML und Oberflächenentwurf | Kern | частично | In Arbeit | UML-Zeichenaufgaben и UI-Ergonomie углубить |
 | Relationale Datenbanken ohne SQL | Kern | частично | In Arbeit | ER-Modelle самостоятельно строить и проверять |
@@ -55,7 +59,7 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют пятнадцать пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют двадцать пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -71,7 +75,12 @@ Stand: 10.09.2026.
 12. `Virtualisierung, Container und Cloud-Grundlagen`;
 13. `Systemeinrichtung, UEFI, Partitionen, Betriebssystem und Treiber`;
 14. `Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien`;
-15. `Systemtest, Fehlersuche und Leistungsprotokoll`.
+15. `Systemtest, Fehlersuche und Leistungsprotokoll`;
+16. `Netzwerkmodelle, Kapselung, TCP/UDP und Ports`;
+17. `DNS, DHCP, Gateway und Datenweg eines Aufrufs`;
+18. `IPv4-Adressierung und Subnetting`;
+19. `IPv6-Grundlagen und Subnetting`;
+20. `Routing, NAT und PAT`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
