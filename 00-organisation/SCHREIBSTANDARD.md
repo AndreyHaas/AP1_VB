@@ -74,21 +74,24 @@ gegenstueck: ../de/01-thema-de.md
 ```text
 # Titel
 ## 1. Lernziele
-## 2. Grundlagen
-## 3. Vertiefung und Zusammenhänge
-## 4. Anwendungsfall / Berechnung / Modell
-## 5. Prüfungsformulierungen
-## 6. Typische Prüfungsfallen
-## 7. Selbsttest
+## 2. Prüfungsminimum — 15 Minuten
+## 3. Grundlagen
+## 4. Vertiefung und Zusammenhänge
+## 5. Anwendungsfall / Berechnung / Modell
+## 6. Prüfungsformulierungen
+## 7. Typische Prüfungsfallen
+## 8. Selbsttest
 <details>
 <summary>Lösungen anzeigen</summary>
 ...
 </details>
-## 8. Quellen und Abgleich
-## 9. Offene Prüfpunkte für den Unterricht
+## 9. Quellen und Abgleich
+## 10. Offene Prüfpunkte für den Unterricht
 ```
 
 Названия промежуточных разделов можно адаптировать к теме. Обязательны цели, применение, ловушки, задания, скрытые решения и источники.
+
+Начиная с версии `0.8.0`, каждая новая глава дополнительно содержит короткий блок `Prüfungsminimum — 15 Minuten`. Он не заменяет полную теорию, а выделяет определения, алгоритмы и Musterantworten для повторения по плану до 28.09.2026.
 
 ## 5. Требования к содержанию
 

@@ -30,11 +30,11 @@ Stand: 10.09.2026.
 | 08 | Nachhaltigkeit und Arbeitsplatz: Energie, Ergonomie, Entsorgung | Kern | новая двуязычная глава | Entwurf |
 | 09 | Hardware: Komponenten, Kennzahlen, Auswahl und Kompatibilität | Kern | новая двуязычная глава | Entwurf |
 | 10 | Schnittstellen, Speicher, Peripherie und Barrierefreiheit | Kern | новая двуязычная глава | Entwurf |
-| 11 | Software: Arten, Lizenzen, ERP/CRM/SCM, Updates | Kern | частичный MD | Geplant |
-| 12 | Virtualisierung und Cloud-Grundlagen | Abgleich | частичный MD | Geplant |
-| 13 | Systemeinrichtung: UEFI, Partitionen, Betriebssystem, Treiber | Kern | частичный MD | Geplant |
-| 14 | Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien | Kern | частичный MD | Geplant |
-| 15 | Systemtest, Fehlersuche und Leistungsprotokoll | Kern | пробел | Geplant |
+| 11 | Software: Arten, Lizenzen, ERP/CRM/SCM, Updates | Kern | новая двуязычная глава | Entwurf |
+| 12 | Virtualisierung und Cloud-Grundlagen | Abgleich | новая двуязычная глава | Entwurf |
+| 13 | Systemeinrichtung: UEFI, Partitionen, Betriebssystem, Treiber | Kern | новая двуязычная глава | Entwurf |
+| 14 | Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien | Kern | новая двуязычная глава | Entwurf |
+| 15 | Systemtest, Fehlersuche und Leistungsprotokoll | Kern | новая двуязычная глава | Entwurf |
 | 16 | Netzwerkmodelle, Kapselung, TCP/UDP, Ports | Kern | OSI/Transport | Geplant |
 | 17 | DNS, DHCP, Gateway und Datenweg eines Aufrufs | Kern | несколько TXT | Geplant |
 | 18 | IPv4-Adressierung und Subnetting | Kern | SubNetting | Geplant |

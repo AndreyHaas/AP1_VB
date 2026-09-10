@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.8.0 – 10.09.2026
+
+- Fünf vertiefte zweisprachige Kapitelpaare zu Software, Virtualisierung, Systemeinrichtung, Berechtigungen und Systemtest ergänzt.
+- Für die beschleunigte Vorbereitung vor dem 30.09.2026 in jeder neuen Spracheinheit ein `Prüfungsminimum — 15 Minuten` eingeführt.
+- Softwarearten, betriebliche Anwendungssysteme, Lizenzmetriken, Open Source, TCO und kontrollierte Updates zusammenhängend behandelt.
+- VM, Container, VDI, DaaS sowie Cloud-Merkmale, Servicemodelle, Shared Responsibility und Exit voneinander abgegrenzt.
+- UEFI, Secure Boot, TPM, Partitionierung, Installation, Treiber, Verschlüsselung, Pilot und Abnahme in einem vollständigen Einrichtungsablauf verbunden.
+- Lokale und Domänenkonten, ACL, Linux-Rechte, Dateisysteme, DNS, Domain Join und GPO mit Berechtigungsfällen vertieft.
+- Testfallaufbau, systematische Diagnose, Leistungskennzahlen, Logging, Retest, Regression und Eskalation ergänzt.
+- Vier vollständig migrierte alte Mischtexte entfernt; Themenmatrix und Lernstand auf 15 RU/DE-Kapitelpaare aktualisiert.
+- Verbindlichen Lernplan bis 28.09.2026 ergänzt.
+
 ## 0.7.0 – 10.09.2026
 
 - Drei vertiefte zweisprachige Kapitelpaare zu Nachhaltigkeit, Hardwareauswahl sowie Schnittstellen und Barrierefreiheit ergänzt.

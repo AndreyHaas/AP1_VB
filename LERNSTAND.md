@@ -26,8 +26,11 @@ Stand: 10.09.2026.
 | Nachhaltigkeit, Energie, Ergonomie und Entsorgung | Kern | новая двуязычная глава | Entwurf | Energieprofile и Lebenszyklusfälle повторить с WBS |
 | Hardwareauswahl, Komponenten, Kennzahlen und Kompatibilität | Kern | новая двуязычная глава | Entwurf | Bedarf, Engpass и Kompatibilitätsfälle повторить с WBS |
 | Schnittstellen, Speicher, Peripherie und Barrierefreiheit | Kern | новая двуязычная глава | Entwurf | Docking-, Speicher- и Barrierefreiheitstests повторить с WBS |
-| Software und Lizenzen | Kern | частично | In Arbeit | Softwarearten, Lizenzfälle и Updates переработать |
-| Betriebssysteme und Systemeinrichtung | Kern | частично | In Arbeit | Installation, Domänenaufnahme, Rechte и Diagnose углубить |
+| Softwarearten, Lizenzen, betriebliche Systeme und Updates | Kern | новая двуязычная глава | Entwurf | Lizenzfälle и Updateprozess без подсказки повторить |
+| Virtualisierung, Container und Cloud-Grundlagen | Abgleich | новая двуязычная глава | Entwurf | Umfang, Shared Responsibility и Exit с WBS сверить |
+| Systemeinrichtung, UEFI, Partitionen, Betriebssystem und Treiber | Kern | новая двуязычная глава | Entwurf | Einrichtungsablauf и Abnahme praktisch повторить |
+| Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien | Kern | новая двуязычная глава | Entwurf | ACL-, chmod-, Domain- и GPO-Fälle решить |
+| Systemtest, Fehlersuche und Leistungsprotokoll | Kern | новая двуязычная глава | Entwurf | Diagnosefälle и Testprotokolle без подсказки выполнить |
 | Netzwerktechnik | Kern | много | In Arbeit | материал преобразовать в двуязычные тематические пары |
 | Programmiergrundlagen und Pseudocode | Kern | частично | In Arbeit | Codefehler и Schreibtischtests без подсказки |
 | UML und Oberflächenentwurf | Kern | частично | In Arbeit | UML-Zeichenaufgaben и UI-Ergonomie углубить |
@@ -52,7 +55,7 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют десять пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют пятнадцать пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -63,7 +66,12 @@ Stand: 10.09.2026.
 7. `Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy`;
 8. `Nachhaltigkeit, Energie, Ergonomie und Entsorgung`;
 9. `Hardwareauswahl, Komponenten, Kennzahlen und Kompatibilität`;
-10. `Schnittstellen, Speicher, Peripherie und Barrierefreiheit`.
+10. `Schnittstellen, Speicher, Peripherie und Barrierefreiheit`;
+11. `Softwarearten, Lizenzen, betriebliche Systeme und Updates`;
+12. `Virtualisierung, Container und Cloud-Grundlagen`;
+13. `Systemeinrichtung, UEFI, Partitionen, Betriebssystem und Treiber`;
+14. `Benutzer, Rechte, Dateisysteme, Domäne und Richtlinien`;
+15. `Systemtest, Fehlersuche und Leistungsprotokoll`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
@@ -73,7 +81,7 @@ Stand: 10.09.2026.
 2. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit и Subnetting.
 3. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
 4. Самостоятельное построение UML- и ER-Modelle.
-5. Практическая Systemeinrichtung: Domäne, Rechte, Filesysteme и диагностика.
+5. Практическая Netzwerkanalyse: Adressierung, DNS, Routing, VLAN и Firewall.
 6. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
 7. Полные 90-минутные Prüfungssimulationen.
 

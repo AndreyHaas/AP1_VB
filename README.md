@@ -14,6 +14,7 @@
 - [AP1-Themenmatrix und Arbeitsreihenfolge](AP1-THEMENMATRIX.md)
 - [Lernstand und Themenabdeckung](LERNSTAND.md)
 - [Schreibstandard](00-organisation/SCHREIBSTANDARD.md)
+- [Lernplan bis 28.09.2026](00-organisation/LERNPLAN-BIS-28-09.md)
 - [Quellen und Gültigkeit](00-organisation/QUELLEN.md)
 - [Zuordnung der ursprünglichen TXT-Dateien](00-organisation/MIGRATION.md)
 
@@ -62,14 +63,15 @@ de/<nummer>-<thema>-de.md
 
 1. метаданные и статус;
 2. `Lernziele`;
-3. основные понятия и причинно-следственные связи;
-4. точные сравнения и разграничения;
-5. практический сценарий, расчёт или модель;
-6. немецкие `Prüfungsformulierungen`;
-7. `Typische Prüfungsfallen`;
-8. `Selbsttest` без видимых подсказок;
-9. скрытые решения;
-10. источники и открытые вопросы для WBS.
+3. `Prüfungsminimum` для быстрого повторения;
+4. основные понятия и причинно-следственные связи;
+5. точные сравнения и разграничения;
+6. практический сценарий, расчёт или модель;
+7. немецкие `Prüfungsformulierungen`;
+8. `Typische Prüfungsfallen`;
+9. `Selbsttest` без видимых подсказок;
+10. скрытые решения;
+11. источники и открытые вопросы для WBS.
 
 Количество строк не является целью само по себе. Глава должна позволять не только воспроизвести определение, но и применить материал в незнакомой практической ситуации и обосновать решение.
 

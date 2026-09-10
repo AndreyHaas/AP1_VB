@@ -70,6 +70,39 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [Bundesfachstelle Barrierefreiheit – Informationen zum BFSG](https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz)
   - Amtliche Einordnung des seit 28.06.2025 geltenden Anwendungsbereichs.
 
+### Software, Lizenzen und Updates
+
+- [Urheberrechtsgesetz – UrhG, Computerprogramme](https://www.gesetze-im-internet.de/urhg/)
+  - Primärquelle zu urheberrechtlichem Schutz, zustimmungsbedürftigen Handlungen und gesetzlichen Ausnahmen.
+- [Open Source Initiative – Open Source Definition](https://opensource.org/osd)
+  - Primärquelle für den Begriff Open Source; konkrete Pflichten folgen aus der jeweiligen Lizenz.
+- [BSI IT-Grundschutz-Kompendium](https://www.bsi.bund.de/grundschutz-kompendium)
+  - Grundlage für kontrollierten Softwareeinsatz, Änderungs-, Patch- und Sicherheitsmanagement.
+
+### Virtualisierung und Cloud
+
+- [NIST SP 800-145 – Definition of Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final)
+  - Definiert fünf wesentliche Merkmale, drei Servicemodelle und vier Bereitstellungsmodelle.
+- [NIST SP 800-125 – Full Virtualization Security](https://csrc.nist.gov/pubs/sp/800/125/final)
+  - Primärquelle zu Vollvirtualisierung, Hypervisor und Sicherheitsfragen.
+- [BSI – Cloud Computing](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Cloud-Computing/cloud-computing_node.html)
+  - Deutsche Sicherheitsempfehlungen und weiterführende BSI-Angebote.
+- [BSI C5](https://www.bsi.bund.de/c5)
+  - Kriterienkatalog für die Prüfung von Sicherheitskontrollen bei Cloud-Anbietern.
+
+### Betriebssysteme, Rechte und Diagnose
+
+- [Microsoft Learn – Windows Deployment](https://learn.microsoft.com/en-us/windows/deployment/)
+  - Herstellerdokumentation für Bereitstellung und Verwaltung von Windows.
+- [Microsoft Learn – Group Policy Overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
+  - Primärquelle für zentrale Benutzer- und Computerkonfiguration über GPO.
+- [Microsoft Learn – DNS Concepts für AD DS](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/reviewing-dns-concepts)
+  - Herstellerdokumentation zur Rolle von DNS in Active Directory.
+- [The Open Group – chmod](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/chmod.html)
+  - Standardspezifikation für die Rechteänderung in POSIX-Systemen.
+- [systemd – journalctl](https://www.freedesktop.org/software/systemd/man/latest/journalctl.html)
+  - Primärdokumentation zur Abfrage des systemd-Journals.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

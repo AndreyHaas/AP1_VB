@@ -28,14 +28,14 @@ Alle Originaldateien bleiben unverändert in `99-originale-txt/`. Die bereinigte
 | NAT und PAT | `05-netzwerktechnik/08-routing-nat-und-pat.md` |
 | OSI_Model | `05-netzwerktechnik/01-osi-und-tcp-ip-modell.md`, `03-tcp-udp-ports-und-http-statuscodes.md` |
 | PasswoerterUndHashing | `09-it-sicherheit-datenschutz/07-passwortspeicherung-und-hashing.md` |
-| PCComponenten | `03-hardware-software/hardwareauswahl.md` |
+| PCComponenten | `03-hardware-software/ru/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet-ru.md`, `03-hardware-software/de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet-de.md` |
 | Privacy by Design und Privacy by Default | `09-it-sicherheit-datenschutz/20-privacy-by-design-und-default.md` |
 | Pseudonymisierung und Anonymisierung | `09-it-sicherheit-datenschutz/19-pseudonymisierung-und-anonymisierung.md` |
 | RAID | `90-ap2-zusatzwissen/raid.md` |
 | Rechtsgrundlagen nach Art. 6 DSGVO | `09-it-sicherheit-datenschutz/14-rechtsgrundlagen-art-6-dsgvo.md` |
 | Rollen im Datenschutz | `09-it-sicherheit-datenschutz/16-rollen-im-datenschutz.md` |
 | SLA и допустимая Ausfallzeit | `11-service-vertraege-uebergabe/01-verfuegbarkeit-und-sla.md` |
-| Stromkostenberechnung | `02-kundenbedarf-wirtschaftlichkeit/stromkosten.md` |
+| Stromkostenberechnung | `03-hardware-software/ru/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-ru.md`, `03-hardware-software/de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md` |
 | SubNetting | `05-netzwerktechnik/06-ipv4-subnetting.md` |
 | Symmetrische und asymmetrische Verschlüsselung | `09-it-sicherheit-datenschutz/08-symmetrische-asymmetrische-hybride-verschluesselung.md` |
 | TLS und HTTPS | `09-it-sicherheit-datenschutz/11-tls-und-https.md` |
