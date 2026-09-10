@@ -26,7 +26,7 @@ Stand: 10.09.2026.
 | 04 | Kommunikation: Einweisung, Präsentation, Dokumentation, Feedback | Kern | новая двуязычная глава | Entwurf |
 | 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | новая двуязычная глава | Entwurf |
 | 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | новая двуязычная глава | Entwurf |
-| 07 | Wirtschaftlichkeit: Amortisation, Break-even, Stundensatz | Vertiefung | частичный MD | Geplant |
+| 07 | Wirtschaftlichkeit: Amortisation, Break-even, Deckungsbeitrag, Stundensatz, Make-or-Buy | Vertiefung | новая двуязычная глава | Entwurf |
 | 08 | Nachhaltigkeit und Arbeitsplatz: Energie, Ergonomie, Entsorgung | Kern | частичные расчёты | Geplant |
 | 09 | Hardware: Komponenten, Kennzahlen, Auswahl und Kompatibilität | Kern | PCComponenten | Geplant |
 | 10 | Schnittstellen, Speicher, Peripherie und Barrierefreiheit | Kern | частичный MD | Geplant |

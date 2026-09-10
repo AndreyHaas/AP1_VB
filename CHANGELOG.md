@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 – 10.09.2026
+
+- Vertieftes zweisprachiges Kapitel zu Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy ergänzt.
+- Gewinnschwelle, Zielgewinn, Sicherheitsabstand, ungleichmäßige Rückflüsse und Indifferenzpunkt vollständig berechnet.
+- Kostenstundensatz, Gewinnzuschlag, Gewinnmarge sowie Kauf, Miete und Leasing voneinander abgegrenzt.
+- Relevante Kosten, Sunk Costs, Opportunitätskosten, Kapazitätsengpässe und qualitative Entscheidungskriterien berücksichtigt.
+- Vollständig migrierten alten Mischtext `02-angebotsvergleich-und-wirtschaftlichkeit.md` entfernt.
+- Themenmatrix und Lernstand auf sieben vollständige RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.5.0 – 10.09.2026
 
 - Vertieftes zweisprachiges Kapitel zu Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse ergänzt.

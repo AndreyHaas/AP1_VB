@@ -29,7 +29,7 @@ Stand der Prüfungsausrichtung: 10.09.2026.
 In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 
 - Beschaffung, Kaufrecht und Umsatzsteuer: BGB, HGB und UStG;
-- Wirtschaftlichkeitsbewertung und Lebenszykluskosten: BIBB-Ausbildungsrahmenplan sowie methodische Werkzeuge von KOINNO;
+- Wirtschaftlichkeitsbewertung, Lebenszyklus- und Investitionsrechnung: BIBB-Ausbildungsrahmenplan, § 7 BHO sowie methodische Werkzeuge von KOINNO;
 - Protokolle und Netzwerke: IETF-RFCs sowie Herstellerdokumentation;
 - Web und Barrierefreiheit: W3C/WCAG;
 - IT-Grundschutz und Sicherheit: BSI;

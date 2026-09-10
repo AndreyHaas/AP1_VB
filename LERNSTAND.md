@@ -22,7 +22,7 @@ Stand: 10.09.2026.
 | Kommunikation, Einweisung, Präsentation und Dokumentation | Kern | новая двуязычная глава | Entwurf | Protokoll- und Einweisungsfälle повторить с WBS |
 | Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle | Kern | новая двуязычная глава | Entwurf | Vertragsschluss и Lieferfälle повторить с WBS |
 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse | Kern | новая двуязычная глава | Entwurf | расчёты Bezugspreis, TCO и Nutzwertanalyse повторить и сверить с WBS |
-| Wirtschaftlichkeit: Amortisation, Break-even und Stundensatz | Vertiefung | частично | In Arbeit | после главы 06 углубить расчётные Fälle |
+| Wirtschaftlichkeit: Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy | Vertiefung | новая двуязычная глава | Entwurf | Rechenschemata и границы применимости сверить с WBS |
 | Hardwareauswahl | Kern | частично | In Arbeit | Schnittstellen, Kompatibilität и BIOS/UEFI углубить |
 | Software, Lizenzen und Barrierefreiheit | Kern | частично | In Arbeit | Lizenzfälle и barrierefreie Oberflächen переработать |
 | Betriebssysteme und Systemeinrichtung | Kern | частично | In Arbeit | Installation, Domänenaufnahme, Rechte и Diagnose углубить |
@@ -50,14 +50,15 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют шесть пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют семь пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
 3. `Kundenbedarf und Anforderungen`;
 4. `Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback`;
 5. `Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle`;
-6. `Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse`.
+6. `Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse`;
+7. `Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
