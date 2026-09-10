@@ -25,7 +25,7 @@ Stand: 10.09.2026.
 | 03 | Kundenbedarf: Gespräch, Zielgruppe und Anforderungen | Kern | новая двуязычная глава | Entwurf |
 | 04 | Kommunikation: Einweisung, Präsentation, Dokumentation, Feedback | Kern | новая двуязычная глава | Entwurf |
 | 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | новая двуязычная глава | Entwurf |
-| 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | частичный MD | Geplant |
+| 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | новая двуязычная глава | Entwurf |
 | 07 | Wirtschaftlichkeit: Amortisation, Break-even, Stundensatz | Vertiefung | частичный MD | Geplant |
 | 08 | Nachhaltigkeit und Arbeitsplatz: Energie, Ergonomie, Entsorgung | Kern | частичные расчёты | Geplant |
 | 09 | Hardware: Komponenten, Kennzahlen, Auswahl und Kompatibilität | Kern | PCComponenten | Geplant |

@@ -21,7 +21,7 @@ Stand: 10.09.2026.
 | Kundenbedarf und Anforderungen | Kern | новая двуязычная глава | Entwurf | Formulierungen и Fallaufgaben повторить с WBS |
 | Kommunikation, Einweisung, Präsentation und Dokumentation | Kern | новая двуязычная глава | Entwurf | Protokoll- und Einweisungsfälle повторить с WBS |
 | Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle | Kern | новая двуязычная глава | Entwurf | Vertragsschluss и Lieferfälle повторить с WBS |
-| Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse | Kern | частичный MD | In Arbeit | следующей парой двуязычно переработать и практически рассчитать |
+| Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse | Kern | новая двуязычная глава | Entwurf | расчёты Bezugspreis, TCO и Nutzwertanalyse повторить и сверить с WBS |
 | Wirtschaftlichkeit: Amortisation, Break-even und Stundensatz | Vertiefung | частично | In Arbeit | после главы 06 углубить расчётные Fälle |
 | Hardwareauswahl | Kern | частично | In Arbeit | Schnittstellen, Kompatibilität и BIOS/UEFI углубить |
 | Software, Lizenzen und Barrierefreiheit | Kern | частично | In Arbeit | Lizenzfälle и barrierefreie Oberflächen переработать |
@@ -50,13 +50,14 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют пять пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют шесть пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
 3. `Kundenbedarf und Anforderungen`;
 4. `Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback`;
-5. `Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle`.
+5. `Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle`;
+6. `Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 

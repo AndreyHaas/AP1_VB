@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 – 10.09.2026
+
+- Vertieftes zweisprachiges Kapitel zu Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse ergänzt.
+- Rabatt, Skonto, Bezugskosten sowie Netto- und Bruttowerte in vollständigen quantitativen Angebotsvergleichen berechnet.
+- Drei Angebote anhand eines einheitlichen dreijährigen TCO-Modells und einer gewichteten Nutzwertanalyse bewertet.
+- Muss-Kriterien, Sensitivitätsanalyse, Doppelzählungsrisiken und Grenzen der gemeinsamen Preis-Nutzen-Entscheidung erläutert.
+- Themenmatrix und Lernstand auf sechs vollständige RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.4.0 – 10.09.2026
 
 - Vertieftes zweisprachiges Kapitel zu Anfrage, Angebot, Bestellung und Lieferkontrolle ergänzt.
