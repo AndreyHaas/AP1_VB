@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 – 10.09.2026
+
+- Vertieftes zweisprachiges Kapitel zu Anfrage, Angebot, Bestellung und Lieferkontrolle ergänzt.
+- Bestellanforderung, Freigabeprozess, Vertragsentstehung und abweichende Auftragsbestätigung differenziert dargestellt.
+- Wareneingang, Mängelanzeige, gesetzliche Mängelrechte, Garantie und Drei-Wege-Abgleich in einem durchgängigen IT-Beschaffungsfall angewendet.
+- Rechtliche Aussagen anhand von BGB, HGB und UStG geprüft und pauschale Frist- oder Rücktrittsaussagen vermieden.
+- Themenmatrix und Lernstand auf fünf vollständige RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.3.0 – 09.09.2026
 
 - Vertieftes zweisprachiges Kapitel zu Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback ergänzt.
@@ -30,6 +38,6 @@
 
 ## Nächste geplante Version
 
-- Offene P1-Unterthemen aus `LERNSTAND.md` vertiefen.
+- Offene Kern-Themen aus `LERNSTAND.md` vertiefen.
 - WBS-Korrekturen mit Datum und Quelle einpflegen.
 - Aufgabenserien und vollständige 90-Minuten-Simulationen ergänzen.

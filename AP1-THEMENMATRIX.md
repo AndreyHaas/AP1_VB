@@ -1,6 +1,6 @@
 # AP1-Themenmatrix und Arbeitsreihenfolge
 
-Stand: 09.09.2026.
+Stand: 10.09.2026.
 
 ## Нормативная рамка
 
@@ -24,7 +24,7 @@ Stand: 09.09.2026.
 | 02 | Projektmanagement: Wasserfall, Scrum, PSP, Gantt, Netzplan | Kern | частичный MD | Entwurf |
 | 03 | Kundenbedarf: Gespräch, Zielgruppe und Anforderungen | Kern | новая двуязычная глава | Entwurf |
 | 04 | Kommunikation: Einweisung, Präsentation, Dokumentation, Feedback | Kern | новая двуязычная глава | Entwurf |
-| 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | частичный MD | Geplant |
+| 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | новая двуязычная глава | Entwurf |
 | 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | частичный MD | Geplant |
 | 07 | Wirtschaftlichkeit: Amortisation, Break-even, Stundensatz | Vertiefung | частичный MD | Geplant |
 | 08 | Nachhaltigkeit und Arbeitsplatz: Energie, Ergonomie, Entsorgung | Kern | частичные расчёты | Geplant |
