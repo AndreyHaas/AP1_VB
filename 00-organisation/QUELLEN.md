@@ -122,6 +122,28 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [RFC 1812 und RFC 3022 – IPv4-Routing und NAT](https://datatracker.ietf.org/doc/html/rfc1812)
   - Routeranforderungen und traditionelle NAT-Grundlagen; konkrete NAT-Verhalten werden in neueren ergänzenden RFCs präzisiert.
 
+### Ethernet, VLAN, Firewall, IDPS und VPN
+
+- [IEEE 802.3](https://standards.ieee.org/ieee/802.3/10422/)
+  - Standardfamilie für Ethernet; konkrete Medien-, Reichweiten- und Datenratenangaben hängen von der jeweiligen PHY-Variante ab.
+- [IEEE 802.11](https://standards.ieee.org/ieee/802.11/10548/)
+  - Standardfamilie für Wireless LAN; Produktfähigkeiten müssen gegen unterstützte Amendments geprüft werden.
+- [IEEE 802.1Q-2022](https://standards.ieee.org/ieee/802.1Q/10323/)
+  - Primärquelle für Bridges, Bridged Networks und VLAN-Funktionen.
+- [NIST SP 800-41 Rev. 1 – Guidelines on Firewalls and Firewall Policy](https://csrc.nist.gov/pubs/sp/800/41/r1/final)
+  - Herstellerneutrale Grundlage zu Firewalltypen, Policy, Auswahl, Test und Betrieb.
+- [NIST SP 800-94 – Guide to Intrusion Detection and Prevention Systems](https://csrc.nist.gov/pubs/sp/800/94/final)
+  - Stabile Grundbegriffe zu IDS/IPS, Sensorarten und Betrieb; wegen des Alters werden konkrete Produktempfehlungen nicht übernommen.
+- [NIST SP 800-77 Rev. 1 – Guide to IPsec VPNs](https://csrc.nist.gov/pubs/sp/800/77/r1/final)
+  - Primärquelle zu IPsec, IKE und VPN-Sicherheitsdiensten.
+
+### Programmiergrundlagen
+
+- [BIBB – Fachinformatiker/Fachinformatikerin: Umsetzungshilfe](https://www.bibb.de/dienst/publikationen/de/16661)
+  - Ausbildungsbezogene Einordnung beruflicher Handlungskompetenzen.
+- [Python Language Reference](https://docs.python.org/3/reference/)
+  - Offizielle Sprachreferenz als konkretes Beispiel; der Lerntext nutzt bewusst sprachneutralen Pseudocode.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

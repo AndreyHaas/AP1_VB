@@ -36,7 +36,11 @@ Stand: 10.09.2026.
 | IPv4-Adressierung und Subnetting | Kern | новая двуязычная глава | Entwurf | Subnetting и VLSM письменно тренировать |
 | IPv6-Grundlagen und Subnetting | Kern | новая двуязычная глава | Entwurf | Schreibweise, Bereiche и Präfixrechnung повторить |
 | Routing, NAT und PAT | Kern | новая двуязычная глава | Entwurf | Routingtabellen и Translationen без подсказки читать |
-| Programmiergrundlagen und Pseudocode | Kern | частично | In Arbeit | Codefehler и Schreibtischtests без подсказки |
+| Ethernet, Medien, Topologien und WLAN | Kern | новая двуязычная глава | Entwurf | Medienauswahl, Durchsatz и WLAN-Diagnose повторить |
+| VLAN und Netzsegmentierung | Kern | новая двуязычная глава | Entwurf | Access/Trunk, Relay и Inter-VLAN-Fälle решить |
+| Firewall, DMZ und Regelwerke | Kern | новая двуязычная глава | Entwurf | Regelreihenfolge и Positiv-/Negativtests тренировать |
+| IDS, IPS und VPN | Vertiefung | новая двуязычная глава | Entwurf | Erkennungsfehler и VPN-Auswahl begründen |
+| Programmiergrundlagen, Pseudocode und Schreibtischtest | Kern | новая двуязычная глава | Entwurf | Ablaufverfolgung und Grenzfälle ohne подсказки решать |
 | UML und Oberflächenentwurf | Kern | частично | In Arbeit | UML-Zeichenaufgaben и UI-Ergonomie углубить |
 | Relationale Datenbanken ohne SQL | Kern | частично | In Arbeit | ER-Modelle самостоятельно строить и проверять |
 | KI-Unterstützung und KI-Software | Kern | частично | In Arbeit | объём сверить с WBS и актуальным Prüfungskatalog |
@@ -59,7 +63,7 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют двадцать пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют двадцать пять пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -80,7 +84,12 @@ Stand: 10.09.2026.
 17. `DNS, DHCP, Gateway und Datenweg eines Aufrufs`;
 18. `IPv4-Adressierung und Subnetting`;
 19. `IPv6-Grundlagen und Subnetting`;
-20. `Routing, NAT und PAT`.
+20. `Routing, NAT und PAT`;
+21. `Ethernet, Medien, Topologien und WLAN`;
+22. `VLAN und Netzsegmentierung`;
+23. `Firewall, DMZ und Regelwerke`;
+24. `IDS, IPS und VPN`;
+25. `Programmiergrundlagen, Pseudocode und Schreibtischtest`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 

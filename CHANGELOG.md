@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0 – 10.09.2026
+
+- Fünf vertiefte zweisprachige Kapitelpaare zu Ethernet/WLAN, VLAN, Firewall/DMZ, IDS/IPS/VPN und Programmiergrundlagen ergänzt.
+- Ethernet-Frame, MAC-Lernen, Medienauswahl, Topologien, PoE, WLAN-Sicherheit und Nettodurchsatz in einem Bürofall verbunden.
+- Access/Trunk, IEEE 802.1Q, Inter-VLAN-Routing, DHCP-Relay und segmentbasierte Zugriffskontrolle systematisch dargestellt.
+- Paketfilter, Stateful Firewall, DMZ-Architektur, Regelreihenfolge, Default Deny sowie Positiv- und Negativtests vertieft.
+- Signatur- und Anomalieerkennung, False Positive/Negative, Sensorplatzierung sowie Remote-Access- und Site-to-Site-VPN abgegrenzt.
+- Variablen, Datentypen, Kontrollstrukturen, Funktionen, Fehlerarten, Grenztests und Schreibtischtests sprachneutral erklärt.
+- Sieben vollständig migrierte alte Mischtexte entfernt; Navigation, Quellen und Lernstand auf 25 RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.9.0 – 10.09.2026
 
 - Fünf vertiefte zweisprachige Kapitelpaare zu Netzwerkmodellen, DNS/DHCP, IPv4, IPv6 sowie Routing/NAT/PAT ergänzt.

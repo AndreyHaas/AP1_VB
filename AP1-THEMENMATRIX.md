@@ -40,11 +40,11 @@ Stand: 10.09.2026.
 | 18 | IPv4-Adressierung und Subnetting | Kern | новая двуязычная глава | Entwurf |
 | 19 | IPv6-Grundlagen und Subnetting | Kern | новая двуязычная глава | Entwurf |
 | 20 | Routing, NAT und PAT | Kern | новая двуязычная глава | Entwurf |
-| 21 | Ethernet, Medien, Topologien und WLAN | Kern | частичный MD | Geplant |
-| 22 | VLAN und Netzsegmentierung | Kern | VLAN | Geplant |
-| 23 | Firewall, DMZ und Regelwerke | Kern | Firewall/DMZ | Geplant |
-| 24 | IDS, IPS und VPN | Vertiefung | IDS/VPN | Geplant |
-| 25 | Programmiergrundlagen, Pseudocode und Schreibtischtest | Kern | пробел | Geplant |
+| 21 | Ethernet, Medien, Topologien und WLAN | Kern | новая двуязычная глава | Entwurf |
+| 22 | VLAN und Netzsegmentierung | Kern | новая двуязычная глава | Entwurf |
+| 23 | Firewall, DMZ und Regelwerke | Kern | новая двуязычная глава | Entwurf |
+| 24 | IDS, IPS und VPN | Vertiefung | новая двуязычная глава | Entwurf |
+| 25 | Programmiergrundlagen, Pseudocode und Schreibtischtest | Kern | новая двуязычная глава | Entwurf |
 | 26 | Codefehler, Kontrollstrukturen und einfache Algorithmen | Kern | пробел | Geplant |
 | 27 | UML: Use-Case-, Klassen- und Aktivitätsdiagramm | Kern | пробел | Geplant |
 | 28 | Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | пробел | Geplant |

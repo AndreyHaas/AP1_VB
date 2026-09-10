@@ -17,12 +17,12 @@ Alle Originaldateien bleiben unverändert in `99-originale-txt/`. Die bereinigte
 | DHCP, DNS, Gateway und NAT | `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md`, `05-netzwerktechnik/ru/05-routing-nat-und-pat-ru.md`, `05-netzwerktechnik/de/05-routing-nat-und-pat-de.md` |
 | Digitale Signatur | `09-it-sicherheit-datenschutz/09-digitale-signatur.md` |
 | Digitales Zertifikat und PKI | `09-it-sicherheit-datenschutz/10-zertifikate-und-pki.md` |
-| DMZ — Demilitarisierte Zone | `05-netzwerktechnik/11-dmz.md` |
-| Firewall | `05-netzwerktechnik/10-firewall.md` |
+| DMZ — Demilitarisierte Zone | `05-netzwerktechnik/ru/08-firewall-dmz-und-regelwerke-ru.md`, `05-netzwerktechnik/de/08-firewall-dmz-und-regelwerke-de.md` |
+| Firewall | `05-netzwerktechnik/ru/08-firewall-dmz-und-regelwerke-ru.md`, `05-netzwerktechnik/de/08-firewall-dmz-und-regelwerke-de.md` |
 | GateWay's | `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md`, `05-netzwerktechnik/ru/05-routing-nat-und-pat-ru.md`, `05-netzwerktechnik/de/05-routing-nat-und-pat-de.md` |
 | Grundsätze der DSGVO | `09-it-sicherheit-datenschutz/13-dsgvo-grundsaetze.md` |
 | IdentifizierungAuthentisierungAutorisierung | `09-it-sicherheit-datenschutz/06-identifizierung-authentisierung-autorisierung.md` |
-| IDS und IPS | `05-netzwerktechnik/12-ids-und-ips.md` |
+| IDS und IPS | `05-netzwerktechnik/ru/09-ids-ips-und-vpn-ru.md`, `05-netzwerktechnik/de/09-ids-ips-und-vpn-de.md` |
 | IPv6 | `05-netzwerktechnik/ru/04-ipv6-grundlagen-und-subnetting-ru.md`, `05-netzwerktechnik/de/04-ipv6-grundlagen-und-subnetting-de.md` |
 | IT-Sicherheit | `09-it-sicherheit-datenschutz/01-schutzziele.md` |
 | NAT und PAT | `05-netzwerktechnik/ru/05-routing-nat-und-pat-ru.md`, `05-netzwerktechnik/de/05-routing-nat-und-pat-de.md` |
@@ -42,8 +42,8 @@ Alle Originaldateien bleiben unverändert in `99-originale-txt/`. Die bereinigte
 | TOM — Technische und organisatorische Maßnahmen | `09-it-sicherheit-datenschutz/18-tom.md` |
 | TransportPaketenSenden | `05-netzwerktechnik/ru/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-ru.md`, `05-netzwerktechnik/de/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-de.md`, `05-netzwerktechnik/ru/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-ru.md`, `05-netzwerktechnik/de/02-dns-dhcp-gateway-und-datenweg-eines-aufrufs-de.md` |
 | Verfügbarkeit | `11-service-vertraege-uebergabe/01-verfuegbarkeit-und-sla.md` |
-| VLAN | `05-netzwerktechnik/09-vlan.md` |
-| VPN — Virtual Private Network | `05-netzwerktechnik/13-vpn.md` |
+| VLAN | `05-netzwerktechnik/ru/07-vlan-und-netzsegmentierung-ru.md`, `05-netzwerktechnik/de/07-vlan-und-netzsegmentierung-de.md` |
+| VPN — Virtual Private Network | `05-netzwerktechnik/ru/09-ids-ips-und-vpn-ru.md`, `05-netzwerktechnik/de/09-ids-ips-und-vpn-de.md` |
 
 ## Wesentliche Korrekturen
 

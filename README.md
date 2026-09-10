@@ -84,7 +84,7 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `10.09.2026` полностью подготовлены двадцать самостоятельных пар RU/DE из 43 запланированных глав. Главы 16–20 закрывают Netzwerkmodelle, DNS/DHCP, IPv4, IPv6, Routing, NAT и PAT. Следующий пакет начинается с Ethernet, Netzwerkmedien, WLAN, VLAN и Firewall.
+По состоянию на `10.09.2026` полностью подготовлены двадцать пять самостоятельных пар RU/DE из 43 запланированных глав. Главы 21–25 закрывают Ethernet, Netzwerkmedien, WLAN, VLAN, Firewall/DMZ, IDS/IPS, VPN и Programmiergrundlagen. Следующий пакет начинается с Codefehler, Kontrollstrukturen, UML, relationalen Datenbanken и BPMN.
 
 ## Статусы
 
