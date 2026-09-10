@@ -45,11 +45,11 @@ Stand: 10.09.2026.
 | 23 | Firewall, DMZ und Regelwerke | Kern | новая двуязычная глава | Entwurf |
 | 24 | IDS, IPS und VPN | Vertiefung | новая двуязычная глава | Entwurf |
 | 25 | Programmiergrundlagen, Pseudocode und Schreibtischtest | Kern | новая двуязычная глава | Entwurf |
-| 26 | Codefehler, Kontrollstrukturen und einfache Algorithmen | Kern | пробел | Geplant |
-| 27 | UML: Use-Case-, Klassen- und Aktivitätsdiagramm | Kern | пробел | Geplant |
-| 28 | Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | пробел | Geplant |
-| 29 | BPMN-Grundlagen | Abgleich | пробел | Geplant |
-| 30 | KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz | Kern | пробел | Geplant |
+| 26 | Codefehler, Kontrollstrukturen und einfache Algorithmen | Kern | новая двуязычная глава | Entwurf |
+| 27 | UML: Use-Case-, Klassen- und Aktivitätsdiagramm | Kern | новая двуязычная глава | Entwurf |
+| 28 | Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | новая двуязычная глава | Entwurf |
+| 29 | BPMN-Grundlagen | Abgleich | новая двуязычная глава | Entwurf |
+| 30 | KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz | Kern | новая двуязычная глава | Entwurf |
 | 31 | Qualitätssicherung: Kriterien, Teststufen und Testverfahren | Kern | пробел | Geplant |
 | 32 | IT-Sicherheit: Schutzziele, Risiko, Maßnahmen, Schutzbedarf | Kern | несколько TXT | Geplant |
 | 33 | Härtung, Patchmanagement, Malware und Social Engineering | Kern | Angriffsarten | Geplant |

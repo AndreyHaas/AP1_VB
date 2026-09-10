@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 – 10.09.2026
+
+- Fünf vertiefte zweisprachige Kapitelpaare zu Codeanalyse, UML, relationalen Datenbanken, BPMN und KI ergänzt.
+- Off-by-one-, Initialisierungs-, Bedingungs-, Index- und Randfallfehler mit linearen Such-, Zähl-, Mittelwert- und Extremwertalgorithmen trainiert.
+- Use-Case-, Klassen- und Aktivitätsdiagramme mit `include`/`extend`, Multiplizitäten, Beziehungen, Guards sowie Fork/Join verbunden.
+- Primär- und Fremdschlüssel, 1:n/n:m-Umsetzung, Zwischentabellen, Anomalien, Integrität und Normalformen ohne SQL vertieft.
+- BPMN-Events, Tasks, Pools/Lanes, Sequence/Message Flow sowie XOR-/AND-Gateways als abzugleichenden AP1-Block ausgearbeitet.
+- KI-Grundlagen, Training/Inferenz, Halluzination, Bias, Prompt Injection, Qualitätsmetriken, Datenschutz und aktuellen AI-Act-Rahmen eingeordnet.
+- Vier vollständig migrierte alte Mischtexte entfernt; Navigation, Quellen und Lernstand auf 30 RU/DE-Kapitelpaare aktualisiert.
+
 ## 1.0.0 – 10.09.2026
 
 - Fünf vertiefte zweisprachige Kapitelpaare zu Ethernet/WLAN, VLAN, Firewall/DMZ, IDS/IPS/VPN und Programmiergrundlagen ergänzt.

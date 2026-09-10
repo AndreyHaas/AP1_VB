@@ -144,6 +144,26 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [Python Language Reference](https://docs.python.org/3/reference/)
   - Offizielle Sprachreferenz als konkretes Beispiel; der Lerntext nutzt bewusst sprachneutralen Pseudocode.
 
+### Modellierung und relationale Datenbanken
+
+- [OMG UML 2.5.1](https://www.omg.org/spec/UML/2.5.1/About-UML)
+  - Normative Spezifikation für die im Projekt verwendeten UML-Grundelemente.
+- [OMG BPMN 2.0.2](https://www.omg.org/spec/BPMN/2.0.2/About-BPMN)
+  - Normative BPMN-Spezifikation und offizielle Beispieldokumente; konkreter AP1-Umfang bleibt mit WBS abzugleichen.
+- [PostgreSQL – Constraints](https://www.postgresql.org/docs/current/ddl-constraints.html)
+  - Offizielle Herstellerdokumentation als Referenz für Schlüssel- und Integritätsregeln; SQL-Syntax bleibt außerhalb des AP1-Kapitels.
+
+### Künstliche Intelligenz
+
+- [Verordnung (EU) 2024/1689 – AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
+  - Primärtext des europäischen Rechtsrahmens; Änderungen und Übergangsregeln jeweils aktuell prüfen.
+- [EU-Kommission – AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
+  - Offizielle aktuelle Übersicht zu Risikoklassen, Rollen und Anwendungsterminen; zuletzt für das Kapitel am 10.09.2026 geprüft.
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+  - Freiwilliger risikobasierter Rahmen für vertrauenswürdige KI; NIST weist 2026 auf die laufende Überarbeitung von AI RMF 1.0 hin.
+- [Datenschutz-Grundverordnung – DSGVO](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+  - Primärquelle für die Verarbeitung personenbezogener Daten auch in KI-Anwendungsfällen.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

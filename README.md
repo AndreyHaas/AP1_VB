@@ -84,7 +84,7 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `10.09.2026` полностью подготовлены двадцать пять самостоятельных пар RU/DE из 43 запланированных глав. Главы 21–25 закрывают Ethernet, Netzwerkmedien, WLAN, VLAN, Firewall/DMZ, IDS/IPS, VPN и Programmiergrundlagen. Следующий пакет начинается с Codefehler, Kontrollstrukturen, UML, relationalen Datenbanken и BPMN.
+По состоянию на `10.09.2026` полностью подготовлены тридцать самостоятельных пар RU/DE из 43 запланированных глав. Главы 26–30 закрывают Codefehler, Kontrollstrukturen, einfache Algorithmen, UML, relationale Datenbanken/ER, BPMN и KI. Следующий пакет начинается с Qualitätssicherung и IT-Sicherheit.
 
 ## Статусы
 

@@ -41,9 +41,11 @@ Stand: 10.09.2026.
 | Firewall, DMZ und Regelwerke | Kern | новая двуязычная глава | Entwurf | Regelreihenfolge и Positiv-/Negativtests тренировать |
 | IDS, IPS und VPN | Vertiefung | новая двуязычная глава | Entwurf | Erkennungsfehler и VPN-Auswahl begründen |
 | Programmiergrundlagen, Pseudocode und Schreibtischtest | Kern | новая двуязычная глава | Entwurf | Ablaufverfolgung und Grenzfälle ohne подсказки решать |
-| UML und Oberflächenentwurf | Kern | частично | In Arbeit | UML-Zeichenaufgaben и UI-Ergonomie углубить |
-| Relationale Datenbanken ohne SQL | Kern | частично | In Arbeit | ER-Modelle самостоятельно строить и проверять |
-| KI-Unterstützung und KI-Software | Kern | частично | In Arbeit | объём сверить с WBS и актуальным Prüfungskatalog |
+| Codefehler, Kontrollstrukturen und einfache Algorithmen | Kern | новая двуязычная глава | Entwurf | Fehlerkorrektur и Algorithmen без подсказки решать |
+| UML: Use-Case-, Klassen- und Aktivitätsdiagramm | Kern | новая двуязычная глава | Entwurf | Diagramme самостоятельно читать, строить и исправлять |
+| Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | новая двуязычная глава | Entwurf | Kardinalitäten, Schlüssel и Anomalien тренировать |
+| BPMN-Grundlagen | Abgleich | новая двуязычная глава | Entwurf | Umfang и Notation с WBS подтвердить |
+| KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz | Kern | новая двуязычная глава | Entwurf | KI-Fälle nach Nutzen, Qualität и Risiko bewerten |
 | Qualitätssicherung | Kern | частично | In Arbeit | Grenzwertanalyse, Äquivalenzklassen и Testfälle углубить |
 | IT-Sicherheit und Kryptografie | Kern | много | In Arbeit | объединить разрозненные главы в глубокие RU/DE-пары |
 | Datenschutz und DSGVO | Kern | много | In Arbeit | Informationspflichten, Löschkonzept и Fälle углубить |
@@ -63,7 +65,7 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют двадцать пять пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют тридцать пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -89,7 +91,12 @@ Stand: 10.09.2026.
 22. `VLAN und Netzsegmentierung`;
 23. `Firewall, DMZ und Regelwerke`;
 24. `IDS, IPS und VPN`;
-25. `Programmiergrundlagen, Pseudocode und Schreibtischtest`.
+25. `Programmiergrundlagen, Pseudocode und Schreibtischtest`;
+26. `Codefehler, Kontrollstrukturen und einfache Algorithmen`;
+27. `UML: Use-Case-, Klassen- und Aktivitätsdiagramm`;
+28. `Relationale Datenbanken und einfache ER-Modelle ohne SQL`;
+29. `BPMN-Grundlagen`;
+30. `KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
