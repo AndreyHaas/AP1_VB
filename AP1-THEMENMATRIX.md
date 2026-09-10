@@ -27,9 +27,9 @@ Stand: 10.09.2026.
 | 05 | Beschaffung: Anfrage, Angebot, Bestellung, Lieferkontrolle | Kern | новая двуязычная глава | Entwurf |
 | 06 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich, Nutzwertanalyse | Kern | новая двуязычная глава | Entwurf |
 | 07 | Wirtschaftlichkeit: Amortisation, Break-even, Deckungsbeitrag, Stundensatz, Make-or-Buy | Vertiefung | новая двуязычная глава | Entwurf |
-| 08 | Nachhaltigkeit und Arbeitsplatz: Energie, Ergonomie, Entsorgung | Kern | частичные расчёты | Geplant |
-| 09 | Hardware: Komponenten, Kennzahlen, Auswahl und Kompatibilität | Kern | PCComponenten | Geplant |
-| 10 | Schnittstellen, Speicher, Peripherie und Barrierefreiheit | Kern | частичный MD | Geplant |
+| 08 | Nachhaltigkeit und Arbeitsplatz: Energie, Ergonomie, Entsorgung | Kern | новая двуязычная глава | Entwurf |
+| 09 | Hardware: Komponenten, Kennzahlen, Auswahl und Kompatibilität | Kern | новая двуязычная глава | Entwurf |
+| 10 | Schnittstellen, Speicher, Peripherie und Barrierefreiheit | Kern | новая двуязычная глава | Entwurf |
 | 11 | Software: Arten, Lizenzen, ERP/CRM/SCM, Updates | Kern | частичный MD | Geplant |
 | 12 | Virtualisierung und Cloud-Grundlagen | Abgleich | частичный MD | Geplant |
 | 13 | Systemeinrichtung: UEFI, Partitionen, Betriebssystem, Treiber | Kern | частичный MD | Geplant |

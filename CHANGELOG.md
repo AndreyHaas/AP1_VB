@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.7.0 – 10.09.2026
+
+- Drei vertiefte zweisprachige Kapitelpaare zu Nachhaltigkeit, Hardwareauswahl sowie Schnittstellen und Barrierefreiheit ergänzt.
+- Leistung, Energie, Betriebszustände, Stromkosten, Lebenszyklus, Ergonomie, Datenlöschung und Elektroaltgeräte zusammenhängend behandelt.
+- CPU, RAM, Massenspeicher, GPU, Mainboard, Netzteil, Kühlung und Netzwerkadapter bedarfsbezogen verglichen.
+- Mechanische, elektrische, protokollarische, softwareseitige und funktionale Kompatibilität mit vollständigen Checklisten geprüft.
+- USB-C, Power Delivery, Displayanschlüsse, Dockingstation, PCIe-Lanes, SATA, NVMe, M.2 sowie dezimale und binäre Speichereinheiten voneinander abgegrenzt.
+- POUR, WCAG 2.2, BITV 2.0 und BFSG mit Test- und Abnahmekriterien für Barrierefreiheit eingeordnet.
+- Vollständig migrierte alte Mischtexte `stromkosten.md` und `hardwareauswahl.md` entfernt; der Software-/Lizenz-Mischtext bleibt bis Kapitel 11 als Quelle erhalten.
+- Themenmatrix und Lernstand auf zehn vollständige RU/DE-Kapitelpaare aktualisiert.
+
 ## 0.6.0 – 10.09.2026
 
 - Vertieftes zweisprachiges Kapitel zu Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy ergänzt.

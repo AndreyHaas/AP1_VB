@@ -37,6 +37,39 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - Scrum: offizieller Scrum Guide;
 - Betriebssysteme und Software: offizielle Herstellerdokumentation.
 
+### Nachhaltigkeit, Ergonomie und Entsorgung
+
+- [Arbeitsstättenverordnung – ArbStättV](https://www.gesetze-im-internet.de/arbst_ttv_2004/)
+  - Rechtsrahmen für Arbeitsstätten; Anhang Nummer 6 behandelt Bildschirmarbeitsplätze.
+- [ASR A6 Bildschirmarbeit – BAuA](https://www.baua.de/DE/Angebote/Regelwerk/ASR/ASR-A6)
+  - Konkretisiert Anforderungen an Bildschirmarbeit; Ausgabe Juli 2024.
+- [DGUV Information 215-410 – Bildschirm- und Büroarbeitsplätze](https://publikationen.dguv.de/regelwerk/dguv-informationen/409/bildschirm-und-bueroarbeitsplaetze-leitfaden-fuer-die-gestaltung)
+  - Ergänzender Gestaltungsleitfaden; konkrete Vorgaben stets gegen aktuelle Rechts- und Regelwerksfassung prüfen.
+- [Elektro- und Elektronikgerätegesetz – ElektroG](https://www.gesetze-im-internet.de/elektrog_2015/)
+  - Primärquelle zu Rücknahme, getrennter Erfassung und umweltverträglicher Behandlung von Elektroaltgeräten.
+
+### Hardware, Firmware, Speicher und Schnittstellen
+
+- [Windows 11 – Systemanforderungen](https://www.microsoft.com/windows/windows-11-specifications)
+  - Zeitabhängiges Herstellerbeispiel; Anforderungen vor jeder Beschaffung neu prüfen.
+- [UEFI Forum – Specifications](https://uefi.org/specifications)
+  - Primärquelle für UEFI-Spezifikationen.
+- [NVM Express – Specifications](https://nvmexpress.org/specifications/)
+  - Primärquelle für das NVMe-Protokoll.
+- [USB-IF – Cables and Connectors](https://www.usb.org/document-library/cables-and-connectors)
+  - Offizielle Spezifikations- und Kennzeichnungsunterlagen; Steckverbinderform nicht mit Daten-, Video- oder Leistungsfähigkeit gleichsetzen.
+
+### Barrierefreiheit
+
+- [Web Content Accessibility Guidelines 2.2 – W3C](https://www.w3.org/TR/WCAG22/)
+  - Technische Empfehlung für wahrnehmbare, bedienbare, verständliche und robuste Webinhalte.
+- [Barrierefreie-Informationstechnik-Verordnung – BITV 2.0](https://www.gesetze-im-internet.de/bitv_2_0/)
+  - Primärquelle für digitale Angebote öffentlicher Stellen des Bundes im jeweiligen Anwendungsbereich.
+- [Barrierefreiheitsstärkungsgesetz – BFSG](https://www.gesetze-im-internet.de/bfsg/)
+  - Primärquelle für die erfassten Verbraucherprodukte und Dienstleistungen.
+- [Bundesfachstelle Barrierefreiheit – Informationen zum BFSG](https://www.bundesfachstelle-barrierefreiheit.de/DE/Barrierefreiheitsstaerkungsgesetz)
+  - Amtliche Einordnung des seit 28.06.2025 geltenden Anwendungsbereichs.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

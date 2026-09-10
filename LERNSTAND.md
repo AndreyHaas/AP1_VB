@@ -23,8 +23,10 @@ Stand: 10.09.2026.
 | Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle | Kern | новая двуязычная глава | Entwurf | Vertragsschluss и Lieferfälle повторить с WBS |
 | Wirtschaftlichkeit: Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse | Kern | новая двуязычная глава | Entwurf | расчёты Bezugspreis, TCO и Nutzwertanalyse повторить и сверить с WBS |
 | Wirtschaftlichkeit: Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy | Vertiefung | новая двуязычная глава | Entwurf | Rechenschemata и границы применимости сверить с WBS |
-| Hardwareauswahl | Kern | частично | In Arbeit | Schnittstellen, Kompatibilität и BIOS/UEFI углубить |
-| Software, Lizenzen und Barrierefreiheit | Kern | частично | In Arbeit | Lizenzfälle и barrierefreie Oberflächen переработать |
+| Nachhaltigkeit, Energie, Ergonomie und Entsorgung | Kern | новая двуязычная глава | Entwurf | Energieprofile и Lebenszyklusfälle повторить с WBS |
+| Hardwareauswahl, Komponenten, Kennzahlen und Kompatibilität | Kern | новая двуязычная глава | Entwurf | Bedarf, Engpass и Kompatibilitätsfälle повторить с WBS |
+| Schnittstellen, Speicher, Peripherie und Barrierefreiheit | Kern | новая двуязычная глава | Entwurf | Docking-, Speicher- и Barrierefreiheitstests повторить с WBS |
+| Software und Lizenzen | Kern | частично | In Arbeit | Softwarearten, Lizenzfälle и Updates переработать |
 | Betriebssysteme und Systemeinrichtung | Kern | частично | In Arbeit | Installation, Domänenaufnahme, Rechte и Diagnose углубить |
 | Netzwerktechnik | Kern | много | In Arbeit | материал преобразовать в двуязычные тематические пары |
 | Programmiergrundlagen und Pseudocode | Kern | частично | In Arbeit | Codefehler и Schreibtischtests без подсказки |
@@ -50,7 +52,7 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют семь пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют десять пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -58,7 +60,10 @@ Stand: 10.09.2026.
 4. `Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback`;
 5. `Beschaffung: Anfrage, Angebot, Bestellung und Lieferkontrolle`;
 6. `Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse`;
-7. `Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy`.
+7. `Amortisation, Break-even, Deckungsbeitrag, Stundensatz und Make-or-Buy`;
+8. `Nachhaltigkeit, Energie, Ergonomie und Entsorgung`;
+9. `Hardwareauswahl, Komponenten, Kennzahlen und Kompatibilität`;
+10. `Schnittstellen, Speicher, Peripherie und Barrierefreiheit`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
