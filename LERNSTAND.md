@@ -56,7 +56,9 @@ Stand: 11.09.2026.
 | Backup: Sicherungsarten, GVS, Medien und Restore | Kern | новая двуязычная глава | Entwurf | Sicherungsketten, RPO/RTO и Restoreplan тренировать |
 | Verfügbarkeit, SLA, Redundanz und Wiederanlauf | Kern | новая двуязычная глава | Entwurf | Ausfallzeiten, Reihen-/Parallelsysteme и Wiederanlauf rechnen |
 | Service und Support: Ticket, Priorität, Eskalation und SLA | Kern | новая двуязычная глава | Entwurf | Priorisierung, Eskalation и SLA-Uhr in Fällen anwenden |
-| Verträge, Abnahme und Übergabe | Abgleich | частично | In Arbeit | Verzug, Mängelrechte и Abnahmefälle сверить с WBS |
+| Verträge, Abnahme, Mängel und Übergabe | Abgleich | новая двуязычная глава | Entwurf | Vertragstypen, Verzug и Rechtsfolgen с WBS сверить |
+| Einheiten, Datenmenge, Übertragungszeit und Bilddateien | Kern | новая двуязычная глава | Entwurf | Einheiten- и Transferrechnungen под временем тренировать |
+| Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben | Kern | новая двуязычная глава | Entwurf | gemischte Rechnungen письменно и без подсказки решать |
 | Prüfungssimulationen | Kern | нет | Geplant | создавать после покрытия и повторения основных глав |
 
 ## Материал вне активного ядра AP1
@@ -70,7 +72,7 @@ Stand: 11.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют сорок пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют все сорок три пары:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -111,17 +113,20 @@ Stand: 11.09.2026.
 37. `Datenschutz: Rechte, TOM, Vorfälle, Pseudonymisierung und Privacy by Design`;
 38. `Backup: Sicherungsarten, GVS, Medien und Restore`;
 39. `Verfügbarkeit, SLA, Redundanz und Wiederanlauf`;
-40. `Service und Support: Ticket, Priorität, Eskalation und SLA`.
+40. `Service und Support: Ticket, Priorität, Eskalation und SLA`;
+41. `Verträge, Abnahme, Mängel und Übergabe`;
+42. `Einheiten, Datenmenge, Übertragungszeit und Bilddateien`;
+43. `Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben`.
 
-Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
+Все 43 запланированные главы существуют как полные пары RU/DE. Оставшиеся материалы вне этих пар служат организационными документами, неизменёнными оригиналами или изолированным AP2-Zusatzwissen.
 
 ## Самые крупные пробелы перед Prüfungsvorbereitung
 
-1. Закрыть последние три главы: Verträge, Abnahme и расчётные задачи.
-2. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting и Datenmengen.
-3. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
-4. Самостоятельное построение UML- и ER-Modelle.
-5. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
+1. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting и Datenmengen.
+2. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
+3. Самостоятельное построение UML- и ER-Modelle.
+4. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
+5. WBS-Abgleich для глав со статусом `Abgleich` и спорной глубины.
 6. Полные 90-минутные Prüfungssimulationen.
 
 ## Порядок заполнения

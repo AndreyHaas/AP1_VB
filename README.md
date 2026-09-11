@@ -50,7 +50,7 @@ de/<nummer>-<thema>-de.md
 09-it-sicherheit-datenschutz/            IT-Sicherheit, Kryptografie, DSGVO
 10-backup/                               Backup-Arten, GVS, Medien, Restore
 11-service-vertraege-uebergabe/          SLA, Support, Verträge, Abnahme
-12-pruefungssimulationen/                будущие смешанные тренировки AP1
+12-pruefungssimulationen/                расчётные главы и будущие смешанные тренировки AP1
 90-ap2-zusatzwissen/                     изолированный материал вне ядра AP1
 99-originale-txt/                        неизменённые исходные заметки
 ```
@@ -84,7 +84,7 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `11.09.2026` полностью подготовлены сорок самостоятельных пар RU/DE из 43 запланированных глав. Главы 36–40 закрывают Datenschutz, Rechtsgrundlagen, Betroffenenrechte, TOM, Datenschutzvorfälle, Backup, Restore, Verfügbarkeit, SLA, Redundanz и Supportprozess. Следующий и последний пакет охватывает Verträge, Abnahme и расчётные задачи.
+По состоянию на `11.09.2026` полностью подготовлены все сорок три самостоятельные пары RU/DE из 43 запланированных глав. Главы 41–43 закрывают Vertragstypen, Abnahme, Mängel, Übergabe, Verzug, Datenmengen, Übertragungszeiten, Bilddateien, Stromkosten, Verfügbarkeit и kaufmännische Mischaufgaben. Этап наполнения завершён; следующий этап — повторение, Selbsttests, WBS-Abgleich и полные 90-минутные симуляции.
 
 ## Статусы
 

@@ -60,9 +60,9 @@ Stand: 11.09.2026.
 | 38 | Backup: Voll/differenziell/inkrementell, GVS, Medien, Restore | Kern | новая двуязычная глава | Entwurf |
 | 39 | Verfügbarkeit, SLA, Redundanz und Wiederanlauf | Kern | новая двуязычная глава | Entwurf |
 | 40 | Service und Support: Ticket, Priorität, Eskalation, SLA | Kern | новая двуязычная глава | Entwurf |
-| 41 | Verträge, Abnahme, Mängel und Übergabe | Abgleich | частичный MD | Geplant |
-| 42 | Rechnen: Einheiten, Datenmenge, Übertragungszeit, Bilddateien | Kern | mehrere TXT | Geplant |
-| 43 | Rechnen: Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben | Kern | mehrere TXT | Geplant |
+| 41 | Verträge, Abnahme, Mängel und Übergabe | Abgleich | новая двуязычная глава | Entwurf |
+| 42 | Rechnen: Einheiten, Datenmenge, Übertragungszeit, Bilddateien | Kern | новая двуязычная глава | Entwurf |
+| 43 | Rechnen: Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben | Kern | новая двуязычная глава | Entwurf |
 
 ## Явно не в ядре AP1
 

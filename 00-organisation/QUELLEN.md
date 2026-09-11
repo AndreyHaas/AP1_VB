@@ -219,6 +219,30 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [BIBB – Fachinformatiker/Fachinformatikerin: Umsetzungshilfe](https://www.bibb.de/dienst/publikationen/de/16661)
   - Ausbildungsbezogene Einordnung von Kundenorientierung, Serviceprozessen, Dokumentation und beruflicher Handlungskompetenz.
 
+### Verträge, Abnahme und Mängel
+
+- [BGB § 433](https://www.gesetze-im-internet.de/bgb/__433.html)
+  - Vertragstypische Pflichten beim Kaufvertrag.
+- [BGB §§ 535, 611 und 631](https://www.gesetze-im-internet.de/bgb/__631.html)
+  - Primärnormen für Miet-, Dienst- und Werkvertrag; die jeweils verlinkten Einzelnormen getrennt prüfen.
+- [BGB §§ 634 und 640](https://www.gesetze-im-internet.de/bgb/__634.html)
+  - Rechte bei Werkmängeln und Abnahme; Voraussetzungen der jeweils verwiesenen Vorschriften beachten.
+- [BGB § 286](https://www.gesetze-im-internet.de/bgb/__286.html)
+  - Voraussetzungen des Schuldnerverzugs einschließlich Mahnung, gesetzlichen Ausnahmen und Vertretenmüssen.
+- [HGB § 377](https://www.gesetze-im-internet.de/hgb/__377.html)
+  - Untersuchungs- und Rügepflicht, wenn der Kauf für beide Seiten ein Handelsgeschäft ist.
+
+### Einheiten und prüfungsnahe Berechnungen
+
+- [BIPM – SI Brochure](https://www.bipm.org/en/publications/si-brochure)
+  - Offizielle Grundlage für SI-Einheiten, Dezimalpräfixe und Schreibweisen.
+- [IEC – Prefixes for binary multiples](https://www.iec.ch/prefixes-binary-multiples)
+  - Offizielle Erläuterung der Binärpräfixe Ki, Mi und Gi.
+- [Umsatzsteuergesetz – UStG](https://www.gesetze-im-internet.de/ustg_1980/)
+  - Primärquelle für umsatzsteuerliche Begriffe; im Prüfungsfall gelten die vorgegebenen Werte und die konkrete Perspektive.
+- [BIBB – Fachinformatiker/Fachinformatikerin: Umsetzungshilfe](https://www.bibb.de/dienst/publikationen/de/16661)
+  - Ausbildungsbezogene Einordnung wirtschaftlicher, technischer und kundenorientierter Aufgaben.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4.0 – 11.09.2026
+
+- Die letzten drei vertieften zweisprachigen Kapitelpaare zu Verträgen, Übergabe und prüfungsnahen Mischrechnungen ergänzt.
+- Kauf-, Miet-, Dienst-, Werk- und Lizenzvertrag anhand der geschuldeten Hauptleistung abgegrenzt.
+- Übergabe, Inbetriebnahme und Abnahme sowie Mangel, Restpunkt, Change, Mängelrechte, Garantie und Verzug fallbezogen eingeordnet.
+- Abnahmekriterien, Abnahmetest, Abnahmeprotokoll und sichere Übergabe in einem vollständigen Rollout-Fall verbunden.
+- Dezimale und binäre Einheiten, bit/Byte, Datenrate, Wirkungsgrad, Übertragungszeit sowie unkomprimierte Bild- und Videogrößen vertieft.
+- Stromkosten, Verfügbarkeit, Bezugskalkulation, TCO, Amortisation und Break-even in kontrollierten Mischaufgaben zusammengeführt.
+- Drei vollständig migrierte alte Mischtexte entfernt; Navigation, Quellen und Lernstand auf alle 43 RU/DE-Kapitelpaare aktualisiert.
+- Inhaltliche Aufbauphase abgeschlossen; Wiederholung, WBS-Abgleich und Prüfungssimulationen als nächste Arbeitsphase festgelegt.
+
 ## 1.3.0 – 11.09.2026
 
 - Fünf vertiefte zweisprachige Kapitelpaare zu Datenschutz, Datensicherung, Verfügbarkeit und Service ergänzt.
