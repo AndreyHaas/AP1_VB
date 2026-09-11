@@ -35,8 +35,8 @@ Nicht jede Zeile muss auswendig gelernt werden. Beherrscht werden müssen Begrif
 | 23.09. | 36–38 | Datenschutz und Backup |
 | 24.09. | 39–41, 49 | Verfügbarkeit, Service/ITIL, ISMS und Verträge |
 | 25.09. | 42, 46–47 | Einheiten, Zahlensysteme, Encoding, Multimedia und Kamera |
-| 26.09. | Simulation 1 | 90 Minuten unter Prüfungsbedingungen |
-| 27.09. | Simulation 2 | 90 Minuten, danach Fehlerkorrektur |
+| 26.09. | [Simulation 1](../12-pruefungssimulationen/simulation-01-arbeitsplatz-einrichten.md) | 90 Minuten, danach Korrektur mit getrennter Lösung |
+| 27.09. | [Simulation 2](../12-pruefungssimulationen/simulation-02-netzwerk-und-sicherheit.md) | 90 Minuten, danach Fehlerkorrektur und Wiederholungsauftrag |
 | 28.09. | Wiederholung | Formeln, 100 unsichere Begriffe, Fehlerliste, keine neue Theorie |
 | 29.09. | Puffer | nur leichtes Wiederholen, Schlaf und Organisation |
 

@@ -93,7 +93,7 @@ Stand: 11.09.2026.
 6. Qualität, IT-Sicherheit und Datenschutz.
 7. Backup, Service и расчёты.
 8. WBS-Nachträge: Unternehmen, Zahlensysteme, Multimedia, USV, ITIL, Handelskalkulation, QoS/VoIP и рабочая диагностика.
-9. Смешанные 90-минутные тренировки.
+9. Две смешанные 90-минутные тренировки — созданы 11.09.2026, выполнять после первого повторения всех глав.
 
 ## Правило корректировки
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.0 – 11.09.2026
+
+- Zwei eigenständige 90-minütige AP1-Simulationen mit jeweils 100 Punkten und getrennten Musterlösungen erstellt.
+- Simulation 01 verbindet Kundenbedarf, USB-C/DisplayPort, Beschaffung, Handelskalkulation, Energie, DHCP/Subnetting, VoIP, Sicherheit, Datenschutz, ITSM, Netzplan, Test, Code und Encoding in einem Arbeitsplatz-Rollout.
+- Simulation 02 verbindet Außenkamera mit Heizung und IP-Schutzart, Bild-/Speicherrechnung, PoE, Wirk-/Scheinleistung, USV, VLAN/Firewall, Diagnosebefehle, SLA, Backup, ITSM, Vertrag, Change, ER-Modell, Code und Prüfziffer in einem Logistikfall.
+- Aufgabenblätter vollständig auf Deutsch gehalten; Lösungsdateien um transparente Teilpunkte, Rechenwege und gezielte russische Lernhinweise ergänzt.
+- README, Lernstand, Themenmatrix und Lernplan mit direkten Simulationslinks und Einsatzstatus aktualisiert.
+
 ## 1.5.0 – 11.09.2026
 
 - Vollständigkeitsprüfung gegen FIAusbV/BIBB, aktuellen Prüfungskatalog, WBS-Rückmeldungen und historische AP1-Themen erneut durchgeführt.

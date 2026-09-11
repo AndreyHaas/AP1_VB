@@ -68,7 +68,7 @@ Stand: 11.09.2026.
 | Erweiterte Handelskalkulation und Vor-/Nachkalkulation | Kern | подтверждённый WBS-Inhalt | Entwurf | vollständiges Schema vorwärts/rückwärts rechnen |
 | QoS, VoIP und Netzwerkdienste | Kern | подтверждённый WBS-Inhalt | Entwurf | Bandbreite, Ports и Servicepfade diagnostizieren |
 | Technisches Englisch, Client-Server, Remotezugriff, Shell und UI | Kern | Lückenprüfung/Altfragen | Entwurf | englische Angaben, Befehle и Skripte anwenden |
-| Prüfungssimulationen | Kern | нет | Geplant | создавать после покрытия и повторения основных глав |
+| Prüfungssimulationen | Kern | две самостоятельные 90-минутные работы | Einsatzbereit | выполнить 26–27.09, оценить по 100 баллам и повторить ошибки |
 
 ## Материал вне активного ядра AP1
 
@@ -138,7 +138,7 @@ Stand: 11.09.2026.
 
 Все 52 главы существуют как пары RU/DE. Дополнительно созданы общий `FACHBEGRIFFE-DE-RU.md` и анализ переноса типов задач прошлых AP1. Оставшиеся материалы вне пар служат организационными документами, неизменёнными оригиналами или изолированным AP2-Zusatzwissen.
 
-## Самые крупные пробелы перед Prüfungsvorbereitung
+## Активные тренировочные задачи перед экзаменом
 
 1. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting, Datenmengen, USV и Handelskalkulation.
 2. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
@@ -146,7 +146,7 @@ Stand: 11.09.2026.
 4. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
 5. Активное воспроизведение `Fachbegriffe` на немецком по общему словарю.
 6. WBS-Abgleich для глав со статусом `Abgleich` и спорной глубины.
-7. Полные 90-минутные Prüfungssimulationen.
+7. Выполнить обе готовые 90-минутные Prüfungssimulationen без подсказок и перенести ошибки в личный список.
 
 ## Порядок заполнения
 

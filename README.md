@@ -52,7 +52,7 @@ de/<nummer>-<thema>-de.md
 09-it-sicherheit-datenschutz/            IT-Sicherheit, Kryptografie, DSGVO
 10-backup/                               Backup-Arten, GVS, Medien, Restore
 11-service-vertraege-uebergabe/          SLA, Support, Verträge, Abnahme
-12-pruefungssimulationen/                расчётные главы и будущие смешанные тренировки AP1
+12-pruefungssimulationen/                две полные 90-минутные симуляции и раздельные решения
 13-ap1-nachtraege/                       WBS-Nachträge и выявленные пробелы плана
 90-ap2-zusatzwissen/                     изолированный материал вне ядра AP1
 99-originale-txt/                        неизменённые исходные заметки
@@ -87,7 +87,9 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `11.09.2026` подготовлены 52 самостоятельные пары RU/DE. Главы 44–52 исправляют пробелы первоначального плана: Unternehmen/Organisation, Zahlensysteme и Zeichenkodierung, Multimedia и Außenkamera, Elektrotechnik/USV, ITIL/ITSM, расширенную Handelskalkulation, QoS/VoIP, technisches Englisch, Remotezugriff, Shell и Diagnosebefehle. Глава 10 дополнительно расширена по USB-A/B/C, Mini-/Micro-USB, DisplayPort, HDMI, DVI, VGA и рабочим портам. Общий словарь связывает Fachbegriffe с главами. Следующий этап после проверки этого пакета — полные 90-минутные симуляции.
+По состоянию на `11.09.2026` подготовлены 52 самостоятельные пары RU/DE. Главы 44–52 исправляют пробелы первоначального плана: Unternehmen/Organisation, Zahlensysteme и Zeichenkodierung, Multimedia и Außenkamera, Elektrotechnik/USV, ITIL/ITSM, расширенную Handelskalkulation, QoS/VoIP, technisches Englisch, Remotezugriff, Shell и Diagnosebefehle. Глава 10 дополнительно расширена по USB-A/B/C, Mini-/Micro-USB, DisplayPort, HDMI, DVI, VGA и рабочим портам. Общий словарь связывает Fachbegriffe с главами.
+
+В папке [Prüfungssimulationen](12-pruefungssimulationen/README.md) находятся две полные 90-минутные тренировки по 100 баллов с отдельными решениями: Rollout рабочих мест и проект уличных камер. Следующий этап — изучение глав по Lernplan, выполнение вариантов 26–27 сентября и целевая доработка личных ошибок.
 
 ## Статусы
 
