@@ -84,7 +84,7 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `10.09.2026` полностью подготовлены тридцать самостоятельных пар RU/DE из 43 запланированных глав. Главы 26–30 закрывают Codefehler, Kontrollstrukturen, einfache Algorithmen, UML, relationale Datenbanken/ER, BPMN и KI. Следующий пакет начинается с Qualitätssicherung и IT-Sicherheit.
+По состоянию на `11.09.2026` полностью подготовлены тридцать пять самостоятельных пар RU/DE из 43 запланированных глав. Главы 31–35 закрывают Qualitätssicherung, Schutzziele, Risikobewertung, Schutzbedarf, Härtung, Patchmanagement, Malware, Social Engineering, Identitäten, MFA, Passwortsicherheit, Kryptografie, PKI и TLS. Следующий пакет начинается с Datenschutz, Backup и Verfügbarkeit.
 
 ## Статусы
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.2.0 – 11.09.2026
+
+- Fünf vertiefte zweisprachige Kapitelpaare zu Qualitätssicherung, Informationssicherheit, Härtung, Identitäten und Kryptografie ergänzt.
+- Qualitätskriterien, statische/dynamische Prüfungen, Teststufen, Testarten, Äquivalenzklassen, Grenzwerte, Retest und Regression in einem vollständigen Testfall verbunden.
+- Schutzziele, Bedrohung/Schwachstelle/Risiko, Schutzbedarfsfeststellung, Maßnahmenkategorien, Risikobehandlung und Restrisiko systematisch dargestellt.
+- Härtungsbaseline, Defense in Depth, risikobasiertes Patchmanagement, Malwarearten und Social-Engineering-Reaktionen vertieft.
+- Identifizierung, Authentisierung, Authentifizierung, Autorisierung, Faktorkategorien, MFA, RBAC und Joiner–Mover–Leaver abgegrenzt.
+- Hashing, Salt/Pepper, Passwort-KDF, symmetrische/asymmetrische/hybride Verschlüsselung, Signatur, PKI und Zertifikatsprüfung erklärt.
+- TLS 1.3 gegen die im Juli 2026 veröffentlichte RFC 9846 aktualisiert, die RFC 8446 ersetzt.
+- Zwölf vollständig migrierte alte Mischtexte entfernt; Navigation, Quellen und Lernstand auf 35 RU/DE-Kapitelpaare aktualisiert.
+
 ## 1.1.0 – 10.09.2026
 
 - Fünf vertiefte zweisprachige Kapitelpaare zu Codeanalyse, UML, relationalen Datenbanken, BPMN und KI ergänzt.

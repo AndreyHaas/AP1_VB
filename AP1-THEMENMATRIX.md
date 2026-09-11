@@ -1,6 +1,6 @@
 # AP1-Themenmatrix und Arbeitsreihenfolge
 
-Stand: 10.09.2026.
+Stand: 11.09.2026.
 
 ## Нормативная рамка
 
@@ -50,11 +50,11 @@ Stand: 10.09.2026.
 | 28 | Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | новая двуязычная глава | Entwurf |
 | 29 | BPMN-Grundlagen | Abgleich | новая двуязычная глава | Entwurf |
 | 30 | KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz | Kern | новая двуязычная глава | Entwurf |
-| 31 | Qualitätssicherung: Kriterien, Teststufen und Testverfahren | Kern | пробел | Geplant |
-| 32 | IT-Sicherheit: Schutzziele, Risiko, Maßnahmen, Schutzbedarf | Kern | несколько TXT | Geplant |
-| 33 | Härtung, Patchmanagement, Malware und Social Engineering | Kern | Angriffsarten | Geplant |
-| 34 | Identitäten, Berechtigungen, MFA und Passwortsicherheit | Kern | mehrere TXT | Geplant |
-| 35 | Hashing, Verschlüsselung, Signatur, Zertifikate und TLS | Kern | mehrere TXT | Geplant |
+| 31 | Qualitätssicherung: Kriterien, Teststufen und Testverfahren | Kern | новая двуязычная глава | Entwurf |
+| 32 | IT-Sicherheit: Schutzziele, Risiko, Maßnahmen, Schutzbedarf | Kern | новая двуязычная глава | Entwurf |
+| 33 | Härtung, Patchmanagement, Malware und Social Engineering | Kern | новая двуязычная глава | Entwurf |
+| 34 | Identitäten, Berechtigungen, MFA und Passwortsicherheit | Kern | новая двуязычная глава | Entwurf |
+| 35 | Hashing, Verschlüsselung, Signatur, Zertifikate und TLS | Kern | новая двуязычная глава | Entwurf |
 | 36 | Datenschutz: Datenarten, Grundsätze, Rollen, Rechtsgrundlagen | Kern | mehrere TXT | Geplant |
 | 37 | Datenschutz: Rechte, TOM, Vorfälle, Pseudonymisierung, Privacy by Design | Kern | mehrere TXT | Geplant |
 | 38 | Backup: Voll/differenziell/inkrementell, GVS, Medien, Restore | Kern | Backup | Geplant |

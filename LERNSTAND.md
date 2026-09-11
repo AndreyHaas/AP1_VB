@@ -1,6 +1,6 @@
 # Lernstand und Themenabdeckung
 
-Stand: 10.09.2026.
+Stand: 11.09.2026.
 
 Статус отражает только наличие и качество файлов в этом проекте, а не личное владение темой.
 
@@ -46,8 +46,11 @@ Stand: 10.09.2026.
 | Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | новая двуязычная глава | Entwurf | Kardinalitäten, Schlüssel и Anomalien тренировать |
 | BPMN-Grundlagen | Abgleich | новая двуязычная глава | Entwurf | Umfang и Notation с WBS подтвердить |
 | KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz | Kern | новая двуязычная глава | Entwurf | KI-Fälle nach Nutzen, Qualität и Risiko bewerten |
-| Qualitätssicherung | Kern | частично | In Arbeit | Grenzwertanalyse, Äquivalenzklassen и Testfälle углубить |
-| IT-Sicherheit und Kryptografie | Kern | много | In Arbeit | объединить разрозненные главы в глубокие RU/DE-пары |
+| Qualitätssicherung: Kriterien, Teststufen und Testverfahren | Kern | новая двуязычная глава | Entwurf | Grenzwert-, Testfall- и Fehlerberichtfälle повторить |
+| IT-Sicherheit: Schutzziele, Risiko, Maßnahmen und Schutzbedarf | Kern | новая двуязычная глава | Entwurf | Schutzbedarf и Risikomatrix без подсказки обосновывать |
+| Härtung, Patchmanagement, Malware und Social Engineering | Kern | новая двуязычная глава | Entwurf | Priorisierung и Incident-Fälle повторить |
+| Identitäten, Berechtigungen, MFA und Passwortsicherheit | Kern | новая двуязычная глава | Entwurf | Faktor-, RBAC- и Rechteprüfungen тренировать |
+| Hashing, Verschlüsselung, Signatur, Zertifikate und TLS | Kern | новая двуязычная глава | Entwurf | Schlüsselrollen, Zertifikatsprüfung и TLS-Ablauf повторить |
 | Datenschutz und DSGVO | Kern | много | In Arbeit | Informationspflichten, Löschkonzept и Fälle углубить |
 | Backup und Wiederherstellung | Kern | частично | In Arbeit | Medien, Restore-Test, Aufbewahrung и 3-2-1-Regel дополнить |
 | Service und Support | Kern | частично | In Arbeit | Ticket, Priorität, Eskalation и SLA углубить |
@@ -65,7 +68,7 @@ Stand: 10.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют тридцать пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют тридцать пять пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -96,19 +99,23 @@ Stand: 10.09.2026.
 27. `UML: Use-Case-, Klassen- und Aktivitätsdiagramm`;
 28. `Relationale Datenbanken und einfache ER-Modelle ohne SQL`;
 29. `BPMN-Grundlagen`;
-30. `KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz`.
+30. `KI: Grundlagen, Einsatz, Bewertung, Risiken und Datenschutz`;
+31. `Qualitätssicherung: Kriterien, Teststufen und Testverfahren`;
+32. `IT-Sicherheit: Schutzziele, Risiko, Maßnahmen und Schutzbedarf`;
+33. `Härtung, Patchmanagement, Malware und Social Engineering`;
+34. `Identitäten, Berechtigungen, MFA und Passwortsicherheit`;
+35. `Hashing, Verschlüsselung, Signatur, Zertifikate und TLS`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
 ## Самые крупные пробелы перед Prüfungsvorbereitung
 
-1. Последовательная миграция старых смешанных файлов в пары `ru/` и `de/`.
-2. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit и Subnetting.
+1. Закрыть последние восемь глав: Datenschutz, Backup, Service, Verträge и расчёты.
+2. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting и Datenmengen.
 3. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
 4. Самостоятельное построение UML- и ER-Modelle.
-5. Практическая Netzwerkanalyse: Adressierung, DNS, Routing, VLAN и Firewall.
-6. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
-7. Полные 90-минутные Prüfungssimulationen.
+5. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
+6. Полные 90-минутные Prüfungssimulationen.
 
 ## Порядок заполнения
 

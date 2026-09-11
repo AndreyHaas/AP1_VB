@@ -1,6 +1,6 @@
 # Quellen und Gültigkeit
 
-Stand der Prüfungsausrichtung: 10.09.2026.
+Stand der Prüfungsausrichtung: 11.09.2026.
 
 ## Verbindliche und primäre Grundlagen
 
@@ -163,6 +163,36 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
   - Freiwilliger risikobasierter Rahmen für vertrauenswürdige KI; NIST weist 2026 auf die laufende Überarbeitung von AI RMF 1.0 hin.
 - [Datenschutz-Grundverordnung – DSGVO](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
   - Primärquelle für die Verarbeitung personenbezogener Daten auch in KI-Anwendungsfällen.
+
+### Qualitätssicherung und Testen
+
+- [ISTQB Certified Tester Foundation Level v4.0](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/)
+  - Offizielle Übersicht und Download des Syllabus v4.0.1 zu Testgrundlagen, Teststufen, statischen Prüfungen, Testverfahren und Fehlermanagement.
+- [ISO/IEC 25010:2023](https://www.iso.org/standard/78176.html)
+  - Offizielle Normseite zum Produktqualitätsmodell; der vollständige Normtext ist kostenpflichtig und wird nicht als öffentlich verfügbar vorausgesetzt.
+- [FIAusbV § 9](https://www.gesetze-im-internet.de/fiausbv/__9.html)
+  - Verbindet Test, IT-Sicherheit, Datenschutz, Qualität sowie Leistungskontrolle und Protokollierung direkt mit dem AP1-Prüfungsbereich.
+
+### Informationssicherheit, Identitäten und Kryptografie
+
+- [BSI IT-Grundschutz-Kompendium](https://www.bsi.bund.de/grundschutz-kompendium)
+  - Primärrahmen für Schutzziele, Gefährdungen, Sicherheitsanforderungen, Härtung sowie Identitäts- und Berechtigungsmanagement; Edition aktuell prüfen.
+- [BSI-Standard 200-2 – IT-Grundschutz-Methodik](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_2.html)
+  - Grundlage für Schutzbedarfsfeststellung, Modellierung und IT-Grundschutz-Check.
+- [BSI-Standard 200-3 – Risikomanagement](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/BSI_Standards/standard_200_3.html)
+  - Primärquelle für risikobezogene Analyse und Behandlung.
+- [NIST SP 800-40 Rev. 4 – Enterprise Patch Management](https://csrc.nist.gov/pubs/sp/800/40/r4/final)
+  - Beschreibt Patchmanagement als präventive Wartung mit Identifikation, Priorisierung, Installation und Verifikation.
+- [NIST SP 800-63B-4 – Authentication and Authenticator Management](https://csrc.nist.gov/pubs/sp/800/63/b/4/final)
+  - Aktuelle Richtlinie vom Juli 2025 für Passwörter, Authentifikatoren, phishing-resistente Verfahren und deren Lebenszyklus.
+- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+  - Offizieller Katalog nachweislich ausgenutzter Schwachstellen als ein Signal für risikobasierte Priorisierung.
+- [RFC 9106 – Argon2](https://datatracker.ietf.org/doc/html/rfc9106)
+  - Spezifikation einer speicherharten Funktion für Passwort-Hashing.
+- [RFC 5280 – Internet X.509 PKI](https://datatracker.ietf.org/doc/html/rfc5280)
+  - Profil für Zertifikate und Zertifikatswiderrufslisten.
+- [RFC 9846 – TLS 1.3](https://datatracker.ietf.org/doc/html/rfc9846)
+  - Seit Juli 2026 aktuelle TLS-1.3-Spezifikation; ersetzt RFC 8446 bei gleichbleibender TLS-Versionsnummer.
 
 ## Quellenregeln
 
