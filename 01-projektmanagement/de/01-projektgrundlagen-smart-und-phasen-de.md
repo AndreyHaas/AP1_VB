@@ -44,7 +44,7 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ## 3. Projekt und operatives Geschäft
 
-### 2.1 Typische Projektmerkmale
+### 3.1 Typische Projektmerkmale
 
 Ein `Projekt` ist ein zeitlich begrenztes Vorhaben zur Erreichung eines bestimmten Ziels, das sich von ständig wiederkehrenden Standardprozessen unterscheidet.
 
@@ -61,7 +61,7 @@ Typische `Projektmerkmale` sind:
 
 Nicht jedes Projekt benötigt ein vorübergehendes, abteilungsübergreifendes Team. Bei kleineren Projekten können alle Beteiligten aus derselben Abteilung kommen. Entscheidend ist das Zusammenwirken mehrerer Projektmerkmale.
 
-### 2.2 Vergleich
+### 3.2 Vergleich
 
 | `Projekt` | `Routine-/Linienaufgabe` |
 |---|---|

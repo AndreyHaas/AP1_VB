@@ -158,6 +158,23 @@ Eingaben нельзя без проверки включать в Befehlsstrings
 
 Abnahmekriterien: Inhalt, Pflichtfelder, Validierung, Fehlermeldungen, Tastaturbedienung, Kontrast, Lesereihenfolge, responsive Darstellung, Corporate Design.
 
+### 7.4 Webgrundlagen
+
+| Baustein | Задача |
+|---|---|
+| HTML | семантическая структура и Inhalt |
+| CSS | Darstellung, Layout и responsive Anpassung |
+| JavaScript | Verhalten и динамические изменения в Browser |
+| HTTP/HTTPS | Request и Response между Client и Server; HTTPS дополнительно шифрует транспорт и аутентифицирует Server сертификатом |
+
+`GET` обычно запрашивает Darstellung/Ressource, `POST` передаёт данные на обработку. Классы Statuscodes: `2xx` успех, `3xx` перенаправление, `4xx` проблема Client, `5xx` проблема Server. Eingaben нужно проверять на Server и кодировать по контексту. Против **XSS** помогает корректное Output-Encoding, против **CSRF** — CSRF-Token и подходящие Cookie-Einstellungen. Responsive Design, Tastaturbedienung, Alternativtexte и достаточный Kontrast — проверяемые Qualitätskriterien.
+
+### 7.5 Recherche, Quellen и Präsentation
+
+Suchoperatoren: кавычки для точной фразы, `site:` для Domain, минус для исключения. Надёжный источник актуален, компетентен, проверяем и по возможности первичен. Aussage, Autor/Herausgeber, Datum и Geltungsbereich должны соответствовать друг другу.
+
+Презентация начинается с Zielgruppe и Kernbotschaft. На Folie должна доминировать одна ясная мысль; проверяются Schriftgröße, Kontrast, Farbwirkung, Quellen и время. Folie поддерживает Vortrag, а не заменяет его.
+
 > `ping` allein bestätigt den Webdienst nicht, da ICMP-Erreichbarkeit weder einen offenen TCP-Port 443 noch eine erfolgreiche TLS- und HTTP-Verarbeitung beweist.
 
 > Der SSH-Zugriff wird auf administrative Quellnetze und Schlüsselkonten beschränkt, weil ein offen erreichbarer Administrationsdienst die Angriffsfläche erhöht.
@@ -170,6 +187,8 @@ Abnahmekriterien: Inhalt, Pflichtfelder, Validierung, Fehlermeldungen, Tastaturb
 4. Ping работает, HTTPS нет. Назови четыре проверки.
 5. Объясни Exitcodes Bash-примера.
 6. Различи Wireframe, Mockup, Prototyp.
+7. Каковы задачи HTML, CSS и JavaScript?
+8. Назови три критерия надёжного Onlinequelle.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -180,6 +199,8 @@ Abnahmekriterien: Inhalt, Pflichtfelder, Validierung, Fehlermeldungen, Tastaturb
 4. TCP 443, Firewall/Proxy, TLS/Zertifikat/Zeit, Webdienst/Logs.
 5. 0 — успех; 1 — не получен ICMP-Antwort.
 6. Wireframe — грубая структура; Mockup — визуальный вид; Prototyp — тестовая интеракция.
+7. HTML структурирует Inhalt, CSS оформляет его, JavaScript добавляет Verhalten и динамические изменения.
+8. Например, fachliche Zuständigkeit, Aktualität, nachvollziehbare Belege и ясный Geltungsbereich.
 
 </details>
 

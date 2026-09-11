@@ -73,6 +73,8 @@ Stand: 11.09.2026.
 | 51 | QoS, VoIP und separate Netzwerkdienste | Kern | подтверждённый WBS-Kursinhalt | Entwurf |
 | 52 | Technisches Englisch, Client-Server, Remotezugriff, Shell, Diagnose und UI-Entwurf | Kern | BIBB/WBS и historische AP1-Signale | Entwurf |
 
+Ergänzung v1.7 verteilt bewusst keine neuen Kapitelnummern: QR/RFID/NFC → K46; Programmiersprachauswahl → K25; Web/Recherche/Präsentation → K52; Marktforschung/SWOT → K44; Ursachenanalyse → K31; MDM/Druckdienste → K10; ITSM-Rahmenwerke → K49.
+
 ## Явно не в ядре AP1
 
 | Тема | Расположение |

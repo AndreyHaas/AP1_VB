@@ -60,7 +60,7 @@ gegenstueck: ../de/02-vorgehensmodelle-und-planungswerkzeuge-de.md
 
 ## 4. Wasserfallmodell
 
-### 3.1 Принцип
+### 4.1 Принцип
 
 `Wasserfallmodell` — преимущественно последовательный подход. Результат одной фазы служит основой следующей.
 
@@ -78,7 +78,7 @@ Einführung und Betrieb
 
 Названия и количество фаз могут отличаться. Важно понимать логику: сначала требования и проектирование, затем реализация и проверка.
 
-### 3.2 Сильные стороны
+### 4.2 Сильные стороны
 
 - понятная последовательность и ответственность;
 - подробное предварительное планирование;
@@ -86,7 +86,7 @@ Einführung und Betrieb
 - сроки и бюджет легче оценивать при стабильных требованиях;
 - подходит, если изменения поздно обходятся особенно дорого.
 
-### 3.3 Ограничения
+### 4.3 Ограничения
 
 - пользователи поздно получают работающее решение;
 - ошибочные предположения могут обнаружиться только при тестировании;
@@ -94,7 +94,7 @@ Einführung und Betrieb
 - при высокой неопределённости ранние оценки быстро устаревают;
 - формальное завершение фазы не гарантирует правильности исходных требований.
 
-### 3.4 Когда выбор можно обосновать
+### 4.4 Когда выбор можно обосновать
 
 `Wasserfallmodell` подходит, если:
 
@@ -110,7 +110,7 @@ Einführung und Betrieb
 
 ## 5. Scrum
 
-### 4.1 Основная идея
+### 5.1 Основная идея
 
 `Scrum` — лёгкий Framework для создания ценности при решении сложных задач. Работа выполняется `iterativ` и `inkrementell`.
 
@@ -126,7 +126,7 @@ Einführung und Betrieb
 
 Scrum опирается на ценности `Commitment, Fokus, Offenheit, Respekt und Mut`.
 
-### 4.2 Scrum Team и Verantwortlichkeiten
+### 5.2 Scrum Team и Verantwortlichkeiten
 
 В Scrum есть один `Scrum Team`, состоящий из:
 
@@ -140,7 +140,7 @@ Scrum опирается на ценности `Commitment, Fokus, Offenheit, Re
 
 В официальном Scrum нет отдельной роли `Projektleiter`. Организация может иметь менеджеров вне Scrum Team, но их полномочия нельзя автоматически переносить внутрь Scrum.
 
-### 4.3 Scrum Events
+### 5.3 Scrum Events
 
 `Sprint` является контейнером для остальных событий. Его длительность — не более одного месяца; более короткие Sprints могут повысить частоту обратной связи.
 
@@ -154,7 +154,7 @@ Scrum опирается на ценности `Commitment, Fokus, Offenheit, Re
 
 Только `Product Owner` имеет право отменить Sprint, если `Sprint Goal` потеряла актуальность.
 
-### 4.4 Artefakte и Commitments
+### 5.4 Artefakte и Commitments
 
 | Artefakt | Содержание | Commitment |
 |---|---|---|
@@ -164,7 +164,7 @@ Scrum опирается на ценности `Commitment, Fokus, Offenheit, Re
 
 Если работа не соответствует `Definition of Done`, она не считается частью пригодного Increment и не должна представляться как завершённая.
 
-### 4.5 Когда Scrum можно обосновать
+### 5.5 Когда Scrum можно обосновать
 
 Scrum подходит, если:
 
@@ -176,7 +176,7 @@ Scrum подходит, если:
 
 > Scrum ist geeignet, weil die Anforderungen noch nicht vollständig feststehen und durch kurze Sprints regelmäßig nutzbare Ergebnisse sowie frühes Feedback entstehen.
 
-### 4.6 Wasserfall и Scrum: сравнение
+### 5.6 Wasserfall и Scrum: сравнение
 
 | Критерий | `Wasserfallmodell` | `Scrum` |
 |---|---|---|
@@ -194,7 +194,7 @@ Scrum подходит, если:
 
 ## 6. Projektstrukturplan (PSP)
 
-### 5.1 Назначение
+### 6.1 Назначение
 
 `PSP` иерархически разбивает весь объём проекта на управляемые части. Он создаёт общую картину `Projektumfang` и основу для последующего планирования сроков, затрат, ресурсов и ответственности.
 
@@ -217,7 +217,7 @@ Projekt: 20 Arbeitsplätze einrichten
     └── 4.2 Einweisung und Abnahme
 ```
 
-### 5.2 Варианты Gliederung
+### 6.2 Варианты Gliederung
 
 | Вид | Основа деления | Пример |
 |---|---|---|
@@ -228,7 +228,7 @@ Projekt: 20 Arbeitsplätze einrichten
 
 В пределах одного уровня следует по возможности применять один принцип деления, чтобы избежать пропусков и дублирования.
 
-### 5.3 Требования к Arbeitspaket
+### 6.3 Требования к Arbeitspaket
 
 Хорошее `Arbeitspaket` содержит:
 
@@ -272,7 +272,7 @@ Projekt: 20 Arbeitsplätze einrichten
 
 ## 8. Netzplan
 
-### 7.1 Основные обозначения
+### 8.1 Основные обозначения
 
 | Сокращение | Немецкий термин | Значение |
 |---|---|---|
@@ -286,7 +286,7 @@ Projekt: 20 Arbeitsplätze einrichten
 
 В задачах обычно используется отсчёт от времени `0`. Если условие задаёт календарные даты или другой способ счёта, нужно следовать условию.
 
-### 7.2 Vorwärtsrechnung
+### 8.2 Vorwärtsrechnung
 
 Для начальной операции:
 
@@ -304,7 +304,7 @@ FEZ = FAZ + Dauer
 
 Используется **наибольший** FEZ, потому что операция может начаться только после завершения всех обязательных предшественников.
 
-### 7.3 Rückwärtsrechnung
+### 8.3 Rückwärtsrechnung
 
 Для конечной операции:
 
@@ -322,7 +322,7 @@ SAZ = SEZ − Dauer
 
 Используется **наименьший** SAZ, чтобы не задержать ни одного обязательного последователя.
 
-### 7.4 Pufferzeiten
+### 8.4 Pufferzeiten
 
 ```text
 Gesamtpuffer:
@@ -341,7 +341,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ## 9. Полный пример Netzplan
 
-### 8.1 Исходные данные
+### 9.1 Исходные данные
 
 | Vorgang | Dauer | Unmittelbare Vorgänger |
 |---|---:|---|
@@ -352,7 +352,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 | E | 3 | B, C |
 | F | 2 | D, E |
 
-### 8.2 Vorwärtsrechnung
+### 9.2 Vorwärtsrechnung
 
 | Vorgang | Расчёт FAZ | FAZ | FEZ |
 |---|---|---:|---:|
@@ -365,7 +365,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 `Projektdauer = 14 Zeiteinheiten`.
 
-### 8.3 Rückwärtsrechnung
+### 9.3 Rückwärtsrechnung
 
 | Vorgang | Расчёт SEZ | SAZ | SEZ |
 |---|---|---:|---:|
@@ -376,7 +376,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 | C | SAZ(E) | 7 | 9 |
 | A | min(SAZ(B), SAZ(C)) = min(3, 7) | 0 | 3 |
 
-### 8.4 Резервы и критический путь
+### 9.4 Резервы и критический путь
 
 | Vorgang | FAZ | FEZ | SAZ | SEZ | GP | FP |
 |---|---:|---:|---:|---:|---:|---:|
@@ -395,7 +395,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 - уже после 2 единиц задержки сдвинется раннее начало E;
 - E сама имеет ещё 2 единицы общего резерва.
 
-### 8.5 Проверка результата
+### 9.5 Проверка результата
 
 - сумма длительностей критического пути: `3 + 4 + 5 + 2 = 14`;
 - это совпадает с рассчитанной продолжительностью проекта;

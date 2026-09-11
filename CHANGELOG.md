@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.7.0 – 11.09.2026
+
+- Vollständigkeitsprüfung gegen aktuellen öffentlichen AP1-Rahmen, BIBB-Umsetzungshilfe, WBS-Rückmeldungen und öffentlich dokumentierte Prüfungssignale wiederholt.
+- QR-Code, Barcode, RFID/NFC sowie Grenzen von Fehlerkorrektur und Echtheitsprüfung in Kapitel 46 ergänzt.
+- Auswahl einer Programmiersprache, Compiler, Interpreter, JIT und Entscheidungskriterien in Kapitel 25 ergänzt.
+- Webgrundlagen mit HTML/CSS/JavaScript, HTTP-Methoden, Statusklassen, XSS/CSRF sowie Quellenrecherche und Präsentationsgestaltung in Kapitel 52 ergänzt.
+- Kapitel 44 um Primär-/Sekundärforschung und SWOT, Kapitel 31 um 6-W, Ishikawa, QM-Rahmen und einfache Fehlerwahrscheinlichkeit erweitert.
+- Kapitel 10 um mobile Endgeräte, MDM, BYOD/COPE/COBO, IPP, Spooler, Secure Printing und Seitenkosten erweitert.
+- Kapitel 49 um die Abgrenzung von ITIL, ISO/IEC 20000, COBIT und MOF ergänzt.
+- 136 falsch zugeordnete nummerierte Unterüberschriften in fünf älteren RU/DE-Kapitelpaaren korrigiert.
+- Dritten 30-minütigen Kontrollblock zu den verbliebenen Randthemen und neue Fachbegriffe mit Kapitelbezug ergänzt.
+
 ## 1.6.0 – 11.09.2026
 
 - Zwei eigenständige 90-minütige AP1-Simulationen mit jeweils 100 Punkten und getrennten Musterlösungen erstellt.

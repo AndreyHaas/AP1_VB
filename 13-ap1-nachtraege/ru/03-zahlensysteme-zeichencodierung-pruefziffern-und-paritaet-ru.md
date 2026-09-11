@@ -127,6 +127,14 @@ EAN-13 = 4006381333931
 
 Другие Kennnummern могут использовать другие Gewichte и Moduli. Алгоритм берётся из задания или спецификации.
 
+### 6.3 QR-Code, Barcode, RFID и NFC
+
+**Barcode** обычно кодирует данные одномерными штрихами. **QR-Code** — двумерный Matrixcode; он может содержать Kennung, Text или URL. Его Fehlerkorrektur способна восстановить ограниченное повреждение или загрязнение, но не подтверждает правдивость содержимого и не заменяет kryptografische Signatur или Prüfziffer.
+
+В задаче сначала определить Nutzinhalt и Einsatzzweck, затем оценить Lesbarkeit, Größe, Kontrast, Fehlerkorrektur и Sicherheitsrisiko. Перед открытием ссылки нужно проверить Domain и Ziel.
+
+**RFID** передаёт Kennung по радио между Tag и Lesegerät. **NFC** — близкая к RFID технология для очень короткой дистанции. Это не оптические коды; Reichweite, Energieversorgung, Schreibbarkeit и защита от несанкционированного чтения зависят от системы.
+
 ## 7. Prüfungsformulierungen и typische Fallen
 
 > Die Dezimalzahl 45 entspricht `2D` im Hexadezimalsystem, da `2 × 16 + 13 = 45` gilt.
@@ -153,6 +161,8 @@ EAN-13 = 4006381333931
 4. Сколько Bytes занимает `A€` в UTF-8?
 5. Добавь к `1100101` бит gerade Parität.
 6. Предотвращает ли EAN-Prüfziffer умышленное изменение?
+7. Почему Fehlerkorrektur QR-кода не подтверждает его подлинность?
+8. Различи QR-Code, RFID и NFC по способу передачи и дистанции.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -163,6 +173,8 @@ EAN-13 = 4006381333931
 4. `A` один Byte, `€` три Bytes, всего четыре.
 5. Уже четыре единицы, поэтому Paritätsbit `0`.
 6. Нет. Она обнаруживает определённые ошибки ввода/передачи, но не секретна и не защищена криптографически.
+7. Она только восстанавливает ограниченно повреждённые Codeelemente, но не проверяет источник и истинность Nutzinhalt.
+8. QR читается оптически. RFID использует радио между Tag и Leser; NFC тоже использует радио, обычно на очень короткой дистанции.
 
 </details>
 

@@ -75,6 +75,21 @@ besser:      95 % der Anmeldungen sind bei 100 gleichzeitigen
 
 Zum Kriterium gehören Messbedingung, Messgröße, Sollwert und erlaubte Abweichung. Funktionale Kriterien beschreiben, **was** das System leistet. Nichtfunktionale Kriterien beschreiben, **wie gut** oder unter welchen Bedingungen es arbeitet.
 
+### 3.4 Ursachenanalyse, QM-Modelle und Wahrscheinlichkeit
+
+Die **6-W-Fragen** strukturieren einen Fehler: Wer, was, wann, wo, wie und warum beziehungsweise welche Auswirkung? Ein **Ishikawa-Diagramm** sammelt mögliche Ursachen in Kategorien, zum Beispiel Mensch, Maschine, Methode, Material, Messung und Umwelt. Vermutungen werden anschließend mit Logs, Messwerten oder Tests überprüft; das Diagramm beweist keine Ursache.
+
+ISO-9000-Familie, EFQM und Six Sigma sind verschiedene Qualitätsansätze. Für AP1 genügt ohne ausdrückliche Vertiefung: Anforderungen/Prozesse systematisch beherrschen, Ergebnisse messen, Ursachen reduzieren und kontinuierlich verbessern.
+
+Einfache Häufigkeitsschätzung:
+
+```text
+Fehleranteil p = fehlerhafte Einheiten / geprüfte Einheiten
+erwartete Fehlerzahl = Stückzahl × p
+```
+
+Beispiel: 8 Fehler bei 400 Prüfungen ergeben `p = 2 %`; bei unveränderten Bedingungen wären bei 1.000 Fällen ungefähr 20 Fehler zu erwarten. Das ist eine Schätzung, keine Garantie und keine Aussage über die Fehlerursache.
+
 ## 4. Teststufen, Testarten und Verfahren
 
 ### 4.1 Statisch und dynamisch

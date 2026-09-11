@@ -297,26 +297,26 @@ Gegeben:
 - jährliche Fixkosten: 96.000 €;
 - erwartete Absatzmenge: 260 Stück.
 
-### 1. Stückdeckungsbeitrag
+### 12. Stückdeckungsbeitrag
 
 ```text
 db = 1.200 € − 720 € = 480 €
 ```
 
-### 2. Break-even-Menge
+### 12. Break-even-Menge
 
 ```text
 x_BE = 96.000 € / 480 € = 200 Stück
 ```
 
-### 3. Ergebnis bei 260 Stück
+### 12. Ergebnis bei 260 Stück
 
 ```text
 DB = 260 × 480 € = 124.800 €
 G = 124.800 € − 96.000 € = 28.800 €
 ```
 
-### 4. Sicherheitsabstand
+### 12. Sicherheitsabstand
 
 ```text
 260 − 200 = 60 Stück
@@ -745,25 +745,25 @@ Gegeben:
 - gleichmäßige Wirkung;
 - keine Berücksichtigung des Zeitwerts des Geldes.
 
-### 1. Bruttoeinsparung
+### 28. Bruttoeinsparung
 
 ```text
 1.100 h × 20 €/h = 22.000 € pro Jahr
 ```
 
-### 2. Netto-Rückfluss
+### 28. Netto-Rückfluss
 
 ```text
 22.000 € − 6.000 € = 16.000 € pro Jahr
 ```
 
-### 3. Amortisationsdauer
+### 28. Amortisationsdauer
 
 ```text
 48.000 € / 16.000 € = 3 Jahre
 ```
 
-### 4. Interpretation
+### 28. Interpretation
 
 Das Ergebnis gilt nur, wenn:
 

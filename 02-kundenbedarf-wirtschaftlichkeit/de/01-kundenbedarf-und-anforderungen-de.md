@@ -147,7 +147,7 @@ Zielgruppengerechte Sprache darf wichtige Risiken nicht verschweigen. Ein Fachbe
 
 Ein praxisgerechter Ablauf:
 
-### 5.1 Auftrag klären
+### 6.1 Auftrag klären
 
 - Wer ist Auftraggeber?
 - Welches Ergebnis wird erwartet?
@@ -155,7 +155,7 @@ Ein praxisgerechter Ablauf:
 - Wer trifft die endgültige Entscheidung?
 - Bis wann wird das Ergebnis benötigt?
 
-### 5.2 Ist-Zustand erfassen
+### 6.2 Ist-Zustand erfassen
 
 - vorhandene Geräte, Programme und Versionen;
 - Arbeitsabläufe;
@@ -165,7 +165,7 @@ Ein praxisgerechter Ablauf:
 - Netzwerk, Server und externe Abhängigkeiten;
 - tatsächliche Kosten und Supportaufwand.
 
-### 5.3 Soll-Zustand definieren
+### 6.3 Soll-Zustand definieren
 
 - Unternehmensziel;
 - erwartete Funktionen;
@@ -175,7 +175,7 @@ Ein praxisgerechter Ablauf:
 - Bedienbarkeit und Barrierefreiheit;
 - Termin und Budget.
 
-### 5.4 Abweichung analysieren
+### 6.4 Abweichung analysieren
 
 ```text
 Soll-Zustand − Ist-Zustand = Handlungsbedarf
@@ -183,11 +183,11 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 Die Differenz zwischen aktuellem und gewünschtem Zustand zeigt, was tatsächlich verändert werden muss.
 
-### 5.5 Anforderungen dokumentieren
+### 6.5 Anforderungen dokumentieren
 
 Jede Anforderung erhält eine Kennung, eine Quelle, eine Priorität und ein Prüfkriterium.
 
-### 5.6 Abstimmen und freigeben
+### 6.6 Abstimmen und freigeben
 
 Die Beteiligten prüfen:
 
@@ -220,7 +220,7 @@ Bei anspruchsvollen Aufgaben werden Methoden kombiniert. Eine Ticketauswertung z
 
 ## 8. Fragetechniken
 
-### 7.1 Offene Fragen
+### 8.1 Offene Fragen
 
 Sie ermöglichen freie Antworten und decken bisher unbekannte Informationen auf.
 
@@ -230,7 +230,7 @@ Sie ermöglichen freie Antworten und decken bisher unbekannte Informationen auf.
 
 > Woran würden Sie erkennen, dass die neue Lösung erfolgreich ist?
 
-### 7.2 Geschlossene Fragen
+### 8.2 Geschlossene Fragen
 
 Sie führen zu einer kurzen oder eindeutigen Antwort und eignen sich zum Bestätigen konkreter Angaben.
 
@@ -240,7 +240,7 @@ Sie führen zu einer kurzen oder eindeutigen Antwort und eignen sich zum Bestät
 
 Wer ausschließlich geschlossene Fragen stellt, übersieht leicht unbekannte Bedürfnisse.
 
-### 7.3 Alternativfragen
+### 8.3 Alternativfragen
 
 Sie bieten eine begrenzte Auswahl:
 
@@ -248,7 +248,7 @@ Sie bieten eine begrenzte Auswahl:
 
 Sie sind sinnvoll, wenn die zulässigen Varianten bereits feststehen. Andernfalls beschränken sie die Lösung zu früh.
 
-### 7.4 Skalierungsfragen
+### 8.4 Skalierungsfragen
 
 Sie helfen bei der Bewertung einer Ausprägung:
 
@@ -256,13 +256,13 @@ Sie helfen bei der Bewertung einer Ausprägung:
 
 Die Skala muss allen Beteiligten gleich erklärt werden.
 
-### 7.5 Kontroll- und Rückfragen
+### 8.5 Kontroll- und Rückfragen
 
 Sie sichern das gemeinsame Verständnis:
 
 > Habe ich Sie richtig verstanden, dass alle Geräte offline mindestens vier Stunden arbeitsfähig sein müssen?
 
-### 7.6 Suggestivfragen
+### 8.6 Suggestivfragen
 
 Sie lenken die befragte Person zu einer bestimmten Antwort:
 
@@ -296,13 +296,13 @@ Ein allgemeiner Wunsch wird dadurch in einen Messwert, einen Nutzungskontext und
 
 ## 10. Arten von Anforderungen
 
-### 9.1 Funktionale Anforderungen
+### 10.1 Funktionale Anforderungen
 
 Sie beschreiben, **was ein System leisten soll**.
 
 > Das System muss Benutzern ermöglichen, Rechnungen als PDF zu exportieren.
 
-### 9.2 Nichtfunktionale Anforderungen
+### 10.2 Nichtfunktionale Anforderungen
 
 Sie beschreiben die Qualität einer Funktion oder ihre Ausführungsbedingungen.
 
@@ -329,7 +329,7 @@ Prüfbare Formulierung:
 
 > Die Suchergebnisse müssen bei 200 gleichzeitigen Benutzern in mindestens 95 Prozent der Anfragen innerhalb von zwei Sekunden angezeigt werden.
 
-### 9.3 Randbedingungen
+### 10.3 Randbedingungen
 
 Randbedingungen begrenzen die möglichen Lösungen:
 
@@ -341,7 +341,7 @@ Randbedingungen begrenzen die möglichen Lösungen:
 - vorhandener Platz oder Stromversorgung;
 - rechtliche und lizenzrechtliche Vorgaben.
 
-### 9.4 Übergangsanforderungen
+### 10.4 Übergangsanforderungen
 
 Sie werden für den Wechsel vom alten zum neuen Zustand benötigt:
 
@@ -435,7 +435,7 @@ Die Begründung hilft bei einer späteren Alternativenprüfung. Wird das Ziel au
 
 ## 14. Priorisierung
 
-### 13.1 Muss, Soll und Kann
+### 14.1 Muss, Soll und Kann
 
 | Priorität | Bedeutung |
 |---|---|
@@ -445,7 +445,7 @@ Die Begründung hilft bei einer späteren Alternativenprüfung. Wird das Ziel au
 
 `Muss` bedeutet nicht nur, dass ein Kunde etwas besonders stark wünscht. Die Einstufung sollte objektiv begründet sein, beispielsweise durch Gesetz, Sicherheit, Kernprozess oder zwingende Schnittstelle.
 
-### 13.2 MoSCoW
+### 14.2 MoSCoW
 
 | Kategorie | Bedeutung |
 |---|---|
@@ -456,7 +456,7 @@ Die Begründung hilft bei einer späteren Alternativenprüfung. Wird das Ziel au
 
 `Won't` bedeutet nicht „niemals“. Die Kategorie schützt den aktuellen Termin und das Budget vor unkontrolliertem `Scope Creep`.
 
-### 13.3 Priorität und Angebotsvergleich
+### 14.3 Priorität und Angebotsvergleich
 
 Zunächst werden die `Muss-Kriterien` geprüft. Ein Angebot, das ein Muss-Kriterium nicht erfüllt, kann unabhängig von seinem niedrigen Preis ausgeschlossen werden.
 

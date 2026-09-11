@@ -63,6 +63,7 @@ Stand: 11.09.2026.
 | Kamera/Multimedia/Dateigröße | Kapitel 47 | Sampling, Raster/Vektor, Codec, Bitrate, наружная камера с Heizung, PoE и Speicher |
 | ping и Netzwerkkonfiguration | Kapitel 52 | различия ping/tracert/ipconfig/nslookup/netstat/arp/route и ступенчатая Fehlersuche |
 | ASCII/Zweierpotenzen/Einheiten | Kapitel 46 | Dual/Oktal/Dezimal/Hex, ASCII, Unicode, UTF-8, Prüfziffer, Parität |
+| QR-Code | Kapitel 46 | Matrixcode, Fehlerkorrektur, Nutzinhalt/Sicherheitsprüfung, Abgrenzung zu RFID/NFC |
 | Leistungsaufnahme/Stromkosten | Kapitel 43 и 48 | W/kWh, Wirk-/Scheinleistung, Leistungsfaktor, Wirkungsgrad, USV |
 | Marktformen | Kapitel 44 | Marktform, Käufer-/Verkäufermarkt, Wertschöpfung, Rechtsform, Marketing |
 | Handelskalkulation/Preisnachlass/Rechnung | Kapitel 50 | полная схема, Rückwärts-/Differenz-, Vor-/Nachkalkulation, Rechnungsprüfung |
@@ -70,6 +71,8 @@ Stand: 11.09.2026.
 | Servicequalität | Kapitel 40 и 49 | ITSM/ITIL, Incident/Problem/Request/Change, SLA/OLA |
 | NAS/SAN и Redundanz | Kapitel 39 и 49 | SPOF, NAS-Pfade, USV, Monitoring, Backup-Abgrenzung |
 | Englisch/Remotearbeit/Shell | Kapitel 52 | английский текст, RDP/SSH/VPN, PowerShell/Bash, sichere Diagnose |
+| Webentwicklung | Kapitel 52 | HTML/CSS/JavaScript, GET/POST, Statusklassen, serverseitige Validierung, XSS/CSRF |
+| Programmiersprache auswählen | Kapitel 25 | Compiler/Interpreter/JIT и выбор по Plattform, Bibliotheken, Qualität, Betrieb и Team |
 | Vertragsstörungen | Kapitel 41 и 50 | Nicht-/Spät-/Schlecht-/Falsch-/Minderlieferung и Voraussetzungen |
 
 ## 5. Что сознательно не переносится обратно в AP1

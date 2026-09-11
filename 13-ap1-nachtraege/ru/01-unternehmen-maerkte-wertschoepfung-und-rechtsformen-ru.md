@@ -105,6 +105,12 @@ Marketing-Mix часто представляют четырьмя инстру�
 
 `Marktbeobachtung` постоянно отслеживает знакомый рынок; `Marktanalyse` исследует рынок в определённый момент; `Marktforschung` систематически собирает и анализирует рыночные данные.
 
+### 6.1 Marktforschung и SWOT
+
+**Primärforschung** собирает новые данные, например через Befragung, Beobachtung или Experiment. **Sekundärforschung** использует уже имеющиеся внутренние или внешние данные. Sekundärdaten обычно доступны быстрее, Primärdaten точнее настраиваются под вопрос. Нужно оценить Stichprobe, Aktualität, Quelle, Kosten и возможное искажение.
+
+**SWOT-Analyse** разделяет внутренние Stärken/Schwächen и внешние Chancen/Risiken. Варианты действий возникают при их сопоставлении, например использовать Stärke для Chancen. Одна таблица из четырёх полей ещё не является обоснованным решением.
+
 > Die Ziele stehen in einem Zielkonflikt, da die verkürzte Lieferzeit zwar den Kundenservice verbessert, aber zusätzliche Beschaffungskosten verursacht.
 
 > Die GmbH ist für den Fall eher geeignet, weil sie die gewünschte gemeinsame Geschäftsführung ermöglicht und die Haftung grundsätzlich auf das Gesellschaftsvermögen begrenzt.
@@ -130,6 +136,7 @@ Marketing-Mix часто представляют четырьмя инстру�
 4. Сравни Einzelunternehmen и GmbH по трём критериям.
 5. Компания снижает стоимость и выбросы благодаря энергоэффективным устройствам. Определи Zielbeziehung.
 6. Обоснуй, почему Marktanalyse не заменяет постоянную Marktbeobachtung.
+7. Различи Primär- и Sekundärforschung и отнеси четыре SWOT-Felder к intern/extern.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -140,6 +147,7 @@ Marketing-Mix часто представляют четырьмя инстру�
 4. Einzelunternehmen: нет Mindestkapital, простое управление, личная неограниченная Haftung. GmbH: Stammkapital, Geschäftsführung, в принципе Haftung Gesellschaftsvermögen.
 5. Komplementäre Ziele, потому что одна мера поддерживает обе цели.
 6. Analyse отвечает на конкретный вопрос в определённый момент, Beobachtung постоянно выявляет изменения.
+7. Primärforschung собирает новые данные, Sekundärforschung использует имеющиеся. Stärken/Schwächen внутренние, Chancen/Risiken внешние.
 
 </details>
 

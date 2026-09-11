@@ -75,6 +75,21 @@ Act   → устранить причины отклонений и улучши
 
 Нужно определить условия измерения, величину, Sollwert и допустимое отклонение. Функциональные критерии описывают, **что** делает система. Нефункциональные — **насколько хорошо** и при каких условиях она работает.
 
+### 3.4 Ursachenanalyse, QM-Modelle и Wahrscheinlichkeit
+
+**6-W-Fragen** структурируют Fehler: Wer, was, wann, wo, wie и warum beziehungsweise welche Auswirkung? **Ishikawa-Diagramm** собирает возможные причины по категориям, например Mensch, Maschine, Methode, Material, Messung, Umwelt. Затем гипотезы проверяются через Logs, Messwerte или Tests; диаграмма сама не доказывает Ursache.
+
+ISO-9000-Familie, EFQM и Six Sigma — разные Qualitätsansätze. Для AP1 без отдельного требования достаточно понимать: системно управлять Anforderungen/Prozesse, измерять результаты, снижать Ursachen и постоянно улучшать.
+
+Простая оценка частоты:
+
+```text
+Fehleranteil p = fehlerhafte Einheiten / geprüfte Einheiten
+erwartete Fehlerzahl = Stückzahl × p
+```
+
+Пример: 8 ошибок из 400 дают `p = 2 %`; при тех же условиях для 1 000 случаев ожидается примерно 20 ошибок. Это оценка, не гарантия и не вывод о причине.
+
 ## 4. Teststufen, Testarten und Verfahren
 
 ### 4.1 Статические и динамические проверки

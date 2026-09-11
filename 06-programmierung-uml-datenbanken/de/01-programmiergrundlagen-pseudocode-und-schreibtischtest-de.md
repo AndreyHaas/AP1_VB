@@ -194,6 +194,21 @@ Diese Begriffe helfen beim Lesen von Code und UML. Vererbung wird in diesem Proj
 
 Ein Compiler oder Interpreter findet nicht automatisch jeden Logikfehler.
 
+### 4.6 Programmiersprache auswählen: Compiler, Interpreter und JIT
+
+Ein **Compiler** übersetzt Quellcode vor der Ausführung in Zielcode. Ein **Interpreter** verarbeitet Anweisungen zur Laufzeit; konkrete Implementierungen können beide Ansätze kombinieren. **JIT-Compilation** übersetzt häufig benötigte Teile während der Laufzeit. Deshalb darf aus „kompiliert“ oder „interpretiert“ allein keine pauschale Aussage über Geschwindigkeit oder Sicherheit abgeleitet werden.
+
+| Kriterium | Prüfungsfrage |
+|---|---|
+| Problem und Paradigma | prozedural, objektorientiert, funktional oder ereignisgesteuert passend? |
+| Zielplattform | Betriebssystem, Browser, Mobile, Embedded oder Cloud unterstützt? |
+| Bibliotheken und Schnittstellen | benötigte Frameworks, Treiber und APIs verfügbar? |
+| Qualität | Typprüfung, Tests, Debugger, sichere Bibliotheken und Wartbarkeit? |
+| Betrieb | Laufzeitumgebung, Deployment, Performance und Ressourcenbedarf? |
+| Organisation | Teamkenntnisse, Lizenz, Community, Support und Lebenszyklus? |
+
+Eine gute Prüfungsantwort nennt die Anforderung, wählt danach die Sprache und begründet den Zusammenhang. „Sprache X ist immer schneller“ ist keine belastbare Begründung.
+
 ## 5. Schreibtischtest und Modellierung
 
 ### 5.1 Vorgehensalgorithmus

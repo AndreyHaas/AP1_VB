@@ -49,6 +49,17 @@ ITIL ist ein verbreiteter Rahmen für Service Management, keine zwingende Produk
 
 Continual Improvement bedeutet, Services und Arbeitsweisen anhand von Soll, Ist, Messwerten und Feedback fortlaufend zu verbessern.
 
+### 3.1 Rahmenwerke sicher unterscheiden
+
+| Ansatz | Schwerpunkt |
+|---|---|
+| ITIL | Best Practices für IT-Service-Management und Servicewert |
+| ISO/IEC 20000 | Anforderungen an ein prüfbares Service-Management-System |
+| COBIT | Governance und Steuerung von Unternehmens-IT |
+| MOF | Microsoft-orientiertes, älteres Betriebs- und Service-Framework |
+
+Die Ansätze können sich ergänzen. ITIL ist keine Zertifizierung eines gesamten Unternehmens nach ISO/IEC 20000, und COBIT beschreibt nicht bloß einen Service-Desk-Prozess. Versionsdetails nur lernen, wenn Unterricht oder Prüfungskatalog sie ausdrücklich verlangen.
+
 ## 4. Practices und Prozessunterschiede
 
 | Begriff | Beispiel | primäres Ziel |

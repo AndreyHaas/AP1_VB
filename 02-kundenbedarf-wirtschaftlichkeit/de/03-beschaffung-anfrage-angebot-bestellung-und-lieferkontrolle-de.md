@@ -716,7 +716,7 @@ Ein unbestimmtes „unter Vorbehalt“ ist weniger beweiskräftig als eine genau
 
 ## 24. Lieferkontrolle auf vier Ebenen
 
-### 1. Quantitätsprüfung
+### 24. Quantitätsprüfung
 
 - Zahl der Packstücke;
 - Zahl der Geräte;
@@ -724,7 +724,7 @@ Ein unbestimmtes „unter Vorbehalt“ ist weniger beweiskräftig als eine genau
 - Teillieferung;
 - Fehl- oder Mehrmenge.
 
-### 2. Identitätsprüfung
+### 24. Identitätsprüfung
 
 - richtige Modellbezeichnung;
 - Artikelnummer;
@@ -733,7 +733,7 @@ Ein unbestimmtes „unter Vorbehalt“ ist weniger beweiskräftig als eine genau
 - Lizenz und Edition;
 - Zubehör.
 
-### 3. Sichtprüfung
+### 24. Sichtprüfung
 
 - Gehäuseschaden;
 - Feuchtigkeits- oder Stoßspuren;
@@ -741,7 +741,7 @@ Ein unbestimmtes „unter Vorbehalt“ ist weniger beweiskräftig als eine genau
 - beschädigte Verpackung;
 - fehlende Kennzeichnung.
 
-### 4. Funktions-/Qualitätsprüfung
+### 24. Funktions-/Qualitätsprüfung
 
 - Start und Basisdiagnose;
 - CPU, RAM und SSD;

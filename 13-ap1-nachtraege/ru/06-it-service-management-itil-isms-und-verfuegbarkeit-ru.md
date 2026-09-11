@@ -49,6 +49,17 @@ ITIL — распространённая рамка Service Management, а не
 
 Continual Improvement означает постоянное улучшение Services и работы на основе Soll, Ist, Messwerte и Feedback.
 
+### 3.1 Как различать Rahmenwerke
+
+| Ansatz | Schwerpunkt |
+|---|---|
+| ITIL | Best Practices для IT-Service-Management и Servicewert |
+| ISO/IEC 20000 | требования к проверяемой Service-Management-System |
+| COBIT | Governance и Steuerung корпоративной IT |
+| MOF | Microsoft-ориентированная, более старая рамка Betrieb/Service |
+
+Подходы могут дополнять друг друга. ITIL не означает Zertifizierung всей организации по ISO/IEC 20000, а COBIT не является только Service-Desk-Prozess. Версионные детали учить, только если их прямо требует Unterricht или Prüfungskatalog.
+
 ## 4. Practices и Prozessunterschiede
 
 | Begriff | Beispiel | primäres Ziel |

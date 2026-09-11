@@ -716,7 +716,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ## 24. Lieferkontrolle: четыре уровня
 
-### 1. Quantitätsprüfung
+### 24. Quantitätsprüfung
 
 - количество упаковок;
 - количество единиц;
@@ -724,7 +724,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 - частичная поставка;
 - недостача или избыток.
 
-### 2. Identitätsprüfung
+### 24. Identitätsprüfung
 
 - правильная модель;
 - Artikelnummer;
@@ -733,7 +733,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 - лицензия и редакция;
 - принадлежности.
 
-### 3. Sichtprüfung
+### 24. Sichtprüfung
 
 - повреждение корпуса;
 - следы влаги или удара;
@@ -741,7 +741,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 - повреждённая упаковка;
 - отсутствующая маркировка.
 
-### 4. Funktions-/Qualitätsprüfung
+### 24. Funktions-/Qualitätsprüfung
 
 - включение и базовая диагностика;
 - CPU, RAM и SSD;

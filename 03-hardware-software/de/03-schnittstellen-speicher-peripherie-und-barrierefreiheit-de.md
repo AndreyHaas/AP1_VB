@@ -171,7 +171,7 @@ USB-C kann je nach Umsetzung unterstützen:
 
 Dokumentation von Port, Gerät und Kabel muss geprüft werden.
 
-### 8.1 USB-B, Mini-USB und Micro-USB
+### 9.1 USB-B, Mini-USB und Micro-USB
 
 | Bauform | Erkennungsmerkmal | typischer früherer/aktueller Einsatz |
 |---|---|---|
@@ -185,7 +185,7 @@ Dokumentation von Port, Gerät und Kabel muss geprüft werden.
 
 Die Buchstaben `A`, `B` und `C` beschreiben die mechanische Steckverbinderfamilie. USB 2.0, USB 3.2 und USB4 beschreiben technische Übertragungsstandards und Funktionen. Deshalb darf aus der Bauform allein keine Datenrate abgeleitet werden.
 
-### 8.2 Datenraten sicher lesen
+### 9.2 Datenraten sicher lesen
 
 | explizite Angabe | theoretische Bruttodatenrate |
 |---|---:|
@@ -257,7 +257,7 @@ Beide übertragen digitale Bildsignale und üblicherweise Audio. Zu prüfen:
 
 > Zwei externe Monitore müssen gleichzeitig mit 2 560 × 1 440 Pixeln bei 60 Hz betrieben werden.
 
-### 11.1 Bildanschlüsse unterscheiden
+### 12.1 Bildanschlüsse unterscheiden
 
 | Anschluss | Signal | wichtige Besonderheit |
 |---|---|---|
@@ -271,7 +271,7 @@ Beide übertragen digitale Bildsignale und üblicherweise Audio. Zu prüfen:
 
 `DisplayPort Dual-Mode`, oft mit `DP++` gekennzeichnet, kann bei geeigneter Quelle passive Adapter zu bestimmten HDMI-/DVI-Signalen ermöglichen. Fehlt die Funktion oder wird eine andere Richtung benötigt, ist ein aktiver Wandler erforderlich.
 
-### 11.2 Weitere typische Arbeitsplatzanschlüsse
+### 12.2 Weitere typische Arbeitsplatzanschlüsse
 
 | Anschluss | Zweck | Prüfpunkt |
 |---|---|---|
@@ -513,6 +513,12 @@ Kriterien:
 
 Ein billiger Drucker kann beispielsweise hohe Seitenkosten und häufige Wartung verursachen.
 
+### 24.1 Mobile Endgeräte und MDM
+
+Bei Smartphones und Tablets zählen Plattform, Laufzeit, Funkstandards, Kamera/Sensorik, Robustheit, Reparierbarkeit, Updatezeitraum und Unternehmensintegration. Ein **Mobile Device Management (MDM)** kann Registrierung, Gerätekonfiguration, Verschlüsselung, Bildschirmsperre, Zertifikate, App-Regeln, Inventar, Remote-Sperre/-Löschung und geregeltes Offboarding unterstützen.
+
+**BYOD** nutzt private Geräte und verlangt klare Trennung und Datenschutz. **COPE** stellt ein Firmengerät bereit und erlaubt geregelte Privatnutzung; **COBO** beschränkt es auf geschäftliche Nutzung. Die Abkürzung allein ersetzt kein Nutzungs-, Support- und Löschkonzept.
+
 ---
 
 ## 25. Drucker und Scanner
@@ -536,6 +542,14 @@ Beim Scanner:
 - Zielsystem und Datenschutz.
 
 Ein maximaler dpi-Wert ohne Dokumentart und Ausgabezweck ist kein ausreichendes Kriterium.
+
+Netzwerkdruck benötigt zusätzlich ein Protokoll und einen geregelten Datenweg. **IPP** verwendet typischerweise TCP-Port `631`; eine Druckerwarteschlange beziehungsweise ein **Spooler** puffert und ordnet Aufträge. Ein Printserver zentralisiert Treiber, Berechtigungen und Protokollierung. Bei vertraulichen Dokumenten verhindert **Secure/Pull Printing** die Ausgabe vor der Authentisierung am Gerät. Administrationsoberfläche, Firmware, TLS und Standardkennwörter sind abzusichern.
+
+```text
+Seitenkosten = (Toner + anteilige Trommel/sonstige Verbrauchsteile) / Reichweite
+```
+
+Herstellerreichweiten gelten unter definierten Testbedingungen. Papier, Energie, Wartung, Ausfall und Fehldrucke gehören für eine TCO-Betrachtung zusätzlich dazu.
 
 ---
 

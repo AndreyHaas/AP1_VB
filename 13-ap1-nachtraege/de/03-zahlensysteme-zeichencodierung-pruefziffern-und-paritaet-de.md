@@ -127,6 +127,14 @@ EAN-13 = 4006381333931
 
 Andere Kennnummern können andere Gewichte und Moduli nutzen. Der Algorithmus muss aus der Aufgabe oder Spezifikation stammen.
 
+### 6.3 QR-Code, Barcode, RFID und NFC
+
+Ein **Barcode** codiert Daten meist eindimensional in Strichen. Ein **QR-Code** ist ein zweidimensionaler Matrixcode und kann beispielsweise eine Kennung, Text oder eine URL enthalten. Seine Fehlerkorrektur kann begrenzte Verschmutzung oder Beschädigung ausgleichen; sie beweist weder, dass der Inhalt wahr ist, noch ersetzt sie eine kryptografische Signatur oder Prüfziffer.
+
+Bei QR-Aufgaben zuerst Nutzinhalt und Einsatzzweck bestimmen, dann Lesbarkeit, Größe, Kontrast, Fehlerkorrektur und Sicherheitsrisiko bewerten. Vor dem Öffnen eines Links müssen Domain und Ziel geprüft werden.
+
+**RFID** überträgt eine Kennung zwischen Tag und Lesegerät per Funk. **NFC** ist eine RFID-nahe Technik für sehr kurze Distanzen. Beide sind keine optischen Codes; Reichweite, Energieversorgung, Schreibbarkeit und Schutz gegen unbefugtes Auslesen hängen vom konkreten System ab.
+
 ## 7. Prüfungsformulierungen und typische Fallen
 
 > Die Dezimalzahl 45 entspricht `2D` im Hexadezimalsystem, da `2 × 16 + 13 = 45` gilt.
@@ -153,6 +161,8 @@ Typische Fallen:
 4. Wie viele Bytes belegt `A€` in UTF-8?
 5. Ergänze `1100101` für gerade Parität.
 6. Bewerte, ob eine EAN-Prüfziffer absichtliche Manipulation verhindert.
+7. Weshalb ist die Fehlerkorrektur eines QR-Codes kein Echtheitsnachweis?
+8. Grenze QR-Code, RFID und NFC nach Übertragungsweg und typischer Distanz ab.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -163,6 +173,8 @@ Typische Fallen:
 4. `A` ein Byte, `€` drei Bytes, zusammen vier Bytes.
 5. Vier Einsen sind bereits gerade, daher Paritätsbit `0`.
 6. Nein. Sie erkennt bestimmte Eingabe- oder Übertragungsfehler, ist aber nicht geheim und nicht kryptografisch geschützt.
+7. Sie rekonstruiert nur begrenzt beschädigte Codeelemente; Herkunft und Wahrheitsgehalt des Nutzinhalts werden dadurch nicht geprüft.
+8. QR wird optisch gelesen. RFID nutzt Funk zwischen Tag und Leser; NFC arbeitet ebenfalls per Funk, typischerweise über sehr kurze Distanz.
 
 </details>
 

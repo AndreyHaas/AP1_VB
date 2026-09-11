@@ -1,6 +1,6 @@
 # Prüfungssimulationen
 
-Dieser Ordner enthält zwei vollständige, selbst erstellte AP1-Simulationen. Die Aufgaben orientieren sich am aktuellen Prüfungsbereich `Einrichten eines IT-gestützten Arbeitsplatzes`, übernehmen aber keine geschützten Altprüfungsaufgaben.
+Dieser Ordner enthält zwei vollständige, selbst erstellte AP1-Simulationen und einen kurzen Kontrollblock. Die Aufgaben orientieren sich am aktuellen Prüfungsbereich `Einrichten eines IT-gestützten Arbeitsplatzes`, übernehmen aber keine geschützten Altprüfungsaufgaben.
 
 ## Regeln
 
@@ -20,6 +20,7 @@ Aufgaben dürfen die Lösung nicht bereits durch überdeutliche Hinweise enthalt
 |---|---|---|---|
 | 01 | [Supportarbeitsplätze einrichten](simulation-01-arbeitsplatz-einrichten.md) | [Lösung und 100-Punkte-Schema](simulation-01-loesungen.md) | USB-C/DP, Beschaffung, DHCP/VoIP, Sicherheit, Netzplan, Code/Encoding |
 | 02 | [Netzwerk und Sicherheit am Logistikstandort](simulation-02-netzwerk-und-sicherheit.md) | [Lösung und 100-Punkte-Schema](simulation-02-loesungen.md) | Außenkamera/Heizung, Speicher, PoE/USV, VLAN/Firewall, SLA, ITSM, ER-Modell |
+| 03 | [Kontrollblock Restthemen](kontrollblock-03-restthemen.md) | Lösungen im geschlossenen Detailblock | 30 Minuten, 40 Punkte: QR, Web, Sprache, MDM, Druck, Qualität, ITSM |
 
 Die Aufgabenblätter sind vollständig deutsch. Die Lösungsdateien enthalten deutsche Musterantworten, transparente Teilpunkte und kurze russische Lernhinweise an besonders fehleranfälligen Stellen.
 
@@ -39,4 +40,4 @@ Die Aufgabenblätter sind vollständig deutsch. Die Lösungsdateien enthalten de
 - [IHK Hannover zum Prüfungskatalog](https://www.ihk.de/hannover/hauptnavigation/ausbildung-und-weiterbildung/ausbildung/ausbildung-a-z/neuordnungen/pruefungskataloge-it-berufe-6438900): zweite Auflage seit AP1 Frühjahr 2025, SQL und RAID nur in AP2, Übergang zu UML/BPMN und Aufnahme von KI.
 - Interne Themenmatrix, bestätigte WBS-Inhalte und dokumentierter Altfragen-Transfer für die thematische Mischung.
 
-Status: `Einsatzbereit`. Beide Simulationen sind rechnerisch und strukturell geprüft; die persönlichen Ergebnisse werden erst nach der Durchführung in die Fehlerliste übertragen.
+Status: `Einsatzbereit`. Beide Simulationen und der Kontrollblock sind rechnerisch und strukturell geprüft; persönliche Ergebnisse werden erst nach der Durchführung in die Fehlerliste übertragen.

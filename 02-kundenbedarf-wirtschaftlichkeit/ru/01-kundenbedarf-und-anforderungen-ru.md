@@ -147,7 +147,7 @@ testen und abnehmen
 
 Практический процесс:
 
-### 5.1 Auftrag klären
+### 6.1 Auftrag klären
 
 - Кто является заказчиком?
 - Какой результат ожидается?
@@ -155,7 +155,7 @@ testen und abnehmen
 - Кто принимает окончательное решение?
 - Когда требуется результат?
 
-### 5.2 Ist-Zustand erfassen
+### 6.2 Ist-Zustand erfassen
 
 - текущие устройства, программы и версии;
 - рабочие процессы;
@@ -165,7 +165,7 @@ testen und abnehmen
 - сеть, серверы и внешние зависимости;
 - фактические затраты и поддержка.
 
-### 5.3 Soll-Zustand definieren
+### 6.3 Soll-Zustand definieren
 
 - бизнес-цель;
 - ожидаемые функции;
@@ -175,7 +175,7 @@ testen und abnehmen
 - критерии удобства и доступности;
 - срок и бюджет.
 
-### 5.4 Abweichung analysieren
+### 6.4 Abweichung analysieren
 
 ```text
 Soll-Zustand − Ist-Zustand = Handlungsbedarf
@@ -183,11 +183,11 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 Разница между текущим и желаемым состоянием определяет, что действительно нужно изменить.
 
-### 5.5 Anforderungen dokumentieren
+### 6.5 Anforderungen dokumentieren
 
 Каждому требованию назначаются идентификатор, источник, приоритет и критерий проверки.
 
-### 5.6 Abstimmen und freigeben
+### 6.6 Abstimmen und freigeben
 
 Участники проверяют:
 
@@ -220,7 +220,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ## 8. Fragetechniken
 
-### 7.1 Offene Fragen
+### 8.1 Offene Fragen
 
 Позволяют отвечать свободно и раскрывают неизвестную информацию.
 
@@ -232,7 +232,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 > Woran würden Sie erkennen, dass die neue Lösung erfolgreich ist?
 
-### 7.2 Geschlossene Fragen
+### 8.2 Geschlossene Fragen
 
 Предполагают короткий или однозначный ответ. Полезны для подтверждения.
 
@@ -242,7 +242,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 Если задавать только закрытые вопросы, легко пропустить неизвестные потребности.
 
-### 7.3 Alternativfragen
+### 8.3 Alternativfragen
 
 Предлагают ограниченный выбор:
 
@@ -250,7 +250,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 Они полезны, если допустимые варианты уже установлены. Иначе вопрос преждевременно ограничивает решение.
 
-### 7.4 Skalierungsfragen
+### 8.4 Skalierungsfragen
 
 Помогают оценить степень:
 
@@ -258,13 +258,13 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 Шкала должна быть одинаково объяснена всем участникам.
 
-### 7.5 Kontroll- und Rückfragen
+### 8.5 Kontroll- und Rückfragen
 
 Проверяют понимание:
 
 > Habe ich Sie richtig verstanden, dass alle Geräte offline mindestens vier Stunden arbeitsfähig sein müssen?
 
-### 7.6 Suggestivfragen
+### 8.6 Suggestivfragen
 
 Подталкивают к желаемому ответу:
 
@@ -298,13 +298,13 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ## 10. Arten von Anforderungen
 
-### 9.1 Funktionale Anforderungen
+### 10.1 Funktionale Anforderungen
 
 Описывают, **что система должна делать**.
 
 > Das System muss Benutzern ermöglichen, Rechnungen als PDF zu exportieren.
 
-### 9.2 Nichtfunktionale Anforderungen
+### 10.2 Nichtfunktionale Anforderungen
 
 Описывают качество или условия выполнения функции.
 
@@ -331,7 +331,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 > Die Suchergebnisse müssen bei 200 gleichzeitigen Benutzern in mindestens 95 Prozent der Anfragen innerhalb von zwei Sekunden angezeigt werden.
 
-### 9.3 Randbedingungen
+### 10.3 Randbedingungen
 
 Ограничивают возможные решения:
 
@@ -343,7 +343,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 - доступная площадь или электропитание;
 - правовые и лицензионные требования.
 
-### 9.4 Übergangsanforderungen
+### 10.4 Übergangsanforderungen
 
 Нужны для перехода от старого состояния к новому:
 
@@ -437,7 +437,7 @@ Status:
 
 ## 14. Приоритизация
 
-### 13.1 Muss, Soll и Kann
+### 14.1 Muss, Soll и Kann
 
 | Приоритет | Значение |
 |---|---|
@@ -447,7 +447,7 @@ Status:
 
 `Muss` не означает «клиент очень хочет». Оно должно иметь объективное обоснование: закон, безопасность, ключевой процесс или обязательный интерфейс.
 
-### 13.2 MoSCoW
+### 14.2 MoSCoW
 
 | Категория | Значение |
 |---|---|
@@ -458,7 +458,7 @@ Status:
 
 Категория `Won't` не означает «никогда». Она защищает текущие сроки и бюджет от скрытого расширения `Scope Creep`.
 
-### 13.3 Приоритет и Angebotsvergleich
+### 14.3 Приоритет и Angebotsvergleich
 
 Сначала проверяются `Muss-Kriterien`. Предложение, не выполняющее обязательный критерий, может быть исключено независимо от низкой цены.
 

@@ -87,9 +87,9 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `11.09.2026` подготовлены 52 самостоятельные пары RU/DE. Главы 44–52 исправляют пробелы первоначального плана: Unternehmen/Organisation, Zahlensysteme и Zeichenkodierung, Multimedia и Außenkamera, Elektrotechnik/USV, ITIL/ITSM, расширенную Handelskalkulation, QoS/VoIP, technisches Englisch, Remotezugriff, Shell и Diagnosebefehle. Глава 10 дополнительно расширена по USB-A/B/C, Mini-/Micro-USB, DisplayPort, HDMI, DVI, VGA и рабочим портам. Общий словарь связывает Fachbegriffe с главами.
+По состоянию на `11.09.2026` подготовлены 52 самостоятельные пары RU/DE. Главы 44–52 исправляют пробелы первоначального плана: Unternehmen/Organisation, Zahlensysteme и Zeichenkodierung, Multimedia и Außenkamera, Elektrotechnik/USV, ITIL/ITSM, расширенную Handelskalkulation, QoS/VoIP, technisches Englisch, Remotezugriff, Shell и Diagnosebefehle. Дополнение v1.7 закрывает QR/RFID/NFC, Webgrundlagen, выбор Programmiersprache, SWOT/Marktforschung, Ishikawa/6-W, MDM, сетевую печать и различия ITSM-Rahmenwerke. Глава 10 также охватывает USB-A/B/C, Mini-/Micro-USB, DisplayPort, HDMI, DVI, VGA и рабочие порты. Общий словарь связывает Fachbegriffe с главами.
 
-В папке [Prüfungssimulationen](12-pruefungssimulationen/README.md) находятся две полные 90-минутные тренировки по 100 баллов с отдельными решениями: Rollout рабочих мест и проект уличных камер. Следующий этап — изучение глав по Lernplan, выполнение вариантов 26–27 сентября и целевая доработка личных ошибок.
+В папке [Prüfungssimulationen](12-pruefungssimulationen/README.md) находятся две полные 90-минутные тренировки по 100 баллов с отдельными решениями и 30-минутный контрольный блок по остаточным рискам. Следующий этап — изучение глав по Lernplan, выполнение вариантов и целевая доработка личных ошибок.
 
 ## Статусы
 

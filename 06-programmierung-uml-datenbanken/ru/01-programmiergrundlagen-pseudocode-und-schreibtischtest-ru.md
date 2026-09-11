@@ -194,6 +194,21 @@ Seiteneffekte изменяют состояние вне Rückgabe, наприм
 
 Compiler или Interpreter не найдёт автоматически каждый Logikfehler.
 
+### 4.6 Выбор Programmiersprache: Compiler, Interpreter и JIT
+
+**Compiler** переводит Quellcode в Zielcode до выполнения. **Interpreter** обрабатывает Anweisungen во время выполнения; реальные реализации могут сочетать оба подхода. **JIT-Compilation** переводит часто используемые части в Laufzeit. Поэтому по словам «компилируемый» или «интерпретируемый» нельзя автоматически судить о скорости или безопасности.
+
+| Kriterium | Вопрос для экзамена |
+|---|---|
+| Problem и Paradigma | подходит prozedural, objektorientiert, funktional или ereignisgesteuert? |
+| Zielplattform | поддерживаются Betriebssystem, Browser, Mobile, Embedded или Cloud? |
+| Bibliotheken и Schnittstellen | доступны нужные Frameworks, Treiber и APIs? |
+| Qualität | Typprüfung, Tests, Debugger, sichere Bibliotheken, Wartbarkeit? |
+| Betrieb | Laufzeitumgebung, Deployment, Performance, Ressourcenbedarf? |
+| Organisation | знания Team, Lizenz, Community, Support, Lebenszyklus? |
+
+Хороший ответ сначала называет Anforderung, затем выбирает Sprache и обосновывает связь. «Язык X всегда быстрее» — не надёжное обоснование.
+
 ## 5. Schreibtischtest und Modellierung
 
 ### 5.1 Алгоритм работы

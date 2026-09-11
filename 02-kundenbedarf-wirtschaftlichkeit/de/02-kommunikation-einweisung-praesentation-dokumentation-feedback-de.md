@@ -178,7 +178,7 @@ Eine Erklärung darf fachlich nicht falsch werden, nur weil sie vereinfacht wird
 
 ## 7. Informationen adressatengerecht aufbereiten
 
-### 6.1 Verständliche Sprache
+### 7.1 Verständliche Sprache
 
 - kurze, vollständige Sätze;
 - bekannte Wörter und einheitliche Begriffe;
@@ -197,7 +197,7 @@ Besser:
 
 > Melden Sie sich mit Passwort und Authenticator-App an. Wählen Sie anschließend „Synchronisieren“.
 
-### 6.2 Fachbegriffe
+### 7.2 Fachbegriffe
 
 Fachbegriffe werden nicht grundsätzlich vermieden. Sie werden erklärt, wenn sie für die Aufgabe notwendig sind.
 
@@ -212,7 +212,7 @@ Sicherung / Backup
 Bildschirmsperre / Screen Lock
 ```
 
-### 6.3 Information auswählen
+### 7.3 Information auswählen
 
 Eine gute Erklärung beantwortet:
 
@@ -254,7 +254,7 @@ Eine Gesprächsnotiz ersetzt nur dann einen formalen Nachweis, wenn dies organis
 
 Eine Einweisung beginnt nicht mit Folien, sondern mit einem Lern- und Handlungsziel.
 
-### 8.1 Lernziel formulieren
+### 9.1 Lernziel formulieren
 
 Ungeeignet:
 
@@ -272,7 +272,7 @@ Das Lernziel enthält:
 - erwartetes Ergebnis;
 - bei Bedarf Qualitäts- oder Zeitkriterium.
 
-### 8.2 Inhalte priorisieren
+### 9.2 Inhalte priorisieren
 
 | Priorität | Inhalt |
 |---|---|
@@ -280,7 +280,7 @@ Das Lernziel enthält:
 | Soll | häufige Zusatzfunktion, effiziente Bedienung, einfache Selbsthilfe |
 | Kann | seltene Optionen, individuelle Anpassungen, Hintergrundwissen |
 
-### 8.3 Vorbereitung
+### 9.3 Vorbereitung
 
 - Gerät und Software funktionieren und sind getestet;
 - Testkonto und geeignete Testdaten stehen bereit;
@@ -300,14 +300,14 @@ Eine ungeprüfte Live-Demonstration auf Produktivdaten erzeugt vermeidbare Risik
 
 Ein robuster Ablauf lehnt sich an die Vier-Stufen-Methode an, kann aber an Aufgabe und Zielgruppe angepasst werden.
 
-### 9.1 Einstieg und Orientierung
+### 10.1 Einstieg und Orientierung
 
 - Ziel und Nutzen nennen;
 - Vorwissen kurz prüfen;
 - Ablauf und Dauer ankündigen;
 - Sicherheits- oder Datenschutzregeln vorab erklären.
 
-### 9.2 Vormachen und erklären
+### 10.2 Vormachen und erklären
 
 - realistische Aufgabe vollständig demonstrieren;
 - einzelne Schritte sichtbar ausführen;
@@ -315,15 +315,15 @@ Ein robuster Ablauf lehnt sich an die Vier-Stufen-Methode an, kann aber an Aufga
 - erwartete Anzeigen und Ergebnisse zeigen;
 - typische Fehler und sichere Reaktion erklären.
 
-### 9.3 Nachmachen und erklären lassen
+### 10.3 Nachmachen und erklären lassen
 
 Der Benutzer führt die Aufgabe selbst aus. Die einweisende Person beobachtet und greift nur ein, wenn Risiko oder Blockade dies erfordern.
 
-### 9.4 Selbstständig üben
+### 10.4 Selbstständig üben
 
 Eine leicht veränderte Aufgabe zeigt, ob nicht nur die Klickfolge auswendig gelernt wurde.
 
-### 9.5 Abschluss
+### 10.5 Abschluss
 
 - Ergebnis kontrollieren;
 - Fragen klären;
@@ -367,7 +367,7 @@ Die Erfolgskontrolle soll zum Lernziel passen. Ein Multiple-Choice-Test kann ein
 
 ## 12. Präsentation und Medienwahl
 
-### 11.1 Aufbau einer kurzen Präsentation
+### 12.1 Aufbau einer kurzen Präsentation
 
 ```text
 Einstieg
@@ -380,7 +380,7 @@ Abschluss
 Ergebnis, offene Punkte und nächste Schritte
 ```
 
-### 11.2 Auswahl des Mediums
+### 12.2 Auswahl des Mediums
 
 | Medium | Stärke | Grenze |
 |---|---|---|
@@ -392,7 +392,7 @@ Ergebnis, offene Punkte und nächste Schritte
 | Remote-Bildschirmfreigabe | geeignet für verteilte Teilnehmer | Datenschutz, Verbindung und Bedienrechte beachten |
 | Testsystem | gefahrloses Üben | muss dem Produktivsystem ausreichend entsprechen |
 
-### 11.3 Gestaltungsprinzipien
+### 12.3 Gestaltungsprinzipien
 
 - eine Kernaussage pro Abschnitt oder Folie;
 - lesbare Schrift und ausreichender Kontrast;
@@ -440,7 +440,7 @@ Menschen sollten nicht starr als „visueller“, „auditiver“ oder „kinäs
 
 `Feedback` beschreibt eine beobachtete Wirkung oder ein Ergebnis und unterstützt Verbesserung. Es ist kein persönliches Urteil.
 
-### 13.1 Konstruktives Feedback
+### 14.1 Konstruktives Feedback
 
 Gutes Feedback ist:
 
@@ -461,7 +461,7 @@ Besser:
 
 > Beim Verbindungsaufbau wurde der VPN-Status nicht geprüft. Dadurch konnte nicht sicher festgestellt werden, ob der Zugriff über die vorgesehene geschützte Verbindung erfolgte. Bitte kontrollieren Sie künftig vor dem Öffnen der Kundendaten das VPN-Symbol.
 
-### 13.2 Struktur für Feedback
+### 14.2 Struktur für Feedback
 
 ```text
 Beobachtung
@@ -474,7 +474,7 @@ Erwartung/Vereinbarung
 Was soll künftig konkret geschehen?
 ```
 
-### 13.3 Feedback annehmen
+### 14.3 Feedback annehmen
 
 1. ausreden lassen;
 2. Verständnisfragen stellen;
@@ -684,11 +684,11 @@ Ein vollständiges Protokoll ist nicht dasselbe wie eine möglichst umfangreiche
 
 25 Außendienstmitarbeiter erhalten neue Notebooks. Die Geräte besitzen Festplattenverschlüsselung, VPN-Zugang mit MFA und eine zentral verwaltete Office-Umgebung. Die Benutzer haben unterschiedliche technische Erfahrung.
 
-### 20.1 Lernziel
+### 21.1 Lernziel
 
 > Nach der 30-minütigen Einweisung kann sich jeder Teilnehmer sicher am Notebook anmelden, eine VPN-Verbindung mit MFA herstellen, den Verbindungsstatus prüfen, Kundendokumente im vorgesehenen Speicherort ablegen und den Supportweg bei einer Störung nutzen.
 
-### 20.2 Einweisungsablauf
+### 21.2 Einweisungsablauf
 
 | Zeit | Inhalt | Methode | Kontrolle |
 |---:|---|---|---|
@@ -699,7 +699,7 @@ Ein vollständiges Protokoll ist nicht dasselbe wie eine möglichst umfangreiche
 | 4 min | Fehlermeldung und Supportweg | Szenario | Teach-back |
 | 5 min | individuelle Aufgabe, Fragen, Abschluss | selbstständige Übung | Checkliste |
 
-### 20.3 Erfolgskriterien
+### 21.3 Erfolgskriterien
 
 - Anmeldung ohne Weitergabe des Passworts;
 - VPN-Verbindung erfolgreich hergestellt;
@@ -708,7 +708,7 @@ Ein vollständiges Protokoll ist nicht dasselbe wie eine möglichst umfangreiche
 - Bildschirmsperre selbstständig aktiviert;
 - Supportkontakt und notwendige Ticketinformationen bekannt.
 
-### 20.4 Auszug aus dem Protokoll
+### 21.4 Auszug aus dem Protokoll
 
 | Feld | Eintrag |
 |---|---|

@@ -60,7 +60,7 @@ Kein Vorgehen ist in jedem Fall überlegen. In einer Prüfungsantwort muss die A
 
 ## 4. Wasserfallmodell
 
-### 3.1 Grundprinzip
+### 4.1 Grundprinzip
 
 Das `Wasserfallmodell` ist ein überwiegend sequenzielles Vorgehen. Das Ergebnis einer Phase bildet die Grundlage für die nächste Phase.
 
@@ -78,7 +78,7 @@ Einführung und Betrieb
 
 Bezeichnungen und Anzahl der Phasen können abweichen. Entscheidend ist die Logik: Anforderungen und Entwurf werden weitgehend vor der Umsetzung festgelegt; anschließend folgen Realisierung und Prüfung.
 
-### 3.2 Stärken
+### 4.2 Stärken
 
 - verständliche Reihenfolge und Zuständigkeiten;
 - ausführliche Planung vor der Umsetzung;
@@ -86,7 +86,7 @@ Bezeichnungen und Anzahl der Phasen können abweichen. Entscheidend ist die Logi
 - Termine und Budget sind bei stabilen Anforderungen leichter planbar;
 - geeignet, wenn späte Änderungen besonders teuer sind.
 
-### 3.3 Grenzen
+### 4.3 Grenzen
 
 - Anwender erhalten ein nutzbares Ergebnis häufig erst spät;
 - falsche Annahmen können erst beim Test sichtbar werden;
@@ -94,7 +94,7 @@ Bezeichnungen und Anzahl der Phasen können abweichen. Entscheidend ist die Logi
 - bei hoher Unsicherheit verlieren frühe Schätzungen schnell ihre Gültigkeit;
 - ein formaler Phasenabschluss beweist nicht, dass die ursprünglichen Anforderungen richtig waren.
 
-### 3.4 Geeignete Einsatzbedingungen
+### 4.4 Geeignete Einsatzbedingungen
 
 Das `Wasserfallmodell` lässt sich begründen, wenn:
 
@@ -110,7 +110,7 @@ Das `Wasserfallmodell` lässt sich begründen, wenn:
 
 ## 5. Scrum
 
-### 4.1 Grundidee
+### 5.1 Grundidee
 
 `Scrum` ist ein leichtgewichtiges Framework zur Wertschöpfung durch Lösungen für komplexe Probleme. Die Arbeit erfolgt `iterativ` und `inkrementell`.
 
@@ -126,7 +126,7 @@ Die drei Säulen der Empirie:
 
 Scrum stützt sich auf die Werte `Commitment, Fokus, Offenheit, Respekt und Mut`.
 
-### 4.2 Scrum Team und Verantwortlichkeiten
+### 5.2 Scrum Team und Verantwortlichkeiten
 
 Ein `Scrum Team` besteht aus:
 
@@ -140,7 +140,7 @@ Der `Product Owner` darf einzelne Arbeiten delegieren, bleibt jedoch für das Er
 
 Im offiziellen Scrum gibt es keine eigene Verantwortlichkeit `Projektleiter`. Eine Organisation kann Manager außerhalb des Scrum Teams einsetzen, deren Befugnisse dürfen aber nicht automatisch in das Scrum Framework übertragen werden.
 
-### 4.3 Scrum Events
+### 5.3 Scrum Events
 
 Der `Sprint` ist der Container für alle anderen Ereignisse. Er dauert höchstens einen Monat. Kürzere Sprints können die Häufigkeit von Feedback erhöhen und Risiken begrenzen.
 
@@ -154,7 +154,7 @@ Der `Sprint` ist der Container für alle anderen Ereignisse. Er dauert höchsten
 
 Nur der `Product Owner` kann einen Sprint abbrechen, wenn das `Sprint Goal` gegenstandslos geworden ist.
 
-### 4.4 Artefakte und Commitments
+### 5.4 Artefakte und Commitments
 
 | Artefakt | Inhalt | Commitment |
 |---|---|---|
@@ -164,7 +164,7 @@ Nur der `Product Owner` kann einen Sprint abbrechen, wenn das `Sprint Goal` gege
 
 Arbeit, die nicht der `Definition of Done` entspricht, ist kein Bestandteil eines nutzbaren Increments und darf nicht als abgeschlossen dargestellt werden.
 
-### 4.5 Geeignete Einsatzbedingungen
+### 5.5 Geeignete Einsatzbedingungen
 
 Scrum lässt sich begründen, wenn:
 
@@ -176,7 +176,7 @@ Scrum lässt sich begründen, wenn:
 
 > Scrum ist geeignet, weil die Anforderungen noch nicht vollständig feststehen und durch kurze Sprints regelmäßig nutzbare Ergebnisse sowie frühes Feedback entstehen.
 
-### 4.6 Wasserfall und Scrum im Vergleich
+### 5.6 Wasserfall und Scrum im Vergleich
 
 | Kriterium | `Wasserfallmodell` | `Scrum` |
 |---|---|---|
@@ -194,7 +194,7 @@ Auch bei Scrum gelten Anforderungen an Sicherheit, Datenschutz, Budget und Vertr
 
 ## 6. Projektstrukturplan (PSP)
 
-### 5.1 Zweck
+### 6.1 Zweck
 
 Der `PSP` gliedert den gesamten Projektumfang hierarchisch in überschaubare Bestandteile. Er schafft ein gemeinsames Bild des `Projektumfangs` und bildet die Grundlage für die Planung von Terminen, Kosten, Ressourcen und Verantwortlichkeiten.
 
@@ -217,7 +217,7 @@ Projekt: 20 Arbeitsplätze einrichten
     └── 4.2 Einweisung und Abnahme
 ```
 
-### 5.2 Gliederungsarten
+### 6.2 Gliederungsarten
 
 | Art | Gliederungsgrundlage | Beispiel |
 |---|---|---|
@@ -228,7 +228,7 @@ Projekt: 20 Arbeitsplätze einrichten
 
 Innerhalb einer Ebene sollte nach Möglichkeit ein einheitliches Gliederungsprinzip verwendet werden, damit keine Arbeit doppelt erfasst oder übersehen wird.
 
-### 5.3 Anforderungen an ein Arbeitspaket
+### 6.3 Anforderungen an ein Arbeitspaket
 
 Ein gutes `Arbeitspaket` enthält:
 
@@ -272,7 +272,7 @@ Der `Netzplan` beantwortet: **Welche Abhängigkeiten, Puffer und kritischen Wege
 
 ## 8. Netzplan
 
-### 7.1 Grundbegriffe
+### 8.1 Grundbegriffe
 
 | Kürzel | Begriff | Bedeutung |
 |---|---|---|
@@ -286,7 +286,7 @@ Der `Netzplan` beantwortet: **Welche Abhängigkeiten, Puffer und kritischen Wege
 
 In vielen Aufgaben beginnt die Zeitrechnung bei `0`. Werden Kalenderdaten oder eine andere Zählweise vorgegeben, ist die Aufgabenstellung maßgeblich.
 
-### 7.2 Vorwärtsrechnung
+### 8.2 Vorwärtsrechnung
 
 Für einen Startvorgang:
 
@@ -304,7 +304,7 @@ FEZ = FAZ + Dauer
 
 Der **größte** FEZ wird verwendet, weil der Vorgang erst beginnen kann, wenn alle notwendigen Vorgänger beendet sind.
 
-### 7.3 Rückwärtsrechnung
+### 8.3 Rückwärtsrechnung
 
 Für einen Endvorgang:
 
@@ -322,7 +322,7 @@ SAZ = SEZ − Dauer
 
 Der **kleinste** SAZ wird verwendet, damit keiner der notwendigen Nachfolger verspätet beginnt.
 
-### 7.4 Pufferzeiten
+### 8.4 Pufferzeiten
 
 ```text
 Gesamtpuffer:
@@ -341,7 +341,7 @@ Vorgänge mit `GP = 0` liegen auf dem `kritischen Pfad`. Ihre Verzögerung versc
 
 ## 9. Vollständiges Netzplanbeispiel
 
-### 8.1 Ausgangsdaten
+### 9.1 Ausgangsdaten
 
 | Vorgang | Dauer | Unmittelbare Vorgänger |
 |---|---:|---|
@@ -352,7 +352,7 @@ Vorgänge mit `GP = 0` liegen auf dem `kritischen Pfad`. Ihre Verzögerung versc
 | E | 3 | B, C |
 | F | 2 | D, E |
 
-### 8.2 Vorwärtsrechnung
+### 9.2 Vorwärtsrechnung
 
 | Vorgang | Berechnung FAZ | FAZ | FEZ |
 |---|---|---:|---:|
@@ -365,7 +365,7 @@ Vorgänge mit `GP = 0` liegen auf dem `kritischen Pfad`. Ihre Verzögerung versc
 
 `Projektdauer = 14 Zeiteinheiten`.
 
-### 8.3 Rückwärtsrechnung
+### 9.3 Rückwärtsrechnung
 
 | Vorgang | Berechnung SEZ | SAZ | SEZ |
 |---|---|---:|---:|
@@ -376,7 +376,7 @@ Vorgänge mit `GP = 0` liegen auf dem `kritischen Pfad`. Ihre Verzögerung versc
 | C | SAZ(E) | 7 | 9 |
 | A | min(SAZ(B), SAZ(C)) = min(3, 7) | 0 | 3 |
 
-### 8.4 Puffer und kritischer Pfad
+### 9.4 Puffer und kritischer Pfad
 
 | Vorgang | FAZ | FEZ | SAZ | SEZ | GP | FP |
 |---|---:|---:|---:|---:|---:|---:|
@@ -395,7 +395,7 @@ Warum besitzt C einen `GP von 4`, aber nur einen `FP von 2`?
 - Bereits nach zwei Zeiteinheiten Verzögerung verschiebt sich der früheste Anfang von E.
 - E besitzt selbst noch zwei Zeiteinheiten Gesamtpuffer.
 
-### 8.5 Plausibilitätsprüfung
+### 9.5 Plausibilitätsprüfung
 
 - Summe der Dauern des kritischen Pfads: `3 + 4 + 5 + 2 = 14`;
 - dieser Wert entspricht der berechneten Projektdauer;

@@ -105,6 +105,12 @@ Der Marketing-Mix wird häufig als vier Instrumente betrachtet:
 
 `Marktbeobachtung` verfolgt bekannte Märkte laufend; `Marktanalyse` untersucht einen Markt zu einem Zeitpunkt; `Marktforschung` umfasst systematische Gewinnung und Auswertung von Marktdaten.
 
+### 6.1 Marktforschung und SWOT
+
+**Primärforschung** erhebt neue Daten, zum Beispiel durch Befragung, Beobachtung oder Experiment. **Sekundärforschung** wertet bereits vorhandene interne oder externe Daten aus. Sekundärdaten sind meist schneller verfügbar; Primärdaten können genauer auf die Fragestellung zugeschnitten werden. Stichprobe, Aktualität, Quelle, Kosten und mögliche Verzerrung sind jeweils zu bewerten.
+
+Die **SWOT-Analyse** trennt interne Stärken und Schwächen von externen Chancen und Risiken. Erst aus der Kombination entstehen Handlungsoptionen, etwa eine Stärke zum Nutzen einer Chance einzusetzen. Eine bloße Vierfelderliste ist noch keine begründete Entscheidung.
+
 > Die Ziele stehen in einem Zielkonflikt, da die verkürzte Lieferzeit zwar den Kundenservice verbessert, aber zusätzliche Beschaffungskosten verursacht.
 
 > Die GmbH ist für den Fall eher geeignet, weil sie die gewünschte gemeinsame Geschäftsführung ermöglicht und die Haftung grundsätzlich auf das Gesellschaftsvermögen begrenzt.
@@ -130,6 +136,7 @@ Der Marketing-Mix wird häufig als vier Instrumente betrachtet:
 4. Vergleiche Einzelunternehmen und GmbH anhand von drei Kriterien.
 5. Ein Anbieter senkt durch energieeffiziente Geräte Kosten und Emissionen. Bestimme die Zielbeziehung.
 6. Begründe, warum eine Marktanalyse keine dauerhafte Marktbeobachtung ersetzt.
+7. Grenze Primär- und Sekundärforschung ab und ordne die vier SWOT-Felder intern oder extern zu.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -140,6 +147,7 @@ Der Marketing-Mix wird häufig als vier Instrumente betrachtet:
 4. Einzelunternehmen: kein Mindestkapital, einfache Leitung, persönliche unbeschränkte Haftung. GmbH: Stammkapital, Geschäftsführung, grundsätzlich Haftung mit Gesellschaftsvermögen.
 5. Komplementäre Ziele, weil eine Maßnahme beide Ziele unterstützt.
 6. Die Analyse bildet einen Zeitpunkt oder eine konkrete Fragestellung ab; Beobachtung erkennt Veränderungen fortlaufend.
+7. Primärforschung erhebt neue Daten, Sekundärforschung nutzt vorhandene. Stärken/Schwächen sind intern, Chancen/Risiken extern.
 
 </details>
 

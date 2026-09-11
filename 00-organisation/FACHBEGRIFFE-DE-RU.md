@@ -533,6 +533,33 @@ Stand: 11.09.2026. Рабочий словарь охватывает главы
 | Schlechtlieferung | Lieferung mit Qualitätsmangel. | Поставка товара с дефектом. | K50 |
 | Falschlieferung | Lieferung einer anderen als vereinbarten Sache. | Поставка не того товара. | K50 |
 | Minderlieferung | Lieferung einer geringeren als vereinbarten Menge. | Поставка недостаточного количества. | K50 |
+| Primärforschung | Erhebung neuer Daten für eine konkrete Fragestellung. | Сбор новых данных для конкретного вопроса. | K44 |
+| Sekundärforschung | Auswertung bereits vorhandener interner oder externer Daten. | Анализ уже имеющихся внутренних или внешних данных. | K44 |
+| SWOT-Analyse | Gegenüberstellung interner Stärken/Schwächen und externer Chancen/Risiken. | Сопоставление внутренних сильных/слабых сторон и внешних шансов/рисков. | K44 |
+| QR-Code | Zweidimensionaler optisch lesbarer Matrixcode. | Двумерный оптически читаемый матричный код. | K46 |
+| Fehlerkorrektur | Rekonstruktion begrenzt beschädigter Codeinformationen. | Восстановление ограниченно повреждённой кодовой информации. | K46 |
+| RFID | Funkbasierte Identifikation über Tag und Lesegerät. | Радиочастотная идентификация через метку и считыватель. | K46 |
+| NFC | Funktechnik für Kommunikation über sehr kurze Distanz. | Радиотехнология связи на очень короткой дистанции. | K46 |
+| Compiler | Übersetzt Quellcode vor der Ausführung in Zielcode. | Переводит исходный код в целевой до выполнения. | K25 |
+| Interpreter | Verarbeitet Anweisungen zur Laufzeit. | Обрабатывает инструкции во время выполнения. | K25 |
+| JIT-Compilation | Übersetzt Codebestandteile während der Laufzeit. | Компилирует части кода во время выполнения. | K25 |
+| Programmierparadigma | Grundlegender Stil zur Strukturierung von Programmen. | Основной стиль организации программ. | K25 |
+| Ishikawa-Diagramm | Strukturiert mögliche Fehlerursachen nach Kategorien. | Структурирует возможные причины ошибки по категориям. | K31 |
+| 6-W-Fragen | Fragenraster zur systematischen Beschreibung eines Fehlers. | Набор вопросов для систематического описания ошибки. | K31 |
+| Mobile Device Management (MDM) | Zentrale Verwaltung mobiler Endgeräte und Richtlinien. | Централизованное управление мобильными устройствами и политиками. | K10 |
+| Bring Your Own Device (BYOD) | Betriebliche Nutzung eines privaten Endgeräts. | Служебное использование личного устройства. | K10 |
+| Corporate Owned, Personally Enabled (COPE) | Firmengerät mit geregelter Privatnutzung. | Устройство компании с регулируемым личным использованием. | K10 |
+| Internet Printing Protocol (IPP) | Netzwerkprotokoll für Druckaufträge, typischerweise über TCP 631. | Сетевой протокол печати, обычно через TCP 631. | K10 |
+| Spooler | Puffert und ordnet Druckaufträge. | Буферизует и упорядочивает задания печати. | K10 |
+| Secure/Pull Printing | Druckausgabe erst nach Authentisierung am Gerät. | Печать только после аутентификации у устройства. | K10 |
+| ISO/IEC 20000 | Anforderungsrahmen für ein Service-Management-System. | Требования к системе управления IT-сервисами. | K49 |
+| COBIT | Rahmen für Governance und Steuerung der Unternehmens-IT. | Рамка корпоративного управления и контроля IT. | K49 |
+| MOF | Microsoft-orientiertes älteres Betriebs- und Service-Framework. | Более старая Microsoft-ориентированная рамка эксплуатации и сервиса. | K49 |
+| HTML | Auszeichnungssprache für semantische Struktur von Webinhalten. | Язык разметки семантической структуры веб-содержимого. | K52 |
+| CSS | Sprache für Darstellung und Layout von Webinhalten. | Язык оформления и компоновки веб-содержимого. | K52 |
+| JavaScript | Programmiersprache für Verhalten und Dynamik, häufig im Browser. | Язык программирования для поведения и динамики, часто в браузере. | K52 |
+| Cross-Site Scripting (XSS) | Einschleusen von Skriptinhalt in einen fremden Ausgabekontext. | Внедрение скрипта в чужой контекст вывода. | K52 |
+| Cross-Site Request Forgery (CSRF) | Missbrauch einer angemeldeten Browsersitzung für unerwünschte Anfragen. | Использование активной браузерной сессии для нежелательных запросов. | K52 |
 
 ## 9. Термины, которые нельзя смешивать
 
@@ -558,6 +585,10 @@ Stand: 11.09.2026. Рабочий словарь охватывает главы
 | Umsatz / Gewinn | Erlöse sind nicht Erlöse minus Kosten. |
 | Lastenheft / Pflichtenheft | Was/wofür aus Kundensicht versus wie aus Auftragnehmersicht. |
 | Wireframe / Mockup / Prototyp | Struktur versus visuelles Bild versus testbares Verhalten. |
+| QR-Fehlerkorrektur / Echtheitsnachweis | Beschädigte Module rekonstruieren versus Herkunft kryptografisch prüfen. |
+| Compiler / Interpreter / JIT | Vorabübersetzung versus Laufzeitverarbeitung versus Laufzeitübersetzung. |
+| Primär- / Sekundärforschung | neue Daten erheben versus vorhandene Daten auswerten. |
+| ITIL / ISO 20000 / COBIT | Best Practices versus Systemanforderungen versus IT-Governance. |
 
 ## 10. Tagesroutine bis zur Prüfung
 

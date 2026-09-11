@@ -179,7 +179,7 @@ USB-C может поддерживать:
 
 Нужно проверять документацию порта, устройства и кабеля.
 
-### 8.1 USB-B, Mini-USB и Micro-USB
+### 9.1 USB-B, Mini-USB и Micro-USB
 
 | Bauform | Erkennungsmerkmal | typischer früherer/aktueller Einsatz |
 |---|---|---|
@@ -193,7 +193,7 @@ USB-C может поддерживать:
 
 Буквы `A`, `B`, `C` описывают механическую Steckverbinderfamilie. USB 2.0, USB 3.2 и USB4 описывают technische Übertragungsstandards/Funktionen. Поэтому по форме нельзя определять Datenrate.
 
-### 8.2 Datenraten sicher lesen
+### 9.2 Datenraten sicher lesen
 
 | explizite Angabe | theoretische Bruttodatenrate |
 |---|---:|
@@ -273,7 +273,7 @@ P = U × I
 
 > Zwei externe Monitore müssen gleichzeitig mit 2 560 × 1 440 Pixeln bei 60 Hz betrieben werden.
 
-### 11.1 Bildanschlüsse unterscheiden
+### 12.1 Bildanschlüsse unterscheiden
 
 | Anschluss | Signal | wichtige Besonderheit |
 |---|---|---|
@@ -287,7 +287,7 @@ P = U × I
 
 `DisplayPort Dual-Mode` с обозначением `DP++` может при подходящем источнике позволять пассивные Adapter к определённым HDMI-/DVI-Signale. Без этой функции или в другом направлении нужен aktiver Wandler.
 
-### 11.2 Weitere typische Arbeitsplatzanschlüsse
+### 12.2 Weitere typische Arbeitsplatzanschlüsse
 
 | Anschluss | Zweck | Prüfpunkt |
 |---|---|---|
@@ -531,6 +531,12 @@ Betriebssystem
 
 Пример: дешёвый Drucker может иметь высокую стоимость страницы и малый Wartungszyklus.
 
+### 24.1 Mobile Endgeräte и MDM
+
+Для Smartphones/Tablets важны Plattform, Laufzeit, Funkstandards, Kamera/Sensorik, Robustheit, Reparierbarkeit, Updatezeitraum и Unternehmensintegration. **Mobile Device Management (MDM)** поддерживает Registrierung, Gerätekonfiguration, Verschlüsselung, Bildschirmsperre, Zertifikate, App-Regeln, Inventar, Remote-Sperre/-Löschung и контролируемый Offboarding.
+
+**BYOD** использует частные устройства и требует разделения данных и Datenschutz. **COPE** предоставляет Firmengerät с регулируемым частным использованием; **COBO** ограничивает его служебным использованием. Одна аббревиатура не заменяет Nutzungs-, Support- и Löschkonzept.
+
 ---
 
 ## 25. Drucker и Scanner
@@ -558,6 +564,14 @@ Betriebssystem
 - Zielsystem и Datenschutz.
 
 Максимальный dpi-Wert без Dokumentart и Outputzweck не является достаточным критерием.
+
+Для Netzwerkdruck нужны протокол и контролируемый Datenweg. **IPP** обычно использует TCP-Port `631`; Druckerwarteschlange/**Spooler** буферизует и упорядочивает задания. Printserver централизует Treiber, Rechte и Protokollierung. Для секретных документов **Secure/Pull Printing** не печатает до Authentisierung у устройства. Нужно защитить Administrationsoberfläche, Firmware, TLS и Standardkennwörter.
+
+```text
+Seitenkosten = (Toner + anteilige Trommel/sonstige Verbrauchsteile) / Reichweite
+```
+
+Herstellerreichweite относится к определённым тестовым условиям. Для TCO дополнительно учитываются Papier, Energie, Wartung, Ausfall и Fehldrucke.
 
 ---
 

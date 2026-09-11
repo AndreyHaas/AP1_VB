@@ -330,7 +330,7 @@ Regel:
 
 Ein vollständiger Vergleich besteht nicht nur aus einer Preistabelle.
 
-### 1. Formale Prüfung
+### 12. Formale Prüfung
 
 - Das Angebot gehört zur richtigen Anfrage.
 - Die Bindungs- oder Gültigkeitsfrist ist nicht abgelaufen.
@@ -339,7 +339,7 @@ Ein vollständiger Vergleich besteht nicht nur aus einer Preistabelle.
 - Liefer- und Zahlungsbedingungen sind angegeben.
 - Alle Anlagen liegen vor.
 
-### 2. Technische Prüfung
+### 12. Technische Prüfung
 
 - Die `Muss-Kriterien` sind erfüllt.
 - Die Konfiguration ist vollständig.
@@ -348,7 +348,7 @@ Ein vollständiger Vergleich besteht nicht nur aus einer Preistabelle.
 - Die Lizenzen passen zum Nutzungsmodell.
 - Der Liefertermin ist mit dem Projekt vereinbar.
 
-### 3. Wirtschaftliche Bewertung
+### 12. Wirtschaftliche Bewertung
 
 - Ein vergleichbarer Bezugspreis wird berechnet.
 - Die TCO werden berücksichtigt.

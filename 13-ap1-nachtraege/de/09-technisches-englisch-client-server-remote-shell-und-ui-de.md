@@ -158,6 +158,23 @@ Eingaben werden nicht ungeprüft in Befehlsstrings eingebaut. Skripte laufen mit
 
 Abnahmekriterien betreffen Inhalt, Pflichtfelder, Validierung, Fehlermeldungen, Tastaturbedienung, Kontrast, Lesereihenfolge, responsive Darstellung und Corporate-Design-Vorgaben.
 
+### 7.4 Webgrundlagen
+
+| Baustein | Aufgabe |
+|---|---|
+| HTML | semantische Struktur und Inhalte |
+| CSS | Darstellung, Layout und responsive Anpassung |
+| JavaScript | Verhalten und dynamische Änderungen im Browser |
+| HTTP/HTTPS | Request und Response zwischen Client und Server; HTTPS zusätzlich transportverschlüsselt und authentisiert den Server per Zertifikat |
+
+`GET` fordert typischerweise eine Darstellung/Ressource an; `POST` übermittelt Daten zur Verarbeitung. Statuscodes zeigen nur Klassen: `2xx` Erfolg, `3xx` Umleitung, `4xx` Clientproblem, `5xx` Serverproblem. Eingaben sind serverseitig zu validieren und kontextgerecht zu codieren. Gegen **XSS** hilft unter anderem korrektes Output-Encoding; gegen **CSRF** unter anderem ein CSRF-Token und passende Cookie-Einstellungen. Responsive Design, Tastaturbedienung, Alternativtexte und ausreichender Kontrast gehören zu prüfbaren Qualitätskriterien.
+
+### 7.5 Recherche, Quellen und Präsentation
+
+Suchoperatoren wie Anführungszeichen für eine exakte Phrase, `site:` für eine Domain und ein Minuszeichen zum Ausschluss schärfen eine Recherche. Belastbare Quellen sind aktuell, fachlich zuständig, nachvollziehbar und möglichst primär. Aussage, Autor/Herausgeber, Datum und Geltungsbereich müssen zusammenpassen.
+
+Eine Präsentation beginnt mit Zielgruppe und Kernbotschaft. Pro Folie soll eine klare Aussage dominieren; Schriftgröße, Kontrast, Farbwirkung, Quellen und verfügbare Zeit sind zu prüfen. Die Folie unterstützt den Vortrag und ersetzt ihn nicht.
+
 > `ping` allein bestätigt den Webdienst nicht, da ICMP-Erreichbarkeit weder einen offenen TCP-Port 443 noch eine erfolgreiche TLS- und HTTP-Verarbeitung beweist.
 
 > Der SSH-Zugriff wird auf administrative Quellnetze und Schlüsselkonten beschränkt, weil ein offen erreichbarer Administrationsdienst die Angriffsfläche erhöht.
@@ -170,6 +187,8 @@ Abnahmekriterien betreffen Inhalt, Pflichtfelder, Validierung, Fehlermeldungen, 
 4. Ping funktioniert, HTTPS nicht. Nenne vier nächste Prüfungen.
 5. Erkläre die Exitcodes im Bash-Beispiel.
 6. Grenze Wireframe, Mockup und Prototyp ab.
+7. Welche Aufgaben haben HTML, CSS und JavaScript?
+8. Nenne drei Kriterien für eine belastbare Onlinequelle.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -180,6 +199,8 @@ Abnahmekriterien betreffen Inhalt, Pflichtfelder, Validierung, Fehlermeldungen, 
 4. TCP 443, Firewall/Proxy, TLS/Zertifikat/Zeit, Webdienst und Logs.
 5. 0 signalisiert in diesem Skript Erfolg; 1 bedeutet, dass keine ICMP-Antwort erkannt wurde.
 6. Wireframe: grobe Struktur; Mockup: visuelles Bild; Prototyp: testbare Interaktion.
+7. HTML strukturiert Inhalte, CSS gestaltet sie, JavaScript ergänzt Verhalten und dynamische Änderungen.
+8. Zum Beispiel fachliche Zuständigkeit, Aktualität, nachvollziehbare Belege und klarer Geltungsbereich.
 
 </details>
 
