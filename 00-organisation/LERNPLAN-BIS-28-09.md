@@ -9,7 +9,7 @@ Der `29.09.2026` bleibt als Puffer- und Erholungstag ohne neuen Stoff.
 Jeden Lerntag:
 
 1. `Prüfungsminimum` ohne Unterbrechung lesen.
-2. Fachbegriffe laut auf Deutsch erklären.
+2. 20 Begriffe aus `FACHBEGRIFFE-DE-RU.md` laut auf Deutsch erklären.
 3. Zwei Anwendungsaufgaben schriftlich lösen.
 4. `Selbsttest` ohne Lösungen bearbeiten.
 5. Fehler in eine persönliche Fehlerliste übernehmen.
@@ -21,41 +21,41 @@ Nicht jede Zeile muss auswendig gelernt werden. Beherrscht werden müssen Begrif
 
 | Datum | Kapitel | Ziel |
 |---|---|---|
-| 10.09. | 01–02 | Projektgrundlagen, Vorgehensmodelle und Netzplan |
-| 11.09. | 03–05 | Kundenbedarf, Kommunikation und Beschaffung |
-| 12.09. | 06–08 | Wirtschaftlichkeit und Nachhaltigkeit |
-| 13.09. | 09–11 | Hardware, Schnittstellen und Software |
-| 14.09. | 12–14 | Virtualisierung, Systemeinrichtung und Rechte |
-| 15.09. | 15–17 | Systemtest, Netzwerkmodelle, DNS/DHCP |
-| 16.09. | 18–20 | IPv4, IPv6, Routing/NAT |
-| 17.09. | 21–23 | Ethernet/WLAN, VLAN, Firewall/DMZ |
-| 18.09. | 24–26 | IDS/IPS/VPN und Programmiergrundlagen |
-| 19.09. | 27–29 | UML, relationale Datenbanken, BPMN |
-| 20.09. | 30–32 | KI, Qualitätssicherung, Sicherheitsgrundlagen |
-| 21.09. | 33–35 | Härtung, Identitäten, Kryptografie/TLS |
-| 22.09. | 36–38 | Datenschutz und Backup |
-| 23.09. | 39–41 | Verfügbarkeit, Support und Verträge/Abnahme |
-| 24.09. | 42–43 | Rechnen und kaufmännische Mischaufgaben |
-| 25.09. | gemischt | Schwachstellenliste und gemischte Aufgaben |
+| 12.09. | 01–02, 44–45 | Projekt, Unternehmen, Organisation, Team und Change |
+| 13.09. | 03–05 | Kundenbedarf, Kommunikation und Beschaffung |
+| 14.09. | 06–07, 43, 50 | Wirtschaftlichkeit, Mischrechnung und Handelskalkulation |
+| 15.09. | 08–10, 48 | Hardware, Schnittstellen, Ergonomie, Elektrotechnik und USV |
+| 16.09. | 11–13 | Software, Cloud und Systemeinrichtung |
+| 17.09. | 14–15, 52 | Rechte, Systemtest, technisches Englisch, Befehle und Shell |
+| 18.09. | 16–20 | Netzwerkmodelle, DNS/DHCP, IPv4/IPv6, Routing/NAT |
+| 19.09. | 21–24, 51 | Ethernet/WLAN, VLAN, Firewall, VPN, QoS/VoIP und Dienste |
+| 20.09. | 25–27 | Programmierung, Codefehler und UML |
+| 21.09. | 28–30 | Relationale Datenbanken, BPMN und KI |
+| 22.09. | 31–35 | Qualität, Sicherheitsgrundlagen, Härtung, Identitäten und Kryptografie |
+| 23.09. | 36–38 | Datenschutz und Backup |
+| 24.09. | 39–41, 49 | Verfügbarkeit, Service/ITIL, ISMS und Verträge |
+| 25.09. | 42, 46–47 | Einheiten, Zahlensysteme, Encoding, Multimedia und Kamera |
 | 26.09. | Simulation 1 | 90 Minuten unter Prüfungsbedingungen |
 | 27.09. | Simulation 2 | 90 Minuten, danach Fehlerkorrektur |
-| 28.09. | Wiederholung | Formeln, Begriffe, Fehlerliste, keine neue Theorie |
+| 28.09. | Wiederholung | Formeln, 100 unsichere Begriffe, Fehlerliste, keine neue Theorie |
 | 29.09. | Puffer | nur leichtes Wiederholen, Schlaf und Organisation |
 
 ## Zeit pro normalem Lerntag
 
 | Block | Dauer |
 |---|---:|
-| Wiederholung Vortag | 15 min |
-| Kapitel 1 | 45 min |
-| Kapitel 2 | 45 min |
-| Kapitel 3 oder Aufgaben | 45 min |
-| Selbsttest und Fehlerliste | 30 min |
-| **Summe** | **ca. 3 h** |
+| Wiederholung Vortag und 20 Fachbegriffe | 25 min |
+| Prüfungsminimum der Tageskapitel | 60–75 min |
+| Schwerpunktkapitel vertiefen | 45 min |
+| Zwei gemischte Anwendungsaufgaben | 45–60 min |
+| Selbsttest und Fehlerliste | 25 min |
+| **Summe** | **ca. 3–3,5 h** |
+
+An Tagen mit fünf Kapiteln wird nicht jede Langfassung vollständig gelesen. Zuerst gelten `Prüfungsminimum`, Fachbegriffe und gemischte Aufgaben; die Langfassung wird nur bei gelben oder roten Ergebnissen geöffnet. So bleiben zwei vollständige Simulationstage erhalten.
 
 Falls nur 90 Minuten verfügbar sind:
 
-1. `Prüfungsminimum` aller Tageskapitel;
+1. `Prüfungsminimum` aller Tageskapitel und zehn unsichere Fachbegriffe;
 2. eine Rechen-/Anwendungsaufgabe;
 3. nur falsch beantwortete Selbsttestfragen;
 4. fünf deutsche Musterformulierungen laut wiedergeben.
@@ -68,7 +68,7 @@ Nach jedem Kapitel:
 - `Gelb` — Begriffe bekannt, Anwendung noch unsicher;
 - `Rot` — weniger als 50 % oder kein selbstständiger Lösungsweg.
 
-Am 25.09. werden zuerst rote, dann gelbe Themen bearbeitet. Grüne Themen werden nur kurz aktiv abgefragt.
+Ab dem 20.09. werden in jedem Aufgabenblock zuerst rote, dann gelbe Themen bearbeitet. Grüne Themen werden nur kurz aktiv abgefragt.
 
 ## Prüfungsbedingungen
 

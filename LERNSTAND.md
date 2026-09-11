@@ -59,6 +59,15 @@ Stand: 11.09.2026.
 | Verträge, Abnahme, Mängel und Übergabe | Abgleich | новая двуязычная глава | Entwurf | Vertragstypen, Verzug и Rechtsfolgen с WBS сверить |
 | Einheiten, Datenmenge, Übertragungszeit und Bilddateien | Kern | новая двуязычная глава | Entwurf | Einheiten- и Transferrechnungen под временем тренировать |
 | Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben | Kern | новая двуязычная глава | Entwurf | gemischte Rechnungen письменно и без подсказки решать |
+| Unternehmen, Märkte, Wertschöpfung, Rechtsformen und Marketing | Kern | WBS-Nachtrag | Entwurf | Markt-, Ziel- и Rechtsformfälle begründen |
+| Organisation, Vollmachten, Teamphasen und Change Management | Kern | WBS-Nachtrag | Entwurf | Organigramm, Vollmacht и Rolloutfälle lösen |
+| Zahlensysteme, Zeichencodierung, Prüfziffern und Parität | Kern | подтверждённый WBS-Inhalt | Entwurf | Umrechnungen и Fehlererkennung под временем тренировать |
+| Multimedia, Sampling, Kompression, Raster/Vektor und Videokamera | Kern | подтверждённый WBS-Inhalt | Entwurf | Medien- и Außenkamera-Fälle rechnen и выбирать |
+| Elektrotechnik, Wirk-/Scheinleistung, Arbeitssicherheit und USV | Kern | подтверждённый WBS-Inhalt | Entwurf | W/VA, Leistungsfaktor и USV-Dimensionierung rechnen |
+| IT-Service-Management, ITIL, ISMS und Verfügbarkeit | Kern | подтверждённый WBS-Inhalt | Entwurf | Incident/Problem/Change, Policy и NAS-Fälle lösen |
+| Erweiterte Handelskalkulation und Vor-/Nachkalkulation | Kern | подтверждённый WBS-Inhalt | Entwurf | vollständiges Schema vorwärts/rückwärts rechnen |
+| QoS, VoIP und Netzwerkdienste | Kern | подтверждённый WBS-Inhalt | Entwurf | Bandbreite, Ports и Servicepfade diagnostizieren |
+| Technisches Englisch, Client-Server, Remotezugriff, Shell und UI | Kern | Lückenprüfung/Altfragen | Entwurf | englische Angaben, Befehle и Skripte anwenden |
 | Prüfungssimulationen | Kern | нет | Geplant | создавать после покрытия и повторения основных глав |
 
 ## Материал вне активного ядра AP1
@@ -72,7 +81,7 @@ Stand: 11.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют все сорок три пары:
+В проекте существуют 52 полные двуязычные пары. Первые 43 образуют исходное ядро; девять проверочных Nachträge закрывают подтверждённые WBS-темы и пробелы повторного аудита:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -116,18 +125,28 @@ Stand: 11.09.2026.
 40. `Service und Support: Ticket, Priorität, Eskalation und SLA`;
 41. `Verträge, Abnahme, Mängel und Übergabe`;
 42. `Einheiten, Datenmenge, Übertragungszeit und Bilddateien`;
-43. `Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben`.
+43. `Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben`;
+44. `Unternehmen, Märkte, Wertschöpfung und Rechtsformen`;
+45. `Organisation, Vollmachten, Teamarbeit und Change Management`;
+46. `Zahlensysteme, Zeichencodierung, Prüfziffern und Parität`;
+47. `Multimedia, Sampling, Kompression, Raster, Vektor und Video`;
+48. `Elektrotechnik, Arbeitssicherheit und USV`;
+49. `IT-Service-Management, ITIL, ISMS und Verfügbarkeit`;
+50. `Erweiterte Handelskalkulation, Vor- und Nachkalkulation`;
+51. `QoS, VoIP und Netzwerkdienste`;
+52. `Technisches Englisch, Client-Server, Remotezugriff, Shell und UI-Entwurf`.
 
-Все 43 запланированные главы существуют как полные пары RU/DE. Оставшиеся материалы вне этих пар служат организационными документами, неизменёнными оригиналами или изолированным AP2-Zusatzwissen.
+Все 52 главы существуют как пары RU/DE. Дополнительно созданы общий `FACHBEGRIFFE-DE-RU.md` и анализ переноса типов задач прошлых AP1. Оставшиеся материалы вне пар служат организационными документами, неизменёнными оригиналами или изолированным AP2-Zusatzwissen.
 
 ## Самые крупные пробелы перед Prüfungsvorbereitung
 
-1. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting и Datenmengen.
+1. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting, Datenmengen, USV и Handelskalkulation.
 2. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
 3. Самостоятельное построение UML- и ER-Modelle.
 4. Смешанные Fälle по Datenschutz, Security, SLA и Abnahme.
-5. WBS-Abgleich для глав со статусом `Abgleich` и спорной глубины.
-6. Полные 90-минутные Prüfungssimulationen.
+5. Активное воспроизведение `Fachbegriffe` на немецком по общему словарю.
+6. WBS-Abgleich для глав со статусом `Abgleich` и спорной глубины.
+7. Полные 90-минутные Prüfungssimulationen.
 
 ## Порядок заполнения
 

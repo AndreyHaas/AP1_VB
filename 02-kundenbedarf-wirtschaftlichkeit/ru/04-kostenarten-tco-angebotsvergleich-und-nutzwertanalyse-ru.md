@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/04-kostenarten-tco-angebotsvergleich-und-nutzwertanalyse-de.md
 ---
@@ -41,7 +41,20 @@ gegenstueck: ../de/04-kostenarten-tco-angebotsvergleich-und-nutzwertanalyse-de.m
 
 ---
 
-## 2. Экзаменационная рамка и границы главы
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Fixe/variable и Einzel-/Gemeinkosten — разные классификации затрат.
+2. Bezugspreis: Listenpreis минус Rabatt, минус Skonto, плюс Bezugskosten.
+3. Netto/Brutto смешиваются только при ясной Perspektive и заданном Steuersatz.
+4. TCO включает релевантные разовые и текущие затраты за одинаковый Zeitraum.
+5. Muss-Kriterien проверяются до Preis- и Nutzwertvergleich.
+6. Nutzwert: Gewicht × Bewertung; Gewichte должны быть обоснованы и обычно дают 100 %.
+7. Euro и Nutzwertpunkte нельзя складывать без модели.
+8. Sensitivitätsanalyse проверяет устойчивость решения к изменению Annahmen.
+
+> Angebot B ist wirtschaftlich vorzuziehen, da es alle Muss-Kriterien erfüllt und im einheitlichen Betrachtungszeitraum die niedrigsten relevanten TCO verursacht.
+
+## 3. Экзаменационная рамка и границы главы
 
 § 9 `FIAusbV` требует уметь выбирать аппаратное и программное обеспечение и инициировать его закупку. В `Ausbildungsrahmenplan` дополнительно названы:
 
@@ -77,7 +90,7 @@ gegenstueck: ../de/04-kostenarten-tco-angebotsvergleich-und-nutzwertanalyse-de.m
 
 ---
 
-## 3. Логика экономического решения
+## 4. Логика экономического решения
 
 Экономическое решение удобно выполнять в следующем порядке:
 
@@ -96,7 +109,7 @@ gegenstueck: ../de/04-kostenarten-tco-angebotsvergleich-und-nutzwertanalyse-de.m
 
 ---
 
-## 4. Wirtschaftlichkeit и экономический принцип
+## 5. Wirtschaftlichkeit и экономический принцип
 
 `Wirtschaftlichkeit` описывает отношение результата к использованным средствам. В зависимости от условия задачи применяется, например:
 
@@ -140,7 +153,7 @@ Wirtschaftlichkeit = Ertrag / Aufwand
 
 ---
 
-## 5. Preis, Auszahlung, Aufwand, Kosten и Nutzen
+## 6. Preis, Auszahlung, Aufwand, Kosten и Nutzen
 
 Эти понятия связаны, но не равны.
 
@@ -163,7 +176,7 @@ Wirtschaftlichkeit = Ertrag / Aufwand
 
 ---
 
-## 6. Зачем классифицировать затраты
+## 7. Зачем классифицировать затраты
 
 Классификация помогает понять:
 
@@ -183,7 +196,7 @@ Wirtschaftlichkeit = Ertrag / Aufwand
 
 ---
 
-## 7. Fixe und variable Kosten
+## 8. Fixe und variable Kosten
 
 ### Fixkosten
 
@@ -224,7 +237,7 @@ Gesamtkosten = Grundpreis + Menge × Preis je Einheit
 
 ---
 
-## 8. Einzelkosten und Gemeinkosten
+## 9. Einzelkosten und Gemeinkosten
 
 ### Einzelkosten
 
@@ -253,7 +266,7 @@ Gesamtkosten = Grundpreis + Menge × Preis je Einheit
 
 ---
 
-## 9. Einmalige und laufende Kosten
+## 10. Einmalige und laufende Kosten
 
 ### Einmalige Kosten
 
@@ -281,7 +294,7 @@ Gesamtkosten = Grundpreis + Menge × Preis je Einheit
 
 ---
 
-## 10. Netto, Brutto, Umsatzsteuer и Vorsteuer
+## 11. Netto, Brutto, Umsatzsteuer и Vorsteuer
 
 `Nettopreis` не содержит Umsatzsteuer. `Bruttopreis` содержит её:
 
@@ -313,7 +326,7 @@ Brutto может быть релевантно, например:
 
 ---
 
-## 11. Три уровня Angebotsvergleich
+## 12. Три уровня Angebotsvergleich
 
 Полное сравнение состоит не только из таблицы цен.
 
@@ -346,7 +359,7 @@ Brutto может быть релевантно, например:
 
 ---
 
-## 12. Muss-, Soll- и Kann-Kriterien
+## 13. Muss-, Soll- и Kann-Kriterien
 
 ### Muss-Kriterium
 
@@ -376,7 +389,7 @@ Brutto может быть релевантно, например:
 
 ---
 
-## 13. Схема количественного Angebotsvergleich
+## 14. Схема количественного Angebotsvergleich
 
 Типичная учебная схема:
 
@@ -404,7 +417,7 @@ Listeneinkaufspreis
 
 ---
 
-## 14. Prozentbasis и Reihenfolge
+## 15. Prozentbasis и Reihenfolge
 
 Процент всегда рассчитывается от конкретной базы:
 
@@ -435,7 +448,7 @@ Prozentwert = Grundwert × Prozentsatz / 100
 
 ---
 
-## 15. Полный расчёт Angebot A
+## 16. Полный расчёт Angebot A
 
 Дано:
 
@@ -464,7 +477,7 @@ Prozentwert = Grundwert × Prozentsatz / 100
 
 ---
 
-## 16. Angebot B и количественное решение
+## 17. Angebot B и количественное решение
 
 Angebot B:
 
@@ -493,7 +506,7 @@ Angebot B:
 
 ---
 
-## 17. Rabatt и Skonto: различие и ловушки
+## 18. Rabatt и Skonto: различие и ловушки
 
 ### Rabatt
 
@@ -530,7 +543,7 @@ Skonto предоставляется, если счёт оплачиваетс�
 
 ---
 
-## 18. Bezugskosten
+## 19. Bezugskosten
 
 К Bezugskosten могут относиться:
 
@@ -555,7 +568,7 @@ Skonto предоставляется, если счёт оплачиваетс�
 
 ---
 
-## 19. Zahlungsbedingungen и реальная достижимость Skonto
+## 20. Zahlungsbedingungen и реальная достижимость Skonto
 
 Экономически корректный расчёт учитывает не только математическую возможность, но и процесс:
 
@@ -580,7 +593,7 @@ Skonto предоставляется, если счёт оплачиваетс�
 
 ---
 
-## 20. Что такое Total Cost of Ownership
+## 21. Что такое Total Cost of Ownership
 
 `Total Cost of Ownership (TCO)` — модель общей стоимости владения или использования решения на определённом жизненном цикле.
 
@@ -605,7 +618,7 @@ TCO особенно важна в IT, потому что низкая цена
 
 ---
 
-## 21. Типичные TCO-Kostenblöcke
+## 22. Типичные TCO-Kostenblöcke
 
 ### До ввода в эксплуатацию
 
@@ -648,7 +661,7 @@ TCO особенно важна в IT, потому что низкая цена
 
 ---
 
-## 22. Построение корректной TCO-модели
+## 23. Построение корректной TCO-модели
 
 Для всех альтернатив должны быть одинаковы:
 
@@ -682,7 +695,7 @@ TCO — это модель, а не автоматически точная б�
 
 ---
 
-## 23. TCO-Praxisfall: три предложения
+## 24. TCO-Praxisfall: три предложения
 
 Все три предложения выполняют Muss-Kriterien. Горизонт — три года, 20 устройств, Netto.
 
@@ -715,7 +728,7 @@ A − C = 24.587,20 € − 24.100,00 € = 487,20 €
 
 ---
 
-## 24. Энергозатраты в TCO
+## 25. Энергозатраты в TCO
 
 Базовая формула:
 
@@ -748,7 +761,7 @@ Energiekosten = Energie in kWh × Preis je kWh
 
 ---
 
-## 25. Скрытые и косвенные затраты
+## 26. Скрытые и косвенные затраты
 
 Часто пропускаются:
 
@@ -773,7 +786,7 @@ Energiekosten = Energie in kWh × Preis je kWh
 
 ---
 
-## 26. Риск двойного учёта
+## 27. Риск двойного учёта
 
 Типичные двойные учёты:
 
@@ -792,7 +805,7 @@ Energiekosten = Energie in kWh × Preis je kWh
 
 ---
 
-## 27. TCO и другие методы Wirtschaftlichkeitsrechnung
+## 28. TCO и другие методы Wirtschaftlichkeitsrechnung
 
 TCO сравнивает затраты, но сама по себе не отвечает на все вопросы.
 
@@ -809,7 +822,7 @@ TCO сравнивает затраты, но сама по себе не отв
 
 ---
 
-## 28. Что такое Nutzwertanalyse
+## 29. Что такое Nutzwertanalyse
 
 `Nutzwertanalyse (NWA)` — многокритериальный метод сравнения альтернатив по качественным или переведённым в баллы критериям.
 
@@ -829,7 +842,7 @@ NWA делает оценку прозрачнее, но не превращае
 
 ---
 
-## 29. Критерии из Kundenbedarf
+## 30. Критерии из Kundenbedarf
 
 Критерии не должны появляться случайно после просмотра предложений. Они выводятся из:
 
@@ -860,7 +873,7 @@ NWA делает оценку прозрачнее, но не превращае
 
 ---
 
-## 30. Gewichtung
+## 31. Gewichtung
 
 Вес показывает относительную важность критерия.
 
@@ -893,7 +906,7 @@ Summe aller Gewichte = 100 %
 
 ---
 
-## 31. Bewertungsskala
+## 32. Bewertungsskala
 
 Все предложения оцениваются по одной шкале.
 
@@ -923,7 +936,7 @@ Summe aller Gewichte = 100 %
 
 ---
 
-## 32. Формулы Nutzwertanalyse
+## 33. Формулы Nutzwertanalyse
 
 При весах в долях:
 
@@ -949,7 +962,7 @@ Teilnutzwert = Gewicht in Prozent × Punkte
 
 ---
 
-## 33. Полная Nutzwertanalyse A, B и C
+## 34. Полная Nutzwertanalyse A, B и C
 
 Оценки по шкале 1–5:
 
@@ -979,7 +992,7 @@ Teilnutzwert = Gewicht in Prozent × Punkte
 
 ---
 
-## 34. Компенсация и KO-Risiko
+## 35. Компенсация и KO-Risiko
 
 NWA обычно является компенсаторной:
 
@@ -1006,7 +1019,7 @@ NWA обычно является компенсаторной:
 
 ---
 
-## 35. Sensitivitätsanalyse
+## 36. Sensitivitätsanalyse
 
 `Sensitivitätsanalyse` проверяет, насколько результат зависит от изменяемых допущений.
 
@@ -1037,7 +1050,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 36. Как объединить Preis, TCO, Nutzwert и Risiko
+## 37. Как объединить Preis, TCO, Nutzwert и Risiko
 
 Нельзя непосредственно складывать:
 
@@ -1072,7 +1085,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 37. Entscheidungsdokumentation
+## 38. Entscheidungsdokumentation
 
 Хорошая документация содержит:
 
@@ -1100,7 +1113,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 38. Полный Praxisfall
+## 39. Полный Praxisfall
 
 ### Ausgangssituation
 
@@ -1159,7 +1172,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 39. Prüfungsalgorithmus
+## 40. Prüfungsalgorithmus
 
 При ограниченном времени:
 
@@ -1186,7 +1199,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 40. Typische Prüfungsformulierungen
+## 41. Typische Prüfungsformulierungen
 
 ### Berechnen
 
@@ -1224,7 +1237,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 41. Typische Prüfungsfallen
+## 42. Typische Prüfungsfallen
 
 1. Сразу выбирать минимальную Listenpreis.
 2. Не проверять Muss-Kriterien.
@@ -1257,7 +1270,7 @@ Sensitivitätsanalyse не означает произвольное менят�
 
 ---
 
-## 42. Selbsttest
+## 43. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -1365,7 +1378,7 @@ Bezugspreis составляет 10 999,20 €.
 
 ---
 
-## 43. Quellen und Abgleich
+## 44. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -1383,7 +1396,7 @@ Bezugspreis составляет 10 999,20 €.
 
 ---
 
-## 44. Offene Prüfpunkte für den Unterricht
+## 45. Offene Prüfpunkte für den Unterricht
 
 - Какую точную Kalkulationsschema использует WBS для Bezugspreis?
 - Включает ли WBS Verpackung/Fracht до или после Skonto в типовых заданиях?

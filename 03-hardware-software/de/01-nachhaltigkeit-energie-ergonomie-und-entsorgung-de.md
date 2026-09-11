@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Nachhaltigkeit, Energie, Ergonomie und Entsorgung
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-ru.md
 ---
@@ -38,7 +38,20 @@ Nach dieser Einheit kannst du:
 
 ---
 
-## 2. Prüfungsrahmen
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Nachhaltigkeit verbindet ökonomische, ökologische und soziale Wirkungen über den Lebenszyklus.
+2. Leistung ist Energie je Zeit; `E_kWh = P_kW × t_h`.
+3. Aktiver Betrieb, Idle, Standby, Stückzahl und Nutzungstage werden getrennt berechnet und addiert.
+4. Netzteil-Nennleistung ist nicht automatisch die tatsächliche Leistungsaufnahme.
+5. Energieeffizienz verbessert das Verhältnis von Nutzen zu Energie; Suffizienz hinterfragt den notwendigen Umfang.
+6. Beschaffung betrachtet Herstellung, Nutzung, Reparierbarkeit, Lebensdauer, Support und Entsorgung.
+7. Ergonomie passt Arbeitsmittel und Umgebung an Menschen und Aufgabe an.
+8. Vor Weitergabe/Entsorgung werden Daten nach Schutzbedarf nachweisbar gelöscht; Elektroaltgeräte getrennt behandelt.
+
+> Die Variante ist über den Lebenszyklus nachhaltiger, weil sie bei gleicher Eignung weniger Energie benötigt, länger unterstützt wird und reparierbar ist.
+
+## 3. Prüfungsrahmen
 
 In AP1 wird Nachhaltigkeit meist nicht als isolierte Definition geprüft. Sie erscheint in einer Handlungssituation:
 
@@ -59,7 +72,7 @@ Eine gute Antwort verbindet deshalb mindestens drei Ebenen:
 
 ---
 
-## 3. Drei Dimensionen der Nachhaltigkeit
+## 4. Drei Dimensionen der Nachhaltigkeit
 
 | Dimension | Leitfrage | Beispiele im IT-Arbeitsplatz |
 |---|---|---|
@@ -75,7 +88,7 @@ Prüfungsgeeignete Formulierung:
 
 ---
 
-## 4. Lebenszyklus eines IT-Arbeitsplatzes
+## 5. Lebenszyklus eines IT-Arbeitsplatzes
 
 Eine Entscheidung darf nicht nur den Kauf betrachten.
 
@@ -94,7 +107,7 @@ Die Nutzungsphase kann hohe Strom- und Supportkosten verursachen. Herstellung un
 
 ---
 
-## 5. Messbare Nachhaltigkeitskriterien
+## 6. Messbare Nachhaltigkeitskriterien
 
 Ungeeignet:
 
@@ -118,7 +131,7 @@ Wichtig:
 
 ---
 
-## 6. Leistung und Energie
+## 7. Leistung und Energie
 
 `Leistung` beschreibt, wie viel Energie pro Zeit umgesetzt wird:
 
@@ -152,7 +165,7 @@ Typischer Fehler:
 
 ---
 
-## 7. Gesamtleistung und Geräteanzahl
+## 8. Gesamtleistung und Geräteanzahl
 
 Bei gleichartigen Geräten:
 
@@ -172,7 +185,7 @@ Ein 650-W-Netzteil bedeutet nicht, dass der PC ständig 650 W aufnimmt. Es besch
 
 ---
 
-## 8. Vollständige Stromkostenrechnung
+## 9. Vollständige Stromkostenrechnung
 
 Gegeben:
 
@@ -210,7 +223,7 @@ Eine vollständige Lösung enthält Rechenweg, Einheit, Zeitraum und Antwortsatz
 
 ---
 
-## 9. Mehrere Betriebszustände
+## 10. Mehrere Betriebszustände
 
 Ein pauschaler Maximalwert überschätzt häufig den realen Verbrauch. Ein Nutzungsprofil ist genauer.
 
@@ -244,7 +257,7 @@ Die Zustände dürfen sich zeitlich nicht überschneiden. Außerdem muss begrün
 
 ---
 
-## 10. Standby-Einsparung
+## 11. Standby-Einsparung
 
 Werden die Geräte statt 1 W Standby für 16,5 Stunden vollständig abgeschaltet:
 
@@ -259,7 +272,7 @@ Eine kleine Leistung kann durch viele Geräte und lange Zeit relevant werden. Tr
 
 ---
 
-## 11. CO₂-Äquivalent
+## 12. CO₂-Äquivalent
 
 Nur wenn ein Emissionsfaktor gegeben oder als belastbare Quelle genannt ist:
 
@@ -277,7 +290,7 @@ Der Faktor hängt unter anderem von Zeitraum, Bilanzierungsansatz und Strombezug
 
 ---
 
-## 12. Energie in der TCO
+## 13. Energie in der TCO
 
 Energiekosten sind ein Bestandteil der `Total Cost of Ownership`:
 
@@ -303,7 +316,7 @@ Amortisationsdauer = Mehrinvestition ÷ jährliche Einsparung
 
 ---
 
-## 13. Effizienz, Suffizienz und Kreislaufwirtschaft
+## 14. Effizienz, Suffizienz und Kreislaufwirtschaft
 
 | Ansatz | Bedeutung | IT-Beispiel |
 |---|---|---|
@@ -315,7 +328,7 @@ Die Ansätze ergänzen sich. Ein effizientes Gerät, das unnötig beschafft und 
 
 ---
 
-## 14. Lebensdauer, Reparatur und Upgrade
+## 15. Lebensdauer, Reparatur und Upgrade
 
 Zu bewerten sind:
 
@@ -332,7 +345,7 @@ Ein Upgrade ist sinnvoll, wenn es den Bedarf zuverlässig deckt und Risiken behe
 
 ---
 
-## 15. Nachhaltige Beschaffung
+## 16. Nachhaltige Beschaffung
 
 Ein prüfungstauglicher Ablauf:
 
@@ -348,7 +361,7 @@ Umweltaussagen eines Herstellers sind keine ausreichenden Belege, wenn Bezugsgr�
 
 ---
 
-## 16. Ergonomie und Arbeitsschutz
+## 17. Ergonomie und Arbeitsschutz
 
 Ergonomie passt Arbeitsmittel, Arbeitsplatz und Organisation an den Menschen an. Ziele sind:
 
@@ -363,7 +376,7 @@ Ergonomie ist deshalb keine Liste universeller Zentimeterwerte.
 
 ---
 
-## 17. Bildschirm und Anordnung
+## 18. Bildschirm und Anordnung
 
 Zu prüfen sind:
 
@@ -380,7 +393,7 @@ Bei zwei ungleich häufig genutzten Monitoren sollte der Hauptbildschirm zentral
 
 ---
 
-## 18. Tastatur, Maus und alternative Eingabe
+## 19. Tastatur, Maus und alternative Eingabe
 
 Bewertungskriterien:
 
@@ -396,7 +409,7 @@ Eine ergonomische Maus ist nicht für jede Person gleich geeignet. Erprobung und
 
 ---
 
-## 19. Tisch, Stuhl und Haltung
+## 20. Tisch, Stuhl und Haltung
 
 Ein geeigneter Arbeitsplatz ermöglicht:
 
@@ -411,7 +424,7 @@ Ein höhenverstellbarer Tisch kann Wechsel unterstützen, ersetzt aber weder ric
 
 ---
 
-## 20. Beleuchtung, Reflexionen und Umgebung
+## 21. Beleuchtung, Reflexionen und Umgebung
 
 Zu berücksichtigen:
 
@@ -426,7 +439,7 @@ Eine hohe Displayhelligkeit behebt eine ungünstige Aufstellung nicht zuverläss
 
 ---
 
-## 21. Arbeitsorganisation
+## 22. Arbeitsorganisation
 
 Technische Ausstattung allein genügt nicht. Organisatorische Maßnahmen können sein:
 
@@ -441,7 +454,7 @@ Die beste Maßnahme richtet sich nach Tätigkeit und Gefährdungsbeurteilung.
 
 ---
 
-## 22. Mobile Arbeit
+## 23. Mobile Arbeit
 
 Bei mobiler Arbeit entstehen zusätzliche Risiken:
 
@@ -456,7 +469,7 @@ Für längere regelmäßige Nutzung können externer Bildschirm, Tastatur, Zeige
 
 ---
 
-## 23. Ergonomie und Barrierefreiheit
+## 24. Ergonomie und Barrierefreiheit
 
 Ergonomie optimiert die Mensch-System-Interaktion allgemein; Barrierefreiheit zielt darauf, dass Menschen mit Behinderungen Angebote auffinden, erreichen und nutzen können. Die Bereiche überschneiden sich, sind aber nicht identisch.
 
@@ -473,7 +486,7 @@ Barrierefreiheit wird in Kapitel 10 systematisch behandelt.
 
 ---
 
-## 24. Außerbetriebnahme eines Geräts
+## 25. Außerbetriebnahme eines Geräts
 
 Vor Weitergabe oder Entsorgung:
 
@@ -490,7 +503,7 @@ Ein bloßes Löschen von Dateien oder Schnellformatieren ist kein belastbarer Na
 
 ---
 
-## 25. Datenlöschung und Datenträger
+## 26. Datenlöschung und Datenträger
 
 Das Verfahren hängt ab von:
 
@@ -511,7 +524,7 @@ Mögliche Verfahren:
 
 ---
 
-## 26. Elektroaltgeräte und Wiederverwendung
+## 27. Elektroaltgeräte und Wiederverwendung
 
 Reihenfolge als praktische Orientierung:
 
@@ -527,7 +540,7 @@ Akkus, Datenträger und gefährliche Bestandteile dürfen nicht unkontrolliert i
 
 ---
 
-## 27. Vollständiger Praxisfall
+## 28. Vollständiger Praxisfall
 
 Ein Unternehmen vergleicht für 20 Arbeitsplätze:
 
@@ -567,7 +580,7 @@ Die Rechnung allein entscheidet nicht über die Beschaffung.
 
 ---
 
-## 28. Prüfungsalgorithmus
+## 29. Prüfungsalgorithmus
 
 1. Gesuchte Größe und Zeitraum markieren.
 2. Einheiten in W/kW beziehungsweise Wh/kWh vereinheitlichen.
@@ -582,7 +595,7 @@ Die Rechnung allein entscheidet nicht über die Beschaffung.
 
 ---
 
-## 29. Typische Prüfungsformulierungen
+## 30. Typische Prüfungsformulierungen
 
 `Nennen:`
 
@@ -602,7 +615,7 @@ Die Rechnung allein entscheidet nicht über die Beschaffung.
 
 ---
 
-## 30. Typische Prüfungsfallen
+## 31. Typische Prüfungsfallen
 
 | Falle | Korrektur |
 |---|---|
@@ -621,7 +634,7 @@ Die Rechnung allein entscheidet nicht über die Beschaffung.
 
 ---
 
-## 31. Selbsttest
+## 32. Selbsttest
 
 1. Worin unterscheiden sich Leistung und Energie?
 2. Wie werden 450 W in kW umgerechnet?
@@ -680,7 +693,7 @@ Die Rechnung allein entscheidet nicht über die Beschaffung.
 
 ---
 
-## 32. Quellen und Abgleich
+## 33. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -694,7 +707,7 @@ Alle Emissionsfaktoren und Preise in den Beispielen sind fiktive Übungsdaten.
 
 ---
 
-## 33. Offene Prüfpunkte für den Unterricht
+## 34. Offene Prüfpunkte für den Unterricht
 
 - Welche Energieformeln und Rundungsregeln erwartet die WBS?
 - Wird die Rechnung mit mehreren Betriebszuständen verlangt?

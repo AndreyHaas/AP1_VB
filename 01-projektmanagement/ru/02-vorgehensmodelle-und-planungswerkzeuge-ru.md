@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Projektmanagement
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/02-vorgehensmodelle-und-planungswerkzeuge-de.md
 ---
@@ -27,7 +27,20 @@ gegenstueck: ../de/02-vorgehensmodelle-und-planungswerkzeuge-de.md
 
 ---
 
-## 2. Выбор Vorgehensmodell
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Vorgehensmodell выбирают по стабильности требований, риску, Feedbackbedarf, Compliance и Lieferstrategie.
+2. Wasserfall в основном последователен; iterativ/inkrementell получает знания и результат повторениями.
+3. Scrum: Product Owner, Scrum Master, Developers; Product Backlog, Sprint Backlog, Inkrement.
+4. PSP иерархически делит объём проекта на Arbeitspakete.
+5. Gantt показывает время, Netzplan — зависимости и резервы.
+6. Vorwärtsrechnung даёт ранние, Rückwärtsrechnung поздние Termine.
+7. `GP = SAZ − FAZ = SEZ − FEZ`; Vorgänge с GP 0 обычно лежат на kritischer Pfad.
+8. Модель обосновывается признаками случая, а не фразой `agil ist immer besser`.
+
+> Das iterative Vorgehen ist geeignet, da frühe Rückmeldungen die noch unsicheren Anforderungen schrittweise präzisieren können.
+
+## 3. Выбор Vorgehensmodell
 
 `Vorgehensmodell` определяет, как организованы анализ, планирование, реализация, проверка и обратная связь.
 
@@ -45,7 +58,7 @@ gegenstueck: ../de/02-vorgehensmodelle-und-planungswerkzeuge-de.md
 
 ---
 
-## 3. Wasserfallmodell
+## 4. Wasserfallmodell
 
 ### 3.1 Принцип
 
@@ -95,7 +108,7 @@ Einführung und Betrieb
 
 ---
 
-## 4. Scrum
+## 5. Scrum
 
 ### 4.1 Основная идея
 
@@ -179,7 +192,7 @@ Scrum подходит, если:
 
 ---
 
-## 5. Projektstrukturplan (PSP)
+## 6. Projektstrukturplan (PSP)
 
 ### 5.1 Назначение
 
@@ -236,7 +249,7 @@ Projekt: 20 Arbeitsplätze einrichten
 
 ---
 
-## 6. Gantt-Diagramm
+## 7. Gantt-Diagramm
 
 `Gantt-Diagramm` показывает задачи в виде полос на временной оси.
 
@@ -257,7 +270,7 @@ Projekt: 20 Arbeitsplätze einrichten
 
 ---
 
-## 7. Netzplan
+## 8. Netzplan
 
 ### 7.1 Основные обозначения
 
@@ -326,7 +339,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ---
 
-## 8. Полный пример Netzplan
+## 9. Полный пример Netzplan
 
 ### 8.1 Исходные данные
 
@@ -390,7 +403,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ---
 
-## 9. Изменения и Steuerungsmaßnahmen
+## 10. Изменения и Steuerungsmaßnahmen
 
 Если операция D задерживается на 2 единицы:
 
@@ -411,7 +424,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ---
 
-## 10. Prüfungsformulierungen
+## 11. Prüfungsformulierungen
 
 ### Выбор Wasserfall
 
@@ -435,7 +448,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ---
 
-## 11. Typische Prüfungsfallen
+## 12. Typische Prüfungsfallen
 
 1. `Scrum Master` не является начальником команды.
 2. `Product Owner` отвечает за ценность и Product Backlog, а не распределяет каждую техническую задачу.
@@ -452,7 +465,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ---
 
-## 12. Selbsttest
+## 13. Selbsttest
 
 ### A. Понимание
 
@@ -511,7 +524,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 ---
 
-## 13. Quellen und Abgleich
+## 14. Quellen und Abgleich
 
 - [The Scrum Guide, Ausgabe 2020](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-German.pdf)
 - [FIAusbV § 9](https://www.gesetze-im-internet.de/fiausbv/__9.html)
@@ -519,7 +532,7 @@ FP = kleinster FAZ der unmittelbaren Nachfolger − FEZ
 
 Формулы Netzplan в этой главе используют Vorgangsknotennetz и начало отсчёта `0`. Если учебное задание применяет другую Konvention, нужно использовать заданную.
 
-## 14. Offene Prüfpunkte für den Unterricht
+## 15. Offene Prüfpunkte für den Unterricht
 
 - Какую графическую форму Netzplanknoten использует WBS?
 - Начинается ли отсчёт в задачах преподавателя с `0` или с первого календарного дня?

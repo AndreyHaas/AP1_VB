@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Projektmanagement
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/02-vorgehensmodelle-und-planungswerkzeuge-ru.md
 ---
@@ -27,7 +27,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Auswahl eines Vorgehensmodells
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Ein Vorgehensmodell wird nach Anforderungsstabilität, Risiko, Feedbackbedarf, Compliance und Lieferstrategie gewählt.
+2. Wasserfall plant überwiegend sequenziell; iterativ/inkrementell gewinnt Erkenntnis und Nutzen in Wiederholungen.
+3. Scrum nutzt Product Owner, Scrum Master und Developers sowie Product Backlog, Sprint Backlog und Inkrement.
+4. Der PSP zerlegt den Projektumfang hierarchisch in planbare Arbeitspakete.
+5. Das Gantt-Diagramm zeigt Vorgänge auf einer Zeitachse; ein Netzplan macht Abhängigkeiten und Puffer berechenbar.
+6. Vorwärtsrechnung ermittelt früheste, Rückwärtsrechnung späteste Termine.
+7. Gesamtpuffer `GP = SAZ − FAZ = SEZ − FEZ`; Vorgänge mit GP 0 liegen typischerweise auf dem kritischen Pfad.
+8. Ein Modell wird mit Fallmerkmalen begründet, nicht mit „agil ist immer besser“.
+
+> Das iterative Vorgehen ist geeignet, da frühe Rückmeldungen die noch unsicheren Anforderungen schrittweise präzisieren können.
+
+## 3. Auswahl eines Vorgehensmodells
 
 Ein `Vorgehensmodell` beschreibt, wie Analyse, Planung, Umsetzung, Prüfung und Rückmeldung organisiert werden.
 
@@ -45,7 +58,7 @@ Kein Vorgehen ist in jedem Fall überlegen. In einer Prüfungsantwort muss die A
 
 ---
 
-## 3. Wasserfallmodell
+## 4. Wasserfallmodell
 
 ### 3.1 Grundprinzip
 
@@ -95,7 +108,7 @@ Das `Wasserfallmodell` lässt sich begründen, wenn:
 
 ---
 
-## 4. Scrum
+## 5. Scrum
 
 ### 4.1 Grundidee
 
@@ -179,7 +192,7 @@ Auch bei Scrum gelten Anforderungen an Sicherheit, Datenschutz, Budget und Vertr
 
 ---
 
-## 5. Projektstrukturplan (PSP)
+## 6. Projektstrukturplan (PSP)
 
 ### 5.1 Zweck
 
@@ -236,7 +249,7 @@ Zwei Mitarbeitende halbieren die Dauer nicht automatisch. Eine Aufgabe kann unte
 
 ---
 
-## 6. Gantt-Diagramm
+## 7. Gantt-Diagramm
 
 Ein `Gantt-Diagramm` stellt Vorgänge als Balken auf einer Zeitachse dar.
 
@@ -257,7 +270,7 @@ Der `Netzplan` beantwortet: **Welche Abhängigkeiten, Puffer und kritischen Wege
 
 ---
 
-## 7. Netzplan
+## 8. Netzplan
 
 ### 7.1 Grundbegriffe
 
@@ -326,7 +339,7 @@ Vorgänge mit `GP = 0` liegen auf dem `kritischen Pfad`. Ihre Verzögerung versc
 
 ---
 
-## 8. Vollständiges Netzplanbeispiel
+## 9. Vollständiges Netzplanbeispiel
 
 ### 8.1 Ausgangsdaten
 
@@ -390,7 +403,7 @@ Warum besitzt C einen `GP von 4`, aber nur einen `FP von 2`?
 
 ---
 
-## 9. Änderungen und Steuerungsmaßnahmen
+## 10. Änderungen und Steuerungsmaßnahmen
 
 Wenn sich Vorgang D um zwei Zeiteinheiten verzögert:
 
@@ -411,7 +424,7 @@ Die Maßnahme muss realistisch sein. Zusätzliches Personal hilft nicht automati
 
 ---
 
-## 10. Prüfungsformulierungen
+## 11. Prüfungsformulierungen
 
 ### Wasserfall auswählen
 
@@ -435,7 +448,7 @@ Die Maßnahme muss realistisch sein. Zusätzliches Personal hilft nicht automati
 
 ---
 
-## 11. Typische Prüfungsfallen
+## 12. Typische Prüfungsfallen
 
 1. Der `Scrum Master` ist kein Vorgesetzter des Teams.
 2. Der `Product Owner` verantwortet Wert und Product Backlog, verteilt aber nicht zwingend jede technische Aufgabe.
@@ -452,7 +465,7 @@ Die Maßnahme muss realistisch sein. Zusätzliches Personal hilft nicht automati
 
 ---
 
-## 12. Selbsttest
+## 13. Selbsttest
 
 ### A. Verständnis
 
@@ -511,7 +524,7 @@ Berechnung:
 
 ---
 
-## 13. Quellen und Abgleich
+## 14. Quellen und Abgleich
 
 - [The Scrum Guide, Ausgabe 2020](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-German.pdf)
 - [FIAusbV § 9](https://www.gesetze-im-internet.de/fiausbv/__9.html)
@@ -519,7 +532,7 @@ Berechnung:
 
 Die Netzplanformeln in diesem Kapitel verwenden ein Vorgangsknotennetz und einen Zeitbeginn bei `0`. Verwendet eine Aufgabe eine andere Konvention, gilt die Aufgabenstellung.
 
-## 14. Offene Prüfpunkte für den Unterricht
+## 15. Offene Prüfpunkte für den Unterricht
 
 - Welche grafische Form des Netzplanknotens verwendet WBS?
 - Beginnt die Zeitrechnung in den Aufgaben bei `0` oder mit dem ersten Kalendertag?

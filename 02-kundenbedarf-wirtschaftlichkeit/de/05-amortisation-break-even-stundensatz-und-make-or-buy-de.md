@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Amortisation, Break-even, Stundensatz und Make-or-Buy
 prioritaet: Vertiefung
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/05-amortisation-break-even-stundensatz-und-make-or-buy-ru.md
 ---
@@ -44,7 +44,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Prüfungsrahmen und Status Vertiefung
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Deckungsbeitrag je Stück `= Preis − variable Stückkosten`.
+2. Break-even-Menge `= Fixkosten / Stückdeckungsbeitrag`; nicht ganzzahlige notwendige Stückzahl aufrunden.
+3. Einfache Amortisationsdauer `= Investition / gleichmäßiger Rückfluss pro Periode`.
+4. Bei ungleichmäßigen Rückflüssen werden Perioden kumuliert.
+5. Kostenstundensatz benötigt produktive verrechenbare Stunden, nicht bloß Anwesenheitszeit.
+6. Gewinnzuschlag bezieht sich auf Kosten; Gewinnmarge auf Erlös. Prozentbasis beachten.
+7. Make-or-Buy berücksichtigt relevante zukünftige Kosten, Kapazität, Qualität, Know-how, Risiko und Abhängigkeit.
+8. Sunk Costs sind bereits entstanden und für die Zukunftsentscheidung grundsätzlich nicht entscheidungsrelevant.
+
+> Die Fremdvergabe ist trotz höherer Stückkosten geeignet, wenn der interne Kapazitätsengpass sonst einen größeren entgangenen Deckungsbeitrag verursacht.
+
+## 3. Prüfungsrahmen und Status Vertiefung
 
 § 9 `FIAusbV` verlangt, Hard- und Software auszuwählen und ihre Beschaffung einzuleiten. Der `Ausbildungsrahmenplan` verlangt, IT-Systeme nach `Leistungsfähigkeit` und `Wirtschaftlichkeit` zu beurteilen, Angebote einzuholen und zu bewerten sowie Konditionen zu vergleichen.
 
@@ -62,7 +75,7 @@ Kapitel 06 hat bereits Bezugspreis, TCO und Nutzwertanalyse behandelt. Rabatt un
 
 ---
 
-## 3. Auswahl der passenden Methode
+## 4. Auswahl der passenden Methode
 
 | Entscheidungsfrage | Geeignete Methode |
 |---|---|
@@ -83,7 +96,7 @@ Beispiel:
 
 ---
 
-## 4. Bezeichnungen und Einheiten
+## 5. Bezeichnungen und Einheiten
 
 Vor der Berechnung sollten die verwendeten Größen notiert werden:
 
@@ -113,7 +126,7 @@ bis beide Werte auf dieselbe Periode umgerechnet wurden.
 
 ---
 
-## 5. Umsatz, Kosten und Gewinn
+## 6. Umsatz, Kosten und Gewinn
 
 Für ein einzelnes Produkt gilt:
 
@@ -136,7 +149,7 @@ Der Begriff `Umsatz` bedeutet nicht Gewinn. Aus den Erlösen müssen variable un
 
 ---
 
-## 6. Fixe und variable Kosten im Modell
+## 7. Fixe und variable Kosten im Modell
 
 ### Fixkosten
 
@@ -170,7 +183,7 @@ Die lineare Break-even-Formel bildet diesen Sprung ohne Anpassung nicht ab.
 
 ---
 
-## 7. Stückdeckungsbeitrag
+## 8. Stückdeckungsbeitrag
 
 Der `Stückdeckungsbeitrag` zeigt, welcher Betrag nach Deckung der variablen Kosten einer Einheit zur Deckung der Fixkosten und anschließend zum Gewinn beiträgt.
 
@@ -194,7 +207,7 @@ Ist `db ≤ 0`, kann eine höhere Absatzmenge die Fixkosten im linearen Modell n
 
 ---
 
-## 8. Gesamtdeckungsbeitrag und Betriebsergebnis
+## 9. Gesamtdeckungsbeitrag und Betriebsergebnis
 
 ```text
 Gesamtdeckungsbeitrag DB = Stückdeckungsbeitrag db × Menge x
@@ -220,7 +233,7 @@ Beide Rechenwege müssen dasselbe Ergebnis liefern.
 
 ---
 
-## 9. Break-even-Point
+## 10. Break-even-Point
 
 Am `Break-even-Point`, an der `Gewinnschwelle` oder am `Kostendeckungspunkt` gilt:
 
@@ -244,7 +257,7 @@ Er bezeichnet eine Ergebnisgrenze für eine bestimmte Periode und festgelegte An
 
 ---
 
-## 10. Break-even-Menge
+## 11. Break-even-Menge
 
 Aus `Gewinn = 0` folgt:
 
@@ -273,7 +286,7 @@ Eine Abrundung würde das Unternehmen unterhalb der Gewinnschwelle belassen.
 
 ---
 
-## 11. Vollständiger Break-even-Praxisfall
+## 12. Vollständiger Break-even-Praxisfall
 
 Ein Unternehmen konfiguriert und verkauft IT-Appliances.
 
@@ -319,7 +332,7 @@ In Prozent der Planmenge:
 
 ---
 
-## 12. Absatzmenge für einen Zielgewinn
+## 13. Absatzmenge für einen Zielgewinn
 
 Wird ein bestimmter Gewinn verlangt:
 
@@ -345,7 +358,7 @@ Bei einem nicht ganzzahligen Ergebnis wird üblicherweise aufgerundet, wenn nur 
 
 ---
 
-## 13. Break-even-Umsatz
+## 14. Break-even-Umsatz
 
 Die `Deckungsbeitragsquote` lautet:
 
@@ -377,7 +390,7 @@ Bei der Berechnung darf für 40 % nicht die Zahl 40 anstelle der Dezimalzahl 0,4
 
 ---
 
-## 14. Grafische Interpretation
+## 15. Grafische Interpretation
 
 In einem klassischen Diagramm:
 
@@ -404,7 +417,7 @@ Ist `p ≤ k_v`, kann die Umsatzlinie die Gesamtkostenlinie im einfachen lineare
 
 ---
 
-## 15. Annahmen der einfachen Break-even-Analyse
+## 16. Annahmen der einfachen Break-even-Analyse
 
 Das einfache Modell unterstellt:
 
@@ -432,7 +445,7 @@ Das Ergebnis ist daher als Modellwert und nicht als Garantie zu bezeichnen.
 
 ---
 
-## 16. Mehrere Produkte
+## 17. Mehrere Produkte
 
 Verkauft ein Unternehmen mehrere Produkte mit unterschiedlichen Deckungsbeiträgen, beschreibt folgende einfache Rechnung den gesamten Break-even nicht:
 
@@ -455,7 +468,7 @@ Dann kann ein Paket im Verhältnis 2:1 gebildet und dessen Deckungsbeitrag berec
 
 ---
 
-## 17. Engpassfaktor
+## 18. Engpassfaktor
 
 Ist eine Ressource begrenzt, muss neben dem Deckungsbeitrag je Stück auch der Deckungsbeitrag je Engpasseinheit betrachtet werden.
 
@@ -477,7 +490,7 @@ Diese Priorisierung darf nicht mechanisch angewendet werden, wenn Vertragsverpfl
 
 ---
 
-## 18. Make-or-Buy: Grundfrage
+## 19. Make-or-Buy: Grundfrage
 
 `Make-or-Buy` vergleicht:
 
@@ -507,7 +520,7 @@ Die Entscheidung ist nicht nur eine Preisfrage. Sie betrifft:
 
 ---
 
-## 19. Make-or-Buy-Kostenvergleich
+## 20. Make-or-Buy-Kostenvergleich
 
 Beispiel:
 
@@ -542,7 +555,7 @@ Ergebnis:
 
 ---
 
-## 20. Make-or-Buy bei 320 Stunden
+## 21. Make-or-Buy bei 320 Stunden
 
 ```text
 K_Make(320) = 8.000 € + 65 € × 320
@@ -562,7 +575,7 @@ Vollständige Begründung:
 
 ---
 
-## 21. Entscheidungsrelevante Kosten und sunk costs
+## 22. Entscheidungsrelevante Kosten und sunk costs
 
 Für eine Entscheidung werden zukünftige Kosten berücksichtigt, die sich zwischen den Alternativen unterscheiden und durch die Entscheidung verursacht werden.
 
@@ -591,7 +604,7 @@ Perspektive und Zeitraum müssen genannt werden.
 
 ---
 
-## 22. Opportunitätskosten
+## 23. Opportunitätskosten
 
 `Opportunitätskosten` sind der entgangene Vorteil der besten verworfenen Alternative.
 
@@ -613,7 +626,7 @@ Ein beliebiger Betrag darf ohne Datengrundlage nicht erfunden werden.
 
 ---
 
-## 23. Qualitative Make-or-Buy-Kriterien
+## 24. Qualitative Make-or-Buy-Kriterien
 
 | Kriterium | Frage |
 |---|---|
@@ -632,7 +645,7 @@ Kosten können mit TCO, qualitative Kriterien mit einer Nutzwertanalyse betracht
 
 ---
 
-## 24. Bedeutung der Amortisation
+## 25. Bedeutung der Amortisation
 
 Die `Amortisationsdauer` zeigt, nach welcher Zeit eine Anfangsinvestition durch die zugehörigen Rückflüsse gedeckt ist.
 
@@ -656,7 +669,7 @@ Amortisation ist nicht gleichbedeutend mit:
 
 ---
 
-## 25. Statische Amortisationsformel
+## 26. Statische Amortisationsformel
 
 Bei einem gleichmäßigen jährlichen Rückfluss:
 
@@ -687,7 +700,7 @@ Antwort:
 
 ---
 
-## 26. Rückfluss, Gewinn, Einsparung und Abschreibung
+## 27. Rückfluss, Gewinn, Einsparung und Abschreibung
 
 Hier liegt eine besonders häufige Fehlerquelle.
 
@@ -719,7 +732,7 @@ Regel:
 
 ---
 
-## 27. Vollständiger Amortisations-Praxisfall
+## 28. Vollständiger Amortisations-Praxisfall
 
 Ein Unternehmen erwägt die Automatisierung seiner Ticketbearbeitung.
 
@@ -763,7 +776,7 @@ Das Ergebnis gilt nur, wenn:
 
 ---
 
-## 28. Ungleichmäßige Rückflüsse
+## 29. Ungleichmäßige Rückflüsse
 
 Unterscheiden sich die jährlichen Rückflüsse, kann eine einfache Division durch einen Durchschnitt die zeitliche Verteilung verdecken. Die Beträge werden kumuliert.
 
@@ -796,7 +809,7 @@ Die Interpolation innerhalb des Jahres ist eine Annahme. Erfolgt die Zahlung aus
 
 ---
 
-## 29. Grenzen der Amortisationsrechnung
+## 30. Grenzen der Amortisationsrechnung
 
 Die einfache statische Amortisationsrechnung:
 
@@ -818,7 +831,7 @@ Nach der Amortisationsdauer wirkt A besser. Über den vollständigen Lebenszyklu
 
 ---
 
-## 30. Rentabilität und ROI
+## 31. Rentabilität und ROI
 
 Eine vereinfachte Formel lautet:
 
@@ -849,7 +862,7 @@ Eine Rentabilität von 25 % bedeutet nicht automatisch eine Amortisation nach ge
 
 ---
 
-## 31. Kauf, Miete und Leasing
+## 32. Kauf, Miete und Leasing
 
 ### Kauf
 
@@ -879,7 +892,7 @@ Leasing ist nicht automatisch billiger, steuerlich immer günstiger oder zwingen
 
 ---
 
-## 32. Vergleich von Kauf, Miete und Leasing
+## 33. Vergleich von Kauf, Miete und Leasing
 
 Verglichen werden dieselbe Leistungsanforderung und ein einheitlicher Zeitraum von 36 Monaten. Alle Werte sind netto; der Zeitwert des Geldes bleibt unberücksichtigt.
 
@@ -921,7 +934,7 @@ Die Entscheidung hängt zusätzlich von Liquidität, Obsoleszenzrisiko, Flexibil
 
 ---
 
-## 33. Fallen bei Kauf, Miete und Leasing
+## 34. Fallen bei Kauf, Miete und Leasing
 
 Für einen korrekten Vergleich sind zu prüfen:
 
@@ -944,7 +957,7 @@ In der AP1 genügt üblicherweise eine Berechnung anhand der gegebenen Daten und
 
 ---
 
-## 34. Bedeutung des Stundensatzes
+## 35. Bedeutung des Stundensatzes
 
 Der Begriff kann unterschiedliche Größen bezeichnen.
 
@@ -975,7 +988,7 @@ Die Aussage „Eine Mitarbeiterstunde kostet 30 €“ ist deshalb ohne Definiti
 
 ---
 
-## 35. Vollständige Personalkosten
+## 36. Vollständige Personalkosten
 
 Das Bruttogehalt ist nur ein Teil der Arbeitgeberkosten.
 
@@ -1006,7 +1019,7 @@ Ein Gemeinkostenblock darf nicht doppelt addiert werden.
 
 ---
 
-## 36. Produktive Stunden
+## 37. Produktive Stunden
 
 Bezahlte Arbeitszeit ist nicht identisch mit der tatsächlich abrechenbaren oder leistungserzeugenden Zeit.
 
@@ -1039,7 +1052,7 @@ Jeder Abzug muss zur Aufgabenstellung passen. Feiertage dürfen nicht doppelt ab
 
 ---
 
-## 37. Vollständiger Kostenstundensatz
+## 38. Vollständiger Kostenstundensatz
 
 Jahreskosten:
 
@@ -1070,7 +1083,7 @@ Dies ist ein Durchschnittssatz des Modells und nicht zwangsläufig die zusätzli
 
 ---
 
-## 38. Gewinnzuschlag und Gewinnmarge
+## 39. Gewinnzuschlag und Gewinnmarge
 
 ### Gewinnzuschlag auf Selbstkosten
 
@@ -1109,7 +1122,7 @@ Zuschlag und Marge führen zu unterschiedlichen Ergebnissen. Die Aufgabenstellun
 
 ---
 
-## 39. Externer Stundensatz und Umsatzsteuer
+## 40. Externer Stundensatz und Umsatzsteuer
 
 Wird ein Preis für einen Kunden verlangt:
 
@@ -1137,7 +1150,7 @@ Im Wirtschaftlichkeitsvergleich eines vorsteuerabzugsberechtigten Unternehmens w
 
 ---
 
-## 40. Auslastung und Sensitivität des Stundensatzes
+## 41. Auslastung und Sensitivität des Stundensatzes
 
 Bei unveränderten Jahreskosten von 121.500 €:
 
@@ -1159,7 +1172,7 @@ Eine Sensitivitätsanalyse sollte mindestens einen Basisfall sowie ein optimisti
 
 ---
 
-## 41. Verbindung von Stundensatz und Make-or-Buy
+## 42. Verbindung von Stundensatz und Make-or-Buy
 
 In einer Make-or-Buy-Entscheidung darf nicht automatisch Folgendes verglichen werden:
 
@@ -1184,7 +1197,7 @@ Eine gute Antwort benennt die gewählte Perspektive.
 
 ---
 
-## 42. Verbindung der Methoden
+## 43. Verbindung der Methoden
 
 | Methode | Messgröße | Kein Nachweis für |
 |---|---|---|
@@ -1201,7 +1214,7 @@ Eine vertiefte Entscheidung kann mehrere Methoden nacheinander einsetzen. Jedes 
 
 ---
 
-## 43. Vollständiger integrierter Praxisfall
+## 44. Vollständiger integrierter Praxisfall
 
 Ein Unternehmen entscheidet, ob 320 Stunden Migrationsarbeit intern oder durch einen Dienstleister ausgeführt werden.
 
@@ -1245,7 +1258,7 @@ Bei 320 Stunden besitzt Make einen rechnerischen Kostenvorteil. Vor der Empfehlu
 
 ---
 
-## 44. Prüfungsalgorithmus
+## 45. Prüfungsalgorithmus
 
 1. Gesuchte Größe bestimmen.
 2. Daten mit Einheiten notieren.
@@ -1265,7 +1278,7 @@ Bei 320 Stunden besitzt Make einen rechnerischen Kostenvorteil. Vor der Empfehlu
 
 ---
 
-## 45. Typische Prüfungsformulierungen
+## 46. Typische Prüfungsformulierungen
 
 ### Deckungsbeitrag
 
@@ -1297,7 +1310,7 @@ Bei 320 Stunden besitzt Make einen rechnerischen Kostenvorteil. Vor der Empfehlu
 
 ---
 
-## 46. Typische Prüfungsfallen
+## 47. Typische Prüfungsfallen
 
 1. Umsatz mit Gewinn gleichsetzen.
 2. Fixkosten je Stück ohne Bezugsmenge angeben.
@@ -1334,7 +1347,7 @@ Bei 320 Stunden besitzt Make einen rechnerischen Kostenvorteil. Vor der Empfehlu
 
 ---
 
-## 47. Selbsttest
+## 48. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -1433,7 +1446,7 @@ Bei 320 Stunden besitzt Make einen rechnerischen Kostenvorteil. Vor der Empfehlu
 
 ---
 
-## 48. Quellen und Abgleich
+## 49. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -1449,7 +1462,7 @@ Alle Geldbeträge und Szenarien sind fiktive Lerndaten.
 
 ---
 
-## 49. Offene Prüfpunkte für den Unterricht
+## 50. Offene Prüfpunkte für den Unterricht
 
 - Umfasst der aktuelle WBS-Plan Deckungsbeitrag und Break-even in der AP1?
 - Welche genaue Rückflussformel verwendet die WBS für die statische Amortisation?

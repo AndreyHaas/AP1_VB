@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Kundenbedarf und Anforderungen
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/01-kundenbedarf-und-anforderungen-de.md
 ---
@@ -29,7 +29,20 @@ gegenstueck: ../de/01-kundenbedarf-und-anforderungen-de.md
 
 ---
 
-## 2. Bedürfnis, Bedarf и Nachfrage
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Bedürfnis — ощущаемая нехватка, Bedarf — конкретизированное обеспеченное желание, Nachfrage — его проявление на рынке.
+2. Kundenbedarf описывает желаемый результат, а не заранее выбранный продукт.
+3. Offene Fragen раскрывают контекст, geschlossene Fragen подтверждают факт.
+4. Funktionale Anforderungen описывают функции, nichtfunktionale — качества и ограничения.
+5. Muss-Kriterien исключают неподходящие варианты, Kann-Kriterien различают подходящие.
+6. Anforderung должна быть однозначной, проверяемой, приоритизированной и rückverfolgbar.
+7. До решения уточняют Stakeholder, Zielgruppe, Prozess, Ist, Ziel и Grenzen.
+8. Abnahmekriterium содержит объект, условие и измеримый Soll-Wert.
+
+> Die Anforderung ist nicht ausreichend prüfbar, da „schnell“ keinen Messwert und keine Lastbedingung enthält.
+
+## 3. Bedürfnis, Bedarf и Nachfrage
 
 В экономическом контексте термины разграничиваются так:
 
@@ -68,7 +81,7 @@ testen und abnehmen
 
 ---
 
-## 3. Сначала проблема и цель, потом продукт
+## 4. Сначала проблема и цель, потом продукт
 
 Фраза клиента:
 
@@ -98,7 +111,7 @@ testen und abnehmen
 
 ---
 
-## 4. Stakeholder и Zielgruppen
+## 5. Stakeholder и Zielgruppen
 
 `Stakeholder` — лицо или группа, которые влияют на решение, используют его, оплачивают его или затронуты его последствиями.
 
@@ -130,7 +143,7 @@ testen und abnehmen
 
 ---
 
-## 5. Ablauf der Bedarfsermittlung
+## 6. Ablauf der Bedarfsermittlung
 
 Практический процесс:
 
@@ -186,7 +199,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 6. Erhebungstechniken
+## 7. Erhebungstechniken
 
 Метод выбирается по типу информации, числу участников и доступному времени.
 
@@ -205,7 +218,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 7. Fragetechniken
+## 8. Fragetechniken
 
 ### 7.1 Offene Fragen
 
@@ -261,7 +274,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 8. Aktives Zuhören
+## 9. Aktives Zuhören
 
 `Aktives Zuhören` снижает риск ложных предположений.
 
@@ -283,7 +296,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 9. Arten von Anforderungen
+## 10. Arten von Anforderungen
 
 ### 9.1 Funktionale Anforderungen
 
@@ -345,7 +358,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 10. Требование или решение?
+## 11. Требование или решение?
 
 Хорошее требование по возможности описывает необходимый результат, не ограничивая выбор без причины.
 
@@ -369,7 +382,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 11. Qualitätsmerkmale guter Anforderungen
+## 12. Qualitätsmerkmale guter Anforderungen
 
 | Критерий | Смысл | Проверка |
 |---|---|---|
@@ -388,7 +401,7 @@ Soll-Zustand − Ist-Zustand = Handlungsbedarf
 
 ---
 
-## 12. Aufbau einer Anforderung
+## 13. Aufbau einer Anforderung
 
 Практический шаблон:
 
@@ -422,7 +435,7 @@ Status:
 
 ---
 
-## 13. Приоритизация
+## 14. Приоритизация
 
 ### 13.1 Muss, Soll и Kann
 
@@ -453,7 +466,7 @@ Status:
 
 ---
 
-## 14. Lastenheft
+## 15. Lastenheft
 
 `Lastenheft` описывает требования заказчика: **что** требуется и **для чего**.
 
@@ -477,7 +490,7 @@ Status:
 
 ---
 
-## 15. Akzeptanzkriterien и Abnahme
+## 16. Akzeptanzkriterien и Abnahme
 
 `Akzeptanzkriterium` определяет наблюдаемое условие, при котором требование считается выполненным.
 
@@ -514,7 +527,7 @@ Dann ...
 
 ---
 
-## 16. Anforderungsmatrix и Nachverfolgbarkeit
+## 17. Anforderungsmatrix и Nachverfolgbarkeit
 
 Простая матрица связывает требование с источником, решением и тестом:
 
@@ -533,7 +546,7 @@ Dann ...
 
 ---
 
-## 17. Umgang mit Änderungen und Konflikten
+## 18. Umgang mit Änderungen und Konflikten
 
 Требования могут конфликтовать:
 
@@ -555,7 +568,7 @@ Dann ...
 
 ---
 
-## 18. Durchgängiges Praxisbeispiel
+## 19. Durchgängiges Praxisbeispiel
 
 ### Ausgangssituation
 
@@ -599,7 +612,7 @@ Dann ...
 
 ---
 
-## 19. Prüfungsformulierungen
+## 20. Prüfungsformulierungen
 
 ### Offene Frage begründen
 
@@ -627,7 +640,7 @@ Dann ...
 
 ---
 
-## 20. Typische Prüfungsfallen
+## 21. Typische Prüfungsfallen
 
 1. Клиентское пожелание не равно проверяемому требованию.
 2. `Bedürfnis`, `Bedarf` и `Nachfrage` нельзя использовать как полные синонимы.
@@ -647,7 +660,7 @@ Dann ...
 
 ---
 
-## 21. Selbsttest
+## 22. Selbsttest
 
 ### A. Begriffe
 
@@ -696,7 +709,7 @@ Dann ...
 
 ---
 
-## 22. Quellen und Abgleich
+## 23. Quellen und Abgleich
 
 - [FIAusbV § 9 – Prüfungsbereich von Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [IREB CPRE – Downloads und Ressourcen](https://cpre.ireb.org/de/downloads-und-resources/downloads)
@@ -704,7 +717,7 @@ Dann ...
 
 Тема в AP1 должна изучаться с точки зрения практического сценария выбора и настройки рабочего места. Более формальное Requirements Engineering здесь используется для углубления и повышения качества ответов, а не как требование воспроизводить полный CPRE-курс.
 
-## 23. Offene Prüfpunkte für den Unterricht
+## 24. Offene Prüfpunkte für den Unterricht
 
 - Использует ли WBS схему `Muss/Soll/Kann` или `MoSCoW`?
 - Как преподаватель разграничивает `Bedarf` и `Anforderung` в экзаменационных заданиях?

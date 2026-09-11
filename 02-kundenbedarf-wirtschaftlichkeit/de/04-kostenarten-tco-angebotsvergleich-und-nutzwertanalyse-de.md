@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Kostenarten, TCO, Angebotsvergleich und Nutzwertanalyse
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/04-kostenarten-tco-angebotsvergleich-und-nutzwertanalyse-ru.md
 ---
@@ -41,7 +41,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Prüfungsrahmen und Abgrenzung
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Fixe/variable und Einzel-/Gemeinkosten beschreiben verschiedene Kostensichten.
+2. Bezugspreis: Listenpreis minus Rabatt, minus Skonto, plus Bezugskosten.
+3. Netto und Brutto werden nur mit klarer Perspektive und vorgegebenem Steuersatz gemischt.
+4. TCO umfasst relevante einmalige und laufende Kosten eines einheitlichen Zeitraums.
+5. Muss-Kriterien werden vor Preis- und Nutzwertvergleich geprüft.
+6. Nutzwert: Gewicht mal Bewertung; Gewichte sind nachvollziehbar zu begründen und ergeben typischerweise 100 Prozent.
+7. Geldwerte und Nutzwertpunkte werden nicht kommentarlos addiert.
+8. Sensitivitätsanalyse prüft, ob kleine Änderungen von Annahmen die Entscheidung ändern.
+
+> Angebot B ist wirtschaftlich vorzuziehen, da es alle Muss-Kriterien erfüllt und im einheitlichen Betrachtungszeitraum die niedrigsten relevanten TCO verursacht.
+
+## 3. Prüfungsrahmen und Abgrenzung
 
 § 9 `FIAusbV` verlangt, Hard- und Software auszuwählen und ihre Beschaffung einzuleiten. Im `Ausbildungsrahmenplan` werden außerdem genannt:
 
@@ -77,7 +90,7 @@ Das folgende Kapitel vertieft getrennt:
 
 ---
 
-## 3. Ablauf einer wirtschaftlichen Entscheidung
+## 4. Ablauf einer wirtschaftlichen Entscheidung
 
 Eine wirtschaftliche Entscheidung lässt sich in dieser Reihenfolge bearbeiten:
 
@@ -96,7 +109,7 @@ Die Reihenfolge ist wichtig. Unterstützt ein Gerät die zwingend vorgeschrieben
 
 ---
 
-## 4. Wirtschaftlichkeit und ökonomisches Prinzip
+## 5. Wirtschaftlichkeit und ökonomisches Prinzip
 
 `Wirtschaftlichkeit` beschreibt das Verhältnis zwischen Ergebnis und eingesetzten Mitteln. Je nach Aufgabenstellung wird beispielsweise verwendet:
 
@@ -140,7 +153,7 @@ Ein typischer Fehler besteht darin, Ergebnis und Mittel gleichzeitig vollständi
 
 ---
 
-## 5. Preis, Auszahlung, Aufwand, Kosten und Nutzen
+## 6. Preis, Auszahlung, Aufwand, Kosten und Nutzen
 
 Diese Begriffe hängen zusammen, sind aber nicht gleichbedeutend.
 
@@ -163,7 +176,7 @@ Eine tiefere buchhalterische Abgrenzung ist nur erforderlich, wenn sie ausdrück
 
 ---
 
-## 6. Zweck der Kostenklassifikation
+## 7. Zweck der Kostenklassifikation
 
 Die Einordnung von Kosten hilft zu erkennen:
 
@@ -183,7 +196,7 @@ Das ist kein Widerspruch, weil die Kategorien unterschiedliche Fragen beantworte
 
 ---
 
-## 7. Fixe und variable Kosten
+## 8. Fixe und variable Kosten
 
 ### Fixkosten
 
@@ -224,7 +237,7 @@ Der Betrachtungsbereich muss benannt werden. Ein zusätzlicher Server kann einen
 
 ---
 
-## 8. Einzelkosten und Gemeinkosten
+## 9. Einzelkosten und Gemeinkosten
 
 ### Einzelkosten
 
@@ -253,7 +266,7 @@ Wichtig:
 
 ---
 
-## 9. Einmalige und laufende Kosten
+## 10. Einmalige und laufende Kosten
 
 ### Einmalige Kosten
 
@@ -281,7 +294,7 @@ Eine einmalige Anschaffung kann mehrjährige laufende Kosten auslösen. Der `Ans
 
 ---
 
-## 10. Netto, Brutto, Umsatzsteuer und Vorsteuer
+## 11. Netto, Brutto, Umsatzsteuer und Vorsteuer
 
 Der `Nettopreis` enthält keine Umsatzsteuer. Der `Bruttopreis` enthält sie:
 
@@ -313,7 +326,7 @@ Regel:
 
 ---
 
-## 11. Drei Ebenen des Angebotsvergleichs
+## 12. Drei Ebenen des Angebotsvergleichs
 
 Ein vollständiger Vergleich besteht nicht nur aus einer Preistabelle.
 
@@ -346,7 +359,7 @@ Ergibt die formale oder technische Prüfung einen kritischen Ausschlussgrund, is
 
 ---
 
-## 12. Muss-, Soll- und Kann-Kriterien
+## 13. Muss-, Soll- und Kann-Kriterien
 
 ### Muss-Kriterium
 
@@ -376,7 +389,7 @@ Deshalb erfolgt die KO-Prüfung vor der Nutzwertanalyse.
 
 ---
 
-## 13. Schema des quantitativen Angebotsvergleichs
+## 14. Schema des quantitativen Angebotsvergleichs
 
 Ein typisches schulisches Kalkulationsschema lautet:
 
@@ -404,7 +417,7 @@ Ein konkreter Vertrag kann andere Begriffe und Bemessungsgrundlagen verwenden. I
 
 ---
 
-## 14. Prozentbasis und Reihenfolge
+## 15. Prozentbasis und Reihenfolge
 
 Ein Prozentsatz bezieht sich immer auf einen bestimmten Grundwert:
 
@@ -435,7 +448,7 @@ Begründung: Nach dem Rabatt ist die Bemessungsgrundlage für das Skonto bereits
 
 ---
 
-## 15. Vollständige Berechnung von Angebot A
+## 16. Vollständige Berechnung von Angebot A
 
 Gegeben:
 
@@ -464,7 +477,7 @@ Der letzte Zusatz ist wichtig: Zahlt das Unternehmen nicht innerhalb der Skontof
 
 ---
 
-## 16. Angebot B und quantitative Entscheidung
+## 17. Angebot B und quantitative Entscheidung
 
 Angebot B:
 
@@ -493,7 +506,7 @@ Rein nach dem Bezugspreis ist Angebot B um 389,45 € günstiger. Dies ist noch 
 
 ---
 
-## 17. Rabatt und Skonto: Unterschied und Fallen
+## 18. Rabatt und Skonto: Unterschied und Fallen
 
 ### Rabatt
 
@@ -530,7 +543,7 @@ Der genaue Wortlaut des Angebots oder der Aufgabe bestimmt die Bemessungsgrundla
 
 ---
 
-## 18. Bezugskosten
+## 19. Bezugskosten
 
 Zu den Bezugskosten können gehören:
 
@@ -555,7 +568,7 @@ Eine Doppelzählung ist zu vermeiden. Sind „Lieferung und Installation“ als 
 
 ---
 
-## 19. Zahlungsbedingungen und tatsächliche Nutzbarkeit des Skontos
+## 20. Zahlungsbedingungen und tatsächliche Nutzbarkeit des Skontos
 
 Eine wirtschaftlich korrekte Berechnung berücksichtigt nicht nur die mathematische Möglichkeit, sondern auch den Ablauf:
 
@@ -580,7 +593,7 @@ Prüfungsgerechte Formulierung:
 
 ---
 
-## 20. Total Cost of Ownership
+## 21. Total Cost of Ownership
 
 `Total Cost of Ownership (TCO)` ist ein Modell der Gesamtkosten des Eigentums oder der Nutzung einer Lösung über einen festgelegten Lebenszyklus.
 
@@ -605,7 +618,7 @@ TCO ist in der IT besonders wichtig, weil ein niedriger Gerätepreis verbunden s
 
 ---
 
-## 21. Typische TCO-Kostenblöcke
+## 22. Typische TCO-Kostenblöcke
 
 ### Vor der Inbetriebnahme
 
@@ -648,7 +661,7 @@ Nicht jede Position ist in jeder Aufgabe erforderlich. Berücksichtigt werden re
 
 ---
 
-## 22. Aufbau eines korrekten TCO-Modells
+## 23. Aufbau eines korrekten TCO-Modells
 
 Für alle Alternativen müssen übereinstimmen:
 
@@ -682,7 +695,7 @@ TCO sind ein Modell und nicht automatisch ein exakter zukünftiger Geldbetrag. D
 
 ---
 
-## 23. TCO-Praxisfall: drei Angebote
+## 24. TCO-Praxisfall: drei Angebote
 
 Alle Angebote erfüllen die Muss-Kriterien. Betrachtet werden drei Jahre, 20 Geräte und Nettowerte.
 
@@ -715,7 +728,7 @@ Die Aussage „B ist das billigste Angebot“ ist deshalb nur für den Bezugspre
 
 ---
 
-## 24. Energiekosten in der TCO
+## 25. Energiekosten in der TCO
 
 Grundformel:
 
@@ -748,7 +761,7 @@ Durchschnittliche Leistungsaufnahme, maximale Netzteilleistung und TDP sind nich
 
 ---
 
-## 25. Verdeckte und indirekte Kosten
+## 26. Verdeckte und indirekte Kosten
 
 Häufig übersehen werden:
 
@@ -773,7 +786,7 @@ So wird das Verständnis gezeigt, ohne eine unbelegte Genauigkeit vorzutäuschen
 
 ---
 
-## 26. Risiko der Doppelzählung
+## 27. Risiko der Doppelzählung
 
 Typische Doppelzählungen sind:
 
@@ -792,7 +805,7 @@ Die Systemgrenze des Modells muss dokumentiert sein.
 
 ---
 
-## 27. TCO und andere Methoden der Wirtschaftlichkeitsrechnung
+## 28. TCO und andere Methoden der Wirtschaftlichkeitsrechnung
 
 TCO vergleichen Kosten, beantworten aber nicht jede wirtschaftliche Frage.
 
@@ -809,7 +822,7 @@ Eine einfache TCO-Rechnung der AP1 diskontiert zukünftige Zahlungen häufig nic
 
 ---
 
-## 28. Nutzwertanalyse
+## 29. Nutzwertanalyse
 
 Die `Nutzwertanalyse (NWA)` ist ein Verfahren zum Vergleich mehrerer Alternativen anhand qualitativer oder in Punkte überführter Kriterien.
 
@@ -829,7 +842,7 @@ Die NWA macht Wertungen transparenter. Sie verwandelt subjektive Annahmen jedoch
 
 ---
 
-## 29. Kriterien aus dem Kundenbedarf
+## 30. Kriterien aus dem Kundenbedarf
 
 Kriterien dürfen nicht erst nach Sichtung der Angebote beliebig entstehen. Sie werden abgeleitet aus:
 
@@ -860,7 +873,7 @@ Schwache Kriterien:
 
 ---
 
-## 30. Gewichtung
+## 31. Gewichtung
 
 Das Gewicht beschreibt die relative Bedeutung eines Kriteriums.
 
@@ -893,7 +906,7 @@ Prüfungsgerechte Formulierung:
 
 ---
 
-## 31. Bewertungsskala
+## 32. Bewertungsskala
 
 Alle Angebote werden anhand derselben Skala beurteilt.
 
@@ -923,7 +936,7 @@ Macht eine Lieferung nach einem bestimmten Datum das Projekt unmöglich, muss di
 
 ---
 
-## 32. Formeln der Nutzwertanalyse
+## 33. Formeln der Nutzwertanalyse
 
 Bei Gewichten als Dezimalzahl:
 
@@ -949,7 +962,7 @@ Bei fünf Punkten und 100 % entsteht dann eine Skala bis 500. Beide Schreibweise
 
 ---
 
-## 33. Vollständige Nutzwertanalyse für A, B und C
+## 34. Vollständige Nutzwertanalyse für A, B und C
 
 Bewertung auf einer Skala von 1 bis 5:
 
@@ -979,7 +992,7 @@ Das ist ein zulässiges Ergebnis, denn beide Methoden beantworten unterschiedlic
 
 ---
 
-## 34. Kompensation und KO-Risiko
+## 35. Kompensation und KO-Risiko
 
 Eine Nutzwertanalyse ist üblicherweise kompensatorisch:
 
@@ -1006,7 +1019,7 @@ Nur bestandene Alternativen gelangen in die Nutzwertanalyse.
 
 ---
 
-## 35. Sensitivitätsanalyse
+## 36. Sensitivitätsanalyse
 
 Die `Sensitivitätsanalyse` prüft, wie stark ein Ergebnis von veränderbaren Annahmen abhängt.
 
@@ -1037,7 +1050,7 @@ Sensitivitätsanalyse bedeutet nicht, Gewichte so lange zu verändern, bis das g
 
 ---
 
-## 36. Preis, TCO, Nutzwert und Risiko zusammenführen
+## 37. Preis, TCO, Nutzwert und Risiko zusammenführen
 
 Folgende Addition ist nicht zulässig:
 
@@ -1072,7 +1085,7 @@ Die rationale Auswahl zwischen A und C hängt davon ab, ob der nachgewiesene Zus
 
 ---
 
-## 37. Entscheidungsdokumentation
+## 38. Entscheidungsdokumentation
 
 Eine gute Dokumentation enthält:
 
@@ -1100,7 +1113,7 @@ Die Formulierung trennt ein rechnerisches Ergebnis von einer entscheidungsabhän
 
 ---
 
-## 38. Vollständiger Praxisfall
+## 39. Vollständiger Praxisfall
 
 ### Ausgangssituation
 
@@ -1159,7 +1172,7 @@ Alle drei Angebote bestehen die Muss-Prüfung.
 
 ---
 
-## 39. Prüfungsalgorithmus
+## 40. Prüfungsalgorithmus
 
 Bei begrenzter Bearbeitungszeit:
 
@@ -1186,7 +1199,7 @@ Schnellkontrolle:
 
 ---
 
-## 40. Typische Prüfungsformulierungen
+## 41. Typische Prüfungsformulierungen
 
 ### Berechnen
 
@@ -1224,7 +1237,7 @@ Der Operator bestimmt die Antworttiefe:
 
 ---
 
-## 41. Typische Prüfungsfallen
+## 42. Typische Prüfungsfallen
 
 1. Sofort den niedrigsten Listenpreis auswählen.
 2. Muss-Kriterien nicht prüfen.
@@ -1257,7 +1270,7 @@ Der Operator bestimmt die Antworttiefe:
 
 ---
 
-## 42. Selbsttest
+## 43. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -1365,7 +1378,7 @@ Der Bezugspreis beträgt 10.999,20 €.
 
 ---
 
-## 43. Quellen und Abgleich
+## 44. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -1383,7 +1396,7 @@ Alle Preise und Bewertungen des Praxisfalls sind fiktive Lerndaten.
 
 ---
 
-## 44. Offene Prüfpunkte für den Unterricht
+## 45. Offene Prüfpunkte für den Unterricht
 
 - Welches genaue Kalkulationsschema verwendet die WBS für den Bezugspreis?
 - Werden Verpackung und Fracht in typischen Aufgaben vor oder nach dem Skonto berücksichtigt?

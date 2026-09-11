@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Hardwareauswahl, Komponenten, Kennzahlen und Kompatibilität
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet-ru.md
 ---
@@ -37,7 +37,20 @@ Nach dieser Einheit kannst du:
 
 ---
 
-## 2. Prüfungsrahmen
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Hardware wird vom Nutzungsszenario, Muss-Kriterien und messbaren Lastprofil abgeleitet.
+2. CPU-Kernzahl und Takt allein garantieren keine Anwendungsleistung; Architektur, Software und Last zählen.
+3. RAM-Kapazität verhindert Engpässe; Kanal, Takt und Kompatibilität beeinflussen Leistung.
+4. SSD/HDD werden nach Kapazität, Zugriff, Durchsatz, Haltbarkeit, Schnittstelle und Kosten gewählt.
+5. GPU-Auswahl richtet sich nach Ausgabe, Beschleunigung, Speicher, Leistung, Platz und Treiber.
+6. Netzteil wird nach Anschlüssen, realer Last, Spitzen, Reserve, Effizienz und Qualität dimensioniert.
+7. Kompatibilität wird mechanisch, elektrisch, protokollarisch und softwareseitig geprüft.
+8. Das langsamste relevante Glied kann den Gesamtdurchsatz begrenzen; ein Praxistest bestätigt die Auswahl.
+
+> Der größere Arbeitsspeicher ist erforderlich, da das Lastprofil die vorhandene Kapazität überschreitet und dadurch Auslagerung entsteht.
+
+## 3. Prüfungsrahmen
 
 Eine typische AP1-Situation:
 
@@ -53,7 +66,7 @@ Die Aussage `„CPU B ist wegen mehr GHz besser“` reicht deshalb nicht.
 
 ---
 
-## 3. Vom Bedarf zur Spezifikation
+## 4. Vom Bedarf zur Spezifikation
 
 Zuerst werden Fragen geklärt:
 
@@ -74,7 +87,7 @@ Anschließend wird überprüfbar formuliert:
 
 ---
 
-## 4. Muss, Soll und Kann
+## 5. Muss, Soll und Kann
 
 | Kategorie | Bedeutung | Beispiel |
 |---|---|---|
@@ -88,7 +101,7 @@ Zuerst werden alle Muss-Kriterien geprüft. Nur zulässige Alternativen werden a
 
 ---
 
-## 5. Übersicht der Komponenten
+## 6. Übersicht der Komponenten
 
 | Komponente | Hauptaufgabe | Typische Auswahlfragen |
 |---|---|---|
@@ -106,7 +119,7 @@ Eine schnelle CPU kompensiert weder dauerhaften RAM-Mangel noch einen für den W
 
 ---
 
-## 6. CPU: Was wird wirklich verglichen?
+## 7. CPU: Was wird wirklich verglichen?
 
 Wichtige Merkmale:
 
@@ -124,7 +137,7 @@ Die Taktfrequenz nennt Takte pro Sekunde, nicht die nützliche Arbeit pro Takt. 
 
 ---
 
-## 7. Single-Thread und Multi-Thread
+## 8. Single-Thread und Multi-Thread
 
 Vor allem von einem schnellen Thread profitieren beispielsweise:
 
@@ -147,7 +160,7 @@ Für AP1 genügt meist die begründete Zuordnung von Kernzahl und Arbeitslast.
 
 ---
 
-## 8. CPU-Benchmarks
+## 9. CPU-Benchmarks
 
 Ein Benchmark ist aussagekräftig, wenn:
 
@@ -167,7 +180,7 @@ Nicht belastbar ist es:
 
 ---
 
-## 9. RAM: Kapazität vor Geschwindigkeit
+## 10. RAM: Kapazität vor Geschwindigkeit
 
 RAM hält Daten und Code für schnellen Zugriff bereit. Reicht die Kapazität nicht, nutzt das Betriebssystem verstärkt Auslagerungsdatei beziehungsweise Swap. Die deutlich höhere Massenspeicherlatenz kann die Arbeit stark verlangsamen.
 
@@ -187,7 +200,7 @@ Eine hohe RAM-Frequenz ersetzt keine ausreichende Kapazität.
 
 ---
 
-## 10. RAM-Bedarf berechnen
+## 11. RAM-Bedarf berechnen
 
 Übungsszenario:
 
@@ -212,7 +225,7 @@ Gewählt wird die nächste tatsächlich unterstützte Konfiguration mit mindeste
 
 ---
 
-## 11. Speicherkanäle und gemischte Module
+## 12. Speicherkanäle und gemischte Module
 
 Mehrere Kanäle können die Speicherbandbreite erhöhen. Entscheidend sind:
 
@@ -233,7 +246,7 @@ Gemischte Module können:
 
 ---
 
-## 12. ECC
+## 13. ECC
 
 `Error-Correcting Code Memory` kann bestimmte Speicherfehler erkennen und korrigieren.
 
@@ -248,7 +261,7 @@ ECC ersetzt weder Backup noch Tests und andere Maßnahmen der Datenintegrität.
 
 ---
 
-## 13. Massenspeicher: vier unterschiedliche Größen
+## 14. Massenspeicher: vier unterschiedliche Größen
 
 | Größe | Bedeutung | Einheit |
 |---|---|---|
@@ -263,7 +276,7 @@ Eine einzelne MB/s-Angabe beschreibt einen Speicher nicht vollständig.
 
 ---
 
-## 14. HDD, SATA-SSD und NVMe-SSD
+## 15. HDD, SATA-SSD und NVMe-SSD
 
 | Typ | Stärke | Grenze | Typische Nutzung |
 |---|---|---|---|
@@ -275,7 +288,7 @@ Für IDE, Datenbank, Container und VM ist eine SSD meist sinnvoll. Ein NVMe-Spit
 
 ---
 
-## 15. M.2 ist nicht gleich NVMe
+## 16. M.2 ist nicht gleich NVMe
 
 `M.2` bezeichnet vor allem Bauform und Steckverbinder. Ein M.2-Laufwerk kann unter anderem SATA oder PCIe mit NVMe verwenden.
 
@@ -292,7 +305,7 @@ Vor der Auswahl:
 
 ---
 
-## 16. Endurance und Zuverlässigkeit von SSD
+## 17. Endurance und Zuverlässigkeit von SSD
 
 Bei schreibintensiver Nutzung sind relevant:
 
@@ -308,7 +321,7 @@ Eine hohe Endurance macht die SSD nicht zum Backup. Ausfall, Fehlbedienung, Scha
 
 ---
 
-## 17. GPU und VRAM
+## 18. GPU und VRAM
 
 Eine `integrierte GPU` genügt häufig für:
 
@@ -329,7 +342,7 @@ Neben Rechenleistung und VRAM sind Softwareunterstützung, Displayausgänge, Ene
 
 ---
 
-## 18. Mainboard, Sockel und Chipsatz
+## 19. Mainboard, Sockel und Chipsatz
 
 Das Mainboard bestimmt:
 
@@ -346,7 +359,7 @@ Ein identischer Sockel garantiert nicht die Unterstützung jeder CPU. Chipsatz u
 
 ---
 
-## 19. UEFI, Secure Boot und TPM
+## 20. UEFI, Secure Boot und TPM
 
 `UEFI` beschreibt die Schnittstelle zwischen Plattform-Firmware und Betriebssystem. Praktisch sind zu prüfen:
 
@@ -362,7 +375,7 @@ Firmwareänderungen können BitLocker-Schlüssel, Startfähigkeit und Sicherheit
 
 ---
 
-## 20. Betriebssystemanforderungen
+## 21. Betriebssystemanforderungen
 
 Anforderungen des Betriebssystems sind Muss-Kriterien und müssen zum Beschaffungszeitpunkt anhand der aktuellen Herstellerdokumentation geprüft werden.
 
@@ -378,7 +391,7 @@ Das sind Mindestwerte, keine Empfehlung für jeden professionellen Workload. Ein
 
 ---
 
-## 21. Netzteil: Nennleistung und reale Aufnahme
+## 22. Netzteil: Nennleistung und reale Aufnahme
 
 Auswahlkriterien:
 
@@ -404,7 +417,7 @@ Auch ein unnötig großes Netzteil ist nicht automatisch besser.
 
 ---
 
-## 22. Kühlung, Temperatur und Throttling
+## 23. Kühlung, Temperatur und Throttling
 
 Kann Wärme nicht ausreichend abgeführt werden, reduzieren Komponenten ihre Leistung:
 
@@ -424,7 +437,7 @@ Ein kurzer Test im kalten System kann Leistungseinbrüche unter Dauerlast verber
 
 ---
 
-## 23. Netzwerkadapter
+## 24. Netzwerkadapter
 
 Bei Ethernet:
 
@@ -446,7 +459,7 @@ Die Linkrate ist nicht der Nutzdurchsatz. Protokolloverhead, Gegenstelle, Medium
 
 ---
 
-## 24. Desktop, Notebook, Workstation oder Thin Client
+## 25. Desktop, Notebook, Workstation oder Thin Client
 
 | Gerätetyp | Vorteile | Grenzen |
 |---|---|---|
@@ -459,7 +472,7 @@ Ein Thin Client ist nur mit passender zentraler Infrastruktur sinnvoll. Beim Not
 
 ---
 
-## 25. Verfügbarkeit, Support und Lebenszyklus
+## 26. Verfügbarkeit, Support und Lebenszyklus
 
 Zu vergleichen sind:
 
@@ -476,7 +489,7 @@ Ein seltenes Billigmodell kann den Supportaufwand erhöhen. Standardisierung red
 
 ---
 
-## 26. Vier Ebenen der Kompatibilität
+## 27. Vier Ebenen der Kompatibilität
 
 | Ebene | Frage | Beispiel |
 |---|---|---|
@@ -489,7 +502,7 @@ Hinzu kommen thermische und organisatorische Bedingungen.
 
 ---
 
-## 27. Kompatibilitätscheckliste
+## 28. Kompatibilitätscheckliste
 
 Vor der Freigabe:
 
@@ -508,7 +521,7 @@ Ergebnis und Prüfquelle werden dokumentiert.
 
 ---
 
-## 28. Engpassanalyse
+## 29. Engpassanalyse
 
 Ein `Engpass` ist die Ressource, die den aktuellen Workload begrenzt.
 
@@ -534,7 +547,7 @@ Das älteste Bauteil ohne Messung zu ersetzen ist keine Engpassanalyse.
 
 ---
 
-## 29. Praxisfall: FIAE-Arbeitsplatz
+## 30. Praxisfall: FIAE-Arbeitsplatz
 
 Anforderungen:
 
@@ -560,7 +573,7 @@ Nicht begründet wären eine dGPU nur wegen ihres Preises, pauschal 32 GB „fü
 
 ---
 
-## 30. Vergleichsmatrix
+## 31. Vergleichsmatrix
 
 Nach der Muss-Prüfung kann eine Nutzwertanalyse folgen:
 
@@ -577,7 +590,7 @@ Der Preis bleibt sichtbar: entweder getrennt oder als transparent gewichtetes Kr
 
 ---
 
-## 31. Prüfungsalgorithmus
+## 32. Prüfungsalgorithmus
 
 1. Nutzungsszenario und Zielgruppe markieren.
 2. Muss-Kriterien bilden.
@@ -592,7 +605,7 @@ Der Preis bleibt sichtbar: entweder getrennt oder als transparent gewichtetes Kr
 
 ---
 
-## 32. Typische Prüfungsfallen
+## 33. Typische Prüfungsfallen
 
 | Falle | Korrektur |
 |---|---|
@@ -611,7 +624,7 @@ Der Preis bleibt sichtbar: entweder getrennt oder als transparent gewichtetes Kr
 
 ---
 
-## 33. Selbsttest
+## 34. Selbsttest
 
 1. Warum beginnt Hardwareauswahl beim Bedarf?
 2. Worin unterscheiden sich Muss und Soll?
@@ -682,7 +695,7 @@ Der Preis bleibt sichtbar: entweder getrennt oder als transparent gewichtetes Kr
 
 ---
 
-## 34. Quellen und Abgleich
+## 35. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -694,7 +707,7 @@ Konkrete Herstellerdaten, Betriebssystemanforderungen und Kompatibilitätslisten
 
 ---
 
-## 35. Offene Prüfpunkte für den Unterricht
+## 36. Offene Prüfpunkte für den Unterricht
 
 - Wie detailliert vergleicht die WBS CPU-Kennzahlen?
 - Werden IPC, Cache und SMT erwartet?

@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Projektmanagement
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/01-projektgrundlagen-smart-und-phasen-ru.md
 ---
@@ -29,7 +29,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Projekt und operatives Geschäft
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Ein Projekt ist zeitlich begrenzt, zielgerichtet, ressourcenbegrenzt und gegenüber Routineaufgaben einmalig.
+2. SMART bedeutet spezifisch, messbar, attraktiv/akzeptiert, realistisch und terminiert.
+3. Ziel, Zeit, Kosten und Qualität beeinflussen einander; Änderungen müssen in ihren Folgen bewertet werden.
+4. Stakeholder werden nach Interesse, Einfluss und Betroffenheit analysiert.
+5. Phasen: Initialisierung, Planung, Durchführung/Steuerung und Abschluss; konkrete Modelle dürfen abweichen.
+6. Risiken werden als Ursache, mögliches Ereignis, Auswirkung, Wahrscheinlichkeit und Maßnahme beschrieben.
+7. Ein Change wird bewertet, entschieden, dokumentiert und in Plan/Baseline übernommen.
+8. Projekterfolg umfasst nicht nur Termin, sondern Zielerfüllung, Qualität, Kosten und Abnahme.
+
+> Das Vorhaben ist ein Projekt, da es ein einmaliges Ziel verfolgt, zeitlich begrenzt ist und mit vorgegebenen Ressourcen durchgeführt wird.
+
+## 3. Projekt und operatives Geschäft
 
 ### 2.1 Typische Projektmerkmale
 
@@ -67,7 +80,7 @@ Auch ein einzelner Routinevorgang kann einen Anfang und ein Ende haben. Der Unte
 
 ---
 
-## 3. Projektrollen
+## 4. Projektrollen
 
 Die konkreten Befugnisse ergeben sich aus der Organisation, dem `Projektauftrag` und den internen Regelungen. Ein `Projektleiter` besitzt daher nicht automatisch disziplinarische Weisungsbefugnis und darf nicht automatisch jede Budgetänderung selbst genehmigen.
 
@@ -92,7 +105,7 @@ Wenn das Budget nicht ausreicht, sollte der `Projektleiter`:
 
 ---
 
-## 4. SMART-Ziele
+## 5. SMART-Ziele
 
 Mit `SMART` lässt sich prüfen, ob ein Ziel ausreichend genau formuliert ist.
 
@@ -128,7 +141,7 @@ Nicht jedes Kriterium muss wörtlich in einem einzigen Zielsatz stehen. `Akzepta
 
 ---
 
-## 5. Magisches Dreieck des Projektmanagements
+## 6. Magisches Dreieck des Projektmanagements
 
 Die zentralen Projektgrößen sind:
 
@@ -151,7 +164,7 @@ Die Änderung einer Größe beeinflusst normalerweise mindestens eine weitere Gr
 
 ---
 
-## 6. Projektphasen
+## 7. Projektphasen
 
 Es gibt kein einziges, für alle Organisationen verbindliches Phasenmodell. Für ein klassisches Projekt eignet sich die folgende Darstellung mit vier Hauptphasen. Das `Projektcontrolling` begleitet das Projekt und findet nicht nur zu einem einzelnen Zeitpunkt statt.
 
@@ -172,7 +185,7 @@ Die Dokumente sind typische Beispiele und nicht starr an genau eine Phase gebund
 
 ---
 
-## 7. Lastenheft und Pflichtenheft
+## 8. Lastenheft und Pflichtenheft
 
 | Dokument | Leitfrage | Verantwortlich | Inhalt |
 |---|---|---|---|
@@ -188,7 +201,7 @@ Beispiel:
 
 ---
 
-## 8. Machbarkeitsprüfung
+## 9. Machbarkeitsprüfung
 
 Vor der Projektfreigabe kann die Machbarkeit in mehreren Bereichen geprüft werden:
 
@@ -204,7 +217,7 @@ Das Ergebnis kann als Grundlage für eine `Go-/No-Go-Entscheidung` dienen.
 
 ---
 
-## 9. Projektauftrag
+## 10. Projektauftrag
 
 Der `Projektauftrag` autorisiert den Projektstart und legt den Projektrahmen fest. Typische Inhalte sind:
 
@@ -226,7 +239,7 @@ Nicht verwechseln:
 
 ---
 
-## 10. Projektstrukturplan und Arbeitspaket
+## 11. Projektstrukturplan und Arbeitspaket
 
 Der `Projektstrukturplan (PSP)` zerlegt das gesamte Projekt in überschaubare Bestandteile. Das kleinste plan- und kontrollierbare Element wird `Arbeitspaket` genannt.
 
@@ -243,7 +256,7 @@ Der `PSP` beantwortet vor allem, **was** zum Projekt gehört. Das `Gantt-Diagram
 
 ---
 
-## 11. Projektrisiken
+## 12. Projektrisiken
 
 Vereinfachte Risikobewertung:
 
@@ -264,7 +277,7 @@ Risiken sollten identifiziert, bewertet, einer verantwortlichen Person zugeordne
 
 ---
 
-## 12. Wichtige Begriffe
+## 13. Wichtige Begriffe
 
 | Begriff | Bedeutung |
 |---|---|
@@ -284,7 +297,7 @@ Risiken sollten identifiziert, bewertet, einer verantwortlichen Person zugeordne
 
 ---
 
-## 13. Typische Prüfungsfallen
+## 14. Typische Prüfungsfallen
 
 1. Der `Projektleiter` ist nicht automatisch disziplinarischer Vorgesetzter. Zuerst müssen die in der Aufgabe beschriebenen Befugnisse geprüft werden.
 2. Die Änderung einer Größe des magischen Dreiecks hat nicht nur eine automatische Folge. Eine mögliche Wechselwirkung muss genannt und begründet werden.
@@ -297,7 +310,7 @@ Risiken sollten identifiziert, bewertet, einer verantwortlichen Person zugeordne
 
 ---
 
-## 14. Prüfungsformulierungen
+## 15. Prüfungsformulierungen
 
 ### Projekt begründen
 
@@ -317,7 +330,7 @@ Risiken sollten identifiziert, bewertet, einer verantwortlichen Person zugeordne
 
 ---
 
-## 15. Selbsttest
+## 16. Selbsttest
 
 1. Nenne vier typische Merkmale eines Projekts.
 2. Warum ist die tägliche Durchführung einer Datensicherung normalerweise eine `Routineaufgabe`, die Einführung eines neuen Sicherungssystems dagegen ein `Projekt`?
@@ -344,7 +357,7 @@ Risiken sollten identifiziert, bewertet, einer verantwortlichen Person zugeordne
 
 ---
 
-## 16. Quellen und Abgleich
+## 17. Quellen und Abgleich
 
 - [Verordnung über die Berufsausbildung zum Fachinformatiker und zur Fachinformatikerin — § 9](https://www.gesetze-im-internet.de/fiausbv/BJNR025000020.html)
 - [IHK Hannover: Änderungen in den Prüfungskatalogen der IT-Berufe ab Frühjahr 2025](https://www.ihk.de/hannover/hauptnavigation/ausbildung-und-weiterbildung/ausbildung/ausbildung-a-z/neuordnungen/pruefungskataloge-it-berufe-6438900)
@@ -352,7 +365,7 @@ Risiken sollten identifiziert, bewertet, einer verantwortlichen Person zugeordne
 
 Für die abschließende Korrektur sollte der Inhalt zusätzlich mit dem aktuellen `Prüfungskatalog`, den Aufgaben der WBS-Lehrkräfte und den Hinweisen der zuständigen IHK abgeglichen werden.
 
-## 17. Offene Prüfpunkte für den Unterricht
+## 18. Offene Prüfpunkte für den Unterricht
 
 - Welche Variante von `SMART-A` verwendet die Lehrkraft?
 - Welches Modell der `Projektphasen` verwendet das Lehrmaterial?

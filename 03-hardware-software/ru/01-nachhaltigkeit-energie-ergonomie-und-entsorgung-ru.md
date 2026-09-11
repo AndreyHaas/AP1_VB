@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Nachhaltigkeit, Energie, Ergonomie und Entsorgung
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md
 ---
@@ -41,7 +41,20 @@ gegenstueck: ../de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md
 
 ---
 
-## 2. Prüfungsrahmen
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Nachhaltigkeit связывает ökonomische, ökologische и soziale последствия жизненного цикла.
+2. Leistung — энергия за время; `E_kWh = P_kW × t_h`.
+3. Aktiv, Idle, Standby, Stückzahl и Nutzungstage считаются отдельно и складываются.
+4. Netzteil-Nennleistung не равно фактической Leistungsaufnahme.
+5. Energieeffizienz улучшает Nutzen/Energie; Suffizienz проверяет необходимый объём.
+6. Beschaffung учитывает Herstellung, Nutzung, Reparierbarkeit, Lebensdauer, Support, Entsorgung.
+7. Ergonomie адаптирует рабочее место к человеку и задаче.
+8. Перед передачей/утилизацией данные доказуемо удаляют, Elektroaltgeräte собирают отдельно.
+
+> Die Variante ist über den Lebenszyklus nachhaltiger, weil sie bei gleicher Eignung weniger Energie benötigt, länger unterstützt wird und reparierbar ist.
+
+## 3. Prüfungsrahmen
 
 В AP1 нужно выбирать Hardware и Software в соответствии с Kundenbedarf, Wirtschaftlichkeit, Datenschutz, IT-Sicherheit и Qualität. Ausbildungsrahmenplan дополнительно требует учитывать экологические и экономические аспекты и подходящий IT-Arbeitsplatz.
 
@@ -60,7 +73,7 @@ gegenstueck: ../de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md
 
 ---
 
-## 3. Три измерения Nachhaltigkeit
+## 4. Три измерения Nachhaltigkeit
 
 | Dimension | Ziel | IT-Beispiel |
 |---|---|---|
@@ -78,7 +91,7 @@ gegenstueck: ../de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md
 
 ---
 
-## 4. Lebenszyklus eines IT-Arbeitsplatzes
+## 5. Lebenszyklus eines IT-Arbeitsplatzes
 
 1. Bedarfsermittlung.
 2. Auswahl и Beschaffung.
@@ -102,7 +115,7 @@ gegenstueck: ../de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md
 
 ---
 
-## 5. Messbare Nachhaltigkeitskriterien
+## 6. Messbare Nachhaltigkeitskriterien
 
 Хорошие Kriterien:
 
@@ -130,7 +143,7 @@ gegenstueck: ../de/01-nachhaltigkeit-energie-ergonomie-und-entsorgung-de.md
 
 ---
 
-## 6. Leistung und Energie
+## 7. Leistung und Energie
 
 `Leistung` показывает скорость использования или передачи энергии:
 
@@ -162,7 +175,7 @@ Einheit: Wh oder kWh
 
 ---
 
-## 7. Gesamtleistung и количество устройств
+## 8. Gesamtleistung и количество устройств
 
 ```text
 Gesamtleistung =
@@ -193,7 +206,7 @@ Anzahl × Leistung je Gerät
 
 ---
 
-## 8. Полный расчёт Stromkosten
+## 9. Полный расчёт Stromkosten
 
 Дано:
 
@@ -233,7 +246,7 @@ Anzahl × Leistung je Gerät
 
 ---
 
-## 9. Несколько Betriebszustände
+## 10. Несколько Betriebszustände
 
 Реальное устройство не всегда работает с одной мощностью.
 
@@ -263,7 +276,7 @@ Anzahl × Leistung je Gerät
 
 ---
 
-## 10. Standby-Einsparung
+## 11. Standby-Einsparung
 
 Если вместо 1 W Standby устройства полностью отключаются на 16,5 часа:
 
@@ -290,7 +303,7 @@ Anzahl × Leistung je Gerät
 
 ---
 
-## 11. CO₂-Äquivalent
+## 12. CO₂-Äquivalent
 
 Если задача задаёт Emissionsfaktor:
 
@@ -316,7 +329,7 @@ Emissionsfaktor:
 
 ---
 
-## 12. Energie в TCO
+## 13. Energie в TCO
 
 ```text
 Energiekosten über n Jahre =
@@ -344,7 +357,7 @@ Energiekosten — только один блок TCO наряду с Kaufpreis, 
 
 ---
 
-## 13. Effizienz, Suffizienz и Kreislaufwirtschaft
+## 14. Effizienz, Suffizienz и Kreislaufwirtschaft
 
 ### Effizienz
 
@@ -368,7 +381,7 @@ Energiekosten — только один блок TCO наряду с Kaufpreis, 
 
 ---
 
-## 14. Lebensdauer, Reparatur и Upgrade
+## 15. Lebensdauer, Reparatur и Upgrade
 
 Проверяются:
 
@@ -394,7 +407,7 @@ Energiekosten — только один блок TCO наряду с Kaufpreis, 
 
 ---
 
-## 15. Nachhaltige Beschaffung
+## 16. Nachhaltige Beschaffung
 
 Требования могут включаться в:
 
@@ -419,7 +432,7 @@ Energiekosten — только один блок TCO наряду с Kaufpreis, 
 
 ---
 
-## 16. Ergonomie и Arbeitsschutz
+## 17. Ergonomie и Arbeitsschutz
 
 Ergonomie адаптирует работу, Arbeitsmittel и Umgebung к человеку.
 
@@ -438,7 +451,7 @@ Ergonomie адаптирует работу, Arbeitsmittel и Umgebung к чел
 
 ---
 
-## 17. Bildschirm и Anordnung
+## 18. Bildschirm и Anordnung
 
 Проверяются:
 
@@ -465,7 +478,7 @@ Ergonomie адаптирует работу, Arbeitsmittel и Umgebung к чел
 
 ---
 
-## 18. Tastatur, Maus и alternative Eingabe
+## 19. Tastatur, Maus и alternative Eingabe
 
 Хорошие Eingabemittel:
 
@@ -491,7 +504,7 @@ Ergonomie адаптирует работу, Arbeitsmittel и Umgebung к чел
 
 ---
 
-## 19. Tisch, Stuhl и Haltung
+## 20. Tisch, Stuhl и Haltung
 
 Рабочее место должно позволять:
 
@@ -515,7 +528,7 @@ Ergonomie адаптирует работу, Arbeitsmittel и Umgebung к чел
 
 ---
 
-## 20. Beleuchtung, Reflexionen и Umgebung
+## 21. Beleuchtung, Reflexionen и Umgebung
 
 Проверяются:
 
@@ -535,7 +548,7 @@ Helligkeit экрана и Umgebung должны быть согласованы
 
 ---
 
-## 21. Arbeitsorganisation
+## 22. Arbeitsorganisation
 
 Ergonomie включает не только мебель.
 
@@ -554,7 +567,7 @@ Ergonomie включает не только мебель.
 
 ---
 
-## 22. Mobile Arbeit
+## 23. Mobile Arbeit
 
 Для длительной работы одного ноутбука часто проблемны:
 
@@ -580,7 +593,7 @@ Ergonomie включает не только мебель.
 
 ---
 
-## 23. Ergonomie и Barrierefreiheit
+## 24. Ergonomie и Barrierefreiheit
 
 Ergonomie ориентируется на безопасное и подходящее взаимодействие человека и системы. Barrierefreiheit стремится исключить барьеры для людей с различными ограничениями.
 
@@ -597,7 +610,7 @@ Ergonomie ориентируется на безопасное и подходя
 
 ---
 
-## 24. Вывод устройства из эксплуатации
+## 25. Вывод устройства из эксплуатации
 
 Контролируемый процесс:
 
@@ -616,7 +629,7 @@ Ergonomie ориентируется на безопасное и подходя
 
 ---
 
-## 25. Datenlöschung и Datenträger
+## 26. Datenlöschung и Datenträger
 
 Простое удаление файла обычно удаляет только ссылку на данные.
 
@@ -641,7 +654,7 @@ Ergonomie ориентируется на безопасное и подходя
 
 ---
 
-## 26. Elektroaltgeräte и Wiederverwendung
+## 27. Elektroaltgeräte и Wiederverwendung
 
 ElektroG регулирует Rücknahme и экологически совместимую Entsorgung электрооборудования в Германии.
 
@@ -668,7 +681,7 @@ Weiterverwenden
 
 ---
 
-## 27. Vollständiger Praxisfall
+## 28. Vollständiger Praxisfall
 
 Компания заменяет 20 старых ноутбуков.
 
@@ -713,7 +726,7 @@ Weiterverwenden
 
 ---
 
-## 28. Prüfungsalgorithmus
+## 29. Prüfungsalgorithmus
 
 1. Определи Zeitraum и количество.
 2. Проверь единицы W/kW и Wh/kWh.
@@ -730,7 +743,7 @@ Weiterverwenden
 
 ---
 
-## 29. Typische Prüfungsformulierungen
+## 30. Typische Prüfungsformulierungen
 
 > Berechnen Sie den jährlichen Energieverbrauch und die daraus entstehenden Stromkosten.
 
@@ -746,7 +759,7 @@ Weiterverwenden
 
 ---
 
-## 30. Typische Prüfungsfallen
+## 31. Typische Prüfungsfallen
 
 1. W и kW не преобразованы.
 2. kW после умножения на h не заменены на kWh.
@@ -775,7 +788,7 @@ Weiterverwenden
 
 ---
 
-## 31. Selbsttest
+## 32. Selbsttest
 
 ### A. Verständnis
 
@@ -842,7 +855,7 @@ Weiterverwenden
 
 ---
 
-## 32. Quellen und Abgleich
+## 33. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -856,7 +869,7 @@ Rechtliche Angaben wurden mit Stand 10.09.2026 geprüft. Konkrete Pflichten hän
 
 ---
 
-## 33. Offene Prüfpunkte für den Unterricht
+## 34. Offene Prüfpunkte für den Unterricht
 
 - Какие Energieformeln и Rundungsregeln ожидает WBS?
 - Требуется ли расчёт нескольких Betriebszustände?

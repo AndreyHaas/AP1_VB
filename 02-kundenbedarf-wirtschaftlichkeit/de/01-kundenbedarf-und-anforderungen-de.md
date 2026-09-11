@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Kundenbedarf und Anforderungen
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/01-kundenbedarf-und-anforderungen-ru.md
 ---
@@ -29,7 +29,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Bedürfnis, Bedarf und Nachfrage
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Bedürfnis ist ein empfundener Mangel, Bedarf ein konkretisierter und finanzierbarer Wunsch, Nachfrage dessen Auftreten am Markt.
+2. Kundenbedarf beschreibt das gewünschte Ergebnis, nicht vorschnell ein Produkt.
+3. Offene Fragen liefern Zusammenhänge; geschlossene Fragen bestätigen konkrete Fakten.
+4. Funktionale Anforderungen beschreiben Funktionen, nichtfunktionale Anforderungen Qualitäten und Randbedingungen.
+5. Muss-Kriterien schließen ungeeignete Lösungen aus; Kann-Kriterien differenzieren geeignete Alternativen.
+6. Anforderungen müssen eindeutig, prüfbar, priorisiert und rückverfolgbar sein.
+7. Stakeholder, Zielgruppe, Prozess, Ist-Zustand, Ziel und Grenzen werden vor der Lösung geklärt.
+8. Ein Abnahmekriterium enthält Gegenstand, Bedingung und messbares Soll-Ergebnis.
+
+> Die Anforderung ist nicht ausreichend prüfbar, da „schnell“ keinen Messwert und keine Lastbedingung enthält.
+
+## 3. Bedürfnis, Bedarf und Nachfrage
 
 Im wirtschaftlichen Zusammenhang werden die Begriffe wie folgt abgegrenzt:
 
@@ -68,7 +81,7 @@ Wer mit einem konkreten Produkt beginnt, ohne den Bedarf zu kennen, kann eine te
 
 ---
 
-## 3. Zuerst Problem und Ziel, dann das Produkt
+## 4. Zuerst Problem und Ziel, dann das Produkt
 
 Die Aussage eines Kunden:
 
@@ -98,7 +111,7 @@ Vor einem Lösungsvorschlag ist zu klären:
 
 ---
 
-## 4. Stakeholder und Zielgruppen
+## 5. Stakeholder und Zielgruppen
 
 Ein `Stakeholder` ist eine Person oder Gruppe, die eine Lösung beeinflusst, nutzt, bezahlt oder von ihren Folgen betroffen ist.
 
@@ -130,7 +143,7 @@ Zielgruppengerechte Sprache darf wichtige Risiken nicht verschweigen. Ein Fachbe
 
 ---
 
-## 5. Ablauf der Bedarfsermittlung
+## 6. Ablauf der Bedarfsermittlung
 
 Ein praxisgerechter Ablauf:
 
@@ -186,7 +199,7 @@ Die Beteiligten prüfen:
 
 ---
 
-## 6. Erhebungstechniken
+## 7. Erhebungstechniken
 
 Die Methode wird passend zur Art der Information, zur Zahl der Beteiligten und zur verfügbaren Zeit gewählt.
 
@@ -205,7 +218,7 @@ Bei anspruchsvollen Aufgaben werden Methoden kombiniert. Eine Ticketauswertung z
 
 ---
 
-## 7. Fragetechniken
+## 8. Fragetechniken
 
 ### 7.1 Offene Fragen
 
@@ -259,7 +272,7 @@ Suggestivfragen verfälschen die Bedarfsermittlung und sollten vermieden werden.
 
 ---
 
-## 8. Aktives Zuhören
+## 9. Aktives Zuhören
 
 `Aktives Zuhören` verringert das Risiko falscher Annahmen.
 
@@ -281,7 +294,7 @@ Ein allgemeiner Wunsch wird dadurch in einen Messwert, einen Nutzungskontext und
 
 ---
 
-## 9. Arten von Anforderungen
+## 10. Arten von Anforderungen
 
 ### 9.1 Funktionale Anforderungen
 
@@ -343,7 +356,7 @@ Nach dem Übergang können sie ihre Bedeutung verlieren, während der Einführun
 
 ---
 
-## 10. Anforderung oder Lösung?
+## 11. Anforderung oder Lösung?
 
 Eine gute Anforderung beschreibt möglichst das benötigte Ergebnis, ohne die Lösungswahl unbegründet einzuschränken.
 
@@ -367,7 +380,7 @@ Ein konkretes Produkt darf als Randbedingung festgelegt werden, wenn dies nachvo
 
 ---
 
-## 11. Qualitätsmerkmale guter Anforderungen
+## 12. Qualitätsmerkmale guter Anforderungen
 
 | Merkmal | Bedeutung | Prüffrage |
 |---|---|---|
@@ -386,7 +399,7 @@ Wörter wie `schnell`, `modern`, `benutzerfreundlich`, `sicher` und `kostengüns
 
 ---
 
-## 12. Aufbau einer Anforderung
+## 13. Aufbau einer Anforderung
 
 Praxistaugliche Vorlage:
 
@@ -420,7 +433,7 @@ Die Begründung hilft bei einer späteren Alternativenprüfung. Wird das Ziel au
 
 ---
 
-## 13. Priorisierung
+## 14. Priorisierung
 
 ### 13.1 Muss, Soll und Kann
 
@@ -451,7 +464,7 @@ Die verbleibenden Angebote werden nach Preis sowie gewichteten `Soll- und Kann-K
 
 ---
 
-## 14. Lastenheft
+## 15. Lastenheft
 
 Das `Lastenheft` beschreibt die Anforderungen des Auftraggebers: **Was wird benötigt und wofür?**
 
@@ -475,7 +488,7 @@ Bezeichnung und Detaillierungsgrad der Dokumente hängen von Organisation und Ve
 
 ---
 
-## 15. Akzeptanzkriterien und Abnahme
+## 16. Akzeptanzkriterien und Abnahme
 
 Ein `Akzeptanzkriterium` legt eine beobachtbare Bedingung fest, unter der eine Anforderung als erfüllt gilt.
 
@@ -512,7 +525,7 @@ Beispiel:
 
 ---
 
-## 16. Anforderungsmatrix und Nachverfolgbarkeit
+## 17. Anforderungsmatrix und Nachverfolgbarkeit
 
 Eine einfache Matrix verbindet Anforderungen mit Quelle, Umsetzung und Test:
 
@@ -531,7 +544,7 @@ Vorteile:
 
 ---
 
-## 17. Umgang mit Änderungen und Konflikten
+## 18. Umgang mit Änderungen und Konflikten
 
 Anforderungen können miteinander konkurrieren:
 
@@ -553,7 +566,7 @@ Eine Anforderung darf nach ihrer Freigabe nicht unbemerkt verändert werden. Die
 
 ---
 
-## 18. Durchgängiges Praxisbeispiel
+## 19. Durchgängiges Praxisbeispiel
 
 ### Ausgangssituation
 
@@ -597,7 +610,7 @@ Die Anforderungen ermöglichen:
 
 ---
 
-## 19. Prüfungsformulierungen
+## 20. Prüfungsformulierungen
 
 ### Offene Frage begründen
 
@@ -625,7 +638,7 @@ Die Anforderungen ermöglichen:
 
 ---
 
-## 20. Typische Prüfungsfallen
+## 21. Typische Prüfungsfallen
 
 1. Ein Kundenwunsch ist noch keine prüfbare Anforderung.
 2. `Bedürfnis`, `Bedarf` und `Nachfrage` sind keine vollständigen Synonyme.
@@ -645,7 +658,7 @@ Die Anforderungen ermöglichen:
 
 ---
 
-## 21. Selbsttest
+## 22. Selbsttest
 
 ### A. Begriffe
 
@@ -694,7 +707,7 @@ Ein neues Videokonferenzsystem ist für 40 Beschäftigte vorgesehen. Gefordert w
 
 ---
 
-## 22. Quellen und Abgleich
+## 23. Quellen und Abgleich
 
 - [FIAusbV § 9 – Prüfungsbereich von Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [IREB CPRE – Downloads und Ressourcen](https://cpre.ireb.org/de/downloads-und-resources/downloads)
@@ -702,7 +715,7 @@ Ein neues Videokonferenzsystem ist für 40 Beschäftigte vorgesehen. Gefordert w
 
 Das Thema wird in der AP1 als Bestandteil eines praktischen Szenarios zur Auswahl und Einrichtung eines Arbeitsplatzes behandelt. Das formale Requirements Engineering dient hier der Vertiefung und besseren Begründung, nicht der vollständigen Wiedergabe eines CPRE-Lehrplans.
 
-## 23. Offene Prüfpunkte für den Unterricht
+## 24. Offene Prüfpunkte für den Unterricht
 
 - Verwendet WBS `Muss/Soll/Kann` oder `MoSCoW`?
 - Wie grenzt die Lehrkraft `Bedarf` und `Anforderung` in Prüfungsaufgaben voneinander ab?

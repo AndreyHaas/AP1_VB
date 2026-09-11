@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Schnittstellen, Speicher, Peripherie und Barrierefreiheit
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-ru.md
 ---
@@ -24,7 +24,7 @@ Nach dieser Einheit kannst du:
 
 - Schnittstelle, Anschluss, Steckverbinder und Protokoll unterscheiden;
 - mechanische, elektrische, logische und softwareseitige Kompatibilität prüfen;
-- USB-A, USB-C, Datenrate und USB Power Delivery korrekt erklären;
+- USB-A, USB-B, USB-C, Mini-/Micro-USB, Datenrate und USB Power Delivery korrekt erklären;
 - DisplayPort, HDMI, Adapter und Dockingstation beurteilen;
 - die Bedeutung von PCIe-Lanes einordnen;
 - SATA, PCIe, NVMe, M.2 und externe Speicher trennen;
@@ -38,7 +38,20 @@ Nach dieser Einheit kannst du:
 
 ---
 
-## 2. Prüfungsrahmen
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Steckverbinderform, Übertragungsstandard, Signal, Stromversorgung und Funktion werden getrennt geprüft.
+2. USB-A/B/C beschreiben Bauformen; aus USB-C allein folgen weder Datenrate noch Video oder Ladeleistung.
+3. Die gesamte USB-Kette aus Host, Kabel, Dock/Hub und Endgerät wird vom schwächsten Glied begrenzt.
+4. USB PD benötigt passende Quelle, Verbraucher, Profil und Kabel; `P = U × I`.
+5. HDMI/DisplayPort werden nach Auflösung, Bildrate, Farbtiefe, Displayzahl, Richtung und Kabel gewählt.
+6. SATA, PCIe, NVMe und M.2 sind nicht austauschbare Begriffe; M.2 ist zunächst ein Formfaktor.
+7. `1 Byte = 8 bit`; MB/GB sind dezimal, MiB/GiB binär.
+8. Peripherie und Oberfläche müssen Zielgruppe, Ergonomie, Sicherheit, Treiber und Barrierefreiheit erfüllen.
+
+> Der USB-C-Anschluss genügt als Nachweis nicht, da Port, Kabel und Dock den geforderten DisplayPort Alt Mode und die notwendige PD-Leistung unterstützen müssen.
+
+## 3. Prüfungsrahmen
 
 Typische Aufgaben:
 
@@ -54,7 +67,7 @@ In AP1 muss eine Lösung den Kundenbedarf erfüllen, eingerichtet, getestet und 
 
 ---
 
-## 3. Fünf Ebenen einer Schnittstelle
+## 4. Fünf Ebenen einer Schnittstelle
 
 | Ebene | Frage | Beispiel |
 |---|---|---|
@@ -68,7 +81,7 @@ Zur vierstufigen Kompatibilitätsprüfung aus Kapitel 09 kommt hier die Funktion
 
 ---
 
-## 4. Begriffstrennung
+## 5. Begriffstrennung
 
 | Begriff | Bedeutung |
 |---|---|
@@ -83,7 +96,7 @@ Zur vierstufigen Kompatibilitätsprüfung aus Kapitel 09 kommt hier die Funktion
 
 ---
 
-## 5. Datenrate, Durchsatz und Latenz
+## 6. Datenrate, Durchsatz und Latenz
 
 Die `Bruttodatenrate` enthält auch Kodierungs- und Protokollanteile.
 
@@ -107,7 +120,7 @@ Einfluss haben:
 
 ---
 
-## 6. Bit und Byte
+## 7. Bit und Byte
 
 ```text
 1 Byte = 8 bit
@@ -125,7 +138,7 @@ Der reale Nutzdurchsatz liegt wegen Overhead und Systemgrenzen darunter.
 
 ---
 
-## 7. USB: Versionsname und Vermarktung
+## 8. USB: Versionsname und Vermarktung
 
 Bei USB werden geprüft:
 
@@ -141,7 +154,7 @@ USB-Bezeichnungen wurden im Zeitverlauf geändert. In einer Aufgabe sind explizi
 
 ---
 
-## 8. USB-A und USB-C
+## 9. USB-A und USB-C
 
 `USB-A` und `USB-C` beschreiben zunächst die Bauform.
 
@@ -158,9 +171,35 @@ USB-C kann je nach Umsetzung unterstützen:
 
 Dokumentation von Port, Gerät und Kabel muss geprüft werden.
 
+### 8.1 USB-B, Mini-USB und Micro-USB
+
+| Bauform | Erkennungsmerkmal | typischer früherer/aktueller Einsatz |
+|---|---|---|
+| USB-A | flach-rechteckig, nicht verdrehsicher | Host, PC, Hub, Ladegerät |
+| USB-B | annähernd quadratisch mit abgeschrägten Ecken | Drucker, Scanner, Messgerät |
+| USB 3.x Type-B | Type-B mit zusätzlichem Kontaktbereich | schnellere Drucker-/Speicherverbindung |
+| Mini-B | kleiner, trapezähnlich | ältere Kameras und Geräte |
+| Micro-B | sehr flach, nicht verdrehsicher | ältere Smartphones und Peripherie |
+| USB 3.x Micro-B | breiter Doppelbereich | ältere externe Festplatten |
+| USB-C | klein, symmetrisch, verdrehsicher | aktuelle Daten-, Lade- und Displayverbindungen |
+
+Die Buchstaben `A`, `B` und `C` beschreiben die mechanische Steckverbinderfamilie. USB 2.0, USB 3.2 und USB4 beschreiben technische Übertragungsstandards und Funktionen. Deshalb darf aus der Bauform allein keine Datenrate abgeleitet werden.
+
+### 8.2 Datenraten sicher lesen
+
+| explizite Angabe | theoretische Bruttodatenrate |
+|---|---:|
+| USB 2.0 High-Speed | 480 Mbit/s |
+| USB 3.2 Gen 1 | 5 Gbit/s |
+| USB 3.2 Gen 2 | 10 Gbit/s |
+| USB 3.2 Gen 2×2 | 20 Gbit/s |
+| USB4 | je Implementierung, zum Beispiel 20, 40 oder 80 Gbit/s |
+
+USB-Markennamen wurden mehrfach geändert. Prüfungssicher ist die explizite Rate zusammen mit Steckverbinder, Richtung, PD, Alt Mode und Kabelanforderung.
+
 ---
 
-## 9. USB-Kette
+## 10. USB-Kette
 
 Eine Funktion steht nur bereit, wenn alle erforderlichen Glieder sie unterstützen:
 
@@ -180,7 +219,7 @@ Der Stecker passt, Video kann aber ausbleiben.
 
 ---
 
-## 10. USB Power Delivery
+## 11. USB Power Delivery
 
 Für die Stromversorgung sind relevant:
 
@@ -200,7 +239,7 @@ Benötigt das Notebook unter Last 65 W und liefert das Dock nur 60 W, kann es la
 
 ---
 
-## 11. HDMI und DisplayPort
+## 12. HDMI und DisplayPort
 
 Beide übertragen digitale Bildsignale und üblicherweise Audio. Zu prüfen:
 
@@ -218,9 +257,34 @@ Beide übertragen digitale Bildsignale und üblicherweise Audio. Zu prüfen:
 
 > Zwei externe Monitore müssen gleichzeitig mit 2 560 × 1 440 Pixeln bei 60 Hz betrieben werden.
 
+### 11.1 Bildanschlüsse unterscheiden
+
+| Anschluss | Signal | wichtige Besonderheit |
+|---|---|---|
+| DisplayPort | digital, Bild und Audio | Full-Size oder Mini DisplayPort; MST/Daisy Chain nur bei Unterstützung |
+| USB-C mit DP Alt Mode | DisplayPort-Signal über USB-C | Alt Mode und verfügbare Lanes/Funktionen ausdrücklich prüfen |
+| HDMI Type A | digital, Bild und Audio | verbreitet an Monitor, TV und Projektor |
+| Mini-/Micro-HDMI | dasselbe Protokoll in kleiner Bauform | Kabelrichtung und mechanische Belastung beachten |
+| DVI-D | digital | je Link/Variante begrenzte Modi, Audio nicht generell annehmen |
+| DVI-I | digital und analog möglich | konkrete Quelle, Adapter und Display prüfen |
+| VGA | analog | störanfälliger, keine digitale Bildübertragung |
+
+`DisplayPort Dual-Mode`, oft mit `DP++` gekennzeichnet, kann bei geeigneter Quelle passive Adapter zu bestimmten HDMI-/DVI-Signalen ermöglichen. Fehlt die Funktion oder wird eine andere Richtung benötigt, ist ein aktiver Wandler erforderlich.
+
+### 11.2 Weitere typische Arbeitsplatzanschlüsse
+
+| Anschluss | Zweck | Prüfpunkt |
+|---|---|---|
+| 8P8C, umgangssprachlich RJ45 | Ethernet über Twisted Pair | Kategorie, Datenrate, PoE, Belegung |
+| 3,5-mm-Klinke TRS/TRRS | analoges Audio, ggf. Mikrofon | Kontaktbelegung und Geräteart |
+| TOSLINK | optisches digitales Audio | unterstütztes Audioformat |
+| SD/microSD | wechselbarer Flash-Speicher | Formfaktor, Kapazitäts-/Geschwindigkeitsklasse |
+| eSATA | ältere externe SATA-Verbindung | keine allgemeine Stromversorgung annehmen |
+| PS/2 | ältere Tastatur/Maus | Hot-Plug nicht pauschal voraussetzen |
+
 ---
 
-## 12. Adapter: aktiv oder passiv
+## 13. Adapter: aktiv oder passiv
 
 Ein `passiver Adapter` ändert die physische Verbindung, wenn die Quelle bereits ein geeignetes Signal ausgeben kann.
 
@@ -239,7 +303,7 @@ Ein Adapter A→B arbeitet nicht zwangsläufig auch B→A.
 
 ---
 
-## 13. Dockingstation
+## 14. Dockingstation
 
 Eine Dockingstation bündelt Funktionen. Deshalb hilft eine Matrix:
 
@@ -257,7 +321,7 @@ Eine Dockingstation bündelt Funktionen. Deshalb hilft eine Matrix:
 
 ---
 
-## 14. Thunderbolt und USB4
+## 15. Thunderbolt und USB4
 
 Diese Techniken können Daten, Display, PCIe-Tunneling und Strom verbinden. Konkrete Fähigkeiten hängen jedoch ab von:
 
@@ -274,7 +338,7 @@ Prüfungssichere Aussage:
 
 ---
 
-## 15. PCI Express
+## 16. PCI Express
 
 PCIe ist eine serielle Hochgeschwindigkeitsschnittstelle für GPU, Netzwerkadapter, NVMe und andere Geräte.
 
@@ -292,7 +356,7 @@ Ein Gerät kann häufig in einem kompatiblen langsameren Modus arbeiten. Die kon
 
 ---
 
-## 16. Lane-Sharing
+## 17. Lane-Sharing
 
 Ein Mainboard besitzt nur eine begrenzte Zahl PCIe-Lanes. Der Einbau einer M.2-SSD kann:
 
@@ -305,7 +369,7 @@ Das ist an der Steckerform nicht erkennbar. Maßgeblich sind Blockdiagramm oder 
 
 ---
 
-## 17. SATA, PCIe, NVMe und M.2
+## 18. SATA, PCIe, NVMe und M.2
 
 | Begriff | Kategorie |
 |---|---|
@@ -325,7 +389,7 @@ Mögliche Kombinationen:
 
 ---
 
-## 18. Interner und externer Speicher
+## 19. Interner und externer Speicher
 
 Bei externem Speicher wird die gesamte Kette bewertet:
 
@@ -342,7 +406,7 @@ Eine schnelle NVMe-SSD kann in einem einfachen USB-Gehäuse durch Brücke oder P
 
 ---
 
-## 19. Dezimale und binäre Einheiten
+## 20. Dezimale und binäre Einheiten
 
 Speicherhersteller nutzen meist Dezimalwerte:
 
@@ -371,7 +435,7 @@ Dateisystem, Wiederherstellungspartitionen und Herstellerreserve erzeugen weiter
 
 ---
 
-## 20. Speicherbedarf
+## 21. Speicherbedarf
 
 ```text
 Gesamtbedarf =
@@ -403,7 +467,7 @@ Die nächste geeignete Nennkapazität ist beispielsweise 1 TB. Ein Backup gehör
 
 ---
 
-## 21. Dateisystem und Kompatibilität
+## 22. Dateisystem und Kompatibilität
 
 Ein physisch passender Speicher kann ungeeignet sein durch:
 
@@ -418,7 +482,7 @@ Formatieren kann Daten löschen. Vor einer Änderung sind Backup, Zielsystem, Re
 
 ---
 
-## 22. Peripherie klassifizieren
+## 23. Peripherie klassifizieren
 
 | Kategorie | Beispiele |
 |---|---|
@@ -432,7 +496,7 @@ Die Zuordnung hängt von der genutzten Funktion ab. Ein Touchscreen zeigt Daten 
 
 ---
 
-## 23. Auswahl von Peripheriegeräten
+## 24. Auswahl von Peripheriegeräten
 
 Kriterien:
 
@@ -451,7 +515,7 @@ Ein billiger Drucker kann beispielsweise hohe Seitenkosten und häufige Wartung 
 
 ---
 
-## 24. Drucker und Scanner
+## 25. Drucker und Scanner
 
 Beim Drucker:
 
@@ -475,7 +539,7 @@ Ein maximaler dpi-Wert ohne Dokumentart und Ausgabezweck ist kein ausreichendes 
 
 ---
 
-## 25. Audio, Video und Kommunikation
+## 26. Audio, Video und Kommunikation
 
 Für Headset, Webcam und Mikrofon:
 
@@ -492,7 +556,7 @@ Das Gerät wird im eingesetzten Konferenzsystem getestet, nicht nur im Gerätema
 
 ---
 
-## 26. Ergonomie und individuelle Anpassung
+## 27. Ergonomie und individuelle Anpassung
 
 Wichtig sind:
 
@@ -509,7 +573,7 @@ Wichtig sind:
 
 ---
 
-## 27. Barrierefreiheit: Ziel
+## 28. Barrierefreiheit: Ziel
 
 Barrierefreiheit soll Menschen mit unterschiedlichen Fähigkeiten ermöglichen, Informationen und Funktionen:
 
@@ -522,7 +586,7 @@ Sie ist keine nachträgliche Sonderfunktion, sondern eine Anforderung, die ermit
 
 ---
 
-## 28. POUR
+## 29. POUR
 
 WCAG ordnet Anforderungen vier Prinzipien zu:
 
@@ -537,7 +601,7 @@ POUR ist ein Denkrahmen, kein vollständiger Testplan.
 
 ---
 
-## 29. Wahrnehmbar
+## 30. Wahrnehmbar
 
 Mögliche Maßnahmen:
 
@@ -553,7 +617,7 @@ Ein rein dekoratives Bild wird vor Assistenztechnik verborgen und erhält keine 
 
 ---
 
-## 30. Bedienbar
+## 31. Bedienbar
 
 Zu prüfen:
 
@@ -570,7 +634,7 @@ Ein kurzer Test mit der Tab-Taste ersetzt keine vollständige Tastaturprüfung.
 
 ---
 
-## 31. Verständlich und robust
+## 32. Verständlich und robust
 
 `Verständlich`:
 
@@ -592,7 +656,7 @@ Ein Placeholder ersetzt kein dauerhaft zugeordnetes Label.
 
 ---
 
-## 32. Hardware-Hilfsmittel
+## 33. Hardware-Hilfsmittel
 
 Je nach individuellem Bedarf:
 
@@ -610,7 +674,7 @@ Die Auswahl erfolgt mit der betroffenen Person und wird im realen Arbeitsablauf 
 
 ---
 
-## 33. WCAG, BITV 2.0 und BFSG
+## 34. WCAG, BITV 2.0 und BFSG
 
 | Regelwerk | Rolle | Typischer Bereich |
 |---|---|---|
@@ -630,7 +694,7 @@ Diese Einordnung ist Lernstoff und keine Rechtsberatung.
 
 ---
 
-## 34. Barrierefreiheit testen
+## 35. Barrierefreiheit testen
 
 Ein automatischer Scanner genügt nicht.
 
@@ -649,7 +713,7 @@ Automatisierung erkennt einige formale Fehler, aber nicht vollständig die Quali
 
 ---
 
-## 35. Abnahmekriterien
+## 36. Abnahmekriterien
 
 Zu unbestimmt:
 
@@ -669,7 +733,7 @@ Die Abnahme dokumentiert Aufbau, erwartetes und tatsächliches Ergebnis.
 
 ---
 
-## 36. Vollständiger Praxisfall
+## 37. Vollständiger Praxisfall
 
 Benötigt werden:
 
@@ -698,7 +762,7 @@ Vorgehen:
 
 ---
 
-## 37. Fehleranalyse
+## 38. Fehleranalyse
 
 Wenn Peripherie nicht funktioniert:
 
@@ -715,7 +779,7 @@ Pro Versuch wird nur ein Faktor verändert.
 
 ---
 
-## 38. Typische Prüfungsfallen
+## 39. Typische Prüfungsfallen
 
 | Falle | Korrektur |
 |---|---|
@@ -734,7 +798,7 @@ Pro Versuch wird nur ein Faktor verändert.
 
 ---
 
-## 39. Selbsttest
+## 40. Selbsttest
 
 1. Nenne fünf Ebenen einer Schnittstelle.
 2. Wie unterscheiden sich Steckverbinder und Protokoll?
@@ -805,7 +869,7 @@ Pro Versuch wird nur ein Faktor verändert.
 
 ---
 
-## 40. Quellen und Abgleich
+## 41. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [USB-IF – Cables and Connectors](https://www.usb.org/document-library/cables-and-connectors)
@@ -819,7 +883,7 @@ Rechtsangaben wurden mit Stand 10.09.2026 geprüft. Der konkrete Anwendungsberei
 
 ---
 
-## 41. Offene Prüfpunkte für den Unterricht
+## 42. Offene Prüfpunkte für den Unterricht
 
 - Welche USB-Bezeichnungen verwendet die WBS?
 - Wird eine USB-PD-Rechnung erwartet?

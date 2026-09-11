@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Beschaffung – Anfrage, Angebot, Bestellung und Lieferkontrolle
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle-de.md
 ---
@@ -41,7 +41,20 @@ gegenstueck: ../de/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle
 
 ---
 
-## 2. Экзаменационная рамка и границы главы
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Bedarf и Freigabe уточняются до внешней Beschaffung.
+2. Anfrage обычно необязателен; Angebot обычно связывает Anbieter, если Bindung не исключена/ограничена.
+3. Bestellung может быть Annahme или новым Antrag.
+4. Abweichende Auftragsbestätigung обычно является Ablehnung и новым Angebot.
+5. Angebote сравнивают при одинаковых Leistungsumfang, Zeitraum и Netto-/Brutto-Basis.
+6. Drei-Wege-Abgleich: Bestellung, Wareneingang/Leistungsnachweis, Rechnung.
+7. Wareneingang проверяет Art, Menge, Zustand, Termin и Dokumente.
+8. Mangel документируется; первично обычно требуется Nacherfüllung по закону.
+
+> Die Rechnung wird gesperrt, da die berechnete Menge weder mit der Bestellung noch mit dem bestätigten Wareneingang übereinstimmt.
+
+## 3. Экзаменационная рамка и границы главы
 
 § 9 `FIAusbV` прямо требует уметь:
 
@@ -71,7 +84,7 @@ gegenstueck: ../de/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle
 
 ---
 
-## 3. Что такое Beschaffung
+## 4. Что такое Beschaffung
 
 `Beschaffung` — обеспечение предприятия необходимыми товарами и услугами.
 
@@ -99,7 +112,7 @@ gegenstueck: ../de/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle
 
 ---
 
-## 4. Beschaffungsprozess как контролируемая цепочка
+## 5. Beschaffungsprozess как контролируемая цепочка
 
 Типичная последовательность:
 
@@ -123,7 +136,7 @@ gegenstueck: ../de/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle
 
 ---
 
-## 5. От Kundenbedarf к Bestellanforderung
+## 6. От Kundenbedarf к Bestellanforderung
 
 Потребность пользователя ещё не является заказом поставщику.
 
@@ -166,7 +179,7 @@ gegenstueck: ../de/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle
 
 ---
 
-## 6. Bedarfsarten и точность количества
+## 7. Bedarfsarten и точность количества
 
 В задачах могут встречаться:
 
@@ -197,7 +210,7 @@ Nettobedarf = Bruttobedarf
 
 ---
 
-## 7. Spezifikation: что именно закупается
+## 8. Spezifikation: что именно закупается
 
 Спецификация переводит потребность в проверяемые требования.
 
@@ -239,7 +252,7 @@ Nettobedarf = Bruttobedarf
 
 ---
 
-## 8. Beschaffungszeit и Terminplanung
+## 9. Beschaffungszeit и Terminplanung
 
 Дата поставки не равна дате готовности рабочего места.
 
@@ -276,7 +289,7 @@ Bedarfsklärung
 
 ---
 
-## 9. Rollen, Freigabe и Funktionstrennung
+## 10. Rollen, Freigabe и Funktionstrennung
 
 Типичные роли:
 
@@ -312,7 +325,7 @@ Bedarfsklärung
 
 ---
 
-## 10. Lieferantensuche и предварительный отбор
+## 11. Lieferantensuche и предварительный отбор
 
 Источники поставщиков:
 
@@ -339,7 +352,7 @@ Bedarfsklärung
 
 ---
 
-## 11. Anfrage
+## 12. Anfrage
 
 `Anfrage` — обращение потенциального покупателя с просьбой предоставить информацию или предложение.
 
@@ -367,7 +380,7 @@ Bedarfsklärung
 
 ---
 
-## 12. Как составить сопоставимую Anfrage
+## 13. Как составить сопоставимую Anfrage
 
 Все поставщики должны получить одну и ту же базовую спецификацию.
 
@@ -402,7 +415,7 @@ Bedarfsklärung
 
 ---
 
-## 13. Angebot: содержание и проверка
+## 14. Angebot: содержание и проверка
 
 `Angebot` в юридическом смысле — достаточно определённый `Antrag` на заключение договора, который другая сторона может принять простым согласием.
 
@@ -438,7 +451,7 @@ Bedarfsklärung
 
 ---
 
-## 14. Verbindlichkeit des Angebots
+## 15. Verbindlichkeit des Angebots
 
 Согласно § 145 BGB, тот, кто делает предложение заключить договор, связан им, если не исключил связанность.
 
@@ -474,7 +487,7 @@ Bedarfsklärung
 
 ---
 
-## 15. Zustandekommen des Kaufvertrags
+## 16. Zustandekommen des Kaufvertrags
 
 Договор возникает через две совпадающие волеизъявления:
 
@@ -502,7 +515,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 16. Webshop, Katalog и автоматическая Eingangsbestätigung
+## 17. Webshop, Katalog и автоматическая Eingangsbestätigung
 
 Цена на веб-странице или в каталоге часто является `invitatio ad offerendum` — приглашением покупателю сделать предложение.
 
@@ -526,7 +539,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 17. Bestellung
+## 18. Bestellung
 
 `Bestellung` — внешнее заявление покупателя о желании приобрести точно определённые товары или услуги на указанных условиях.
 
@@ -557,7 +570,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 18. Muster einer präzisen Bestellung
+## 19. Muster einer präzisen Bestellung
 
 > Bestellung Nr. 2026-IT-047  
 > Bezug: Ihr verbindliches Angebot A-8841 vom 10.09.2026  
@@ -586,7 +599,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 19. Auftragsbestätigung
+## 20. Auftragsbestätigung
 
 `Auftragsbestätigung` подтверждает принятие заказа либо предлагает изменённые условия.
 
@@ -621,7 +634,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 20. AGB и приоритет документов
+## 21. AGB и приоритет документов
 
 `Allgemeine Geschäftsbedingungen` — заранее сформулированные условия для множества договоров.
 
@@ -643,7 +656,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 21. Liefertermin, Lieferfrist и Verzug
+## 22. Liefertermin, Lieferfrist и Verzug
 
 Различие:
 
@@ -672,7 +685,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 22. Wareneingang и Lieferschein
+## 23. Wareneingang и Lieferschein
 
 При поступлении товара проверяются:
 
@@ -701,7 +714,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 23. Lieferkontrolle: четыре уровня
+## 24. Lieferkontrolle: четыре уровня
 
 ### 1. Quantitätsprüfung
 
@@ -750,7 +763,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 24. Arten von Abweichungen und Mängeln
+## 25. Arten von Abweichungen und Mängeln
 
 | Abweichung | Beispiel | Проверка |
 |---|---|---|
@@ -779,7 +792,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 25. Mängelanzeige и Reklamation
+## 26. Mängelanzeige и Reklamation
 
 Для `beiderseitiger Handelskauf` § 377 HGB требует проверить товар и без неоправданной задержки сообщить об обнаруженном недостатке.
 
@@ -814,7 +827,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 26. Gesetzliche Mängelrechte
+## 27. Gesetzliche Mängelrechte
 
 По § 437 BGB при выполнении соответствующих предпосылок покупатель может:
 
@@ -839,7 +852,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 27. Gewährleistung, Mängelhaftung и Garantie
+## 28. Gewährleistung, Mängelhaftung и Garantie
 
 | Begriff | Основа | Кто обязан | Содержание |
 |---|---|---|---|
@@ -858,7 +871,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 28. Rechnungsprüfung и Drei-Wege-Abgleich
+## 29. Rechnungsprüfung и Drei-Wege-Abgleich
 
 Перед оплатой сравниваются:
 
@@ -888,7 +901,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 29. IT-специфические Beschaffungskriterien
+## 30. IT-специфические Beschaffungskriterien
 
 ### Hardware
 
@@ -937,7 +950,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 30. Sicherheit, Datenschutz и Nachhaltigkeit
+## 31. Sicherheit, Datenschutz и Nachhaltigkeit
 
 Закупка формирует будущий риск. После заключения договора исправлять требования дороже.
 
@@ -971,7 +984,7 @@ Antrag + inhaltlich übereinstimmende Annahme = Vertrag
 
 ---
 
-## 31. Lieferantenbewertung
+## 32. Lieferantenbewertung
 
 После исполнения можно оценить:
 
@@ -1011,7 +1024,7 @@ vollständig gelieferte Positionen / alle Positionen × 100 %
 
 ---
 
-## 32. Durchgängiger Praxisfall
+## 33. Durchgängiger Praxisfall
 
 ### Ausgangslage
 
@@ -1094,7 +1107,7 @@ B исключается по техническому критерию. C со�
 
 ---
 
-## 33. Prüfungsalgorithmus
+## 34. Prüfungsalgorithmus
 
 Если в задании появляется закупка, действуй по схеме:
 
@@ -1145,7 +1158,7 @@ B исключается по техническому критерию. C со�
 
 ---
 
-## 34. Prüfungsformulierungen
+## 35. Prüfungsformulierungen
 
 ### Anfrage
 
@@ -1181,7 +1194,7 @@ B исключается по техническому критерию. C со�
 
 ---
 
-## 35. Typische Prüfungsfallen
+## 36. Typische Prüfungsfallen
 
 1. `Anfrage` и `Angebot` путать нельзя.
 2. Bestellanforderung является внутренним документом, а не заказом поставщику.
@@ -1206,7 +1219,7 @@ B исключается по техническому критерию. C со�
 
 ---
 
-## 36. Selbsttest
+## 37. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -1279,7 +1292,7 @@ B исключается по техническому критерию. C со�
 
 ---
 
-## 37. Quellen und Abgleich
+## 38. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -1301,7 +1314,7 @@ B исключается по техническому критерию. C со�
 
 ---
 
-## 38. Offene Prüfpunkte für den Unterricht
+## 39. Offene Prüfpunkte für den Unterricht
 
 - Насколько подробно WBS различает Antrag и Annahme в AP1?
 - Используется ли термин `Bestellanforderung` или `BANF`?

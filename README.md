@@ -15,6 +15,8 @@
 - [Lernstand und Themenabdeckung](LERNSTAND.md)
 - [Schreibstandard](00-organisation/SCHREIBSTANDARD.md)
 - [Lernplan bis 28.09.2026](00-organisation/LERNPLAN-BIS-28-09.md)
+- [Fachbegriffe DE–RU по всем главам](00-organisation/FACHBEGRIFFE-DE-RU.md)
+- [Analyse alter AP1-Themen und Transfer](00-organisation/AP1-ALTFRAGEN-TRANSFER.md)
 - [Quellen und Gültigkeit](00-organisation/QUELLEN.md)
 - [Zuordnung der ursprünglichen TXT-Dateien](00-organisation/MIGRATION.md)
 
@@ -51,6 +53,7 @@ de/<nummer>-<thema>-de.md
 10-backup/                               Backup-Arten, GVS, Medien, Restore
 11-service-vertraege-uebergabe/          SLA, Support, Verträge, Abnahme
 12-pruefungssimulationen/                расчётные главы и будущие смешанные тренировки AP1
+13-ap1-nachtraege/                       WBS-Nachträge и выявленные пробелы плана
 90-ap2-zusatzwissen/                     изолированный материал вне ядра AP1
 99-originale-txt/                        неизменённые исходные заметки
 ```
@@ -84,7 +87,7 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `11.09.2026` полностью подготовлены все сорок три самостоятельные пары RU/DE из 43 запланированных глав. Главы 41–43 закрывают Vertragstypen, Abnahme, Mängel, Übergabe, Verzug, Datenmengen, Übertragungszeiten, Bilddateien, Stromkosten, Verfügbarkeit и kaufmännische Mischaufgaben. Этап наполнения завершён; следующий этап — повторение, Selbsttests, WBS-Abgleich и полные 90-минутные симуляции.
+По состоянию на `11.09.2026` подготовлены 52 самостоятельные пары RU/DE. Главы 44–52 исправляют пробелы первоначального плана: Unternehmen/Organisation, Zahlensysteme и Zeichenkodierung, Multimedia и Außenkamera, Elektrotechnik/USV, ITIL/ITSM, расширенную Handelskalkulation, QoS/VoIP, technisches Englisch, Remotezugriff, Shell и Diagnosebefehle. Глава 10 дополнительно расширена по USB-A/B/C, Mini-/Micro-USB, DisplayPort, HDMI, DVI, VGA и рабочим портам. Общий словарь связывает Fachbegriffe с главами. Следующий этап после проверки этого пакета — полные 90-минутные симуляции.
 
 ## Статусы
 

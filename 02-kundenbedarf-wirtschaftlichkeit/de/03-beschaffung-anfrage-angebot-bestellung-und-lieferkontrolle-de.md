@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Beschaffung – Anfrage, Angebot, Bestellung und Lieferkontrolle
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/03-beschaffung-anfrage-angebot-bestellung-und-lieferkontrolle-ru.md
 ---
@@ -41,7 +41,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Prüfungsrahmen und Kapitelgrenze
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Bedarf und Freigabe werden vor der externen Beschaffung geklärt.
+2. Eine Anfrage ist grundsätzlich unverbindlich; ein Angebot ist grundsätzlich bindend, sofern die Bindung nicht wirksam ausgeschlossen oder begrenzt ist.
+3. Die Bestellung kann Annahme des Angebots oder ein neuer Antrag sein.
+4. Eine abweichende Auftragsbestätigung ist regelmäßig Ablehnung verbunden mit neuem Angebot.
+5. Vergleichbare Angebote benötigen denselben Leistungsumfang, Zeitraum und Netto-/Bruttobezug.
+6. Drei-Wege-Abgleich vergleicht Bestellung, Wareneingang/Leistungsnachweis und Rechnung.
+7. Wareneingang prüft Art, Menge, sichtbaren Zustand, Termin und Dokumente.
+8. Bei Mängeln wird dokumentiert und vorrangig Nacherfüllung im geltenden Rechtsrahmen verlangt.
+
+> Die Rechnung wird gesperrt, da die berechnete Menge weder mit der Bestellung noch mit dem bestätigten Wareneingang übereinstimmt.
+
+## 3. Prüfungsrahmen und Kapitelgrenze
 
 § 9 `FIAusbV` verlangt ausdrücklich, dass der Prüfling:
 
@@ -71,7 +84,7 @@ folgen in den Kapiteln 06 und 07.
 
 ---
 
-## 3. Bedeutung von Beschaffung
+## 4. Bedeutung von Beschaffung
 
 `Beschaffung` versorgt ein Unternehmen mit den benötigten Gütern und Dienstleistungen.
 
@@ -99,7 +112,7 @@ In Lernaufgaben werden beide Begriffe teilweise annähernd synonym verwendet. En
 
 ---
 
-## 4. Der Beschaffungsprozess als kontrollierte Kette
+## 5. Der Beschaffungsprozess als kontrollierte Kette
 
 Ein typischer Ablauf:
 
@@ -123,7 +136,7 @@ Der Prozess kann bei einer häufig bestellten Standardkomponente kürzer und bei
 
 ---
 
-## 5. Vom Kundenbedarf zur Bestellanforderung
+## 6. Vom Kundenbedarf zur Bestellanforderung
 
 Der Wunsch eines Benutzers ist noch keine Bestellung beim Lieferanten.
 
@@ -166,7 +179,7 @@ Typische Inhalte:
 
 ---
 
-## 6. Bedarfsarten und richtige Menge
+## 7. Bedarfsarten und richtige Menge
 
 In Aufgaben können folgende Begriffe vorkommen:
 
@@ -197,7 +210,7 @@ Vom Bedarf dürfen keine Geräte abgezogen werden, die:
 
 ---
 
-## 7. Spezifikation des Beschaffungsgegenstands
+## 8. Spezifikation des Beschaffungsgegenstands
 
 Die Spezifikation übersetzt den Bedarf in prüfbare Anforderungen.
 
@@ -239,7 +252,7 @@ Eine gute Spezifikation ist:
 
 ---
 
-## 8. Beschaffungszeit und Terminplanung
+## 9. Beschaffungszeit und Terminplanung
 
 Der Liefertermin ist nicht mit dem Fertigstellungstermin des Arbeitsplatzes gleichzusetzen.
 
@@ -276,7 +289,7 @@ Die konkreten Daten hängen vom Arbeitskalender ab. In einer Begründung zählt 
 
 ---
 
-## 9. Rollen, Freigabe und Funktionstrennung
+## 10. Rollen, Freigabe und Funktionstrennung
 
 Typische Rollen:
 
@@ -312,7 +325,7 @@ Das verringert:
 
 ---
 
-## 10. Lieferantensuche und Vorauswahl
+## 11. Lieferantensuche und Vorauswahl
 
 Mögliche Quellen:
 
@@ -339,7 +352,7 @@ Ein niedriger Preis kompensiert kein verletztes Muss-Kriterium.
 
 ---
 
-## 11. Anfrage
+## 12. Anfrage
 
 Eine `Anfrage` ist die Aufforderung eines möglichen Käufers, Informationen oder ein Angebot abzugeben.
 
@@ -367,7 +380,7 @@ Das Wort `grundsätzlich` ist wichtig: Rechtlich zählt der tatsächliche Erklä
 
 ---
 
-## 12. Vergleichbare Anfrage erstellen
+## 13. Vergleichbare Anfrage erstellen
 
 Alle Lieferanten müssen dieselbe Basisspezifikation erhalten.
 
@@ -402,7 +415,7 @@ Damit entstehen keine objektiv vergleichbaren Angebote.
 
 ---
 
-## 13. Angebot: Inhalt und Prüfung
+## 14. Angebot: Inhalt und Prüfung
 
 Ein `Angebot` im Rechtssinn ist ein hinreichend bestimmter `Antrag` auf einen Vertragsschluss, den die andere Seite mit einem einfachen Ja annehmen kann.
 
@@ -438,7 +451,7 @@ Die Prüfung erfolgt in zwei Schritten:
 
 ---
 
-## 14. Verbindlichkeit des Angebots
+## 15. Verbindlichkeit des Angebots
 
 Nach § 145 BGB ist derjenige, der einen Vertragsschluss anbietet, an seinen Antrag gebunden, sofern die Bindung nicht ausgeschlossen wurde.
 
@@ -474,7 +487,7 @@ Besser:
 
 ---
 
-## 15. Zustandekommen des Kaufvertrags
+## 16. Zustandekommen des Kaufvertrags
 
 Ein Vertrag entsteht durch zwei übereinstimmende Willenserklärungen:
 
@@ -502,7 +515,7 @@ gilt nach § 150 BGB als neuer Antrag.
 
 ---
 
-## 16. Webshop, Katalog und automatische Eingangsbestätigung
+## 17. Webshop, Katalog und automatische Eingangsbestätigung
 
 Eine Produktdarstellung auf einer Webseite oder in einem Katalog ist häufig eine `invitatio ad offerendum`, also die Einladung an Kunden, einen Antrag abzugeben.
 
@@ -526,7 +539,7 @@ Prüfungsfalle:
 
 ---
 
-## 17. Bestellung
+## 18. Bestellung
 
 Eine `Bestellung` ist die nach außen gerichtete Erklärung des Käufers, genau bestimmte Waren oder Leistungen zu festgelegten Bedingungen erwerben zu wollen.
 
@@ -557,7 +570,7 @@ Die Formulierung „20 Laptops wie angeboten“ erschwert den späteren Nachweis
 
 ---
 
-## 18. Muster einer präzisen Bestellung
+## 19. Muster einer präzisen Bestellung
 
 > Bestellung Nr. 2026-IT-047  
 > Bezug: Ihr verbindliches Angebot A-8841 vom 10.09.2026  
@@ -586,7 +599,7 @@ Vor dem Versand werden geprüft:
 
 ---
 
-## 19. Auftragsbestätigung
+## 20. Auftragsbestätigung
 
 Eine `Auftragsbestätigung` bestätigt die Annahme einer Bestellung oder enthält geänderte Bedingungen.
 
@@ -621,7 +634,7 @@ Bei einer bis zum 30.09. erforderlichen Konfiguration ist dies eine wesentliche 
 
 ---
 
-## 20. AGB und Rang der Dokumente
+## 21. AGB und Rang der Dokumente
 
 `Allgemeine Geschäftsbedingungen` sind für eine Vielzahl von Verträgen vorformulierte Vertragsbedingungen.
 
@@ -643,7 +656,7 @@ Konkret ausgehandelte Bedingungen sind besonders zu beachten. Für die Prüfung 
 
 ---
 
-## 21. Liefertermin, Lieferfrist und Verzug
+## 22. Liefertermin, Lieferfrist und Verzug
 
 Unterscheidung:
 
@@ -672,7 +685,7 @@ Vorgehen bei Verzögerungsrisiko:
 
 ---
 
-## 22. Wareneingang und Lieferschein
+## 23. Wareneingang und Lieferschein
 
 Beim Eingang werden zunächst geprüft:
 
@@ -701,7 +714,7 @@ Ein unbestimmtes „unter Vorbehalt“ ist weniger beweiskräftig als eine genau
 
 ---
 
-## 23. Lieferkontrolle auf vier Ebenen
+## 24. Lieferkontrolle auf vier Ebenen
 
 ### 1. Quantitätsprüfung
 
@@ -750,7 +763,7 @@ Die Prüftiefe hängt ab von:
 
 ---
 
-## 24. Arten von Abweichungen und Mängeln
+## 25. Arten von Abweichungen und Mängeln
 
 | Abweichung | Beispiel | Prüfung |
 |---|---|---|
@@ -779,7 +792,7 @@ Diese Begriffe dürfen nicht in eine pauschale Regel wie „sichtbar: ein Tag, v
 
 ---
 
-## 25. Mängelanzeige und Reklamation
+## 26. Mängelanzeige und Reklamation
 
 Bei einem `beiderseitigen Handelskauf` verlangt § 377 HGB, die Ware nach Ablieferung zu untersuchen und einen erkennbaren Mangel unverzüglich anzuzeigen.
 
@@ -814,7 +827,7 @@ Ob eine konkrete Erklärung rechtlich ausreicht, hängt vom Vertrag und Sachverh
 
 ---
 
-## 26. Gesetzliche Mängelrechte
+## 27. Gesetzliche Mängelrechte
 
 Nach § 437 BGB kann der Käufer bei Vorliegen der jeweiligen Voraussetzungen:
 
@@ -839,7 +852,7 @@ Ungeeignet:
 
 ---
 
-## 27. Gewährleistung, Mängelhaftung und Garantie
+## 28. Gewährleistung, Mängelhaftung und Garantie
 
 | Begriff | Grundlage | Verpflichtete Person | Inhalt |
 |---|---|---|---|
@@ -858,7 +871,7 @@ Die Formulierung `gesetzliche Mängelrechte` ist präziser, weil der Alltagsbegr
 
 ---
 
-## 28. Rechnungsprüfung und Drei-Wege-Abgleich
+## 29. Rechnungsprüfung und Drei-Wege-Abgleich
 
 Vor der Zahlung werden verglichen:
 
@@ -888,7 +901,7 @@ Sind 19 Notebooks geliefert, aber 20 berechnet worden, darf die Rechnung nicht o
 
 ---
 
-## 29. IT-spezifische Beschaffungskriterien
+## 30. IT-spezifische Beschaffungskriterien
 
 ### Hardware
 
@@ -937,7 +950,7 @@ Sind 19 Notebooks geliefert, aber 20 berechnet worden, darf die Rechnung nicht o
 
 ---
 
-## 30. Sicherheit, Datenschutz und Nachhaltigkeit
+## 31. Sicherheit, Datenschutz und Nachhaltigkeit
 
 Beschaffungsentscheidungen bestimmen spätere Risiken. Nach Vertragsschluss lassen sich Anforderungen meist nur aufwendiger korrigieren.
 
@@ -971,7 +984,7 @@ Konkrete Zeiträume müssen zum Bedarf und Markt passen.
 
 ---
 
-## 31. Lieferantenbewertung
+## 32. Lieferantenbewertung
 
 Nach der Leistungserbringung können bewertet werden:
 
@@ -1011,7 +1024,7 @@ Die ausführliche `Nutzwertanalyse` folgt in Kapitel 06.
 
 ---
 
-## 32. Durchgängiger Praxisfall
+## 33. Durchgängiger Praxisfall
 
 ### Ausgangslage
 
@@ -1094,7 +1107,7 @@ Nach der Ersatzlieferung:
 
 ---
 
-## 33. Prüfungsalgorithmus
+## 34. Prüfungsalgorithmus
 
 Wenn eine Aufgabe eine Beschaffung enthält, hilft folgende Reihenfolge:
 
@@ -1145,7 +1158,7 @@ Beispiel:
 
 ---
 
-## 34. Prüfungsformulierungen
+## 35. Prüfungsformulierungen
 
 ### Anfrage
 
@@ -1181,7 +1194,7 @@ Beispiel:
 
 ---
 
-## 35. Typische Prüfungsfallen
+## 36. Typische Prüfungsfallen
 
 1. Anfrage und Angebot dürfen nicht verwechselt werden.
 2. Eine Bestellanforderung ist ein internes Dokument und keine Lieferantenbestellung.
@@ -1206,7 +1219,7 @@ Beispiel:
 
 ---
 
-## 36. Selbsttest
+## 37. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -1279,7 +1292,7 @@ Ein Unternehmen bestellt auf Grundlage eines verbindlichen Angebots zwölf Noteb
 
 ---
 
-## 37. Quellen und Abgleich
+## 38. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -1301,7 +1314,7 @@ Die Rechtsangaben wurden mit Stand 10.09.2026 geprüft. Das Kapitel ist eine Ler
 
 ---
 
-## 38. Offene Prüfpunkte für den Unterricht
+## 39. Offene Prüfpunkte für den Unterricht
 
 - Wie tief unterscheidet WBS in der AP1 zwischen Antrag und Annahme?
 - Verwendet WBS den Begriff `Bestellanforderung` oder `BANF`?

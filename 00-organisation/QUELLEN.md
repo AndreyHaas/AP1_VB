@@ -243,6 +243,56 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [BIBB – Fachinformatiker/Fachinformatikerin: Umsetzungshilfe](https://www.bibb.de/dienst/publikationen/de/16661)
   - Ausbildungsbezogene Einordnung wirtschaftlicher, technischer und kundenorientierter Aufgaben.
 
+### Unternehmen, Organisation und Handelskalkulation
+
+- [Handelsgesetzbuch – HGB](https://www.gesetze-im-internet.de/hgb/)
+  - Primärquelle zu Kaufleuten, OHG, Prokura und Handlungsvollmacht.
+- [GmbH-Gesetz – GmbHG](https://www.gesetze-im-internet.de/gmbhg/)
+  - Primärquelle zur GmbH, insbesondere Stammkapital und Organe.
+- [Aktiengesetz – AktG](https://www.gesetze-im-internet.de/aktg/)
+  - Primärquelle zur AG, zum Grundkapital und zu den Organen.
+- [BIBB – Fachinformatiker/Fachinformatikerin: Umsetzungshilfe](https://www.bibb.de/dienst/publikationen/de/16661)
+  - Lernfeldbezogene Grundlage für Unternehmensziele, Markt, Wertschöpfung, Organisation und kaufmännische Entscheidungen.
+
+### Zahlensysteme, Zeichenkodierung und Prüfziffern
+
+- [Unicode Consortium – The Unicode Standard](https://www.unicode.org/standard/standard.html)
+  - Primärquelle für Codepoints, Zeichen und aktuelle Unicode-Fassung.
+- [RFC 3629 – UTF-8](https://datatracker.ietf.org/doc/html/rfc3629)
+  - Internetstandard für die Bytecodierung von Unicode-Codepoints in UTF-8.
+- [GS1 – Check Digit Calculator](https://www.gs1.org/services/check-digit-calculator)
+  - Offizielle GS1-Einstiegsseite zur Prüfziffer von GTIN-Kennnummern; konkrete Gewichte nach Spezifikation anwenden.
+
+### Multimedia, Kamera und USV
+
+- [W3C – Scalable Vector Graphics 2](https://www.w3.org/TR/SVG2/)
+  - Primärspezifikation für Vektorgrafiken im Web.
+- [IEC 62040-3:2021 – Uninterruptible Power Systems](https://webstore.iec.ch/en/publication/60140)
+  - Offizielle Normseite zu Leistungsangaben und Prüfanforderungen vollständiger USV; Detailnormtext ist kostenpflichtig.
+- [EU-Kommission – CE-Kennzeichnung](https://single-market-economy.ec.europa.eu/single-market/ce-marking_en)
+  - Amtliche Einordnung der Herstellerverantwortung und der CE-Kennzeichnung.
+- [DGUV Vorschrift 3](https://publikationen.dguv.de/regelwerk/dguv-vorschriften/1/elektrische-anlagen-und-betriebsmittel)
+  - Grundlage für sichere elektrische Anlagen und Betriebsmittel im betrieblichen Kontext.
+
+### IT-Service-Management, QoS und VoIP
+
+- [PeopleCert – ITIL](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1)
+  - Offizielle Übersicht; am 11.09.2026 werden ITIL 4 und ITIL Version 5 parallel angeboten. Für AP1 gilt der WBS-/Katalogabgleich statt geratenem Versionsdetail.
+- [RFC 2474 – Differentiated Services](https://datatracker.ietf.org/doc/html/rfc2474)
+  - Primärquelle für DS-Feld und DSCP.
+- [RFC 4594 – Configuration Guidelines for DiffServ Service Classes](https://datatracker.ietf.org/doc/html/rfc4594)
+  - Herstellerneutrale Leitlinie zur differenzierten Verkehrsbehandlung.
+- [RFC 3261 – SIP](https://datatracker.ietf.org/doc/html/rfc3261)
+  - Primärquelle zur Sitzungs-Signalisierung.
+- [RFC 3550 – RTP](https://datatracker.ietf.org/doc/html/rfc3550)
+  - Primärquelle für RTP und RTCP.
+
+### Historische AP1-Themen
+
+- [IT-Berufe-Podcast – Themen der bisherigen AP1-Prüfungen](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/themen-der-schriftlichen-ihk-pruefungen-der-it-berufe/)
+  - Sekundäre Auswertung von Herbst 2021 bis Frühjahr 2026. Sie wird ausschließlich für historische Signale und Aufgabenformate genutzt, nicht als Ersatz für den aktuellen Prüfungskatalog.
+- Auswertung und Transferregeln stehen in `00-organisation/AP1-ALTFRAGEN-TRANSFER.md`.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

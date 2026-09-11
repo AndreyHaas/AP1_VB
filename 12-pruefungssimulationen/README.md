@@ -23,4 +23,4 @@ simulation-02-netzwerk-und-sicherheit.md
 simulation-02-loesungen.md
 ```
 
-Status: `Offen`. Simulationen werden erstellt, sobald die größten P1-Lücken geschlossen sind.
+Status: `Nächster Arbeitsschritt`. Die Inhaltsprüfung und die WBS-Nachträge 44–52 schließen die bekannten AP1-Lücken; als nächstes werden zwei vollständige 90-Minuten-Simulationen mit getrennten Lösungen erstellt.

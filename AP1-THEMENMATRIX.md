@@ -63,6 +63,15 @@ Stand: 11.09.2026.
 | 41 | Verträge, Abnahme, Mängel und Übergabe | Abgleich | новая двуязычная глава | Entwurf |
 | 42 | Rechnen: Einheiten, Datenmenge, Übertragungszeit, Bilddateien | Kern | новая двуязычная глава | Entwurf |
 | 43 | Rechnen: Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben | Kern | новая двуязычная глава | Entwurf |
+| 44 | Unternehmen: Ziele, Märkte, Wertschöpfung, Rechtsformen und Marketing | Kern | BIBB/WBS-Abgleich und Nachtrag | Entwurf |
+| 45 | Organisation: Organigramm, Vollmachten, Teamphasen und Change Management | Kern | BIBB/WBS-Abgleich und Nachtrag | Entwurf |
+| 46 | Zahlensysteme, ASCII/Unicode/UTF-8, Prüfziffern und Parität | Kern | подтверждённый WBS-Kursinhalt | Entwurf |
+| 47 | Multimedia: Sampling, Kompression, Raster/Vektor und Videokamera | Kern | WBS и historische AP1-Signale | Entwurf |
+| 48 | Elektrotechnik, Wirk-/Scheinleistung, Arbeitssicherheit und USV | Kern | подтверждённый WBS-Kursinhalt | Entwurf |
+| 49 | IT-Service-Management, ITIL, ISMS, Passwort-Policy und NAS-Verfügbarkeit | Kern | подтверждённый WBS-Kursinhalt и Lückenprüfung | Entwurf |
+| 50 | Erweiterte Handelskalkulation, Vor-/Nachkalkulation und Vertragsstörungen | Kern | WBS и historische AP1-Signale | Entwurf |
+| 51 | QoS, VoIP und separate Netzwerkdienste | Kern | подтверждённый WBS-Kursinhalt | Entwurf |
+| 52 | Technisches Englisch, Client-Server, Remotezugriff, Shell, Diagnose und UI-Entwurf | Kern | BIBB/WBS и historische AP1-Signale | Entwurf |
 
 ## Явно не в ядре AP1
 
@@ -83,8 +92,9 @@ Stand: 11.09.2026.
 5. Programmierung, UML, Datenbanken und KI.
 6. Qualität, IT-Sicherheit und Datenschutz.
 7. Backup, Service и расчёты.
-8. Смешанные 90-минутные тренировки.
+8. WBS-Nachträge: Unternehmen, Zahlensysteme, Multimedia, USV, ITIL, Handelskalkulation, QoS/VoIP и рабочая диагностика.
+9. Смешанные 90-минутные тренировки.
 
 ## Правило корректировки
 
-Ни один публичный список не считается полным заменителем действующего `Prüfungskatalog`. Замечания WBS и точные формулировки каталога добавляются в эту матрицу с датой, после чего меняется статус соответствующей пары файлов.
+Ни один публичный список не считается полным заменителем действующего `Prüfungskatalog`. Замечания WBS и точные формулировки каталога добавляются в эту матрицу с датой, после чего меняется статус соответствующей пары файлов. Исторические частоты и их перенос задокументированы в `00-organisation/AP1-ALTFRAGEN-TRANSFER.md`; они влияют на тренировочный приоритет, но не разрешают учиться выборочно.

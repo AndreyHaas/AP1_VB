@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/02-kommunikation-einweisung-praesentation-dokumentation-feedback-de.md
 ---
@@ -31,7 +31,20 @@ gegenstueck: ../de/02-kommunikation-einweisung-praesentation-dokumentation-feedb
 
 ---
 
-## 2. Контекст экзамена и границы темы (`Prüfungskontext`)
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Kommunikation адаптируется к Zielgruppe, Vorwissen, Ziel, Medium и Situation.
+2. Aktives Zuhören использует Paraphrase, offene Nachfrage и Bestätigung.
+3. Sach-, Selbstkundgabe-, Beziehungs- и Appellseite могут пониматься по-разному.
+4. Einweisung: Lernziel, безопасная подготовка, Demonstration, Übung, Lernerfolgskontrolle.
+5. Präsentation ведёт от Ziel/Kernbotschaft через структуру к Ergebnis.
+6. Benutzer-, System-, Test-, Übergabe- и Abnahmedokumentation имеют разных адресатов.
+7. Protokoll фиксирует Zeitpunkt, Beteiligte, Gegenstand, Ergebnis, Abweichung и Maßnahmen.
+8. Feedback описывает Beobachtung, Wirkung и Wunsch, а не оценивает человека целиком.
+
+> Die Einweisung ist zielgruppengerecht, weil die Anwender den Vorgang selbst durchführen und das Ergebnis anschließend überprüft wird.
+
+## 3. Контекст экзамена и границы темы (`Prüfungskontext`)
 
 Согласно `FIAusbV`, в экзаменационной области AP1 необходимо, среди прочего, проинструктировать клиентов по использованию рабочего места, а также проконтролировать и запротоколировать выполненную работу.
 
@@ -51,7 +64,7 @@ gegenstueck: ../de/02-kommunikation-einweisung-praesentation-dokumentation-feedb
 
 ---
 
-## 3. Разграничение основных понятий
+## 4. Разграничение основных понятий
 
 | Термин | Цель | Типичный результат |
 |---|---|---|
@@ -75,7 +88,7 @@ gegenstueck: ../de/02-kommunikation-einweisung-praesentation-dokumentation-feedb
 
 ---
 
-## 4. Процесс коммуникации и помехи (`Kommunikationsprozess`)
+## 5. Процесс коммуникации и помехи (`Kommunikationsprozess`)
 
 Упрощённая модель коммуникации — `Sender-Empfänger-Modell`:
 
@@ -131,7 +144,7 @@ Feedback an den Sender
 
 ---
 
-## 5. Определение целевой группы (`Zielgruppe`) и ситуации
+## 6. Определение целевой группы (`Zielgruppe`) и ситуации
 
 `Zielgruppengerecht` означает не просто «объяснить проще». Информация должна соответствовать задаче, ответственности и решению конкретного адресата.
 
@@ -163,7 +176,7 @@ Feedback an den Sender
 
 ---
 
-## 6. Подготовка информации для адресата
+## 7. Подготовка информации для адресата
 
 ### 6.1 Понятный язык
 
@@ -212,7 +225,7 @@ Bildschirmsperre / Screen Lock
 
 ---
 
-## 7. Структура разговора
+## 8. Структура разговора
 
 Возможная последовательность:
 
@@ -237,7 +250,7 @@ Bildschirmsperre / Screen Lock
 
 ---
 
-## 8. Планирование инструктажа (`Einweisung`)
+## 9. Планирование инструктажа (`Einweisung`)
 
 Инструктаж начинается не со слайдов, а с учебной и практической цели.
 
@@ -283,7 +296,7 @@ Bildschirmsperre / Screen Lock
 
 ---
 
-## 9. Проведение инструктажа (`Einweisung`)
+## 10. Проведение инструктажа (`Einweisung`)
 
 Надёжный порядок напоминает `Vier-Stufen-Methode`, но адаптируется к задаче и целевой группе.
 
@@ -324,7 +337,7 @@ Bildschirmsperre / Screen Lock
 
 ---
 
-## 10. Контроль понимания и результата обучения (`Lernerfolg`)
+## 11. Контроль понимания и результата обучения (`Lernerfolg`)
 
 Вопрос «Всё понятно?» даёт слабое подтверждение. Из вежливости, спешки или неверной самооценки человек часто отвечает утвердительно.
 
@@ -352,7 +365,7 @@ Bildschirmsperre / Screen Lock
 
 ---
 
-## 11. Презентация и выбор средства (`Präsentation und Medienwahl`)
+## 12. Презентация и выбор средства (`Präsentation und Medienwahl`)
 
 ### 11.1 Структура короткой презентации
 
@@ -393,7 +406,7 @@ Abschluss
 
 ---
 
-## 12. Доступная коммуникация и документация
+## 13. Доступная коммуникация и документация
 
 Доступность зависит от целевой группы и средства. Для цифрового содержания полезны четыре принципа WCAG:
 
@@ -423,7 +436,7 @@ WCAG прежде всего регулируют доступность веб-
 
 ---
 
-## 13. Как давать и принимать обратную связь (`Feedback`)
+## 14. Как давать и принимать обратную связь (`Feedback`)
 
 `Feedback` описывает наблюдаемый результат или воздействие и помогает улучшить работу. Это не личностный приговор.
 
@@ -474,7 +487,7 @@ Erwartung/Vereinbarung
 
 ---
 
-## 14. Сложные ситуации и жалобы (`Beschwerden`)
+## 15. Сложные ситуации и жалобы (`Beschwerden`)
 
 Возможный порядок работы с жалобой:
 
@@ -499,7 +512,7 @@ Erwartung/Vereinbarung
 
 ---
 
-## 15. Виды документации (`Dokumentationsarten`)
+## 16. Виды документации (`Dokumentationsarten`)
 
 | Документ | Адресат и назначение | Типичное содержание |
 |---|---|---|
@@ -530,7 +543,7 @@ Erwartung/Vereinbarung
 
 ---
 
-## 16. Контроль выполнения работы (`Leistungserbringung`)
+## 17. Контроль выполнения работы (`Leistungserbringung`)
 
 Контроль означает сравнение фактически выполненной работы с согласованными требованиями.
 
@@ -569,7 +582,7 @@ Erfüllt / Abweichung / Mangel / offener Punkt
 
 ---
 
-## 17. Протоколирование выполнения работы
+## 18. Протоколирование выполнения работы
 
 Из протокола должно быть понятно, **что**, **когда**, **каким способом**, **с каким результатом** и **кем** было проверено или передано.
 
@@ -612,7 +625,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 18. Передача, разрешение и приёмка (`Übergabe`, `Freigabe`, `Abnahme`)
+## 19. Передача, разрешение и приёмка (`Übergabe`, `Freigabe`, `Abnahme`)
 
 | Процесс | Значение |
 |---|---|
@@ -635,7 +648,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 19. Защита данных и информационная безопасность (`Datenschutz und Informationssicherheit`)
+## 20. Защита данных и информационная безопасность (`Datenschutz und Informationssicherheit`)
 
 При инструктаже, презентации и документировании действуют те же требования защиты, что и при технической эксплуатации.
 
@@ -665,7 +678,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 20. Сквозной практический пример (`Praxisfall`)
+## 21. Сквозной практический пример (`Praxisfall`)
 
 ### Ausgangssituation
 
@@ -711,7 +724,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 21. Prüfungsformulierungen
+## 22. Prüfungsformulierungen
 
 ### Zielgruppengerechte Einweisung
 
@@ -743,7 +756,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 22. Typische Prüfungsfallen
+## 23. Typische Prüfungsfallen
 
 1. Технически правильное объяснение не обязательно соответствует целевой группе.
 2. Вопрос «Всё понятно?» не является достаточной проверкой результата.
@@ -768,7 +781,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 23. Selbsttest
+## 24. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -825,7 +838,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 24. Quellen und Abgleich
+## 25. Quellen und Abgleich
 
 - [FIAusbV – Verordnung und Ausbildungsrahmenplan](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
 - [BIBB – Fachinformatiker/-in Anwendungsentwicklung im Überblick](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/profile/apprenticeship/80000)
@@ -838,7 +851,7 @@ Bestätigung/Unterschrift, falls vorgesehen:
 
 ---
 
-## 25. Offene Prüfpunkte für den Unterricht
+## 26. Offene Prüfpunkte für den Unterricht
 
 - Как WBS разграничивает `Einweisung`, `Schulung` и `Unterweisung`?
 - Ожидает ли WBS в заданиях AP1 определённую Kommunikationsmodell?

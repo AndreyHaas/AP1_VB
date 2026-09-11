@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Projektmanagement
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 ---
@@ -29,7 +29,20 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 2. Projekt и operatives Geschäft
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Projekt ограничен по времени, имеет цель и ресурсы и отличается от Routineaufgabe уникальностью.
+2. SMART: spezifisch, messbar, attraktiv/akzeptiert, realistisch, terminiert.
+3. Ziel, Zeit, Kosten и Qualität влияют друг на друга; изменение оценивается по последствиям.
+4. Stakeholder анализируются по Interesse, Einfluss и Betroffenheit.
+5. Phasen: Initialisierung, Planung, Durchführung/Steuerung, Abschluss; конкретная модель может отличаться.
+6. Risiko описывается через Ursache, Ereignis, Auswirkung, Wahrscheinlichkeit и Maßnahme.
+7. Change нужно оценить, согласовать, документировать и внести в Plan/Baseline.
+8. Projekterfolg включает Zielerfüllung, Qualität, Kosten, Termin и Abnahme.
+
+> Das Vorhaben ist ein Projekt, da es ein einmaliges Ziel verfolgt, zeitlich begrenzt ist und mit vorgegebenen Ressourcen durchgeführt wird.
+
+## 3. Projekt и operatives Geschäft
 
 ### 2.1 Типичные признаки проекта
 
@@ -67,7 +80,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 3. Projektrollen
+## 4. Projektrollen
 
 Полномочия определяются организацией, `Projektauftrag` и внутренними правилами. Поэтому нельзя автоматически считать, что `Projektleiter` имеет дисциплинарную власть над участниками или самостоятельно утверждает любое изменение бюджета.
 
@@ -92,7 +105,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 4. SMART-Ziele
+## 5. SMART-Ziele
 
 `SMART` помогает проверить, достаточно ли точно сформулирована цель.
 
@@ -128,7 +141,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 5. Magisches Dreieck des Projektmanagements
+## 6. Magisches Dreieck des Projektmanagements
 
 Три основные проектные величины:
 
@@ -151,7 +164,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 6. Projektphasen
+## 7. Projektphasen
 
 Единственной обязательной для всех организаций модели фаз нет. Для классического проекта удобно использовать четыре основные фазы. `Projektcontrolling` сопровождает проект, а не выполняется только в одной точке.
 
@@ -172,7 +185,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 7. Lastenheft и Pflichtenheft
+## 8. Lastenheft и Pflichtenheft
 
 | Документ | Главный вопрос | Ответственный | Содержание |
 |---|---|---|---|
@@ -188,7 +201,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 8. Machbarkeitsprüfung
+## 9. Machbarkeitsprüfung
 
 До утверждения проекта проверяют его осуществимость:
 
@@ -204,7 +217,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 9. Projektauftrag
+## 10. Projektauftrag
 
 `Projektauftrag` официально разрешает старт проекта и определяет его рамки. Типичное содержание:
 
@@ -226,7 +239,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 10. Projektstrukturplan и Arbeitspaket
+## 11. Projektstrukturplan и Arbeitspaket
 
 `Projektstrukturplan (PSP)` разбивает общий проект на управляемые части. Нижний планируемый и контролируемый элемент называется `Arbeitspaket`.
 
@@ -243,7 +256,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 11. Projektrisiken
+## 12. Projektrisiken
 
 Упрощённая оценка:
 
@@ -264,7 +277,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 12. Wichtige Begriffe
+## 13. Wichtige Begriffe
 
 | Термин | Значение |
 |---|---|
@@ -284,7 +297,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 13. Typische Prüfungsfallen
+## 14. Typische Prüfungsfallen
 
 1. `Projektleiter` не всегда дисциплинарный руководитель. Проверяй полномочия в условии.
 2. Изменение одной стороны `Magisches Dreieck` не имеет единственного автоматического последствия.
@@ -297,7 +310,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 14. Формулы ответов на немецком
+## 15. Формулы ответов на немецком
 
 ### Обоснование проекта
 
@@ -317,7 +330,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 15. Selbsttest
+## 16. Selbsttest
 
 1. Назови четыре типичных признака проекта.
 2. Почему ежедневное резервное копирование обычно является `Routineaufgabe`, а внедрение новой системы резервного копирования — `Projekt`?
@@ -344,7 +357,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 ---
 
-## 16. Quellen und Abgleich
+## 17. Quellen und Abgleich
 
 - [Verordnung über die Berufsausbildung zum Fachinformatiker und zur Fachinformatikerin — § 9](https://www.gesetze-im-internet.de/fiausbv/BJNR025000020.html)
 - [IHK Hannover: Änderungen in den Prüfungskatalogen der IT-Berufe ab Frühjahr 2025](https://www.ihk.de/hannover/hauptnavigation/ausbildung-und-weiterbildung/ausbildung/ausbildung-a-z/neuordnungen/pruefungskataloge-it-berufe-6438900)
@@ -352,7 +365,7 @@ gegenstueck: ../de/01-projektgrundlagen-smart-und-phasen-de.md
 
 Для окончательной корректировки материал следует сверять с актуальным `Prüfungskatalog`, заданиями преподавателей WBS и указаниями своей IHK.
 
-## 17. Offene Prüfpunkte für den Unterricht
+## 18. Offene Prüfpunkte für den Unterricht
 
 - Какой вариант `SMART-A` использует преподаватель?
 - Какую модель `Projektphasen` использует учебный материал?

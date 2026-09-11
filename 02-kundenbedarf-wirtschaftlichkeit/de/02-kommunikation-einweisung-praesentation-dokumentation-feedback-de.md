@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Kommunikation, Einweisung, Präsentation, Dokumentation und Feedback
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-09
+stand: 2026-09-11
 sprache: Deutsch
 gegenstueck: ../ru/02-kommunikation-einweisung-praesentation-dokumentation-feedback-ru.md
 ---
@@ -31,7 +31,20 @@ Nach der Bearbeitung dieses Kapitels solltest du:
 
 ---
 
-## 2. Prüfungskontext und Abgrenzung
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Kommunikation wird an Zielgruppe, Vorwissen, Ziel, Medium und Situation angepasst.
+2. Aktives Zuhören nutzt Paraphrase, offene Nachfrage und Bestätigung.
+3. Sach-, Selbstkundgabe-, Beziehungs- und Appellseite können unterschiedlich verstanden werden.
+4. Eine Einweisung enthält Lernziel, sichere Vorbereitung, Demonstration, Übung und Lernerfolgskontrolle.
+5. Präsentationen führen von Ziel und Kernbotschaft über nachvollziehbare Struktur zum Ergebnis.
+6. Benutzer-, System-, Test-, Übergabe- und Abnahmedokumentation haben unterschiedliche Adressaten.
+7. Ein Protokoll nennt Zeitpunkt, Beteiligte, Gegenstand, Ergebnis, Abweichung und offene Maßnahmen.
+8. Feedback beschreibt Beobachtung, Wirkung und Wunsch konkret statt eine Person pauschal zu bewerten.
+
+> Die Einweisung ist zielgruppengerecht, weil die Anwender den Vorgang selbst durchführen und das Ergebnis anschließend überprüft wird.
+
+## 3. Prüfungskontext und Abgrenzung
 
 Die `FIAusbV` verlangt im Prüfungsbereich AP1 unter anderem, dass Kunden und Kundinnen in die Nutzung des Arbeitsplatzes eingewiesen und dass die Leistungserbringung kontrolliert und protokolliert wird.
 
@@ -51,7 +64,7 @@ Kommunikationsmodelle und didaktische Methoden sind Hilfsmittel zur Begründung.
 
 ---
 
-## 3. Zentrale Begriffe unterscheiden
+## 4. Zentrale Begriffe unterscheiden
 
 | Begriff | Zweck | Typisches Ergebnis |
 |---|---|---|
@@ -75,7 +88,7 @@ Kommunikationsmodelle und didaktische Methoden sind Hilfsmittel zur Begründung.
 
 ---
 
-## 4. Kommunikationsprozess und Störungen
+## 5. Kommunikationsprozess und Störungen
 
 Ein vereinfachtes `Sender-Empfänger-Modell`:
 
@@ -131,7 +144,7 @@ Prüfungstauglich ist die Konsequenz: unklare Erwartungen durch Rückfrage und k
 
 ---
 
-## 5. Zielgruppe und Situation bestimmen
+## 6. Zielgruppe und Situation bestimmen
 
 `Zielgruppengerecht` bedeutet nicht nur „einfach“. Die Information muss zur Aufgabe, Verantwortung und Entscheidungssituation passen.
 
@@ -163,7 +176,7 @@ Eine Erklärung darf fachlich nicht falsch werden, nur weil sie vereinfacht wird
 
 ---
 
-## 6. Informationen adressatengerecht aufbereiten
+## 7. Informationen adressatengerecht aufbereiten
 
 ### 6.1 Verständliche Sprache
 
@@ -212,7 +225,7 @@ Eine gute Erklärung beantwortet:
 
 ---
 
-## 7. Gespräch strukturieren
+## 8. Gespräch strukturieren
 
 Ein mögliches Gesprächsschema:
 
@@ -237,7 +250,7 @@ Eine Gesprächsnotiz ersetzt nur dann einen formalen Nachweis, wenn dies organis
 
 ---
 
-## 8. Einweisung planen
+## 9. Einweisung planen
 
 Eine Einweisung beginnt nicht mit Folien, sondern mit einem Lern- und Handlungsziel.
 
@@ -283,7 +296,7 @@ Eine ungeprüfte Live-Demonstration auf Produktivdaten erzeugt vermeidbare Risik
 
 ---
 
-## 9. Einweisung durchführen
+## 10. Einweisung durchführen
 
 Ein robuster Ablauf lehnt sich an die Vier-Stufen-Methode an, kann aber an Aufgabe und Zielgruppe angepasst werden.
 
@@ -324,7 +337,7 @@ Zuhören und Zuschauen beweisen keine Handlungskompetenz. Erst eine selbst ausge
 
 ---
 
-## 10. Lernerfolg und Verständnis kontrollieren
+## 11. Lernerfolg und Verständnis kontrollieren
 
 Die Frage „Haben Sie alles verstanden?“ liefert nur einen schwachen Nachweis. Menschen antworten aus Höflichkeit, Zeitdruck oder falscher Selbsteinschätzung häufig mit Ja.
 
@@ -352,7 +365,7 @@ Die Erfolgskontrolle soll zum Lernziel passen. Ein Multiple-Choice-Test kann ein
 
 ---
 
-## 11. Präsentation und Medienwahl
+## 12. Präsentation und Medienwahl
 
 ### 11.1 Aufbau einer kurzen Präsentation
 
@@ -393,7 +406,7 @@ Folien sind ein Hilfsmittel und kein vollständiges Sprechmanuskript. Eine Anlei
 
 ---
 
-## 12. Barrierearme Kommunikation und Dokumentation
+## 13. Barrierearme Kommunikation und Dokumentation
 
 Barrierefreiheit ist zielgruppen- und medienabhängig. Für digitale Inhalte liefern die vier WCAG-Prinzipien eine nützliche Orientierung:
 
@@ -423,7 +436,7 @@ Menschen sollten nicht starr als „visueller“, „auditiver“ oder „kinäs
 
 ---
 
-## 13. Feedback geben und annehmen
+## 14. Feedback geben und annehmen
 
 `Feedback` beschreibt eine beobachtete Wirkung oder ein Ergebnis und unterstützt Verbesserung. Es ist kein persönliches Urteil.
 
@@ -474,7 +487,7 @@ Eine Rückmeldung muss nicht ungeprüft übernommen werden. Sachliche Prüfung u
 
 ---
 
-## 14. Schwierige Situationen und Beschwerden
+## 15. Schwierige Situationen und Beschwerden
 
 Möglicher Ablauf bei einer Beschwerde:
 
@@ -499,7 +512,7 @@ Ungeeignet ist, dem Kunden eine nicht genehmigte Lösung oder Frist zu versprech
 
 ---
 
-## 15. Dokumentationsarten
+## 16. Dokumentationsarten
 
 | Dokument | Zielgruppe und Zweck | Typischer Inhalt |
 |---|---|---|
@@ -530,7 +543,7 @@ Mehr Inhalt ist nicht automatisch bessere Dokumentation. Entscheidend ist, ob di
 
 ---
 
-## 16. Leistungserbringung kontrollieren
+## 17. Leistungserbringung kontrollieren
 
 Kontrolle bedeutet, die tatsächlich erbrachte Leistung mit vereinbarten Anforderungen zu vergleichen.
 
@@ -569,7 +582,7 @@ Ein bestandener Hardwaretest beweist nicht automatisch die vollständige Vertrag
 
 ---
 
-## 17. Leistung protokollieren
+## 18. Leistung protokollieren
 
 Ein Protokoll muss später erkennen lassen, **was**, **wann**, **wodurch**, **mit welchem Ergebnis** und **durch wen** geprüft oder übergeben wurde.
 
@@ -612,7 +625,7 @@ Besser:
 
 ---
 
-## 18. Übergabe, Freigabe und Abnahme
+## 19. Übergabe, Freigabe und Abnahme
 
 | Vorgang | Bedeutung |
 |---|---|
@@ -635,7 +648,7 @@ Die detaillierten rechtlichen Folgen der Abnahme gehören zum späteren Kapitel 
 
 ---
 
-## 19. Datenschutz und Informationssicherheit
+## 20. Datenschutz und Informationssicherheit
 
 Bei Einweisung, Präsentation und Dokumentation gelten dieselben Schutzanforderungen wie beim technischen Betrieb.
 
@@ -665,7 +678,7 @@ Ein vollständiges Protokoll ist nicht dasselbe wie eine möglichst umfangreiche
 
 ---
 
-## 20. Durchgängiges Praxisbeispiel
+## 21. Durchgängiges Praxisbeispiel
 
 ### Ausgangssituation
 
@@ -711,7 +724,7 @@ Das Protokoll behauptet nicht, dass alle 25 Geräte fehlerfrei sind. Es trennt n
 
 ---
 
-## 21. Prüfungsformulierungen
+## 22. Prüfungsformulierungen
 
 ### Zielgruppengerechte Einweisung
 
@@ -743,7 +756,7 @@ Das Protokoll behauptet nicht, dass alle 25 Geräte fehlerfrei sind. Es trennt n
 
 ---
 
-## 22. Typische Prüfungsfallen
+## 23. Typische Prüfungsfallen
 
 1. Eine technisch korrekte Erklärung ist nicht automatisch zielgruppengerecht.
 2. „Haben Sie alles verstanden?“ ist keine ausreichende Erfolgskontrolle.
@@ -768,7 +781,7 @@ Das Protokoll behauptet nicht, dass alle 25 Geräte fehlerfrei sind. Es trennt n
 
 ---
 
-## 23. Selbsttest
+## 24. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -825,7 +838,7 @@ Ein Unternehmen erhält zehn konfigurierte Notebooks. Laut Auftrag müssen Festp
 
 ---
 
-## 24. Quellen und Abgleich
+## 25. Quellen und Abgleich
 
 - [FIAusbV – Verordnung und Ausbildungsrahmenplan](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
 - [BIBB – Fachinformatiker/-in Anwendungsentwicklung im Überblick](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/profile/apprenticeship/80000)
@@ -838,7 +851,7 @@ Die konkreten Formularfelder, Kommunikationsmodelle und didaktischen Abläufe k�
 
 ---
 
-## 25. Offene Prüfpunkte für den Unterricht
+## 26. Offene Prüfpunkte für den Unterricht
 
 - Welche Begriffe verwendet WBS zur Abgrenzung von `Einweisung`, `Schulung` und `Unterweisung`?
 - Erwartet WBS in AP1-Aufgaben ein bestimmtes Kommunikationsmodell?

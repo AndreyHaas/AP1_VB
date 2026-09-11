@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Amortisation, Break-even, Stundensatz und Make-or-Buy
 prioritaet: Vertiefung
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/05-amortisation-break-even-stundensatz-und-make-or-buy-de.md
 ---
@@ -44,7 +44,20 @@ gegenstueck: ../de/05-amortisation-break-even-stundensatz-und-make-or-buy-de.md
 
 ---
 
-## 2. Экзаменационная рамка и статус Vertiefung
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Deckungsbeitrag je Stück `= Preis − variable Stückkosten`.
+2. Break-even-Menge `= Fixkosten / Stückdeckungsbeitrag`; необходимое нецелое Stückzahl округляется вверх.
+3. Простая Amortisationsdauer `= Investition / равномерный Rückfluss`.
+4. При неравномерных Rückflüsse периоды накапливаются.
+5. Kostenstundensatz использует продуктивные verrechenbare Stunden, а не всё присутствие.
+6. Gewinnzuschlag считается от Kosten, Gewinnmarge — от Erlös.
+7. Make-or-Buy учитывает релевантные будущие Kosten, Kapazität, Qualität, Know-how, Risiko, Abhängigkeit.
+8. Sunk Costs уже возникли и обычно не влияют на будущее решение.
+
+> Die Fremdvergabe ist trotz höherer Stückkosten geeignet, wenn der interne Kapazitätsengpass sonst einen größeren entgangenen Deckungsbeitrag verursacht.
+
+## 3. Экзаменационная рамка и статус Vertiefung
 
 § 9 `FIAusbV` требует выбирать аппаратное и программное обеспечение и инициировать закупку. `Ausbildungsrahmenplan` требует оценивать IT-системы по `Leistungsfähigkeit` и `Wirtschaftlichkeit`, получать и оценивать предложения и сравнивать условия.
 
@@ -62,7 +75,7 @@ gegenstueck: ../de/05-amortisation-break-even-stundensatz-und-make-or-buy-de.md
 
 ---
 
-## 3. Как выбрать правильный метод
+## 4. Как выбрать правильный метод
 
 | Entscheidungsfrage | Подходящий метод |
 |---|---|
@@ -83,7 +96,7 @@ gegenstueck: ../de/05-amortisation-break-even-stundensatz-und-make-or-buy-de.md
 
 ---
 
-## 4. Обозначения и единицы
+## 5. Обозначения и единицы
 
 В задачах удобно заранее выписать обозначения:
 
@@ -113,7 +126,7 @@ monatliche Kosten + jährlicher Umsatz
 
 ---
 
-## 5. Umsatz, Kosten и Gewinn
+## 6. Umsatz, Kosten и Gewinn
 
 Для одного продукта:
 
@@ -136,7 +149,7 @@ G = p × x − (K_f + k_v × x)
 
 ---
 
-## 6. Fixkosten и variable Kosten в модели
+## 7. Fixkosten и variable Kosten в модели
 
 ### Fixkosten
 
@@ -170,7 +183,7 @@ Fixkosten являются постоянными только в релеван
 
 ---
 
-## 7. Stückdeckungsbeitrag
+## 8. Stückdeckungsbeitrag
 
 `Stückdeckungsbeitrag` показывает, какая сумма после покрытия переменных затрат одной единицы остаётся для покрытия Fixkosten и затем прибыли.
 
@@ -194,7 +207,7 @@ db = 1.200 € − 720 € = 480 € je Stück
 
 ---
 
-## 8. Gesamtdeckungsbeitrag и Betriebsergebnis
+## 9. Gesamtdeckungsbeitrag и Betriebsergebnis
 
 ```text
 Gesamtdeckungsbeitrag DB = Stückdeckungsbeitrag db × Menge x
@@ -220,7 +233,7 @@ G = 312.000 € − 187.200 € − 96.000 € = 28.800 €
 
 ---
 
-## 9. Break-even-Point
+## 10. Break-even-Point
 
 `Break-even-Point`, `Gewinnschwelle` или `Kostendeckungspunkt` — количество или Umsatz, при котором:
 
@@ -244,7 +257,7 @@ Break-even не означает:
 
 ---
 
-## 10. Break-even-Menge
+## 11. Break-even-Menge
 
 Из условия `Gewinn = 0`:
 
@@ -273,7 +286,7 @@ x_BE = 96.000 € / 480 € = 200 Stück
 
 ---
 
-## 11. Полный Break-even-Praxisfall
+## 12. Полный Break-even-Praxisfall
 
 Компания конфигурирует и продаёт IT-Appliances.
 
@@ -319,7 +332,7 @@ G = 124.800 € − 96.000 € = 28.800 €
 
 ---
 
-## 12. Absatzmenge для Zielgewinn
+## 13. Absatzmenge для Zielgewinn
 
 Если требуется определённая прибыль:
 
@@ -345,7 +358,7 @@ x = 250 Stück
 
 ---
 
-## 13. Break-even-Umsatz
+## 14. Break-even-Umsatz
 
 `Deckungsbeitragsquote`:
 
@@ -377,7 +390,7 @@ U_BE = 240.000 €
 
 ---
 
-## 14. Графическая интерпретация
+## 15. Графическая интерпретация
 
 В классической диаграмме:
 
@@ -404,7 +417,7 @@ Umsatz > Gesamtkosten
 
 ---
 
-## 15. Предпосылки простой Break-even-Analyse
+## 16. Предпосылки простой Break-even-Analyse
 
 Простая модель предполагает:
 
@@ -432,7 +445,7 @@ Umsatz > Gesamtkosten
 
 ---
 
-## 16. Несколько продуктов
+## 17. Несколько продуктов
 
 Если компания продаёт несколько продуктов с разными Deckungsbeiträgen, простой расчёт:
 
@@ -457,7 +470,7 @@ Fixkosten / Deckungsbeitrag одного продукта
 
 ---
 
-## 17. Ограничивающий фактор
+## 18. Ограничивающий фактор
 
 Если ограничен ресурс, нужно сравнивать не только DB je Stück, но и DB je Engpasseinheit.
 
@@ -479,7 +492,7 @@ Stückdeckungsbeitrag / benötigte Engpasseinheiten
 
 ---
 
-## 18. Make-or-Buy: основной вопрос
+## 19. Make-or-Buy: основной вопрос
 
 `Make-or-Buy` сравнивает:
 
@@ -509,7 +522,7 @@ Stückdeckungsbeitrag / benötigte Engpasseinheiten
 
 ---
 
-## 19. Make-or-Buy-Kostenvergleich
+## 20. Make-or-Buy-Kostenvergleich
 
 Пример:
 
@@ -544,7 +557,7 @@ x = 200 Stunden
 
 ---
 
-## 20. Make-or-Buy при 320 часах
+## 21. Make-or-Buy при 320 часах
 
 ```text
 K_Make(320) = 8.000 € + 65 € × 320
@@ -564,7 +577,7 @@ Differenz = 33.600 € − 28.800 € = 4.800 €
 
 ---
 
-## 21. Релевантные затраты и sunk costs
+## 22. Релевантные затраты и sunk costs
 
 Для решения учитываются затраты, которые различаются между альтернативами и возникают в будущем из-за решения.
 
@@ -593,7 +606,7 @@ Differenz = 33.600 € − 28.800 € = 4.800 €
 
 ---
 
-## 22. Opportunitätskosten
+## 23. Opportunitätskosten
 
 `Opportunitätskosten` — упущенная выгода лучшей отвергнутой альтернативы.
 
@@ -615,7 +628,7 @@ Differenz = 33.600 € − 28.800 € = 4.800 €
 
 ---
 
-## 23. Качественные Make-or-Buy-Kriterien
+## 24. Качественные Make-or-Buy-Kriterien
 
 | Kriterium | Frage |
 |---|---|
@@ -634,7 +647,7 @@ Differenz = 33.600 € − 28.800 € = 4.800 €
 
 ---
 
-## 24. Amortisation: смысл
+## 25. Amortisation: смысл
 
 `Amortisationsdauer` показывает время, за которое первоначальная инвестиция покрывается связанными с ней Rückflüsse.
 
@@ -658,7 +671,7 @@ Amortisation не равна:
 
 ---
 
-## 25. Статическая Amortisationsformel
+## 26. Статическая Amortisationsformel
 
 При равномерном ежегодном Rückfluss:
 
@@ -689,7 +702,7 @@ t_A = 48.000 € / 16.000 € = 3 Jahre
 
 ---
 
-## 26. Rückfluss, Gewinn, Einsparung и Abschreibung
+## 27. Rückfluss, Gewinn, Einsparung и Abschreibung
 
 Здесь часто встречается главная ошибка.
 
@@ -721,7 +734,7 @@ Rückfluss = vermiedene Auszahlungen − zusätzliche Auszahlungen
 
 ---
 
-## 27. Полный Amortisations-Praxisfall
+## 28. Полный Amortisations-Praxisfall
 
 Компания рассматривает автоматизацию обработки Tickets.
 
@@ -765,7 +778,7 @@ Rückfluss = vermiedene Auszahlungen − zusätzliche Auszahlungen
 
 ---
 
-## 28. Неравномерные Rückflüsse
+## 29. Неравномерные Rückflüsse
 
 Если ежегодные Rückflüsse различаются, простое деление на среднее может скрыть временную структуру. Используется кумуляция.
 
@@ -798,7 +811,7 @@ t_A ≈ 2,82 Jahre
 
 ---
 
-## 29. Grenzen der Amortisationsrechnung
+## 30. Grenzen der Amortisationsrechnung
 
 Простая статическая Amortisationsrechnung:
 
@@ -820,7 +833,7 @@ t_A ≈ 2,82 Jahre
 
 ---
 
-## 30. Rentabilität и ROI
+## 31. Rentabilität и ROI
 
 Упрощённая формула:
 
@@ -851,7 +864,7 @@ Rentabilität 25 % не означает окупаемость ровно че�
 
 ---
 
-## 31. Kauf, Miete и Leasing
+## 32. Kauf, Miete и Leasing
 
 ### Kauf
 
@@ -881,7 +894,7 @@ Rentabilität 25 % не означает окупаемость ровно че�
 
 ---
 
-## 32. Сравнение Kauf, Miete и Leasing
+## 33. Сравнение Kauf, Miete и Leasing
 
 Сравнивается одинаковый период — 36 месяцев — и одинаковая Leistungsanforderung. Все суммы Netto, Zeitwert des Geldes не учитывается.
 
@@ -923,7 +936,7 @@ Gesamtkosten              41.400 €
 
 ---
 
-## 33. Ловушки Kauf/Miete/Leasing
+## 34. Ловушки Kauf/Miete/Leasing
 
 Для корректного сравнения нужно проверить:
 
@@ -946,7 +959,7 @@ Gesamtkosten              41.400 €
 
 ---
 
-## 34. Что такое Stundensatz
+## 35. Что такое Stundensatz
 
 Термин может означать разные величины.
 
@@ -977,7 +990,7 @@ relevante Jahreskosten / produktive Stunden
 
 ---
 
-## 35. Полные Personalkosten
+## 36. Полные Personalkosten
 
 Bruttogehalt — только часть затрат работодателя.
 
@@ -1008,7 +1021,7 @@ Bruttogehalt — только часть затрат работодателя.
 
 ---
 
-## 36. Produktive Stunden
+## 37. Produktive Stunden
 
 Оплачиваемое рабочее время не равно фактически рассчитываемому клиенту времени.
 
@@ -1041,7 +1054,7 @@ Bruttogehalt — только часть затрат работодателя.
 
 ---
 
-## 37. Полный Kostenstundensatz
+## 38. Полный Kostenstundensatz
 
 Годовые затраты:
 
@@ -1072,7 +1085,7 @@ Kostenstundensatz:
 
 ---
 
-## 38. Gewinnzuschlag и Gewinnmarge
+## 39. Gewinnzuschlag и Gewinnmarge
 
 ### Gewinnzuschlag auf Selbstkosten
 
@@ -1111,7 +1124,7 @@ Zuschlag и Marge дают разные результаты. Условие з�
 
 ---
 
-## 39. Externer Stundensatz и Umsatzsteuer
+## 40. Externer Stundensatz и Umsatzsteuer
 
 Если требуется цена для клиента:
 
@@ -1139,7 +1152,7 @@ Netto-Angebotspreis
 
 ---
 
-## 40. Auslastung и чувствительность Stundensatz
+## 41. Auslastung и чувствительность Stundensatz
 
 При одинаковых годовых затратах 121 500 €:
 
@@ -1161,7 +1174,7 @@ Sensitivitätsanalyse должна проверять минимум базов�
 
 ---
 
-## 41. Связь Stundensatz и Make-or-Buy
+## 42. Связь Stundensatz и Make-or-Buy
 
 В Make-or-Buy нельзя автоматически сравнивать:
 
@@ -1186,7 +1199,7 @@ externem Verkaufspreis je Stunde
 
 ---
 
-## 42. Связь методов
+## 43. Связь методов
 
 | Methode | Что измеряет | Чего не доказывает |
 |---|---|---|
@@ -1203,7 +1216,7 @@ externem Verkaufspreis je Stunde
 
 ---
 
-## 43. Полный интегрированный Praxisfall
+## 44. Полный интегрированный Praxisfall
 
 Компания решает, выполнять ли 320 часов миграции самостоятельно или заказать услугу.
 
@@ -1247,7 +1260,7 @@ Vorteil Make = 4.800 €
 
 ---
 
-## 44. Prüfungsalgorithmus
+## 45. Prüfungsalgorithmus
 
 1. Определи искомую величину.
 2. Выпиши данные с единицами.
@@ -1267,7 +1280,7 @@ Vorteil Make = 4.800 €
 
 ---
 
-## 45. Typische Prüfungsformulierungen
+## 46. Typische Prüfungsformulierungen
 
 ### Deckungsbeitrag
 
@@ -1299,7 +1312,7 @@ Vorteil Make = 4.800 €
 
 ---
 
-## 46. Typische Prüfungsfallen
+## 47. Typische Prüfungsfallen
 
 1. Umsatz mit Gewinn gleichsetzen.
 2. Fixkosten je Stück ohne Bezugsmenge angeben.
@@ -1336,7 +1349,7 @@ Vorteil Make = 4.800 €
 
 ---
 
-## 47. Selbsttest
+## 48. Selbsttest
 
 ### A. Begriffe und Verständnis
 
@@ -1435,7 +1448,7 @@ Vorteil Make = 4.800 €
 
 ---
 
-## 48. Quellen und Abgleich
+## 49. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -1451,7 +1464,7 @@ Vorteil Make = 4.800 €
 
 ---
 
-## 49. Offene Prüfpunkte für den Unterricht
+## 50. Offene Prüfpunkte für den Unterricht
 
 - Включает ли действующий WBS-план Deckungsbeitrag и Break-even в AP1?
 - Какую точную формулу Rückfluss использует WBS для статической Amortisation?

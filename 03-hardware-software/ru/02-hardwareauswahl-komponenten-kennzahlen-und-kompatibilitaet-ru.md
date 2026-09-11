@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Hardwareauswahl, Komponenten, Kennzahlen und Kompatibilität
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet-de.md
 ---
@@ -37,7 +37,20 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 2. Prüfungsrahmen
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Hardware выводится из Nutzungsszenario, Muss-Kriterien и измеримого Lastprofil.
+2. Kernzahl/Takt CPU не гарантируют скорость приложения; важны Architektur, Software и Last.
+3. RAM-Kapazität предотвращает Engpass; Kanal, Takt и Kompatibilität влияют на Leistung.
+4. SSD/HDD выбирают по Kapazität, Zugriff, Durchsatz, Haltbarkeit, Schnittstelle и Kosten.
+5. GPU — по Ausgabe, Beschleunigung, Speicher, Leistung, Platz и Treiber.
+6. Netzteil рассчитывают по Anschlüsse, реальной Last, Spitzen, Reserve, Effizienz и Qualität.
+7. Kompatibilität проверяют mechanisch, elektrisch, protokollarisch, softwareseitig.
+8. Медленное звено ограничивает Gesamtdurchsatz; Praxistest подтверждает выбор.
+
+> Der größere Arbeitsspeicher ist erforderlich, da das Lastprofil die vorhandene Kapazität überschreitet und dadurch Auslagerung entsteht.
+
+## 3. Prüfungsrahmen
 
 Типичная ситуация AP1:
 
@@ -53,7 +66,7 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 3. От Bedarf к Spezifikation
+## 4. От Bedarf к Spezifikation
 
 Сначала задаются вопросы:
 
@@ -74,7 +87,7 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 4. Muss, Soll и Kann
+## 5. Muss, Soll и Kann
 
 | Kategorie | Bedeutung | Beispiel |
 |---|---|---|
@@ -90,7 +103,7 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 5. Übersicht der Komponenten
+## 6. Übersicht der Komponenten
 
 | Komponente | Hauptaufgabe | Typische Auswahlfragen |
 |---|---|---|
@@ -108,7 +121,7 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 6. CPU: что действительно сравнивается
+## 7. CPU: что действительно сравнивается
 
 Важные параметры:
 
@@ -127,7 +140,7 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 7. Single-Thread и Multi-Thread
+## 8. Single-Thread и Multi-Thread
 
 Некоторые операции зависят прежде всего от скорости одного потока:
 
@@ -150,7 +163,7 @@ gegenstueck: ../de/02-hardwareauswahl-komponenten-kennzahlen-und-kompatibilitaet
 
 ---
 
-## 8. CPU-Benchmarks
+## 9. CPU-Benchmarks
 
 Benchmark полезен, если:
 
@@ -172,7 +185,7 @@ Prüfungsformulierung:
 
 ---
 
-## 9. RAM: Kapazität прежде Geschwindigkeit
+## 10. RAM: Kapazität прежде Geschwindigkeit
 
 RAM хранит данные и код, к которым CPU должен обращаться быстро.
 
@@ -194,7 +207,7 @@ RAM хранит данные и код, к которым CPU должен об
 
 ---
 
-## 10. Расчёт потребности в RAM
+## 11. Расчёт потребности в RAM
 
 Учебный сценарий:
 
@@ -221,7 +234,7 @@ RAM хранит данные и код, к которым CPU должен об
 
 ---
 
-## 11. Speicherkanäle и смешанные Module
+## 12. Speicherkanäle и смешанные Module
 
 Несколько каналов могут увеличить Speicherbandbreite. Для этого важны:
 
@@ -242,7 +255,7 @@ RAM хранит данные и код, к которым CPU должен об
 
 ---
 
-## 12. ECC
+## 13. ECC
 
 `Error-Correcting Code Memory` может обнаруживать и исправлять определённые ошибки памяти.
 
@@ -257,7 +270,7 @@ ECC не заменяет Backup, тестирование и другие ме�
 
 ---
 
-## 13. Massenspeicher: четыре разные величины
+## 14. Massenspeicher: четыре разные величины
 
 | Größe | Bedeutung | Einheit |
 |---|---|---|
@@ -272,7 +285,7 @@ ECC не заменяет Backup, тестирование и другие ме�
 
 ---
 
-## 14. HDD, SATA-SSD и NVMe-SSD
+## 15. HDD, SATA-SSD и NVMe-SSD
 
 | Typ | Stärke | Grenze | Typische Nutzung |
 |---|---|---|---|
@@ -284,7 +297,7 @@ ECC не заменяет Backup, тестирование и другие ме�
 
 ---
 
-## 15. M.2 не равно NVMe
+## 16. M.2 не равно NVMe
 
 `M.2` — прежде всего форм-фактор и разъёмная спецификация. Накопитель M.2 может использовать:
 
@@ -308,7 +321,7 @@ ECC не заменяет Backup, тестирование и другие ме�
 
 ---
 
-## 16. Endurance и надёжность SSD
+## 17. Endurance и надёжность SSD
 
 При интенсивной записи важны:
 
@@ -324,7 +337,7 @@ ECC не заменяет Backup, тестирование и другие ме�
 
 ---
 
-## 17. GPU и VRAM
+## 18. GPU и VRAM
 
 `Integrierte GPU (iGPU)` часто достаточна для:
 
@@ -354,7 +367,7 @@ ECC не заменяет Backup, тестирование и другие ме�
 
 ---
 
-## 18. Mainboard, Sockel и Chipsatz
+## 19. Mainboard, Sockel и Chipsatz
 
 Mainboard определяет платформу:
 
@@ -371,7 +384,7 @@ Mainboard определяет платформу:
 
 ---
 
-## 19. UEFI, Secure Boot и TPM
+## 20. UEFI, Secure Boot и TPM
 
 `UEFI` описывает интерфейс между Plattform-Firmware и Betriebssystem. Практически проверяются:
 
@@ -387,7 +400,7 @@ Mainboard определяет платформу:
 
 ---
 
-## 20. Betriebssystem-Anforderungen
+## 21. Betriebssystem-Anforderungen
 
 Требования ОС — Muss-Kriterien. Они могут изменяться, поэтому проверяются по актуальной Herstellerdokumentation.
 
@@ -403,7 +416,7 @@ Mainboard определяет платформу:
 
 ---
 
-## 21. Netzteil: Nennleistung и реальный Verbrauch
+## 22. Netzteil: Nennleistung и реальный Verbrauch
 
 Netzteil выбирается по:
 
@@ -429,7 +442,7 @@ P_Eingang = 300 W ÷ 0,90 = 333,3 W
 
 ---
 
-## 22. Kühlung, Temperatur и Throttling
+## 23. Kühlung, Temperatur и Throttling
 
 Если тепло не отводится, компоненты могут снижать частоту:
 
@@ -449,7 +462,7 @@ P_Eingang = 300 W ÷ 0,90 = 333,3 W
 
 ---
 
-## 23. Netzwerkadapter
+## 24. Netzwerkadapter
 
 Для Ethernet:
 
@@ -471,7 +484,7 @@ P_Eingang = 300 W ÷ 0,90 = 333,3 W
 
 ---
 
-## 24. Desktop, Notebook, Workstation или Thin Client
+## 25. Desktop, Notebook, Workstation или Thin Client
 
 | Gerätetyp | Vorteile | Grenzen |
 |---|---|---|
@@ -484,7 +497,7 @@ Thin Client экономичен только при подходящей zentra
 
 ---
 
-## 25. Verfügbarkeit, Support и Lebenszyklus
+## 26. Verfügbarkeit, Support и Lebenszyklus
 
 Критерии:
 
@@ -501,7 +514,7 @@ Thin Client экономичен только при подходящей zentra
 
 ---
 
-## 26. Четыре уровня Kompatibilität
+## 27. Четыре уровня Kompatibilität
 
 | Ebene | Frage | Beispiel |
 |---|---|---|
@@ -514,7 +527,7 @@ Thin Client экономичен только при подходящей zentra
 
 ---
 
-## 27. Kompatibilitätscheckliste
+## 28. Kompatibilitätscheckliste
 
 Перед Freigabe:
 
@@ -533,7 +546,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 28. Engpassanalyse
+## 29. Engpassanalyse
 
 `Bottleneck/Engpass` — компонент или ресурс, ограничивающий выполнение текущей задачи.
 
@@ -559,7 +572,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 29. Praxisfall: FIAE-Arbeitsplatz
+## 30. Praxisfall: FIAE-Arbeitsplatz
 
 Требования:
 
@@ -590,7 +603,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 30. Vergleichsmatrix
+## 31. Vergleichsmatrix
 
 После Muss-Prüfung можно применить Nutzwertanalyse:
 
@@ -607,7 +620,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 31. Prüfungsalgorithmus
+## 32. Prüfungsalgorithmus
 
 1. Выделить Nutzungsszenario и пользователей.
 2. Составить Muss-Kriterien.
@@ -622,7 +635,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 32. Typische Prüfungsfallen
+## 33. Typische Prüfungsfallen
 
 | Falle | Korrektur |
 |---|---|
@@ -641,7 +654,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 33. Selbsttest
+## 34. Selbsttest
 
 1. Почему Hardwareauswahl начинается с Bedarf?
 2. Чем Muss отличается от Soll?
@@ -712,7 +725,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 34. Quellen und Abgleich
+## 35. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [FIAusbV und Ausbildungsrahmenplan – BIBB](https://www.bibb.de/dienst/berufesuche/de/index_berufesuche.php/regulation/VO_Fachinformatiker_2020.pdf)
@@ -724,7 +737,7 @@ Ergebnis и источник проверки документируются.
 
 ---
 
-## 35. Offene Prüfpunkte für den Unterricht
+## 36. Offene Prüfpunkte für den Unterricht
 
 - Насколько подробно WBS сравнивает CPU-Kennzahlen?
 - Ожидаются ли IPC, Cache и Hyper-Threading/SMT?

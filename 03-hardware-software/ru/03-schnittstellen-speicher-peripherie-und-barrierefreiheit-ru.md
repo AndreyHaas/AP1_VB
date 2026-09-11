@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Schnittstellen, Speicher, Peripherie und Barrierefreiheit
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-11
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-de.md
 ---
@@ -24,7 +24,7 @@ gegenstueck: ../de/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-de
 
 - различать Schnittstelle, Anschluss, Steckverbinder и Protokoll;
 - проверять механическую, электрическую, логическую и программную совместимость;
-- объяснять USB-A, USB-C, Datenrate и USB Power Delivery без ложных обобщений;
+- объяснять USB-A, USB-B, USB-C, Mini-/Micro-USB, Datenrate и USB Power Delivery без ложных обобщений;
 - оценивать DisplayPort, HDMI, Adapter и Dockingstation;
 - понимать роль PCIe-Lanes;
 - различать SATA, PCIe, NVMe, M.2 и внешние Speicher;
@@ -38,7 +38,20 @@ gegenstueck: ../de/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-de
 
 ---
 
-## 2. Prüfungsrahmen
+## 2. Prüfungsminimum — 15 Minuten
+
+1. Steckverbinderform, Übertragungsstandard, Signal, Stromversorgung и Funktion проверяются отдельно.
+2. USB-A/B/C — формы; из USB-C не следуют автоматически Datenrate, Video или Ladeleistung.
+3. USB-Kette Host–Kabel–Dock/Hub–Endgerät ограничена слабейшим звеном.
+4. USB PD требует совместимых Quelle, Verbraucher, Profil, Kabel; `P = U × I`.
+5. HDMI/DisplayPort выбирают по Auflösung, Bildrate, Farbtiefe, Displayzahl, Richtung, Kabel.
+6. SATA, PCIe, NVMe и M.2 не взаимозаменяемы; M.2 прежде всего Formfaktor.
+7. `1 Byte = 8 bit`; MB/GB — dezimal, MiB/GiB — binär.
+8. Peripherie/Oberfläche должны учитывать Zielgruppe, Ergonomie, Sicherheit, Treiber, Barrierefreiheit.
+
+> Der USB-C-Anschluss genügt als Nachweis nicht, da Port, Kabel und Dock den geforderten DisplayPort Alt Mode und die notwendige PD-Leistung unterstützen müssen.
+
+## 3. Prüfungsrahmen
 
 Типичные задания:
 
@@ -54,7 +67,7 @@ gegenstueck: ../de/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-de
 
 ---
 
-## 3. Пять уровней Schnittstelle
+## 4. Пять уровней Schnittstelle
 
 | Ebene | Frage | Beispiel |
 |---|---|---|
@@ -68,7 +81,7 @@ gegenstueck: ../de/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-de
 
 ---
 
-## 4. Begriffstrennung
+## 5. Begriffstrennung
 
 | Begriff | Bedeutung |
 |---|---|
@@ -85,7 +98,7 @@ gegenstueck: ../de/03-schnittstellen-speicher-peripherie-und-barrierefreiheit-de
 
 ---
 
-## 5. Datenrate, Durchsatz и Latenz
+## 6. Datenrate, Durchsatz и Latenz
 
 `Bruttodatenrate` включает служебные данные кодирования и протокола.
 
@@ -111,7 +124,7 @@ Nutzdurchsatz ≤ Bruttodatenrate
 
 ---
 
-## 6. Bit и Byte
+## 7. Bit и Byte
 
 ```text
 1 Byte = 8 bit
@@ -131,7 +144,7 @@ Nutzdurchsatz ≤ Bruttodatenrate
 
 ---
 
-## 7. USB: имя версии и маркетинг
+## 8. USB: имя версии и маркетинг
 
 При USB нужно проверять:
 
@@ -147,7 +160,7 @@ Nutzdurchsatz ≤ Bruttodatenrate
 
 ---
 
-## 8. USB-A и USB-C
+## 9. USB-A и USB-C
 
 `USB-A` и `USB-C` прежде всего описывают Bauform разъёма.
 
@@ -166,9 +179,35 @@ USB-C может поддерживать:
 
 Нужно проверять документацию порта, устройства и кабеля.
 
+### 8.1 USB-B, Mini-USB и Micro-USB
+
+| Bauform | Erkennungsmerkmal | typischer früherer/aktueller Einsatz |
+|---|---|---|
+| USB-A | плоский прямоугольный, несимметричный | Host, PC, Hub, Ladegerät |
+| USB-B | почти квадратный со скошенными углами | Drucker, Scanner, Messgerät |
+| USB 3.x Type-B | Type-B с дополнительным блоком контактов | более быстрые Drucker/Speicher |
+| Mini-B | маленький, похож на трапецию | старые Kameras и Geräte |
+| Micro-B | очень плоский, несимметричный | старые Smartphones/Peripherie |
+| USB 3.x Micro-B | широкий двойной блок | старые externe Festplatten |
+| USB-C | маленький, симметричный | современные Daten-, Lade-, Displayverbindungen |
+
+Буквы `A`, `B`, `C` описывают механическую Steckverbinderfamilie. USB 2.0, USB 3.2 и USB4 описывают technische Übertragungsstandards/Funktionen. Поэтому по форме нельзя определять Datenrate.
+
+### 8.2 Datenraten sicher lesen
+
+| explizite Angabe | theoretische Bruttodatenrate |
+|---|---:|
+| USB 2.0 High-Speed | 480 Mbit/s |
+| USB 3.2 Gen 1 | 5 Gbit/s |
+| USB 3.2 Gen 2 | 10 Gbit/s |
+| USB 3.2 Gen 2×2 | 20 Gbit/s |
+| USB4 | по реализации, например 20, 40 или 80 Gbit/s |
+
+USB-Markennamen неоднократно менялись. На экзамене надёжно опираться на явную Rate вместе с Steckverbinder, Richtung, PD, Alt Mode и Kabelanforderung.
+
 ---
 
-## 9. USB-Kette
+## 10. USB-Kette
 
 Функция работает, только если её поддерживают все необходимые звенья:
 
@@ -188,7 +227,7 @@ Host-Port → Kabel → Hub/Dock → Kabel → Endgerät
 
 ---
 
-## 10. USB Power Delivery
+## 11. USB Power Delivery
 
 Для питания важны:
 
@@ -214,7 +253,7 @@ P = U × I
 
 ---
 
-## 11. HDMI и DisplayPort
+## 12. HDMI и DisplayPort
 
 Оба стандарта передают цифровое Bild и обычно Audio. При выборе проверяются:
 
@@ -234,9 +273,34 @@ P = U × I
 
 > Zwei externe Monitore müssen gleichzeitig mit 2 560 × 1 440 Pixeln bei 60 Hz betrieben werden.
 
+### 11.1 Bildanschlüsse unterscheiden
+
+| Anschluss | Signal | wichtige Besonderheit |
+|---|---|---|
+| DisplayPort | digital, Bild und Audio | Full-Size/Mini DP; MST/Daisy Chain только при поддержке |
+| USB-C mit DP Alt Mode | DisplayPort-Signal через USB-C | явно проверить Alt Mode и Lanes/Funktionen |
+| HDMI Type A | digital, Bild und Audio | распространён у Monitor, TV, Projektor |
+| Mini-/Micro-HDMI | тот же Protokoll в меньшей форме | направление кабеля и механическая нагрузка |
+| DVI-D | digital | ограничения Link/Variante, Audio не предполагать |
+| DVI-I | digital и analog возможно | проверить Quelle, Adapter, Display |
+| VGA | analog | больше помех, нет цифровой передачи изображения |
+
+`DisplayPort Dual-Mode` с обозначением `DP++` может при подходящем источнике позволять пассивные Adapter к определённым HDMI-/DVI-Signale. Без этой функции или в другом направлении нужен aktiver Wandler.
+
+### 11.2 Weitere typische Arbeitsplatzanschlüsse
+
+| Anschluss | Zweck | Prüfpunkt |
+|---|---|---|
+| 8P8C, обычно RJ45 | Ethernet по Twisted Pair | Kategorie, Datenrate, PoE, Belegung |
+| 3,5-mm-Klinke TRS/TRRS | analoges Audio, ggf. Mikrofon | Kontaktbelegung и Geräteart |
+| TOSLINK | оптическое digitales Audio | поддерживаемый Audioformat |
+| SD/microSD | сменный Flash-Speicher | Formfaktor, Kapazitäts-/Geschwindigkeitsklasse |
+| eSATA | старое externe SATA-Verbindung | не предполагать общее питание |
+| PS/2 | старая Tastatur/Maus | Hot-Plug не считать гарантированным |
+
 ---
 
-## 12. Adapter: aktiv или passiv
+## 13. Adapter: aktiv или passiv
 
 `Passiver Adapter` меняет физическое соединение, когда источник уже может выдавать подходящий сигнал.
 
@@ -255,7 +319,7 @@ Adapter A→B не обязательно работает как B→A.
 
 ---
 
-## 13. Dockingstation
+## 14. Dockingstation
 
 Dockingstation объединяет несколько функций, поэтому нужна матрица:
 
@@ -273,7 +337,7 @@ Test `«Dock wird erkannt»` недостаточен. Нужно тестиро
 
 ---
 
-## 14. Thunderbolt и USB4
+## 15. Thunderbolt и USB4
 
 Эти технологии могут объединять Daten, Display, PCIe-Tunneling и питание, но конкретные возможности зависят от:
 
@@ -290,7 +354,7 @@ Test `«Dock wird erkannt»` недостаточен. Нужно тестиро
 
 ---
 
-## 15. PCI Express
+## 16. PCI Express
 
 PCIe — последовательная высокоскоростная Schnittstelle для GPU, Netzwerkadapter, NVMe и других устройств.
 
@@ -308,7 +372,7 @@ PCIe — последовательная высокоскоростная Schni
 
 ---
 
-## 16. Lane-Sharing
+## 17. Lane-Sharing
 
 На Mainboard ограниченное число PCIe-Lanes. Установка M.2-SSD может:
 
@@ -321,7 +385,7 @@ PCIe — последовательная высокоскоростная Schni
 
 ---
 
-## 17. SATA, PCIe, NVMe и M.2
+## 18. SATA, PCIe, NVMe и M.2
 
 | Begriff | Kategorie |
 |---|---|
@@ -341,7 +405,7 @@ PCIe — последовательная высокоскоростная Schni
 
 ---
 
-## 18. Interner и externer Speicher
+## 19. Interner и externer Speicher
 
 Внешний накопитель оценивается по всей цепочке:
 
@@ -358,7 +422,7 @@ PCIe — последовательная высокоскоростная Schni
 
 ---
 
-## 19. Decimal и binary Einheiten
+## 20. Decimal и binary Einheiten
 
 Производители Speicher обычно используют десятичные единицы:
 
@@ -387,7 +451,7 @@ PCIe — последовательная высокоскоростная Schni
 
 ---
 
-## 20. Speicherbedarf
+## 21. Speicherbedarf
 
 Расчёт начинается с Datenarten:
 
@@ -421,7 +485,7 @@ Betriebssystem
 
 ---
 
-## 21. Dateisystem и Kompatibilität
+## 22. Dateisystem и Kompatibilität
 
 Носитель может быть физически совместим, но непригоден из-за:
 
@@ -436,7 +500,7 @@ Betriebssystem
 
 ---
 
-## 22. Peripherie классификация
+## 23. Peripherie классификация
 
 | Kategorie | Beispiele |
 |---|---|
@@ -450,7 +514,7 @@ Betriebssystem
 
 ---
 
-## 23. Auswahl von Peripheriegeräten
+## 24. Auswahl von Peripheriegeräten
 
 Критерии:
 
@@ -469,7 +533,7 @@ Betriebssystem
 
 ---
 
-## 24. Drucker и Scanner
+## 25. Drucker и Scanner
 
 Для Drucker:
 
@@ -497,7 +561,7 @@ Betriebssystem
 
 ---
 
-## 25. Audio, Video и Kommunikation
+## 26. Audio, Video и Kommunikation
 
 Для Headset/Webcam/Mikrofon:
 
@@ -514,7 +578,7 @@ Betriebssystem
 
 ---
 
-## 26. Ergonomie и individuelle Anpassung
+## 27. Ergonomie и individuelle Anpassung
 
 Важны:
 
@@ -531,7 +595,7 @@ Betriebssystem
 
 ---
 
-## 27. Barrierefreiheit: цель
+## 28. Barrierefreiheit: цель
 
 Barrierefreiheit означает, что люди с различными возможностями могут информацию и функции:
 
@@ -546,7 +610,7 @@ Barrierefreiheit означает, что люди с различными во�
 
 ---
 
-## 28. POUR
+## 29. POUR
 
 WCAG группирует требования по четырём принципам:
 
@@ -561,7 +625,7 @@ POUR — Denkrahmen, а не полный Testplan.
 
 ---
 
-## 29. Wahrnehmbar
+## 30. Wahrnehmbar
 
 Возможные меры:
 
@@ -577,7 +641,7 @@ POUR — Denkrahmen, а не полный Testplan.
 
 ---
 
-## 30. Bedienbar
+## 31. Bedienbar
 
 Проверяется:
 
@@ -594,7 +658,7 @@ POUR — Denkrahmen, а не полный Testplan.
 
 ---
 
-## 31. Verständlich и robust
+## 32. Verständlich и robust
 
 `Verständlich`:
 
@@ -616,7 +680,7 @@ Placeholder не заменяет постоянный Label поля.
 
 ---
 
-## 32. Hardware-Hilfsmittel
+## 33. Hardware-Hilfsmittel
 
 В зависимости от индивидуальной потребности:
 
@@ -634,7 +698,7 @@ Placeholder не заменяет постоянный Label поля.
 
 ---
 
-## 33. WCAG, BITV 2.0 и BFSG
+## 34. WCAG, BITV 2.0 и BFSG
 
 | Regelwerk | Rolle | Typischer Bereich |
 |---|---|---|
@@ -654,7 +718,7 @@ BFSG применяется с 28.06.2025 к определённым попад
 
 ---
 
-## 34. Barrierefreiheit testen
+## 35. Barrierefreiheit testen
 
 Один automatischer Scanner недостаточен.
 
@@ -673,7 +737,7 @@ BFSG применяется с 28.06.2025 к определённым попад
 
 ---
 
-## 35. Abnahmekriterien
+## 36. Abnahmekriterien
 
 Плохое требование:
 
@@ -693,7 +757,7 @@ Abnahme фиксирует Testaufbau, ожидаемый результат и 
 
 ---
 
-## 36. Vollständiger Praxisfall
+## 37. Vollständiger Praxisfall
 
 Для сотрудника нужны:
 
@@ -725,7 +789,7 @@ Entscheidungssatz:
 
 ---
 
-## 37. Fehleranalyse
+## 38. Fehleranalyse
 
 Если периферия не работает:
 
@@ -742,7 +806,7 @@ Entscheidungssatz:
 
 ---
 
-## 38. Typische Prüfungsfallen
+## 39. Typische Prüfungsfallen
 
 | Falle | Korrektur |
 |---|---|
@@ -761,7 +825,7 @@ Entscheidungssatz:
 
 ---
 
-## 39. Selbsttest
+## 40. Selbsttest
 
 1. Назови пять уровней Schnittstelle.
 2. Чем Steckverbinder отличается от Protokoll?
@@ -832,7 +896,7 @@ Entscheidungssatz:
 
 ---
 
-## 40. Quellen und Abgleich
+## 41. Quellen und Abgleich
 
 - [§ 9 FIAusbV – Prüfungsbereich Teil 1](https://www.gesetze-im-internet.de/fiausbv/__9.html)
 - [USB-IF – Cables and Connectors](https://www.usb.org/document-library/cables-and-connectors)
@@ -846,7 +910,7 @@ Entscheidungssatz:
 
 ---
 
-## 41. Offene Prüfpunkte für den Unterricht
+## 42. Offene Prüfpunkte für den Unterricht
 
 - Какие USB-Bezeichnungen использует WBS?
 - Требуется ли USB-PD-Rechnung?

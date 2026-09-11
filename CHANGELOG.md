@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.5.0 – 11.09.2026
+
+- Vollständigkeitsprüfung gegen FIAusbV/BIBB, aktuellen Prüfungskatalog, WBS-Rückmeldungen und historische AP1-Themen erneut durchgeführt.
+- Neun zusätzliche zweisprachige Kapitelpaare 44–52 ergänzt: Unternehmen/Organisation, Zahlensysteme/Encoding, Multimedia/Kamera, Elektrotechnik/USV, ITSM/ITIL, Handelskalkulation, QoS/VoIP und arbeitsplatznahe Diagnose.
+- Dual-, Oktal-, Dezimal- und Hexadezimalumrechnung sowie ASCII, Unicode, UTF-8, Prüfziffern und Parität mit Rechenwegen aufgenommen.
+- Außenkamera mit Gehäuseheizung, IP-Schutzart, Betriebstemperatur, PoE-Leistungsbudget, Video-Bitrate und Speicherbedarf als vollständigen Fall ergänzt.
+- Wirk-, Blind- und Scheinleistung, Leistungsfaktor, USV-Klassen VFD/VI/VFI sowie Laufzeitabschätzung ergänzt.
+- ITIL-Begriffe Incident, Request, Problem, Change, SLA/OLA sowie ISMS, Sicherheitsrollen, Passwort-Policy und NAS-Verfügbarkeit verbunden; parallele Verfügbarkeit von ITIL 4 und Version 5 im September 2026 vermerkt.
+- Vollständige Handelskalkulation mit Vorwärts-, Rückwärts-, Differenz-, Vor- und Nachkalkulation sowie Rechnungsprüfung und Vertragsstörungen ergänzt.
+- QoS, DSCP, SIP/RTP/RTCP, VoIP-Bandbreite und wichtige Netzwerkdienste/Ports aufgenommen.
+- Technisches Englisch, Client-Server/P2P, Remotezugriff, Bash/PowerShell, UI-Entwurf sowie die Unterschiede von ping, tracert/traceroute, ipconfig/ip, nslookup/dig, netstat/ss und weiteren Diagnosebefehlen ergänzt.
+- Bestehende Schnittstellenkapitel um USB-A/B/C, Mini-/Micro-USB, explizite USB-Datenraten, DisplayPort, HDMI, DVI, VGA, RJ45 und Audio-/Speicheranschlüsse erweitert.
+- Zentralen Fachbegriffe-Katalog DE–RU mit Definition und Kapitelbezug sowie dokumentierten Altfragen-Transfer erstellt.
+- Fehlendes `Prüfungsminimum — 15 Minuten` in den ersten zehn Kapitelpaaren nachgezogen und die Abschnittsnummern beider Sprachen synchronisiert.
+- Themenmatrix, Lernstand, Quellen, README und Lernplan bis 28.09.2026 auf 52 Kapitelpaare aktualisiert.
+
 ## 1.4.0 – 11.09.2026
 
 - Die letzten drei vertieften zweisprachigen Kapitelpaare zu Verträgen, Übergabe und prüfungsnahen Mischrechnungen ergänzt.
@@ -141,6 +157,5 @@
 
 ## Nächste geplante Version
 
-- Offene Kern-Themen aus `LERNSTAND.md` vertiefen.
-- WBS-Korrekturen mit Datum und Quelle einpflegen.
-- Aufgabenserien und vollständige 90-Minuten-Simulationen ergänzen.
+- Zwei vollständige 90-Minuten-Simulationen mit gemischten Aufgaben und getrennten Lösungen ergänzen.
+- WBS-Korrekturen mit Datum und Quelle in die betroffenen Kapitel einpflegen.
