@@ -84,7 +84,7 @@ de/<nummer>-<thema>-de.md
 
 ## Текущий результат
 
-По состоянию на `11.09.2026` полностью подготовлены тридцать пять самостоятельных пар RU/DE из 43 запланированных глав. Главы 31–35 закрывают Qualitätssicherung, Schutzziele, Risikobewertung, Schutzbedarf, Härtung, Patchmanagement, Malware, Social Engineering, Identitäten, MFA, Passwortsicherheit, Kryptografie, PKI и TLS. Следующий пакет начинается с Datenschutz, Backup и Verfügbarkeit.
+По состоянию на `11.09.2026` полностью подготовлены сорок самостоятельных пар RU/DE из 43 запланированных глав. Главы 36–40 закрывают Datenschutz, Rechtsgrundlagen, Betroffenenrechte, TOM, Datenschutzvorfälle, Backup, Restore, Verfügbarkeit, SLA, Redundanz и Supportprozess. Следующий и последний пакет охватывает Verträge, Abnahme и расчётные задачи.
 
 ## Статусы
 

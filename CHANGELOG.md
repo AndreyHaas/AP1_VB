@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.0 – 11.09.2026
+
+- Fünf vertiefte zweisprachige Kapitelpaare zu Datenschutz, Datensicherung, Verfügbarkeit und Service ergänzt.
+- Personenbezogene und besondere Datenkategorien, DSGVO-Grundsätze, Rollen sowie Rechtsgrundlagen systematisch abgegrenzt.
+- Betroffenenrechte, Informations- und Meldewege, TOM, Datenschutzverletzungen, Pseudonymisierung, Anonymisierung sowie Privacy by Design und Default in Fällen angewendet.
+- Voll-, differenzielle und inkrementelle Sicherung, Generationenprinzip, 3-2-1-1-0, Medienauswahl, RPO/RTO und Restore-Test verbunden.
+- Verfügbarkeitsrechnung, SLA-Messgrößen, Reihen- und Parallelsysteme, Redundanz, Replikation sowie Wiederanlauf vertieft.
+- Ticketinhalt, Auswirkung und Dringlichkeit, Priorisierung, funktionale und hierarchische Eskalation, Reaktions- und Lösungszeit erklärt.
+- Zwölf vollständig migrierte alte Mischtexte entfernt; Navigation, Quellen und Lernstand auf 40 RU/DE-Kapitelpaare aktualisiert.
+
 ## 1.2.0 – 11.09.2026
 
 - Fünf vertiefte zweisprachige Kapitelpaare zu Qualitätssicherung, Informationssicherheit, Härtung, Identitäten und Kryptografie ergänzt.

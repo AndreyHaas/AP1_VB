@@ -51,9 +51,11 @@ Stand: 11.09.2026.
 | Härtung, Patchmanagement, Malware und Social Engineering | Kern | новая двуязычная глава | Entwurf | Priorisierung и Incident-Fälle повторить |
 | Identitäten, Berechtigungen, MFA und Passwortsicherheit | Kern | новая двуязычная глава | Entwurf | Faktor-, RBAC- и Rechteprüfungen тренировать |
 | Hashing, Verschlüsselung, Signatur, Zertifikate und TLS | Kern | новая двуязычная глава | Entwurf | Schlüsselrollen, Zertifikatsprüfung и TLS-Ablauf повторить |
-| Datenschutz und DSGVO | Kern | много | In Arbeit | Informationspflichten, Löschkonzept и Fälle углубить |
-| Backup und Wiederherstellung | Kern | частично | In Arbeit | Medien, Restore-Test, Aufbewahrung и 3-2-1-Regel дополнить |
-| Service und Support | Kern | частично | In Arbeit | Ticket, Priorität, Eskalation и SLA углубить |
+| Datenschutz: Datenarten, Grundsätze, Rollen und Rechtsgrundlagen | Kern | новая двуязычная глава | Entwurf | Rechtsgrundlage, Zweckbindung и Rollen in Fällen begründen |
+| Datenschutz: Rechte, TOM, Vorfälle, Pseudonymisierung und Privacy by Design | Kern | новая двуязычная глава | Entwurf | Fristen, Risikobewertung и TOM-Fälle без подсказки решить |
+| Backup: Sicherungsarten, GVS, Medien und Restore | Kern | новая двуязычная глава | Entwurf | Sicherungsketten, RPO/RTO и Restoreplan тренировать |
+| Verfügbarkeit, SLA, Redundanz und Wiederanlauf | Kern | новая двуязычная глава | Entwurf | Ausfallzeiten, Reihen-/Parallelsysteme и Wiederanlauf rechnen |
+| Service und Support: Ticket, Priorität, Eskalation und SLA | Kern | новая двуязычная глава | Entwurf | Priorisierung, Eskalation и SLA-Uhr in Fällen anwenden |
 | Verträge, Abnahme und Übergabe | Abgleich | частично | In Arbeit | Verzug, Mängelrechte и Abnahmefälle сверить с WBS |
 | Prüfungssimulationen | Kern | нет | Geplant | создавать после покрытия и повторения основных глав |
 
@@ -68,7 +70,7 @@ Stand: 11.09.2026.
 
 ## Текущий результат миграции
 
-Полностью новому углублённому двуязычному стандарту сейчас соответствуют тридцать пять пар:
+Полностью новому углублённому двуязычному стандарту сейчас соответствуют сорок пар:
 
 1. `Projektgrundlagen, SMART und Projektphasen`;
 2. `Vorgehensmodelle und Planungswerkzeuge`;
@@ -104,13 +106,18 @@ Stand: 11.09.2026.
 32. `IT-Sicherheit: Schutzziele, Risiko, Maßnahmen und Schutzbedarf`;
 33. `Härtung, Patchmanagement, Malware und Social Engineering`;
 34. `Identitäten, Berechtigungen, MFA und Passwortsicherheit`;
-35. `Hashing, Verschlüsselung, Signatur, Zertifikate und TLS`.
+35. `Hashing, Verschlüsselung, Signatur, Zertifikate und TLS`;
+36. `Datenschutz: Datenarten, Grundsätze, Rollen und Rechtsgrundlagen`;
+37. `Datenschutz: Rechte, TOM, Vorfälle, Pseudonymisierung und Privacy by Design`;
+38. `Backup: Sicherungsarten, GVS, Medien und Restore`;
+39. `Verfügbarkeit, SLA, Redundanz und Wiederanlauf`;
+40. `Service und Support: Ticket, Priorität, Eskalation und SLA`.
 
 Остальные Markdown-файлы являются полезным исходным материалом, но ещё не считаются завершёнными главами нового формата.
 
 ## Самые крупные пробелы перед Prüfungsvorbereitung
 
-1. Закрыть последние восемь глав: Datenschutz, Backup, Service, Verträge и расчёты.
+1. Закрыть последние три главы: Verträge, Abnahme и расчётные задачи.
 2. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting и Datenmengen.
 3. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
 4. Самостоятельное построение UML- и ER-Modelle.

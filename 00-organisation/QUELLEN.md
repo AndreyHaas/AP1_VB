@@ -194,6 +194,31 @@ In den einzelnen Kapiteln werden zusätzlich geeignete Primärquellen verwendet:
 - [RFC 9846 – TLS 1.3](https://datatracker.ietf.org/doc/html/rfc9846)
   - Seit Juli 2026 aktuelle TLS-1.3-Spezifikation; ersetzt RFC 8446 bei gleichbleibender TLS-Versionsnummer.
 
+### Datenschutz und DSGVO
+
+- [Datenschutz-Grundverordnung – DSGVO](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+  - Verbindlicher Primärtext für Begriffe, Grundsätze, Rechtsgrundlagen, Rollen, Rechte, Datenschutz durch Technikgestaltung, Sicherheit und Meldung von Verletzungen.
+- [BfDI – Datenschutz-Grundverordnung](https://www.bfdi.bund.de/DE/Fachthemen/Inhalte/Europa-Internationales/DSGVO.html)
+  - Amtliche deutschsprachige Orientierung und weiterführende Materialien der Bundesbeauftragten.
+- [BfDI – Betroffenenrechte](https://www.bfdi.bund.de/DE/Buerger/Inhalte/Allgemein/Datenschutz/Betroffenenrechte.html)
+  - Amtliche Übersicht zu Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit.
+- [EDPB – Guidelines 9/2022 on personal data breach notification](https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-92022-personal-data-breach-notification-under_en)
+  - Europäische Leitlinien für risikobasierte Meldungen und Benachrichtigungen nach Art. 33 und 34 DSGVO.
+
+### Backup, Verfügbarkeit und Wiederanlauf
+
+- [BSI IT-Grundschutz-Kompendium](https://www.bsi.bund.de/grundschutz-kompendium)
+  - Anforderungen und Maßnahmen zu Datensicherung, Wiederherstellung, Notfallvorsorge, Verfügbarkeit und sicherem Betrieb; Edition aktuell prüfen.
+- [NIST SP 800-34 Rev. 1 – Contingency Planning Guide](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+  - Herstellerneutrale Grundlage für Business Impact Analysis, Wiederanlaufprioritäten, Recovery-Strategien, Pläne, Tests und Pflege.
+
+### Service und Support
+
+- [FIAusbV § 9](https://www.gesetze-im-internet.de/fiausbv/__9.html)
+  - Verbindet Einrichten, Testen, Einweisen, Leistungskontrolle und Protokollierung mit dem AP1-Prüfungsbereich.
+- [BIBB – Fachinformatiker/Fachinformatikerin: Umsetzungshilfe](https://www.bibb.de/dienst/publikationen/de/16661)
+  - Ausbildungsbezogene Einordnung von Kundenorientierung, Serviceprozessen, Dokumentation und beruflicher Handlungskompetenz.
+
 ## Quellenregeln
 
 - Zeitabhängige Angaben erhalten ein `Stand`-Datum.

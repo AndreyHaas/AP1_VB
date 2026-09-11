@@ -55,11 +55,11 @@ Stand: 11.09.2026.
 | 33 | Härtung, Patchmanagement, Malware und Social Engineering | Kern | новая двуязычная глава | Entwurf |
 | 34 | Identitäten, Berechtigungen, MFA und Passwortsicherheit | Kern | новая двуязычная глава | Entwurf |
 | 35 | Hashing, Verschlüsselung, Signatur, Zertifikate und TLS | Kern | новая двуязычная глава | Entwurf |
-| 36 | Datenschutz: Datenarten, Grundsätze, Rollen, Rechtsgrundlagen | Kern | mehrere TXT | Geplant |
-| 37 | Datenschutz: Rechte, TOM, Vorfälle, Pseudonymisierung, Privacy by Design | Kern | mehrere TXT | Geplant |
-| 38 | Backup: Voll/differenziell/inkrementell, GVS, Medien, Restore | Kern | Backup | Geplant |
-| 39 | Verfügbarkeit, SLA, Redundanz und Wiederanlauf | Kern | SLA/Verfügbarkeit | Geplant |
-| 40 | Service und Support: Ticket, Priorität, Eskalation, SLA | Kern | частичный MD | Geplant |
+| 36 | Datenschutz: Datenarten, Grundsätze, Rollen, Rechtsgrundlagen | Kern | новая двуязычная глава | Entwurf |
+| 37 | Datenschutz: Rechte, TOM, Vorfälle, Pseudonymisierung, Privacy by Design | Kern | новая двуязычная глава | Entwurf |
+| 38 | Backup: Voll/differenziell/inkrementell, GVS, Medien, Restore | Kern | новая двуязычная глава | Entwurf |
+| 39 | Verfügbarkeit, SLA, Redundanz und Wiederanlauf | Kern | новая двуязычная глава | Entwurf |
+| 40 | Service und Support: Ticket, Priorität, Eskalation, SLA | Kern | новая двуязычная глава | Entwurf |
 | 41 | Verträge, Abnahme, Mängel und Übergabe | Abgleich | частичный MD | Geplant |
 | 42 | Rechnen: Einheiten, Datenmenge, Übertragungszeit, Bilddateien | Kern | mehrere TXT | Geplant |
 | 43 | Rechnen: Stromkosten, Verfügbarkeit und kaufmännische Mischaufgaben | Kern | mehrere TXT | Geplant |
