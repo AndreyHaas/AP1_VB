@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Netzwerkmodelle, Kapselung, TCP, UDP und Ports
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-15
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-de.md
 ---
@@ -93,6 +93,18 @@ Portnummer  → приложение или служба на узле
 | 3 | Vermittlung | логическая адресация и маршрутизация | IP; Paket | IPv4, IPv6, ICMP, Router |
 | 2 | Sicherung | передача в локальном сегменте | MAC; Frame | Ethernet, WLAN, VLAN, Switch |
 | 1 | Bitübertragung | сигнал и среда | Bits | Kupfer, LWL, Funk, Repeater |
+
+Типичные Kopplungselemente классифицируются по фактически анализируемой информации:
+
+| Ebene | typisches Element | Решение по |
+|---:|---|---|
+| 7 | Application Gateway, Proxy, Content-Switch | Anwendungsinhalt/Protokoll |
+| 4 | Layer-4-Switch или Load Balancer | Transportprotokoll и Ports |
+| 3 | Router, Layer-3-Switch | IP-Adresse и Routingtabelle |
+| 2 | Bridge, Layer-2-Switch | MAC-Adresse |
+| 1 | Repeater, Hub, Medium | Signal/Bits |
+
+Одно Gerät может анализировать несколько Ebenen. Поэтому одного Produktname недостаточно; в Prüfung действуют указанная Funktion и заданная Modell.
 
 В задании нужно использовать модель, указанную в условии. Не следует спорить о пограничном протоколе, если проверяется основная функция уровня.
 
@@ -438,6 +450,7 @@ Port `443` идентифицирует Endpunkt HTTPS. HTTP-Statuscode — от
 23. Выбери TCP или UDP для передачи резервной копии и обоснуй.
 24. Определи уровень проблемы: Link отсутствует.
 25. Определи уровень проблемы: IP доступен, TCP 443 закрыт.
+26. Сопоставь Router, Bridge, Repeater и Application Proxy с типичными OSI-Ebenen.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -467,6 +480,7 @@ Port `443` идентифицирует Endpunkt HTTPS. HTTP-Statuscode — от
 23. TCP, так как требуется полная и упорядоченная передача.
 24. Сначала Layer 1, затем локальный Layer 2.
 25. Layer 3 работает; проверять Layer 4 и Dienst/Firewall выше.
+26. Router: 3; Bridge: 2; Repeater: 1; Application Proxy: 7. Конкретная Funktion важнее названия.
 
 </details>
 

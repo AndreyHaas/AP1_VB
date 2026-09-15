@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Künstliche Intelligenz
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-15
 sprache: Deutsch
 gegenstueck: ../ru/01-ki-grundlagen-einsatz-bewertung-risiken-und-datenschutz-ru.md
 ---
@@ -87,6 +87,17 @@ Klassische Regeln liefern bei gleichen Eingaben gewöhnlich reproduzierbare Erge
 - Anomalien priorisieren;
 - Wissenssuche mit Quellen unterstützen;
 - Barrierefreiheit durch alternative Formulierungen unterstützen.
+
+Netzwerkbezogene Beispiele:
+
+| Ziel | möglicher KI-Beitrag | notwendige Kontrolle |
+|---|---|---|
+| Überwachung | ungewöhnliche Verkehrs- oder Messmuster priorisieren | Baseline, False Positives und Drift überwachen |
+| Wartung | Ausfallwahrscheinlichkeit aus Telemetrie schätzen | Herstellergrenzen, Messqualität und menschliche Entscheidung prüfen |
+| Sicherheit | verdächtige Aktivitäten, Phishing oder Malwaremerkmale klassifizieren | Defense in Depth; KI ersetzt Firewall, IDS/IPS und Fachprüfung nicht |
+| Service Desk | Anliegen zusammenfassen, kategorisieren und zuweisen | Datenschutz, kritische Eskalationen und menschliche Freigabe |
+
+„Proaktive Wartung“ ist eine Prognose mit Unsicherheit, keine sichere Vorhersage. Automatische Konfigurationsänderungen benötigen Freigabe, Rückrollplan, Protokollierung und Wirksamkeitstest.
 
 Hohe Eignung besteht bei klarer Aufgabe, prüfbarem Ergebnis, beherrschbarem Fehler und geeigneten Daten. Geringere Eignung besteht bei nicht rückholbaren Entscheidungen über Menschen ohne wirksame Kontrolle.
 
@@ -236,6 +247,7 @@ Genauigkeit = 170 / 200 × 100 % = 85 %
 10. Ordne den AI Act auf Grundniveau risikobasiert ein.
 11. Berechne die Genauigkeit bei 450 korrekten von 500 Fällen.
 12. Bewerte: „Menschliche Kontrolle löst jedes KI-Risiko.“
+13. Nenne je einen sinnvollen KI-Einsatz für Netzwerküberwachung und Wartung sowie je ein erforderliches Kontrollmittel.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -252,6 +264,7 @@ Genauigkeit = 170 / 200 × 100 % = 85 %
 10. Verbote, Hochrisiko, Transparenz, geringe/minimale Risiken und GPAI-Regeln je nach Zweck/Rolle.
 11. `450 / 500 × 100 % = 90 %`.
 12. Falsch; Kontrolle muss kompetent, unabhängig, rechtzeitig und technisch wirksam sein, Restrisiken bleiben.
+13. Zum Beispiel Anomaliepriorisierung mit Überwachung von False Positives; Ausfallprognose mit geprüfter Telemetrie und menschlicher Freigabe.
 
 </details>
 

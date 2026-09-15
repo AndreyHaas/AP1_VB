@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Künstliche Intelligenz
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-15
 sprache: Russisch
 gegenstueck: ../de/01-ki-grundlagen-einsatz-bewertung-risiken-und-datenschutz-de.md
 ---
@@ -87,6 +87,17 @@ Neue Eingabe → Vorverarbeitung → Inferenz → Ausgabe → menschliche/techni
 - приоритизация Anomalien;
 - Wissenssuche с Quellen;
 - помощь Barrierefreiheit альтернативными формулировками.
+
+Примеры для Netzwerk:
+
+| Ziel | возможный KI-Beitrag | необходимый контроль |
+|---|---|---|
+| Überwachung | приоритизация необычных Muster трафика или Messwerte | контролировать Baseline, False Positives и Drift |
+| Wartung | оценка Ausfallwahrscheinlichkeit по Telemetrie | проверять Herstellergrenzen, Messqualität и решение человека |
+| Sicherheit | классификация verdächtige Aktivitäten, Phishing или Malwaremerkmale | Defense in Depth; KI не заменяет Firewall, IDS/IPS и Fachprüfung |
+| Service Desk | суммирование, Kategorisierung и Zuweisung Anliegen | Datenschutz, kritische Eskalationen, menschliche Freigabe |
+
+`Proaktive Wartung` — прогноз с неопределённостью, а не точное предсказание. Автоматические Konfigurationsänderungen требуют Freigabe, Rückrollplan, Protokollierung и Wirksamkeitstest.
 
 Высокая пригодность: ясная Aufgabe, проверяемый Ergebnis, контролируемый Fehler, подходящие Daten. Низкая: необратимые решения о людях без wirkliche Kontrolle.
 
@@ -236,6 +247,7 @@ Genauigkeit = 170 / 200 × 100 % = 85 %
 10. Дай базовую risikobasierte Einordnung AI Act.
 11. Рассчитай Genauigkeit: 450 правильных из 500.
 12. Оцени: «Menschliche Kontrolle решает любой KI-Risiko».
+13. Назови по одному KI-Einsatz для Netzwerküberwachung и Wartung и по одному Kontrollmittel.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -252,6 +264,7 @@ Genauigkeit = 170 / 200 × 100 % = 85 %
 10. Verbote, Hochrisiko, Transparenz, geringe/minimale Risiken и GPAI по Zweck/Rolle.
 11. `450 / 500 × 100 % = 90 %`.
 12. Неверно: контроль должен быть kompetent, unabhängig, rechtzeitig, technisch wirksam; Restrisiken остаются.
+13. Например, Anomaliepriorisierung с контролем False Positives; Ausfallprognose с проверенной Telemetrie и menschliche Freigabe.
 
 </details>
 

@@ -4,6 +4,8 @@ Prüfung: `30.09.2026`
 Ziel: spätestens am `28.09.2026` prüfungsbereit sein.  
 Der `29.09.2026` bleibt als Puffer- und Erholungstag ohne neuen Stoff.
 
+Neu geplant am `15.09.2026` ab einem noch nicht begonnenen ersten Durchgang. Die Reihenfolge gewichtet die vom Nutzer bereitgestellte U-Form-Ergänzung Frühjahr 2025: der breite Komplex Programmierwerkzeuge mit Code, UML und UI zuerst, danach Leistungsfähigkeit/Energie, Systemeinrichtung/Test und Sicherheit. Die Häufigkeiten aus sieben Prüfungen sind Priorisierungshilfe, keine Vorhersage der nächsten Prüfung.
+
 ## Arbeitsregel
 
 Jeden Lerntag:
@@ -21,23 +23,20 @@ Nicht jede Zeile muss auswendig gelernt werden. Beherrscht werden müssen Begrif
 
 | Datum | Kapitel | Ziel |
 |---|---|---|
-| 12.09. | 01–02, 44–45 | Projekt, Unternehmen, Organisation, Team und Change |
-| 13.09. | 03–05 | Kundenbedarf, Kommunikation und Beschaffung |
-| 14.09. | 06–07, 43, 50 | Wirtschaftlichkeit, Mischrechnung und Handelskalkulation |
-| 15.09. | 08–10, 48 | Hardware, Schnittstellen, Ergonomie, Elektrotechnik und USV |
-| 16.09. | 11–13 | Software, Cloud und Systemeinrichtung |
-| 17.09. | 14–15, 52 | Rechte, Systemtest, technisches Englisch, Befehle und Shell |
-| 18.09. | 16–20 | Netzwerkmodelle, DNS/DHCP, IPv4/IPv6, Routing/NAT |
-| 19.09. | 21–24, 51 | Ethernet/WLAN, VLAN, Firewall, VPN, QoS/VoIP und Dienste |
-| 20.09. | 25–27 | Programmierung, Codefehler und UML |
-| 21.09. | 28–30 | Relationale Datenbanken, BPMN und KI |
-| 22.09. | 31–35 | Qualität, Sicherheitsgrundlagen, Härtung, Identitäten und Kryptografie |
-| 23.09. | 36–38 | Datenschutz und Backup |
-| 24.09. | 39–41, 49 | Verfügbarkeit, Service/ITIL, ISMS und Verträge |
-| 25.09. | 42, 46–47 | Einheiten, Zahlensysteme, Encoding, Multimedia und Kamera |
-| 26.09. | [Simulation 1](../12-pruefungssimulationen/simulation-01-arbeitsplatz-einrichten.md) | 90 Minuten, danach Korrektur mit getrennter Lösung |
-| 27.09. | [Simulation 2](../12-pruefungssimulationen/simulation-02-netzwerk-und-sicherheit.md) | 90 Minuten, danach Fehlerkorrektur und Wiederholungsauftrag |
-| 28.09. | Wiederholung | Formeln, 100 unsichere Begriffe, Fehlerliste, keine neue Theorie |
+| 15.09. | 25–26 | Programmierwerkzeuge, Pseudocode, 2D-Arrays, Schreibtischtest, Codefehler und Algorithmen |
+| 16.09. | 27, 29–30; K10/K52 UI-Abschnitte | UML, BPMN, KI sowie Softwareergonomie, Barrierefreiheit und Corporate Design |
+| 17.09. | 08–10, 47–48 | Leistung/Energie, Hardware, Schnittstellen, Multimedia/Kamera und USV |
+| 18.09. | 11–15, 52 | Softwareauswahl, Cloud, Systemeinrichtung, Rechte, Test, Dokumentation, PowerShell und Diagnose |
+| 19.09. | 31–35 | Qualität, Sicherheitskonzept, Risiko, Härtung, Identitäten, Kryptografie und TLS |
+| 20.09. | 28, 36–37, 41 | Relationale Datenbanken, Datenschutz und Verträge/Vertragsstörungen |
+| 21.09. | 16–20 | OSI/Kopplungselemente, DNS/DHCP, IPv4/IPv6, Routing/NAT |
+| 22.09. | 21–24, 51 | Ethernet/WLAN, VLAN, Firewall, VPN, QoS/VoIP und Netzwerkdienste |
+| 23.09. | 06–07, 42–43, 46, 50 | Wirtschaftlichkeit, Daten-/Stromrechnung, Zahlensysteme und Handelskalkulation |
+| 24.09. | 01–05, 44–45 | Projekt, Kundenbedarf, Beschaffung, Markt, Organisation, Team und Change |
+| 25.09. | 38–40, 49; Wiederholung | Backup, Verfügbarkeit, Service/ITIL und gezielte rote Themen; abends Kontrollblock 03 |
+| 26.09. | [Simulation 1](../12-pruefungssimulationen/simulation-01-arbeitsplatz-einrichten.md) | 90 Minuten unter Prüfungsbedingungen und Erstkorrektur |
+| 27.09. | Fehlerkorrektur | rote Themen aus Kontrollblock/Simulation 1 gezielt nacharbeiten |
+| 28.09. | [Simulation 2](../12-pruefungssimulationen/simulation-02-netzwerk-und-sicherheit.md) | 90 Minuten, Endkorrektur und kompakte Fehlerliste |
 | 29.09. | Puffer | nur leichtes Wiederholen, Schlaf und Organisation |
 
 ## Zeit pro normalem Lerntag
@@ -68,7 +67,7 @@ Nach jedem Kapitel:
 - `Gelb` — Begriffe bekannt, Anwendung noch unsicher;
 - `Rot` — weniger als 50 % oder kein selbstständiger Lösungsweg.
 
-Ab dem 20.09. werden in jedem Aufgabenblock zuerst rote, dann gelbe Themen bearbeitet. Grüne Themen werden nur kurz aktiv abgefragt.
+Ab dem 20.09. werden in jedem Aufgabenblock zuerst rote, dann gelbe Themen bearbeitet. Grüne Themen werden nur kurz aktiv abgefragt. Der Kontrollblock wird erst nach dem ersten Stoffdurchgang am 25.09. geschrieben.
 
 ## Prüfungsbedingungen
 

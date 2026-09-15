@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Netzwerkmodelle, Kapselung, TCP, UDP und Ports
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-15
 sprache: Deutsch
 gegenstueck: ../ru/01-netzwerkmodelle-kapselung-tcp-udp-und-ports-ru.md
 ---
@@ -93,6 +93,18 @@ Ein Schichtenmodell ist ein Analysewerkzeug. Reale Protokolle passen nicht immer
 | 3 | Vermittlung | logische Adressierung und Routing | IP; Paket | IPv4, IPv6, ICMP, Router |
 | 2 | Sicherung | Übertragung im lokalen Segment | MAC; Frame | Ethernet, WLAN, VLAN, Switch |
 | 1 | Bitübertragung | Signal und Medium | Bits | Kupfer, LWL, Funk, Repeater |
+
+Typische Kopplungselemente werden nach ihrer tatsächlich ausgewerteten Information eingeordnet:
+
+| Ebene | typisches Element | Entscheidung anhand von |
+|---:|---|---|
+| 7 | Application Gateway, Proxy, Content-Switch | Anwendungsinhalt/Protokoll |
+| 4 | Layer-4-Switch oder Load Balancer | Transportprotokoll und Ports |
+| 3 | Router, Layer-3-Switch | IP-Adresse und Routingtabelle |
+| 2 | Bridge, Layer-2-Switch | MAC-Adresse |
+| 1 | Repeater, Hub, Medium | Signal/Bits |
+
+Ein Gerät kann mehrere Ebenen auswerten. Deshalb entscheidet nicht der Produktname allein; in einer Prüfungsaufgabe haben die angegebene Funktion und das vorgegebene Modell Vorrang.
 
 In einer Aufgabe ist das vorgegebene Modell anzuwenden. Bei einem Grenzfall zählt die geprüfte Hauptfunktion, nicht ein Streit über jede Implementierungsnuance.
 
@@ -438,6 +450,7 @@ Die Aussage „Netzwerk kaputt“ ist zu ungenau.
 23. Wähle TCP oder UDP für eine Sicherungsdatei und begründe.
 24. Ordne ein: Link ist nicht vorhanden.
 25. Ordne ein: IP ist erreichbar, TCP 443 ist geschlossen.
+26. Ordne Router, Bridge, Repeater und Application Proxy den typischen OSI-Ebenen zu.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -467,6 +480,7 @@ Die Aussage „Netzwerk kaputt“ ist zu ungenau.
 23. TCP, da vollständige und geordnete Übertragung gefordert ist.
 24. Zuerst Layer 1, anschließend lokaler Layer 2.
 25. Layer 3 funktioniert; Layer 4 sowie Dienst und Firewall sind zu prüfen.
+26. Router: 3; Bridge: 2; Repeater: 1; Application Proxy: 7. Die konkrete Funktion hat Vorrang.
 
 </details>
 

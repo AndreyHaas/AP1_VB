@@ -73,6 +73,8 @@ Stand: 11.09.2026.
 | Englisch/Remotearbeit/Shell | Kapitel 52 | английский текст, RDP/SSH/VPN, PowerShell/Bash, sichere Diagnose |
 | Webentwicklung | Kapitel 52 | HTML/CSS/JavaScript, GET/POST, Statusklassen, serverseitige Validierung, XSS/CSRF |
 | Programmiersprache auswählen | Kapitel 25 | Compiler/Interpreter/JIT и выбор по Plattform, Bibliotheken, Qualität, Betrieb и Team |
+| Programmierwerkzeuge | Kapitel 25 | IDE, Debugger/Breakpoints, Step Into/Over/Out, Versionsverwaltung, Build, Tests и statische Analyse |
+| U-Form-Ergänzung Frühjahr 2025 | Kapitel 10, 16, 25–27, 30, 52 | UML, UI/Barrierefreiheit, 2D-Array/Codekorrektur, PowerShell-Vergleiche, OSI-Kopplungselemente und KI-Netzwerkfälle |
 | Vertragsstörungen | Kapitel 41 и 50 | Nicht-/Spät-/Schlecht-/Falsch-/Minderlieferung и Voraussetzungen |
 
 ## 5. Что сознательно не переносится обратно в AP1

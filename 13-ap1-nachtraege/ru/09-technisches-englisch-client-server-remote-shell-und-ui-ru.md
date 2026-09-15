@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Technisches Englisch, Client-Server, Remotezugriff, Shell und UI-Entwurf
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-11
+stand: 2026-09-15
 sprache: Russisch mit deutschen Fachbegriffen
 gegenstueck: ../de/09-technisches-englisch-client-server-remote-shell-und-ui-de.md
 ---
@@ -145,6 +145,16 @@ Write-Output "Keine ICMP-Antwort"
 exit 1
 ```
 
+Основные PowerShell-Vergleichsoperatoren:
+
+| Operator | Значение |
+|---|---|
+| `-eq` / `-ne` | равно / не равно |
+| `-gt` / `-ge` | больше / больше или равно |
+| `-lt` / `-le` | меньше / меньше или равно |
+
+`=` присваивает Wert, `-eq` сравнивает. Нужно проверять и направление логики: если правильна только Antwort `B`, Erfolgsbedingung должна быть `antwort -eq 'B'`, а не `-ne 'B'`.
+
 Eingaben нельзя без проверки включать в Befehlsstrings. Skripte запускаются с минимальными Rechte, протоколируют результаты и обрабатывают Fehlerpfade.
 
 ### 7.3 UI-Entwurf
@@ -189,6 +199,7 @@ Suchoperatoren: кавычки для точной фразы, `site:` для Do
 6. Различи Wireframe, Mockup, Prototyp.
 7. Каковы задачи HTML, CSS и JavaScript?
 8. Назови три критерия надёжного Onlinequelle.
+9. Исправь PowerShell: `while ($game = 1)` и `if ($antwort -ne 'B')`, если правильна только B.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -201,6 +212,7 @@ Suchoperatoren: кавычки для точной фразы, `site:` для Do
 6. Wireframe — грубая структура; Mockup — визуальный вид; Prototyp — тестовая интеракция.
 7. HTML структурирует Inhalt, CSS оформляет его, JavaScript добавляет Verhalten и динамические изменения.
 8. Например, fachliche Zuständigkeit, Aktualität, nachvollziehbare Belege и ясный Geltungsbereich.
+9. `while ($game -eq 1)` и `if ($antwort -eq 'B')`.
 
 </details>
 

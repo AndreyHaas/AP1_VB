@@ -44,7 +44,7 @@ Stand: 11.09.2026.
 | 22 | VLAN und Netzsegmentierung | Kern | новая двуязычная глава | Entwurf |
 | 23 | Firewall, DMZ und Regelwerke | Kern | новая двуязычная глава | Entwurf |
 | 24 | IDS, IPS und VPN | Vertiefung | новая двуязычная глава | Entwurf |
-| 25 | Programmiergrundlagen, Pseudocode und Schreibtischtest | Kern | новая двуязычная глава | Entwurf |
+| 25 | Programmiergrundlagen, Programmierwerkzeuge, Pseudocode und Schreibtischtest | Kern | новая двуязычная глава + Statistik Frühjahr 2025 | Entwurf |
 | 26 | Codefehler, Kontrollstrukturen und einfache Algorithmen | Kern | новая двуязычная глава | Entwurf |
 | 27 | UML: Use-Case-, Klassen- und Aktivitätsdiagramm | Kern | новая двуязычная глава | Entwurf |
 | 28 | Relationale Datenbanken und einfache ER-Modelle ohne SQL | Kern | новая двуязычная глава | Entwurf |

@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Technisches Englisch, Client-Server, Remotezugriff, Shell und UI-Entwurf
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-11
+stand: 2026-09-15
 sprache: Deutsch
 gegenstueck: ../ru/09-technisches-englisch-client-server-remote-shell-und-ui-ru.md
 ---
@@ -145,6 +145,16 @@ Write-Output "Keine ICMP-Antwort"
 exit 1
 ```
 
+Wichtige PowerShell-Vergleichsoperatoren:
+
+| Operator | Bedeutung |
+|---|---|
+| `-eq` / `-ne` | gleich / ungleich |
+| `-gt` / `-ge` | größer / größer oder gleich |
+| `-lt` / `-le` | kleiner / kleiner oder gleich |
+
+`=` weist einen Wert zu; `-eq` vergleicht. Auch die Wahrheitsrichtung muss geprüft werden: Soll nur Antwort `B` korrekt sein, muss die Erfolgsbedingung `antwort -eq 'B'` lauten und nicht `-ne 'B'`.
+
 Eingaben werden nicht ungeprüft in Befehlsstrings eingebaut. Skripte laufen mit minimalen Rechten, protokollieren relevante Ergebnisse und behandeln Fehlerpfade.
 
 ### 7.3 UI-Entwurf
@@ -189,6 +199,7 @@ Eine Präsentation beginnt mit Zielgruppe und Kernbotschaft. Pro Folie soll eine
 6. Grenze Wireframe, Mockup und Prototyp ab.
 7. Welche Aufgaben haben HTML, CSS und JavaScript?
 8. Nenne drei Kriterien für eine belastbare Onlinequelle.
+9. Korrigiere in PowerShell: `while ($game = 1)` und `if ($antwort -ne 'B')`, wenn nur B als richtige Antwort gilt.
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -201,6 +212,7 @@ Eine Präsentation beginnt mit Zielgruppe und Kernbotschaft. Pro Folie soll eine
 6. Wireframe: grobe Struktur; Mockup: visuelles Bild; Prototyp: testbare Interaktion.
 7. HTML strukturiert Inhalte, CSS gestaltet sie, JavaScript ergänzt Verhalten und dynamische Änderungen.
 8. Zum Beispiel fachliche Zuständigkeit, Aktualität, nachvollziehbare Belege und klarer Geltungsbereich.
+9. `while ($game -eq 1)` und `if ($antwort -eq 'B')`.
 
 </details>
 

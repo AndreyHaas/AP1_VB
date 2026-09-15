@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Programmierung
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-15
 sprache: Deutsch
 gegenstueck: ../ru/01-programmiergrundlagen-pseudocode-und-schreibtischtest-ru.md
 ---
@@ -19,7 +19,8 @@ Du kannst:
 - Arrays/Listen, Funktionen, Parameter und Rückgabewerte anwenden;
 - sprachneutralen Pseudocode in einen Ablauf übersetzen;
 - einen Schreibtischtest lückenlos durchführen;
-- Syntax-, Laufzeit-, Logik- und Randfallfehler unterscheiden.
+- Syntax-, Laufzeit-, Logik- und Randfallfehler unterscheiden;
+- IDE, Debugger, Versionsverwaltung sowie Build-, Test- und Analysewerkzeuge passend einsetzen.
 
 ## 2. Prüfungsminimum — 15 Minuten
 
@@ -33,6 +34,8 @@ Du kannst:
 8. Beim Schreibtischtest werden Werte nach jeder relevanten Anweisung notiert.
 9. Schleifengrenzen und Indexbasis müssen aus der Aufgabe gelesen werden.
 10. Testdaten enthalten Normal-, Grenz-, ungültige und leere Fälle.
+11. Ein Debugger hält Code an Breakpoints an und zeigt Variablen, Aufrufstapel und schrittweise Ausführung.
+12. Versionsverwaltung protokolliert Änderungen; Build-, Test- und Analysewerkzeuge automatisieren reproduzierbare Qualitätsprüfungen.
 
 > Der Schreibtischtest wird zeilenweise durchgeführt, damit jede Änderung der Variablen und die tatsächliche Ausgabe nachvollziehbar bleiben.
 
@@ -152,6 +155,24 @@ ENDE FÜR
 
 Eine Iteration über Elemente vermeidet manche Indexfehler, erlaubt aber nicht jede benötigte Operation.
 
+#### Zweidimensionale Arrays und verschachtelte Schleifen
+
+Ein zweidimensionales Array wird mit Zeilen- und Spaltenindex gelesen: `matrix[zeile][spalte]`. Bei nullbasierten Indizes besitzt eine Matrix mit `z` Zeilen und `s` Spalten die gültigen Bereiche `0..z-1` und `0..s-1`.
+
+```text
+summe ← 0
+anzahl ← 0
+FÜR zeile VON 0 BIS anzahlZeilen - 1
+    FÜR spalte VON 0 BIS anzahlSpalten - 1
+        summe ← summe + matrix[zeile][spalte]
+        anzahl ← anzahl + 1
+    ENDE FÜR
+ENDE FÜR
+RETURN summe / anzahl
+```
+
+Die innere Schleife durchläuft hier alle Spalten einer Zeile. Akkumulatoren werden vor beiden Schleifen initialisiert, wenn über die gesamte Matrix gerechnet wird. Ein `RETURN` innerhalb der äußeren Schleife würde die Funktion schon nach der ersten Zeile beenden. Enthält eine Spalte Bezeichnungen statt Zahlen, muss sie bei der Berechnung gezielt ausgeschlossen werden.
+
 ### 4.3 Funktionen, Parameter und Rückgabe
 
 ```text
@@ -208,6 +229,28 @@ Ein **Compiler** übersetzt Quellcode vor der Ausführung in Zielcode. Ein **Int
 | Organisation | Teamkenntnisse, Lizenz, Community, Support und Lebenszyklus? |
 
 Eine gute Prüfungsantwort nennt die Anforderung, wählt danach die Sprache und begründet den Zusammenhang. „Sprache X ist immer schneller“ ist keine belastbare Begründung.
+
+### 4.7 Programmierwerkzeuge und Werkzeugkette
+
+| Werkzeug | Hauptzweck | Typische Prüfungshandlung |
+|---|---|---|
+| Editor/IDE | Code schreiben, navigieren und Werkzeuge verbinden | Projekt öffnen, Referenzen finden, Konfiguration prüfen |
+| Compiler/Interpreter | Quellcode übersetzen oder ausführen | Meldungen lesen und Fehlerstelle eingrenzen |
+| Debugger | Laufzeit schrittweise untersuchen | Breakpoint setzen, Step Into/Over nutzen, Variablen und Call Stack prüfen |
+| Versionsverwaltung | Änderungen, Autoren und Stände nachvollziehen | Diff prüfen, Commit erstellen, Branch/Merge-Konflikt kontrolliert behandeln |
+| Build-/Paketwerkzeug | Build und Abhängigkeiten reproduzierbar auflösen | definierte Versionen verwenden, Buildprotokoll prüfen |
+| Testframework | Tests automatisiert ausführen und auswerten | Soll/Ist, Testabdeckung und fehlgeschlagene Fälle untersuchen |
+| Linter/statische Analyse | Regel-, Qualitäts- und mögliche Sicherheitsfehler ohne Programmlauf finden | Fund bewerten, Ursache beheben, erneut prüfen |
+
+Debugger-Befehle:
+
+- **Continue** läuft bis zum nächsten Breakpoint;
+- **Step Into** springt in einen Funktionsaufruf;
+- **Step Over** führt den Aufruf aus, ohne hineinzuspringen;
+- **Step Out** läuft bis zur Rückkehr aus der aktuellen Funktion;
+- **Watch** beobachtet ausgewählte Ausdrücke; der **Call Stack** zeigt die Aufrufkette.
+
+Ein grüner Build beweist nicht die fachliche Korrektheit. Sinnvolle Werkzeugkette: Änderung klein halten → Diff prüfen → Build und statische Analyse → automatisierte Tests → Review → nachvollziehbarer Commit. Fremde Pakete nur aus vertrauenswürdigen Quellen, mit kontrollierten Versionen und Sicherheitsupdates verwenden.
 
 ## 5. Schreibtischtest und Modellierung
 
@@ -342,6 +385,9 @@ ENDE SOLANGE
 10. Erstelle Grenztests für `passwortLaenge ≥ 12`.
 11. Warum ist eine leere Liste beim Maximum-Algorithmus problematisch?
 12. Bewerte: „Wenn der Code kompiliert, ist er korrekt.“
+13. Grenze Step Into und Step Over ab.
+14. Nenne je einen Zweck von Versionsverwaltung, Testframework und Linter.
+15. Warum muss bei einem Gesamtdurchschnitt über eine Matrix der Rückgabebefehl normalerweise hinter beiden Schleifen stehen?
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -358,6 +404,9 @@ ENDE SOLANGE
 10. 11, 12 und 13 Zeichen sowie leerer/ungültiger Wert.
 11. Es existiert kein erstes Element zur Initialisierung; der Fall muss vorher behandelt werden.
 12. Falsch: syntaktisch gültiger Code kann Logik-, Randfall- und Sicherheitsfehler enthalten.
+13. Step Into wechselt in die aufgerufene Funktion; Step Over führt sie aus und bleibt in der aktuellen Ansichtsebene.
+14. Versionsverwaltung macht Änderungen/Stände nachvollziehbar; ein Testframework automatisiert Tests; ein Linter beziehungsweise statische Analyse findet Regel- und mögliche Qualitätsfehler ohne Programmlauf.
+15. Ein Rückgabebefehl in einer Schleife beendet die Funktion vorzeitig; für den Gesamtdurchschnitt müssen erst alle vorgesehenen Zeilen und Spalten verarbeitet sein.
 
 </details>
 

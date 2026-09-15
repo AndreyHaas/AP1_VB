@@ -3,7 +3,7 @@ pruefung: AP1
 thema: Programmierung
 prioritaet: Kern
 status: Entwurf
-stand: 2026-09-10
+stand: 2026-09-15
 sprache: Russisch
 gegenstueck: ../de/01-programmiergrundlagen-pseudocode-und-schreibtischtest-de.md
 ---
@@ -19,7 +19,8 @@ gegenstueck: ../de/01-programmiergrundlagen-pseudocode-und-schreibtischtest-de.m
 - применять Arrays/Listen, Funktionen, Parameter и Rückgabewerte;
 - превращать нейтральный Pseudocode в последовательность действий;
 - полностью проводить Schreibtischtest;
-- различать Syntax-, Laufzeit-, Logik- и Randfallfehler.
+- различать Syntax-, Laufzeit-, Logik- и Randfallfehler;
+- применять IDE, Debugger, Versionsverwaltung, Build-, Test- и Analysewerkzeuge.
 
 ## 2. Prüfungsminimum — 15 Minuten
 
@@ -33,6 +34,8 @@ gegenstueck: ../de/01-programmiergrundlagen-pseudocode-und-schreibtischtest-de.m
 8. В Schreibtischtest значения записываются после каждой важной Anweisung.
 9. Schleifengrenzen и Indexbasis берутся из условия, а не угадываются.
 10. Testdaten включают Normal-, Grenz-, ungültige и leere Fälle.
+11. Debugger останавливает Code на Breakpoints и показывает Variablen, Aufrufstapel и пошаговое выполнение.
+12. Versionsverwaltung протоколирует изменения; Build-, Test- и Analysewerkzeuge автоматизируют воспроизводимые проверки качества.
 
 > Der Schreibtischtest wird zeilenweise durchgeführt, damit jede Änderung der Variablen und die tatsächliche Ausgabe nachvollziehbar bleiben.
 
@@ -152,6 +155,24 @@ ENDE FÜR
 
 Итерация по Elementen избегает некоторых Indexfehler, но подходит не для всех операций.
 
+#### Zweidimensionale Arrays и verschachtelte Schleifen
+
+Двумерный Array читается через Zeilen- и Spaltenindex: `matrix[zeile][spalte]`. При nullbasierte Indizes для матрицы с `z` строками и `s` столбцами допустимы диапазоны `0..z-1` и `0..s-1`.
+
+```text
+summe ← 0
+anzahl ← 0
+FÜR zeile VON 0 BIS anzahlZeilen - 1
+    FÜR spalte VON 0 BIS anzahlSpalten - 1
+        summe ← summe + matrix[zeile][spalte]
+        anzahl ← anzahl + 1
+    ENDE FÜR
+ENDE FÜR
+RETURN summe / anzahl
+```
+
+Внутренняя Schleife проходит все столбцы строки. Для расчёта по всей Matrix Akkumulatoren инициализируются до обеих Schleifen. `RETURN` внутри внешней Schleife завершит Funktion уже после первой строки. Если один столбец содержит Bezeichnungen, а не Zahlen, его нужно явно исключить из расчёта.
+
 ### 4.3 Funktionen, Parameter и Rückgabe
 
 ```text
@@ -208,6 +229,28 @@ Compiler или Interpreter не найдёт автоматически каж�
 | Organisation | знания Team, Lizenz, Community, Support, Lebenszyklus? |
 
 Хороший ответ сначала называет Anforderung, затем выбирает Sprache и обосновывает связь. «Язык X всегда быстрее» — не надёжное обоснование.
+
+### 4.7 Programmierwerkzeuge и Werkzeugkette
+
+| Werkzeug | Hauptzweck | Типичное действие на экзамене |
+|---|---|---|
+| Editor/IDE | писать Code, навигация и интеграция инструментов | открыть Projekt, найти Referenzen, проверить Konfiguration |
+| Compiler/Interpreter | переводить или выполнять Quellcode | читать Meldungen и локализовать Fehlerstelle |
+| Debugger | пошагово исследовать Laufzeit | поставить Breakpoint, Step Into/Over, проверить Variablen и Call Stack |
+| Versionsverwaltung | отслеживать Änderungen, Autoren и Stände | проверить Diff, создать Commit, обработать Branch/Merge-Konflikt |
+| Build-/Paketwerkzeug | воспроизводимо собирать и разрешать Abhängigkeiten | использовать заданные Versionen, проверить Buildprotokoll |
+| Testframework | автоматически выполнять и оценивать Tests | исследовать Soll/Ist, Testabdeckung и ошибки |
+| Linter/statische Analyse | находить Regel-, Qualitäts- и возможные Sicherheitsfehler без запуска | оценить Fund, устранить Ursache, проверить снова |
+
+Debugger-Befehle:
+
+- **Continue** выполняет до следующего Breakpoint;
+- **Step Into** входит в Funktionsaufruf;
+- **Step Over** выполняет вызов, не входя внутрь;
+- **Step Out** выполняет до выхода из текущей Funktion;
+- **Watch** наблюдает Ausdrücke, **Call Stack** показывает цепочку вызовов.
+
+Зелёный Build не доказывает fachliche Korrektheit. Рациональная цепочка: маленькое Änderung → Diff → Build/statische Analyse → automatisierte Tests → Review → понятный Commit. Fremdpakete берутся из надёжных Quellen с контролируемыми Versionen и Sicherheitsupdates.
 
 ## 5. Schreibtischtest und Modellierung
 
@@ -342,6 +385,9 @@ ENDE SOLANGE
 10. Составь Grenztests для `passwortLaenge ≥ 12`.
 11. Почему leere Liste проблемна для Maximum-Algorithmus?
 12. Оцени: «Если Code компилируется, он правильный».
+13. Различи Step Into и Step Over.
+14. Назови по одной задаче Versionsverwaltung, Testframework и Linter.
+15. Почему при Gesamtdurchschnitt по Matrix RETURN обычно должен находиться после обеих Schleifen?
 
 <details>
 <summary>Lösungen anzeigen</summary>
@@ -358,6 +404,9 @@ ENDE SOLANGE
 10. 11, 12 и 13 символов, а также пустое/невалидное значение.
 11. Нет первого Element для Initialisierung; случай обрабатывается заранее.
 12. Неверно: синтаксически допустимый Code может содержать Logik-, Randfall- и Sicherheitsfehler.
+13. Step Into входит в вызванную Funktion; Step Over выполняет её, оставаясь на текущем уровне просмотра.
+14. Versionsverwaltung отслеживает Änderungen/Stände; Testframework автоматизирует Tests; Linter/statische Analyse находит Regel- и возможные Qualitätsfehler без запуска.
+15. RETURN внутри Schleife преждевременно завершает Funktion; для Gesamtdurchschnitt сначала обрабатываются все предусмотренные строки и столбцы.
 
 </details>
 

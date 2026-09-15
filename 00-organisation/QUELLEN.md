@@ -1,6 +1,6 @@
 # Quellen und Gültigkeit
 
-Stand der Prüfungsausrichtung: 11.09.2026.
+Stand der Prüfungsausrichtung: 15.09.2026.
 
 ## Verbindliche und primäre Grundlagen
 
@@ -23,6 +23,11 @@ Stand der Prüfungsausrichtung: 11.09.2026.
 5. [Neuer Prüfungskatalog für die AP1 der IT-Berufe ab 2025](https://it-berufe-podcast.de/neuer-pruefungskatalog-fuer-die-ap1-der-it-berufe-ab-2025-it-berufe-podcast-190/)
    - Detaillierte öffentliche Gegenüberstellung der Änderungen.
    - Sekundärquelle und ausdrücklich keine vollständige Wiedergabe des Katalogs.
+
+6. `U-Form: Aktualisierung zur Prüfung Frühjahr 2025`, Ergänzung zum Prüfungstrainer AP Teil 1, Best.-Nr. 750, 28 Seiten.
+   - Vom Nutzer bereitgestellte Sekundärquelle; ausgewertet am 15.09.2026.
+   - Enthält eine auf sieben Prüfungen 2021–2024 basierende Häufigkeitsübersicht und neue Übungsarten zu UML, UI/Barrierefreiheit, Code, OSI und KI.
+   - Die Aufgaben werden nicht übernommen; der Kompetenzabgleich ist in `U-FORM-FRUEHJAHR-2025-ABGLEICH.md` dokumentiert.
 
 ## Fachquellen je Themenbereich
 

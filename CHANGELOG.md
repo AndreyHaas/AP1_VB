@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.7.2 – 15.09.2026
+
+- Vollständige 28-seitige U-Form-Ergänzung zur AP1 Frühjahr 2025 inhaltlich und visuell ausgewertet, ohne geschützte Aufgaben zu übernehmen.
+- Breite Bedeutung des U-Form-Komplexes `Programmierwerkzeuge` dokumentiert: UML, UI/Barrierefreiheit und Codeanalyse bilden den Schwerpunkt der enthaltenen Übungen.
+- Kapitel 25 um zweidimensionale Arrays, verschachtelte Schleifen und korrekte RETURN-Position erweitert.
+- Kapitel 52 um PowerShell-Vergleichsoperatoren und typische Zuweisungs-/Logikfehler erweitert.
+- Kapitel 16 um OSI-Kopplungselemente, Kapitel 30 um KI für Netzwerküberwachung, Wartung, Sicherheit und Service Desk ergänzt.
+- Eigenständigen U-Form-Abgleich, fünf Fachbegriffe und einen ab 15.09. priorisierten Lernplan ergänzt.
+
+## 1.7.1 – 15.09.2026
+
+- Statistikübersicht des Prüfungstrainers zur AP1 Frühjahr 2025 ausgewertet: Programmierwerkzeuge traten in 6 von 7 betrachteten Prüfungen auf.
+- Kapitel 25 zweisprachig um IDE, Debugger, Breakpoints, Step Into/Over/Out, Call Stack, Versionsverwaltung, Build-/Paketwerkzeuge, Testframeworks, Linter und statische Analyse erweitert.
+- Prüfungsminimum, Selbsttest, Fachbegriffe, Themenmatrix und Altfragen-Transfer an den neuen Schwerpunkt angepasst.
+- Dokumentierte Zahl korrigierter alter Unterüberschriften von 136 auf tatsächlich 166 berichtigt.
+
 ## 1.7.0 – 11.09.2026
 
 - Vollständigkeitsprüfung gegen aktuellen öffentlichen AP1-Rahmen, BIBB-Umsetzungshilfe, WBS-Rückmeldungen und öffentlich dokumentierte Prüfungssignale wiederholt.
@@ -9,7 +25,7 @@
 - Kapitel 44 um Primär-/Sekundärforschung und SWOT, Kapitel 31 um 6-W, Ishikawa, QM-Rahmen und einfache Fehlerwahrscheinlichkeit erweitert.
 - Kapitel 10 um mobile Endgeräte, MDM, BYOD/COPE/COBO, IPP, Spooler, Secure Printing und Seitenkosten erweitert.
 - Kapitel 49 um die Abgrenzung von ITIL, ISO/IEC 20000, COBIT und MOF ergänzt.
-- 136 falsch zugeordnete nummerierte Unterüberschriften in fünf älteren RU/DE-Kapitelpaaren korrigiert.
+- 166 falsch zugeordnete nummerierte Unterüberschriften in acht älteren RU/DE-Kapitelpaaren korrigiert.
 - Dritten 30-minütigen Kontrollblock zu den verbliebenen Randthemen und neue Fachbegriffe mit Kapitelbezug ergänzt.
 
 ## 1.6.0 – 11.09.2026

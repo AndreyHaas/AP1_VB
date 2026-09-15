@@ -544,6 +544,19 @@ Stand: 11.09.2026. Рабочий словарь охватывает главы
 | Interpreter | Verarbeitet Anweisungen zur Laufzeit. | Обрабатывает инструкции во время выполнения. | K25 |
 | JIT-Compilation | Übersetzt Codebestandteile während der Laufzeit. | Компилирует части кода во время выполнения. | K25 |
 | Programmierparadigma | Grundlegender Stil zur Strukturierung von Programmen. | Основной стиль организации программ. | K25 |
+| integrierte Entwicklungsumgebung (IDE) | Verbindet Editor, Navigation, Build, Test und Debugging. | Объединяет редактор, навигацию, сборку, тесты и отладку. | K25 |
+| Debugger | Untersucht einen Programmlauf schrittweise und zeigt den Zustand. | Пошагово исследует выполнение и показывает состояние программы. | K25 |
+| Breakpoint | Definierter Haltepunkt in einem Programmlauf. | Заданная точка остановки выполнения. | K25 |
+| Call Stack | Reihenfolge aktuell verschachtelter Funktionsaufrufe. | Цепочка текущих вложенных вызовов функций. | K25 |
+| Versionsverwaltung | Speichert und vergleicht nachvollziehbare Änderungsstände. | Хранит и сравнивает отслеживаемые состояния изменений. | K25 |
+| Build-Werkzeug | Automatisiert reproduzierbare Übersetzung und Paketierung. | Автоматизирует воспроизводимую сборку и упаковку. | K25 |
+| Testframework | Führt automatisierte Testfälle aus und wertet sie aus. | Запускает и оценивает автоматизированные тесты. | K25 |
+| Linter | Prüft Quellcode ohne Ausführung gegen Regeln und mögliche Fehler. | Проверяет исходный код без запуска на правила и возможные ошибки. | K25 |
+| zweidimensionales Array | Datenstruktur mit Zeilen- und Spaltenindex. | Структура данных с индексами строки и столбца. | K25 |
+| verschachtelte Schleife | Schleife innerhalb einer weiteren Schleife. | Цикл внутри другого цикла. | K25, K26 |
+| Akkumulator | Variable, die Werte schrittweise sammelt. | Переменная, пошагово накапливающая значения. | K25, K26 |
+| Kopplungselement | Gerät oder Funktion, die Netze beziehungsweise Schichten verbindet. | Устройство или функция, соединяющая сети либо уровни. | K16 |
+| proaktive Wartung | Vorbeugende Maßnahme auf Basis erkannter Zustände oder Prognosen. | Предупредительное обслуживание по состоянию или прогнозу. | K30 |
 | Ishikawa-Diagramm | Strukturiert mögliche Fehlerursachen nach Kategorien. | Структурирует возможные причины ошибки по категориям. | K31 |
 | 6-W-Fragen | Fragenraster zur systematischen Beschreibung eines Fehlers. | Набор вопросов для систематического описания ошибки. | K31 |
 | Mobile Device Management (MDM) | Zentrale Verwaltung mobiler Endgeräte und Richtlinien. | Централизованное управление мобильными устройствами и политиками. | K10 |
