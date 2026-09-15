@@ -140,6 +140,8 @@ Stand: 11.09.2026.
 
 ## Активные тренировочные задачи перед экзаменом
 
+WBS-Informationsblatt от 15.09.2026 выделяет DB, QM/PM, Subnetting/IPv4/IPv6, klassische Netzwerkthemen/Hardware, IT-Sicherheit и KI как блоки сопровождаемой подготовки. Это не статистический рейтинг и не полный Stoffkatalog. Соответствие главам, критерии готовности и ежедневный WBS-Ablauf записаны в `00-organisation/WBS-SCHWERPUNKTE-ABGLEICH.md`.
+
 1. Серии расчётных задач по `Netzplan`, Wirtschaftlichkeit, Subnetting, Datenmengen, USV и Handelskalkulation.
 2. Разбор незнакомого Quellcode и `Schreibtischtest` без подсказки.
 3. Самостоятельное построение UML- и ER-Modelle.

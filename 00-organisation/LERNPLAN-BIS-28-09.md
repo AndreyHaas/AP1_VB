@@ -4,7 +4,7 @@ Prüfung: `30.09.2026`
 Ziel: spätestens am `28.09.2026` prüfungsbereit sein.  
 Der `29.09.2026` bleibt als Puffer- und Erholungstag ohne neuen Stoff.
 
-Neu geplant am `15.09.2026` ab einem noch nicht begonnenen ersten Durchgang. Die Reihenfolge gewichtet die vom Nutzer bereitgestellte U-Form-Ergänzung Frühjahr 2025: der breite Komplex Programmierwerkzeuge mit Code, UML und UI zuerst, danach Leistungsfähigkeit/Energie, Systemeinrichtung/Test und Sicherheit. Die Häufigkeiten aus sieben Prüfungen sind Priorisierungshilfe, keine Vorhersage der nächsten Prüfung.
+Neu geplant am `15.09.2026` ab einem noch nicht begonnenen ersten Durchgang. Der Plan verbindet den WBS-Ablauf aus Kurzinput, täglicher begleiteter Simulation und Eigenarbeit mit den WBS-Schwerpunkten DB, QM/PM, Subnetting/IPv4/IPv6, Netzwerk/Hardware, IT-Sicherheit und KI. Diese Liste ist keine Rangfolge; U-Form-Häufigkeiten aus sieben historischen Prüfungen sind nur eine zusätzliche Orientierung.
 
 ## Arbeitsregel
 
@@ -17,23 +17,30 @@ Jeden Lerntag:
 5. Fehler in eine persönliche Fehlerliste übernehmen.
 6. Am Folgetag fünf Minuten aktiv wiederholen.
 
+Während der WBS-Vorbereitung kommt täglich hinzu:
+
+1. den vorgegebenen Simulationsteil ohne vorheriges Nachschlagen bearbeiten;
+2. offene Stellen markieren statt Lösungen zu erraten;
+3. die Besprechung am Folgetag aktiv mit eigenen Fragen nutzen;
+4. jeden Fehler sofort einem Kapitel und der Kategorie `Wissen`, `Anwendung`, `Sprache` oder `Zeit` zuordnen.
+
 Nicht jede Zeile muss auswendig gelernt werden. Beherrscht werden müssen Begriffe, Zusammenhänge, Rechenwege, Prüfungsalgorithmen und vollständige deutsche Begründungen.
 
 ## Tagesplan
 
 | Datum | Kapitel | Ziel |
 |---|---|---|
-| 15.09. | 25–26 | Programmierwerkzeuge, Pseudocode, 2D-Arrays, Schreibtischtest, Codefehler und Algorithmen |
-| 16.09. | 27, 29–30; K10/K52 UI-Abschnitte | UML, BPMN, KI sowie Softwareergonomie, Barrierefreiheit und Corporate Design |
-| 17.09. | 08–10, 47–48 | Leistung/Energie, Hardware, Schnittstellen, Multimedia/Kamera und USV |
-| 18.09. | 11–15, 52 | Softwareauswahl, Cloud, Systemeinrichtung, Rechte, Test, Dokumentation, PowerShell und Diagnose |
-| 19.09. | 31–35 | Qualität, Sicherheitskonzept, Risiko, Härtung, Identitäten, Kryptografie und TLS |
-| 20.09. | 28, 36–37, 41 | Relationale Datenbanken, Datenschutz und Verträge/Vertragsstörungen |
-| 21.09. | 16–20 | OSI/Kopplungselemente, DNS/DHCP, IPv4/IPv6, Routing/NAT |
-| 22.09. | 21–24, 51 | Ethernet/WLAN, VLAN, Firewall, VPN, QoS/VoIP und Netzwerkdienste |
-| 23.09. | 06–07, 42–43, 46, 50 | Wirtschaftlichkeit, Daten-/Stromrechnung, Zahlensysteme und Handelskalkulation |
-| 24.09. | 01–05, 44–45 | Projekt, Kundenbedarf, Beschaffung, Markt, Organisation, Team und Change |
-| 25.09. | 38–40, 49; Wiederholung | Backup, Verfügbarkeit, Service/ITIL und gezielte rote Themen; abends Kontrollblock 03 |
+| 15.09. | 28 | WBS: relationale DB, Schlüssel, Kardinalitäten, n:m, ER-Modell und Normalisierung |
+| 16.09. | 01–02, 31; ergänzend 45 | WBS: Qualitäts- und Projektmanagement, Methoden, Netzplan, Test und Change |
+| 17.09. | 16–19 | WBS: OSI/TCP-IP, DNS/DHCP sowie intensive IPv4-/IPv6-Subnettingserie |
+| 18.09. | 20–24, 51 | WBS: Routing/NAT, Ethernet/WLAN, VLAN, Firewall, VPN, QoS/VoIP und Dienste |
+| 19.09. | 08–15, 42, 47–48, 52 | WBS: Hardware, Schnittstellen, Leistung/Energie, Kamera/PoE, USV, Systemtest und Diagnose |
+| 20.09. | 32–37, 49 | WBS: IT-Sicherheit, IAM, Kryptografie/TLS, Datenschutz und ISMS |
+| 21.09. | 25–27, 29–30; K10/K52 UI | WBS KI plus U-Form: Code, UML/BPMN, UI/Barrierefreiheit und Programmierwerkzeuge |
+| 22.09. | 03–05, 44–45 | Kundenbedarf, Kommunikation, Beschaffung, Markt und Organisation |
+| 23.09. | 06–07, 43, 46, 50 | Wirtschaftlichkeit, Handelskalkulation, Einheiten und Zahlensysteme |
+| 24.09. | 38–41 | Backup, Verfügbarkeit, Service, Verträge, Abnahme und Übergabe |
+| 25.09. | WBS-Schwerpunkte | alle roten WBS-Themen nacharbeiten; Kontrollblock 03 nur, wenn kein gleichwertiger WBS-Test ansteht |
 | 26.09. | [Simulation 1](../12-pruefungssimulationen/simulation-01-arbeitsplatz-einrichten.md) | 90 Minuten unter Prüfungsbedingungen und Erstkorrektur |
 | 27.09. | Fehlerkorrektur | rote Themen aus Kontrollblock/Simulation 1 gezielt nacharbeiten |
 | 28.09. | [Simulation 2](../12-pruefungssimulationen/simulation-02-netzwerk-und-sicherheit.md) | 90 Minuten, Endkorrektur und kompakte Fehlerliste |
@@ -67,7 +74,7 @@ Nach jedem Kapitel:
 - `Gelb` — Begriffe bekannt, Anwendung noch unsicher;
 - `Rot` — weniger als 50 % oder kein selbstständiger Lösungsweg.
 
-Ab dem 20.09. werden in jedem Aufgabenblock zuerst rote, dann gelbe Themen bearbeitet. Grüne Themen werden nur kurz aktiv abgefragt. Der Kontrollblock wird erst nach dem ersten Stoffdurchgang am 25.09. geschrieben.
+Ab dem 20.09. werden in jedem Aufgabenblock zuerst rote, dann gelbe Themen bearbeitet. Grüne Themen werden nur kurz aktiv abgefragt. Begleitete WBS-Simulationen beginnen gemäß Informationsblatt ab dem ersten Vorbereitungstag; der eigene Kontrollblock bleibt bis nach dem ersten Stoffdurchgang zurückgestellt.
 
 ## Prüfungsbedingungen
 

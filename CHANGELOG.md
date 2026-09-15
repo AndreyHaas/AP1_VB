@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.7.3 – 15.09.2026
+
+- Kontext der WBS-Schwerpunkte anhand des vollständigen Informationsblatts präzisiert: betreute Kursstruktur statt Wahrscheinlichkeitsrangfolge.
+- Direkte WBS-Schwerpunkte DB, QM/PM, Subnetting/IPv4/IPv6, klassische Netzwerk-/Hardwarethemen, IT-Sicherheit und KI den vorhandenen Kapiteln zugeordnet; keine neue Inhaltslücke festgestellt.
+- Organisatorischen Startcheck für U-Form-Zugangsdaten im WBS-Edu-Postfach und Eskalation an die Kursleitung dokumentiert.
+- WBS-Ablauf mit Kurzinput, täglicher begleiteter Simulation, Eigenarbeit und Besprechung am Folgetag in Lernplan und Schwerpunktabgleich aufgenommen.
+- Eigene 90-Minuten-Simulationen weiterhin als Generalproben am Ende des ersten Stoffdurchgangs abgegrenzt.
+- Lernplan ab 15.09. WBS-first neu geordnet; U-Form-Häufigkeiten dienen nur noch als zweite Priorisierungsebene.
+- AP1-Abgrenzung von relationalen DB-Grundlagen gegenüber SQL-Aufgaben in AP2 ausdrücklich festgehalten.
+
 ## 1.7.2 – 15.09.2026
 
 - Vollständige 28-seitige U-Form-Ergänzung zur AP1 Frühjahr 2025 inhaltlich und visuell ausgewertet, ohne geschützte Aufgaben zu übernehmen.
