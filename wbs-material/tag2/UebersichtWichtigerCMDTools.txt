@@ -1,0 +1,14 @@
+| Befehl          | Wofuer?                                                | Kleines Beispiel                                                        |
+| --------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- |
+| `ipconfig /all` | Zeigt die **Netzwerkkonfiguration** des PCs            | `ipconfig /all` → IP-Adresse, Subnetzmaske, Gateway, DNS-Server         |
+| `ping`          | Prueft, ob ein Ziel **erreichbar** ist                 | `ping 8.8.8.8` → Antwort vom Google-DNS                                 |
+| `tracert`       | Zeigt den **Weg der Datenpakete** zum Ziel             | `tracert google.de` → zeigt die Router/Hops auf dem Weg                 |
+| `nslookup`      | Fragt einen **DNS-Server** nach einer Namensaufloesung | `nslookup google.de` → welche IP-Adresse gehoert zu `google.de`?        |
+| `netstat`       | Zeigt **Netzwerkverbindungen und Ports**               | `netstat -an` → aktive Verbindungen und offene Ports                    |
+| `arp -a`        | Zeigt den **ARP-Cache**: IP-Adresse ↔ MAC-Adresse      | `arp -a` → welche MAC-Adresse gehoert zu `192.168.1.1`?                 |
+| `hostname`      | Zeigt den **Computernamen**                            | `hostname` → `PC-034`                                                   |
+| `whoami`        | Zeigt den **aktuell angemeldeten Benutzer**            | `whoami` → `firma\mueller`                                              |
+| `systeminfo`    | Zeigt umfangreiche **Systeminformationen**             | `systeminfo` → Windows-Version, RAM, Prozessor, Installationsdatum usw. |
+| `tasklist`      | Zeigt die **laufenden Prozesse**                       | `tasklist` → `java.exe`, `chrome.exe`, `explorer.exe` ...               |
+| `dir`           | Zeigt **Dateien und Ordner** im aktuellen Verzeichnis  | `dir` → listet den Inhalt des Ordners auf                               |
+| `cd`            | **Wechselt das Verzeichnis**                           | `cd C:\Users` → wechselt nach `C:\Users`                                |
