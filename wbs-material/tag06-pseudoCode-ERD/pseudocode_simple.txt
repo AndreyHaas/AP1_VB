@@ -1,0 +1,87 @@
+Abstrahierte Regeln des Pseudocodes
+
+Einheitliches Layout:
+Verwenden Sie durchgehend dasselbe Layout für den Pseudocode.
+
+Datentypen:
+Entweder alle Variablen haben einen Datentyp oder keine.
+
+Schlüsselwörter:
+Verwenden Sie konsistent nur eines der Schlüsselwörter: if, when, oder falls.
+Verwenden Sie konsistent nur eines der Schlüsselwörter für Schleifen: Schleife, for, while, do, solange, oder während.
+
+Scope:
+Der zusammengehörige Code wird durch Begin und End oder {} eingeschlossen.
+Beispiel für syntaktische Einheitlichkeit:
+FUNKTION f(n)
+    WENN / SOLANGE
+    ENDE_WENN / ENDE_SCHLEIFE
+ENDE_FUNKTION
+
+Beispiele für falschen Pseudocode
+Mischen von Datentyp-Definitionen:
+tmpX = 5;
+var = "abcdefksefpiesjg"
+tmp = { "lol", 42 }
+
+Kein realer Code:
+Richtiger Code ist kein Pseudocode. Beispiel:
+public static void main(String args[]){
+    System.out.println("Hallo World"); // Kein Pseudocode, gibt es in echt
+    sout("Hallo World");				// Pseudocode
+}
+
+Rekursion
+Beispiel für rekursive Funktion:
+funktion1(){
+    funktion1();
+}
+
+Kurzschreibweise
+Inkrementierung:
+for(int i = 0; i <= 10; i++)
+i++ => i = i + 1
+i = i + 1
+i += 1
+i++;
+
+Aufgabe (10 Minuten)
+Algorithmus: f(n) => n = 10
+
+Ziel: Ausgabe der geraden Zahlen 2, 4, 6, 8, 10.
+
+
+
+Lösungs Beispiele
+Sehr einfaches Beispiel:
+START  
+    FOR i = 2 ; i <= 10 ; i = i + 2
+        PRINT i  
+    END FOR
+END
+
+Beispiel mit Schleife:
+
+gradeZahl(int n){
+    int i = 1
+    while(i <= n) {
+        wenn n%2 == 0
+            ausgabe von n 
+        i = i + 1
+    }
+}
+
+Beispiel rekursiv:
+
+gradeZahl(int n){
+    wenn (n % 2 == 0)
+        ausgabe(n) // => 10, 8, 6, 4, 2, 0
+
+    wenn(n > 0)
+        gradeZahl(n - 1) // => für n = 9, 8, 7, 6, …
+    sonst 
+        return;
+    
+    wenn (n % 2 == 0)
+        ausgabe(n) // => 2, 4, 6, 8, 10
+}
